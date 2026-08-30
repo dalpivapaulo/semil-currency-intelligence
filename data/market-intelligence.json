@@ -1,15 +1,14 @@
 {
-  "generated_at": "2026-08-30T17:31:21.168924+00:00",
-  "method": "Motor determinístico SEMIL V2 — custo zero + notícias públicas via GDELT",
+  "generated_at": "2026-08-30T18:04:39.385178+00:00",
+  "method": "Motor determinístico SEMIL V3 — filtro material de notícias + custo zero",
   "score10": 1,
   "outlook10": {
     "bias": "ALTA LEVE",
     "confidence": 67,
-    "summary": "Score técnico consolidado: +1. Pressões de alta: 5 pregões +0,74%; 10 pregões -0,44%; dia +0,70%.. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "summary": "Score técnico consolidado: +1. Momento da PTAX: 5 pregões +0,74% (alta); 10 pregões -0,44% (baixa); último pregão +0,70% (alta). O momento recente é misto; o viés final depende da ponderação dos demais sinais. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
-      "Federal Reserve",
-      "BBC — manchetes públicas via GDELT"
+      "Federal Reserve"
     ]
   },
   "sources_consulted": [
@@ -18,17 +17,26 @@
     },
     {
       "name": "Federal Reserve"
+    }
+  ],
+  "sources_checked": [
+    {
+      "name": "Banco Central do Brasil — PTAX"
     },
     {
-      "name": "BBC — manchetes públicas via GDELT"
+      "name": "Federal Reserve"
+    },
+    {
+      "name": "Reuters — busca pública via GDELT"
     }
   ],
   "source_analysis": [
     {
-      "source": "BBC",
-      "summary": "BBC: leitura mista/neutra nas manchetes relevantes; 0 altista(s), 0 baixista(s) e 2 neutra(s) entre 2 manchete(s) relevante(s).",
+      "source": "Reuters",
+      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
       "score": 0,
-      "count": 2
+      "count": 0,
+      "status": "sem_evento_material"
     }
   ],
   "sources_monitored_not_ingested": [
@@ -43,6 +51,14 @@
     {
       "name": "Bloomberg",
       "reason": "Consulta pública via GDELT indisponível (URLError)."
+    },
+    {
+      "name": "BBC",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "BBC",
+      "reason": "Consulta pública via GDELT indisponível (URLError)."
     }
   ],
   "signals": [
@@ -55,29 +71,7 @@
       "name": "Sinalização do Federal Reserve",
       "score": 0,
       "detail": "Classificação por palavras-chave de política monetária em comunicados e discursos oficiais recentes."
-    },
-    {
-      "name": "Noticiário BBC",
-      "score": 0,
-      "detail": "BBC: leitura mista/neutra nas manchetes relevantes; 0 altista(s), 0 baixista(s) e 2 neutra(s) entre 2 manchete(s) relevante(s)."
     }
   ],
-  "news": [
-    {
-      "title": "What tariffs will really cost Canadians and Americans",
-      "source": "BBC",
-      "published": "29/08/2026 01:45",
-      "url": "https://www.bbc.com/news/articles/cx2z4dv6vn2o",
-      "impact": "neutro",
-      "relevance": "média"
-    },
-    {
-      "title": "What tariffs will really cost Canadians and Americans",
-      "source": "BBC",
-      "published": "29/08/2026 02:15",
-      "url": "https://www.bbc.co.uk/news/articles/cx2z4dv6vn2o",
-      "impact": "neutro",
-      "relevance": "média"
-    }
-  ]
+  "news": []
 }
