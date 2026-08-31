@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-30T18:04:39.385178+00:00",
+  "generated_at": "2026-08-31T21:48:05.184277+00:00",
   "method": "Motor determinístico SEMIL V3 — filtro material de notícias + custo zero",
-  "score10": 1,
+  "score10": 0,
   "outlook10": {
-    "bias": "ALTA LEVE",
-    "confidence": 67,
-    "summary": "Score técnico consolidado: +1. Momento da PTAX: 5 pregões +0,74% (alta); 10 pregões -0,44% (baixa); último pregão +0,70% (alta). O momento recente é misto; o viés final depende da ponderação dos demais sinais. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "bias": "NEUTRO",
+    "confidence": 52,
+    "summary": "Score técnico consolidado: +0. Momento da PTAX: 5 pregões +0,59% (alta); 10 pregões -0,38% (baixa); último pregão -0,36% (baixa). O momento recente é misto; o viés final depende da ponderação dos demais sinais. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve"
@@ -25,20 +25,9 @@
     },
     {
       "name": "Federal Reserve"
-    },
-    {
-      "name": "Reuters — busca pública via GDELT"
     }
   ],
-  "source_analysis": [
-    {
-      "source": "Reuters",
-      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
-      "score": 0,
-      "count": 0,
-      "status": "sem_evento_material"
-    }
-  ],
+  "source_analysis": [],
   "sources_monitored_not_ingested": [
     {
       "name": "B3",
@@ -47,6 +36,10 @@
     {
       "name": "CME",
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
+    },
+    {
+      "name": "Reuters",
+      "reason": "Consulta pública via GDELT indisponível (URLError)."
     },
     {
       "name": "Bloomberg",
@@ -64,8 +57,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 1,
-      "detail": "5 pregões +0,74%; 10 pregões -0,44%; dia +0,70%."
+      "score": 0,
+      "detail": "5 pregões +0,59%; 10 pregões -0,38%; dia -0,36%."
     },
     {
       "name": "Sinalização do Federal Reserve",
