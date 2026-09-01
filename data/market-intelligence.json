@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T21:48:05.184277+00:00",
+  "generated_at": "2026-09-01T00:05:03.955828+00:00",
   "method": "Motor determinístico SEMIL V3 — filtro material de notícias + custo zero",
   "score10": 0,
   "outlook10": {
@@ -25,9 +25,20 @@
     },
     {
       "name": "Federal Reserve"
+    },
+    {
+      "name": "Bloomberg — busca pública via GDELT"
     }
   ],
-  "source_analysis": [],
+  "source_analysis": [
+    {
+      "source": "Bloomberg",
+      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    }
+  ],
   "sources_monitored_not_ingested": [
     {
       "name": "B3",
@@ -42,12 +53,8 @@
       "reason": "Consulta pública via GDELT indisponível (URLError)."
     },
     {
-      "name": "Bloomberg",
-      "reason": "Consulta pública via GDELT indisponível (URLError)."
-    },
-    {
       "name": "BBC",
-      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+      "reason": "Consulta pública via GDELT indisponível (URLError)."
     },
     {
       "name": "BBC",
