@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-01T00:05:03.955828+00:00",
+  "generated_at": "2026-09-01T21:51:03.121592+00:00",
   "method": "Motor determinístico SEMIL V3 — filtro material de notícias + custo zero",
-  "score10": 0,
+  "score10": -2,
   "outlook10": {
-    "bias": "NEUTRO",
-    "confidence": 52,
-    "summary": "Score técnico consolidado: +0. Momento da PTAX: 5 pregões +0,59% (alta); 10 pregões -0,38% (baixa); último pregão -0,36% (baixa). O momento recente é misto; o viés final depende da ponderação dos demais sinais. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "bias": "BAIXA LEVE",
+    "confidence": 67,
+    "summary": "Score técnico consolidado: -2. Momento da PTAX: 5 pregões +0,16% (alta); 10 pregões -0,91% (baixa); último pregão -0,47% (baixa). O momento recente é misto; o viés final depende da ponderação dos demais sinais. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve"
@@ -27,13 +27,33 @@
       "name": "Federal Reserve"
     },
     {
+      "name": "BBC — busca pública via GDELT"
+    },
+    {
       "name": "Bloomberg — busca pública via GDELT"
+    },
+    {
+      "name": "Reuters — busca pública via GDELT"
     }
   ],
   "source_analysis": [
     {
+      "source": "Reuters",
+      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    },
+    {
       "source": "Bloomberg",
       "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    },
+    {
+      "source": "BBC",
+      "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
       "score": 0,
       "count": 0,
       "status": "sem_evento_material"
@@ -49,14 +69,6 @@
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
     },
     {
-      "name": "Reuters",
-      "reason": "Consulta pública via GDELT indisponível (URLError)."
-    },
-    {
-      "name": "BBC",
-      "reason": "Consulta pública via GDELT indisponível (URLError)."
-    },
-    {
       "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (URLError)."
     }
@@ -64,8 +76,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 0,
-      "detail": "5 pregões +0,59%; 10 pregões -0,38%; dia -0,36%."
+      "score": -2,
+      "detail": "5 pregões +0,16%; 10 pregões -0,91%; dia -0,47%."
     },
     {
       "name": "Sinalização do Federal Reserve",

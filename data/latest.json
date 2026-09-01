@@ -1,22 +1,17 @@
 {
-  "generated_at": "2026-09-01T00:00:01.070683+00:00",
+  "generated_at": "2026-09-01T21:45:46.799930+00:00",
   "source": "Banco Central do Brasil — PTAX/Olinda",
   "ptax": {
-    "date": "31/08/2026",
-    "buy": 5.181,
-    "sell": 5.1816,
-    "average": 5.1813,
-    "prev_date": "28/08/2026",
-    "prev_sell": 5.2005,
-    "variation_pct": -0.36342659359676066
+    "date": "01/09/2026",
+    "buy": 5.1564,
+    "sell": 5.157,
+    "average": 5.1567,
+    "prev_date": "31/08/2026",
+    "prev_sell": 5.1816,
+    "variation_pct": -0.47475683186660733
   },
   "focus": null,
   "history": [
-    {
-      "date": "21/07/2026",
-      "buy": 5.0774,
-      "sell": 5.078
-    },
     {
       "date": "22/07/2026",
       "buy": 5.0632,
@@ -161,6 +156,11 @@
       "date": "31/08/2026",
       "buy": 5.181,
       "sell": 5.1816
+    },
+    {
+      "date": "01/09/2026",
+      "buy": 5.1564,
+      "sell": 5.157
     }
   ]
 }
