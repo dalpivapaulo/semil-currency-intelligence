@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T10:04:52.217707+00:00",
+  "generated_at": "2026-09-04T12:43:27.553046+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -5,
   "market_move": {
@@ -33,6 +33,9 @@
       "name": "Federal Reserve"
     },
     {
+      "name": "BBC — busca pública via GDELT"
+    },
+    {
       "name": "Bloomberg — busca pública via GDELT"
     },
     {
@@ -55,6 +58,13 @@
       "status": "sem_evento_material"
     },
     {
+      "source": "BBC",
+      "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    },
+    {
       "source": "Busca ampla de mercado",
       "summary": "MOVIMENTO MATERIAL DETECTADO, porém a busca ampla não encontrou explicação suficiente. A leitura de mercado deve ser tratada como INCOMPLETA, não como 'sem evento material'.",
       "score": 0,
@@ -70,10 +80,6 @@
     {
       "name": "CME",
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
-    },
-    {
-      "name": "BBC",
-      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     },
     {
       "name": "BBC",
