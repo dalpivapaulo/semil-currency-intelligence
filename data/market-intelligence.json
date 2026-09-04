@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T21:35:21.274635+00:00",
+  "generated_at": "2026-09-04T21:52:40.746052+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -3,
   "market_move": {
@@ -33,15 +33,6 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "BBC — busca pública via GDELT"
-    },
-    {
-      "name": "Bloomberg — busca pública via GDELT"
-    },
-    {
-      "name": "Noticiário auxiliar de mercado — busca pública via GDELT"
-    },
-    {
       "name": "Reuters — busca pública via GDELT"
     }
   ],
@@ -49,20 +40,6 @@
     {
       "source": "Reuters",
       "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
-      "score": 0,
-      "count": 0,
-      "status": "sem_evento_material"
-    },
-    {
-      "source": "Bloomberg",
-      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
-      "score": 0,
-      "count": 0,
-      "status": "sem_evento_material"
-    },
-    {
-      "source": "BBC",
-      "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
       "score": 0,
       "count": 0,
       "status": "sem_evento_material"
@@ -83,6 +60,22 @@
     {
       "name": "CME",
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
+    },
+    {
+      "name": "Bloomberg",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "BBC",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "BBC",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "Noticiário auxiliar de mercado",
+      "reason": "Consulta ampla via GDELT indisponível (HTTPError)."
     }
   ],
   "signals": [
