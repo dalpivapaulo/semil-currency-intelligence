@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T13:39:35.630639+00:00",
+  "generated_at": "2026-09-07T14:38:42.649622+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -3,
   "market_move": {
@@ -33,26 +33,23 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "BBC — busca pública via GDELT"
-    },
-    {
       "name": "Bloomberg — busca pública via GDELT"
     },
     {
-      "name": "Noticiário auxiliar de mercado — busca pública via GDELT"
+      "name": "Reuters — busca pública via GDELT"
     }
   ],
   "source_analysis": [
     {
-      "source": "Bloomberg",
-      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "source": "Reuters",
+      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
       "score": 0,
       "count": 0,
       "status": "sem_evento_material"
     },
     {
-      "source": "BBC",
-      "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "source": "Bloomberg",
+      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
       "score": 0,
       "count": 0,
       "status": "sem_evento_material"
@@ -75,12 +72,16 @@
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
     },
     {
-      "name": "Reuters",
+      "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     },
     {
       "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "Noticiário auxiliar de mercado",
+      "reason": "Consulta ampla via GDELT indisponível (HTTPError)."
     }
   ],
   "signals": [
