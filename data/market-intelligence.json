@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-08T13:41:09.604308+00:00",
+  "generated_at": "2026-09-08T14:40:34.142296+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -5,
   "market_move": {
     "material": true,
-    "day_variation_pct": -0.5814293797436254,
-    "momentum_5_pct": -1.66164891153312,
+    "day_variation_pct": -0.8623885431096712,
+    "momentum_5_pct": -1.9395553496989404,
     "explanation_status": "incompleta"
   },
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 67,
-    "summary": "Score técnico consolidado: -5. Momento da PTAX: 5 pregões -1,66% (baixa); 10 pregões -1,08% (baixa); último pregão -0,58% (baixa). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "summary": "Score técnico consolidado: -5. Momento da PTAX: 5 pregões -1,94% (baixa); 10 pregões -1,36% (baixa); último pregão -0,86% (baixa). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve"
@@ -34,9 +34,19 @@
     },
     {
       "name": "BBC — busca pública via GDELT"
+    },
+    {
+      "name": "Reuters — busca pública via GDELT"
     }
   ],
   "source_analysis": [
+    {
+      "source": "Reuters",
+      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    },
     {
       "source": "BBC",
       "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
@@ -62,10 +72,6 @@
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
     },
     {
-      "name": "Reuters",
-      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
-    },
-    {
       "name": "Bloomberg",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     },
@@ -82,7 +88,7 @@
     {
       "name": "Momento da PTAX",
       "score": -5,
-      "detail": "5 pregões -1,66%; 10 pregões -1,08%; dia -0,58%."
+      "detail": "5 pregões -1,94%; 10 pregões -1,36%; dia -0,86%."
     },
     {
       "name": "Sinalização do Federal Reserve",
