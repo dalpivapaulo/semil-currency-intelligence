@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T15:39:16.153552+00:00",
+  "generated_at": "2026-09-09T16:40:12.235189+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -4,
   "market_move": {
     "material": true,
-    "day_variation_pct": 0.31854648419065157,
-    "momentum_5_pct": -1.0703897614892433,
+    "day_variation_pct": 0.24185936762624038,
+    "momentum_5_pct": -1.146015125072719,
     "explanation_status": "incompleta"
   },
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 67,
-    "summary": "Score técnico consolidado: -4. Momento da PTAX: 5 pregões -1,07% (baixa); 10 pregões -0,92% (baixa); último pregão +0,32% (alta). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "summary": "Score técnico consolidado: -4. Momento da PTAX: 5 pregões -1,15% (baixa); 10 pregões -0,99% (baixa); último pregão +0,24% (alta). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve"
@@ -36,10 +36,20 @@
       "name": "BBC — busca pública via GDELT"
     },
     {
+      "name": "Bloomberg — busca pública via GDELT"
+    },
+    {
       "name": "Noticiário auxiliar de mercado — busca pública via GDELT"
     }
   ],
   "source_analysis": [
+    {
+      "source": "Bloomberg",
+      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
+      "score": 0,
+      "count": 0,
+      "status": "sem_evento_material"
+    },
     {
       "source": "BBC",
       "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
@@ -69,7 +79,7 @@
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     },
     {
-      "name": "Bloomberg",
+      "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     }
   ],
@@ -77,7 +87,7 @@
     {
       "name": "Momento da PTAX",
       "score": -4,
-      "detail": "5 pregões -1,07%; 10 pregões -0,92%; dia +0,32%."
+      "detail": "5 pregões -1,15%; 10 pregões -0,99%; dia +0,24%."
     },
     {
       "name": "Sinalização do Federal Reserve",
