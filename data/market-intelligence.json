@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T19:36:26.509726+00:00",
+  "generated_at": "2026-09-09T20:38:18.141124+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -4,
   "market_move": {
@@ -34,6 +34,9 @@
     },
     {
       "name": "Bloomberg — busca pública via GDELT"
+    },
+    {
+      "name": "Noticiário auxiliar de mercado — busca pública via GDELT"
     }
   ],
   "source_analysis": [
@@ -72,10 +75,6 @@
     {
       "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
-    },
-    {
-      "name": "Noticiário auxiliar de mercado",
-      "reason": "Consulta ampla via GDELT indisponível (HTTPError)."
     }
   ],
   "signals": [
