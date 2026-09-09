@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-09T13:40:46.483035+00:00",
+  "generated_at": "2026-09-09T14:40:10.618678+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -4,
   "market_move": {
     "material": true,
-    "day_variation_pct": 0.1612395784174936,
-    "momentum_5_pct": -1.2255187124297073,
+    "day_variation_pct": 0.18090294163912723,
+    "momentum_5_pct": -1.2061275935621452,
     "explanation_status": "incompleta"
   },
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 67,
-    "summary": "Score técnico consolidado: -4. Momento da PTAX: 5 pregões -1,23% (baixa); 10 pregões -1,07% (baixa); último pregão +0,16% (alta). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
+    "summary": "Score técnico consolidado: -4. Momento da PTAX: 5 pregões -1,21% (baixa); 10 pregões -1,05% (baixa); último pregão +0,18% (alta). O momento recente da PTAX apresenta predominância baixista. Os demais sinais monitorados estão próximos do equilíbrio. A leitura é determinística, usa dados/metadados públicos e não utiliza API de IA paga.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve"
@@ -37,9 +37,6 @@
     },
     {
       "name": "Bloomberg — busca pública via GDELT"
-    },
-    {
-      "name": "Noticiário auxiliar de mercado — busca pública via GDELT"
     }
   ],
   "source_analysis": [
@@ -81,13 +78,17 @@
     {
       "name": "BBC",
       "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "Noticiário auxiliar de mercado",
+      "reason": "Consulta ampla via GDELT indisponível (HTTPError)."
     }
   ],
   "signals": [
     {
       "name": "Momento da PTAX",
       "score": -4,
-      "detail": "5 pregões -1,23%; 10 pregões -1,07%; dia +0,16%."
+      "detail": "5 pregões -1,21%; 10 pregões -1,05%; dia +0,18%."
     },
     {
       "name": "Sinalização do Federal Reserve",
