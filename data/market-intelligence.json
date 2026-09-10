@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:35:56.339583+00:00",
+  "generated_at": "2026-09-10T21:36:13.055865+00:00",
   "method": "Motor determinístico SEMIL V4 — intraday + busca ampla + republicações + custo zero",
   "score10": -2,
   "market_move": {
@@ -34,29 +34,9 @@
     },
     {
       "name": "BBC — busca pública via GDELT"
-    },
-    {
-      "name": "Bloomberg — busca pública via GDELT"
-    },
-    {
-      "name": "Reuters — busca pública via GDELT"
     }
   ],
   "source_analysis": [
-    {
-      "source": "Reuters",
-      "summary": "Reuters: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
-      "score": 0,
-      "count": 0,
-      "status": "sem_evento_material"
-    },
-    {
-      "source": "Bloomberg",
-      "summary": "Bloomberg: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
-      "score": 0,
-      "count": 0,
-      "status": "sem_evento_material"
-    },
     {
       "source": "BBC",
       "summary": "BBC: fonte verificada nas últimas 48 horas; nenhum evento material para USD/BRL passou pelo filtro de relevância.",
@@ -73,6 +53,14 @@
     {
       "name": "CME",
       "reason": "Referência futura segue monitorada; integração pública estável ainda não automatizada."
+    },
+    {
+      "name": "Reuters",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
+    },
+    {
+      "name": "Bloomberg",
+      "reason": "Consulta pública via GDELT indisponível (HTTPError)."
     },
     {
       "name": "BBC",
