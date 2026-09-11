@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T18:32:30.396512+00:00",
+  "generated_at": "2026-09-11T19:27:03.479201+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -5.0,
   "market_move": {
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 17 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 16 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
     "today_summary": "USD/BRL no último pregão: -0,45%; momento em 5 pregões: -0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA.",
     "factors": [
       {
@@ -38,17 +38,16 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -3.1,
-        "evidence_count": 10,
+        "score": -2.28,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "The Globe and Mail",
-          "devdiscourse.com",
           "economia.uol.com.br"
         ],
         "examples": [
@@ -61,41 +60,27 @@
       {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
-        "score": -1.4,
+        "score": -0.58,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
           "Money Times",
           "Moomoo",
-          "Reuters",
-          "devdiscourse.com",
-          "economia.uol.com.br"
+          "economia.uol.com.br",
+          "reuters.com"
         ],
         "examples": [
           "Dollar edges higher against Swiss franc after US inflation data",
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fed / juros dos EUA",
@@ -108,36 +93,12 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
-          "Seeking Alpha",
-          "The Globe and Mail"
+          "Seeking Alpha"
         ],
         "examples": [
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "neutro",
-        "score": -0.22,
-        "evidence_count": 10,
-        "quantitative_count": 0,
-        "sources": [
-          "Investing.com",
-          "Investing.com India",
-          "Investing.com UK",
-          "Moomoo",
-          "Reuters",
-          "Seeking Alpha",
-          "The Globe and Mail",
-          "devdiscourse.com"
-        ],
-        "examples": [
-          "Dollar edges higher against Swiss franc after US inflation data",
-          "Yen holds near seven-month high as US dollar steadies",
-          "COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       },
@@ -148,13 +109,35 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Devdiscourse",
           "Investing.com",
           "Investing.com India",
           "Investing.com UK",
           "Moomoo",
-          "Reuters",
           "Seeking Alpha",
-          "devdiscourse.com"
+          "reuters.com"
+        ],
+        "examples": [
+          "Dollar edges higher against Swiss franc after US inflation data",
+          "Yen holds near seven-month high as US dollar steadies",
+          "COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "neutro",
+        "score": -0.22,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Devdiscourse",
+          "Investing.com",
+          "Investing.com India",
+          "Investing.com UK",
+          "Moomoo",
+          "Seeking Alpha",
+          "reuters.com"
         ],
         "examples": [
           "Dollar edges higher against Swiss franc after US inflation data",
@@ -190,6 +173,20 @@
           "Inflação e juros nos EUA reverberam e pressionam mercados emergentes"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "economia.uol.com.br"
+        ],
+        "examples": [
+          "Dólar ronda R$ 5,10 e Bolsa recua, com inflação, juros e petróleo no radar"
+        ],
+        "horizon": "90d"
       }
     ],
     "future_drivers": [
@@ -217,17 +214,16 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -3.1,
-        "evidence_count": 10,
+        "score": -2.28,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "The Globe and Mail",
-          "devdiscourse.com",
           "economia.uol.com.br"
         ],
         "examples": [
@@ -240,41 +236,27 @@
       {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
-        "score": -1.4,
+        "score": -0.58,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
           "Money Times",
           "Moomoo",
-          "Reuters",
-          "devdiscourse.com",
-          "economia.uol.com.br"
+          "economia.uol.com.br",
+          "reuters.com"
         ],
         "examples": [
           "Dollar edges higher against Swiss franc after US inflation data",
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fed / juros dos EUA",
@@ -287,13 +269,12 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
-          "Seeking Alpha",
-          "The Globe and Mail"
+          "Seeking Alpha"
         ],
         "examples": [
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       }
@@ -302,11 +283,11 @@
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,45%; 5 pregões -0,09%; 10 pregões -1,40%. USD/BRL no último pregão: -0,45%; momento em 5 pregões: -0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,45%; 5 pregões -0,09%; 10 pregões -1,40%. USD/BRL no último pregão: -0,45%; momento em 5 pregões: -0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
-      "Reuters",
+      "reuters.com",
       "Bloomberg Línea Brasil",
       "Folha de S.Paulo",
       "O GLOBO",
@@ -320,14 +301,13 @@
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Seeking Alpha",
       "Money Times",
-      "The Globe and Mail",
       "Moomoo",
-      "devdiscourse.com"
+      "Devdiscourse"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
     "drivers": [
       {
         "factor": "Brasil — política / eleições",
@@ -353,17 +333,16 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -3.1,
-        "evidence_count": 10,
+        "score": -2.28,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "The Globe and Mail",
-          "devdiscourse.com",
           "economia.uol.com.br"
         ],
         "examples": [
@@ -376,41 +355,27 @@
       {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
-        "score": -1.4,
+        "score": -0.58,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
           "Money Times",
           "Moomoo",
-          "Reuters",
-          "devdiscourse.com",
-          "economia.uol.com.br"
+          "economia.uol.com.br",
+          "reuters.com"
         ],
         "examples": [
           "Dollar edges higher against Swiss franc after US inflation data",
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fed / juros dos EUA",
@@ -423,13 +388,12 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
-          "Seeking Alpha",
-          "The Globe and Mail"
+          "Seeking Alpha"
         ],
         "examples": [
-          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+          "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       }
@@ -439,10 +403,10 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 242,
+    "raw_news_results": 244,
     "material_news_results": 28,
     "dynamic_sources_used": [
-      "Reuters",
+      "reuters.com",
       "Bloomberg Línea Brasil",
       "Folha de S.Paulo",
       "O GLOBO",
@@ -456,9 +420,8 @@
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Seeking Alpha",
       "Money Times",
-      "The Globe and Mail",
       "Moomoo",
-      "devdiscourse.com"
+      "Devdiscourse"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -472,7 +435,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg Línea Brasil"
@@ -514,13 +477,10 @@
       "name": "Money Times"
     },
     {
-      "name": "The Globe and Mail"
-    },
-    {
       "name": "Moomoo"
     },
     {
-      "name": "devdiscourse.com"
+      "name": "Devdiscourse"
     }
   ],
   "sources_checked": [
@@ -531,7 +491,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg Línea Brasil"
@@ -573,25 +533,22 @@
       "name": "Money Times"
     },
     {
-      "name": "The Globe and Mail"
-    },
-    {
       "name": "Moomoo"
     },
     {
-      "name": "devdiscourse.com"
+      "name": "Devdiscourse"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 4,
+      "count": 5,
       "score": -0.62,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Reuters",
+      "source": "reuters.com",
       "count": 3,
       "score": 0.0,
       "status": "material",
@@ -600,7 +557,7 @@
     {
       "source": "economia.uol.com.br",
       "count": 3,
-      "score": -1.64,
+      "score": -0.82,
       "status": "material",
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
@@ -664,13 +621,13 @@
     {
       "name": "Noticiário dinâmico",
       "score": -3.0,
-      "detail": "28 notícia(s) material(is), 17 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 16 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
       "title": "Dollar edges higher against Swiss franc after US inflation data",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "10/09/2026 22:08",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTUI0bHIwbWRHUzNiQmxNam13azJMSHZvUzhkMThQSDJpOGZqOUpfYVMtMG5taXlrRGVBcGViVWpPT20xTm12RnJLT1BIR2luVmZWOEl0TFVyTC1UX25qZU00cTY5UEMyTWpXd3ctZnVCSXVQMEswa21hTl85ZExMMm9xNkNHRDlHQnVTSlZNMFV5U1l3am1BQVprSUJqQ1VONTBOb3dBSnQxTm9YXzU0aldn?oc=5",
       "relevance": "alta",
@@ -686,7 +643,7 @@
     },
     {
       "title": "Yen holds near seven-month high as US dollar steadies",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "08/09/2026 21:06",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzJTNlNmRkk4ZlAxN0diYXoyblUyaE41UTRRRFpZbURGSk9pZGlTVDc5QkpJSHpqWlRWY0ZjR1M1ZW1sdU5KNmJqUGZ6eTRleGRfektFaDFlMmprZW14T2RodGJMcVlfNG5fMmZTbFhqNERNeGZvVW1CcHQ5MUZ4R0pGbTF3WllEN2hqQkpTVUZrUmVlUnh2UWIwOTJSQU5IZ2pxRGJNelRPdU8wd0dYS0Q4QXB0bWNRSnc?oc=5",
       "relevance": "alta",
@@ -701,7 +658,7 @@
     },
     {
       "title": "COMMENTARY: Is the dollar policy 'mini Mar-a-Lagos' or Whac-A-Mole?",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "10/09/2026 03:01",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbDF5UUVDeU5EQ1l6YXFPaVc3SU9FdnpKTlFzY2hndG9UWnV0Q09WQk9NaTFYNFJTUjUwSjl3bVk4MHpGS2J0alhpQk5FSVVNdWRNVW50emM3aUQ0a0pUeDJTbkx2Ui1lVjhiMWZ4UHhtdUZTeFliZ0xuZE9CUDRJQmEzcm5ERWRNRkRwSkxPVE1PYy1qTFMxYkJEUFdnbnNHSGRiVEpYYXhYQ25faWZ2ZEozd2ZoaEYxSWFuX3JIYnBVTUg1amNZ?oc=5",
       "relevance": "alta",
@@ -727,7 +684,7 @@
       "factors": []
     },
     {
-      "title": "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+      "title": "Dólar oscila após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
       "source": "Folha de S.Paulo",
       "published": "11/09/2026 09:56",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM05Sb0tBVFdDZVJuQ01RWlZNMk5rUmMxa2Nnb2RpMm9tZnFWQ0dPZWFieEFWUjFxanJJTnhtQURQMmdJN1QyRWV2QXdjTmdZRWlFakVxd0NWLWpjUkxPZFBMbGhfX0Y2Tzk1SmdWNFppNGVwR2tFOHp3RnhCMTF4SnV1a2pwbW9weWJrR29ERlB0eXJ6TzZwLU1GWklnZFNCWjBpY25pWVJIUHB0ZmozZDRQQVRpdjQ4?oc=5",
@@ -794,8 +751,8 @@
       "relevance": "média",
       "credibility": 0.88,
       "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
+      "horizon": "10d",
+      "theme": "Dados econômicos dos EUA",
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
@@ -814,6 +771,20 @@
       "factors": [
         "Brasil — política / eleições",
         "Geopolítica / comércio"
+      ]
+    },
+    {
+      "title": "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir",
+      "source": "InfoMoney",
+      "published": "09/09/2026 17:32",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEJtSEtPNkVNQWxqeDBBaUpjYXFMUUc2UEN4R29EN0RlZnlsbWtNNlI2N09EbFJvaEFoc0J2cHRkN0pUNDlSUkFlSHdQMW5UTU8zYklHQUlZYXQzTnpUUDhiUDFmUzIzNDZqTWRqNnZ6SXRUZ1JUX055MnFUbTR3UU9qSkhNS25SVUY5ZXM3WQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA"
       ]
     },
     {
@@ -877,13 +848,13 @@
       ]
     },
     {
-      "title": "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar",
+      "title": "Dólar ronda R$ 5,10 e Bolsa recua, com inflação, juros e petróleo no radar",
       "source": "economia.uol.com.br",
       "published": "11/09/2026 13:08",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSXFIc2lBZDJNS2tjVDJaQlNBUWh1Nl9iNk44eW1nc0JjRDJGSWZHYmpHS0ZaVWpnMy12clpaNURjMzE4TmV3S2dkOHlpQXh3dzEyTExUSUxJWHdYb1paQ0pvdHNsMDBnZ1BGSHJSVzI4WHRYTjlxRVduZFpWX3JDM2k3c1JpRGFYM0h0dm1YUExtLXJNZVEwYnI1dnRFLTctMnI0ZHNRVzNHQ3hNVnBVdXlDdEo?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
-      "impact": "baixa",
+      "impact": "neutro",
       "horizon": "90d",
       "theme": "BCB / Selic / Copom",
       "factors": [
@@ -953,7 +924,7 @@
       ]
     },
     {
-      "title": "Gold slips amid pressure from firmer dollar, elevated Treasury yields",
+      "title": "Gold slips amid pressure from firmer dollar, elevated Treasury yields By Investing.com",
       "source": "Investing.com India",
       "published": "10/09/2026 11:08",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPS09DWktPVEhsZjczRzdqMjQ1dEJJMkdXRnBKRFdBQ21GSFdzZDY3LThjWDV0R1lWUEl1Ql9iT21LYWduSDY4X0FMUENyS2VNRlZ5aE96aE5KbnlpSUg3NXBVZlZ6Y19Yc0I0OW1WdDJ1X0xwVnFicXRIUkxYbVhnbjFOV0FQSkM2YTdKbGd4MVlKWGxfZVBTNy15QkFkZ3RnUXpsY2wwd21kQ1hYQXNaS1FFQng0M1g5UkNYS3BR?oc=5",
@@ -1007,22 +978,6 @@
       "horizon": "hoje",
       "theme": "Movimento do USD/BRL",
       "factors": []
-    },
-    {
-      "title": "U.S. Dollar Bid Ahead Of ECB Rate Hike",
-      "source": "Seeking Alpha",
-      "published": "10/09/2026 09:12",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPclhqZ3BUNkNFVllIYTlScm15ZDBweHgxQm5YQUdCOHFxTHpEckJqYnJKRS0ycjNFMEZyV0ZIbmRhQXBxWldCMTVzTU1BSmQyMzVJNlNaZjJtOHNPRHBMa2J0QVBGVU1NdEtBSUxQdzZERzk4N2VHVGFOdmdqWEkxa20zYw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
     }
   ]
 }
