@@ -1,34 +1,53 @@
 {
-  "generated_at": "2026-09-11T14:29:55.900051+00:00",
+  "generated_at": "2026-09-11T15:29:21.882360+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -5.0,
   "market_move": {
-    "material": true,
-    "day_variation_pct": -0.4692173845040837,
-    "momentum_5_pct": -0.10399905812171761,
-    "momentum_10_pct": -1.4193873203981244,
+    "material": false,
+    "day_variation_pct": -0.27762028583158127,
+    "momentum_5_pct": 0.08830108708450801,
+    "momentum_10_pct": -1.2296193021184343,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 20 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Commodities / petróleo, Brasil — política / eleições, Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
-    "today_summary": "USD/BRL no último pregão: -0,47%; momento em 5 pregões: -0,10%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 18 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
+    "today_summary": "USD/BRL no último pregão: -0,28%; momento em 5 pregões: +0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA.",
     "factors": [
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -3.53,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "Money Times",
+          "O GLOBO",
+          "UOL Economia",
+          "infomoney.com.br"
+        ],
+        "examples": [
+          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
+          "Bolsa sobe ao maior nível em quatro meses e dólar cai a R$ 5,08. Saiba o que contribuiu com o movimento",
+          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam"
+        ],
+        "horizon": "90d"
+      },
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -3.1,
-        "evidence_count": 11,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "Newsquawk",
           "UOL Economia"
         ],
         "examples": [
@@ -39,47 +58,26 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -2.9,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Money Times",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
-          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam",
-          "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
-          "FXStreet",
-          "InfoMoney",
+          "Folha de S.Paulo",
           "Money Times",
           "Moomoo",
           "TechStock²",
-          "UOL Economia"
+          "UOL Economia",
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF",
-          "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários"
+          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
         ],
         "horizon": "10d"
       },
@@ -101,18 +99,19 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 0.58,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
-          "InfoMoney",
+          "Folha de S.Paulo",
+          "Modern Diplomacy",
           "Seeking Alpha",
-          "moderndiplomacy.eu"
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       },
@@ -120,21 +119,18 @@
         "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": -0.22,
-        "evidence_count": 13,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Devdiscourse",
-          "FOREX.com",
-          "FXStreet",
           "Investing.com",
           "Investing.com India",
           "Investing.com UK",
+          "Modern Diplomacy",
           "Moomoo",
-          "Newsquawk",
           "Reuters",
           "Seeking Alpha",
-          "TechStock²",
-          "moderndiplomacy.eu"
+          "TechStock²"
         ],
         "examples": [
           "Yen holds near seven-month high as US dollar steadies",
@@ -147,21 +143,18 @@
         "factor": "Treasuries",
         "impact": "neutro",
         "score": -0.22,
-        "evidence_count": 13,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Devdiscourse",
-          "FOREX.com",
-          "FXStreet",
           "Investing.com",
           "Investing.com India",
           "Investing.com UK",
+          "Modern Diplomacy",
           "Moomoo",
-          "Newsquawk",
           "Reuters",
           "Seeking Alpha",
-          "TechStock²",
-          "moderndiplomacy.eu"
+          "TechStock²"
         ],
         "examples": [
           "Yen holds near seven-month high as US dollar steadies",
@@ -177,7 +170,7 @@
         "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney"
+          "infomoney.com.br"
         ],
         "examples": [
           "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF"
@@ -201,20 +194,39 @@
     ],
     "future_drivers": [
       {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -3.53,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "Money Times",
+          "O GLOBO",
+          "UOL Economia",
+          "infomoney.com.br"
+        ],
+        "examples": [
+          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
+          "Bolsa sobe ao maior nível em quatro meses e dólar cai a R$ 5,08. Saiba o que contribuiu com o movimento",
+          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -3.1,
-        "evidence_count": 11,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "Newsquawk",
           "UOL Economia"
         ],
         "examples": [
@@ -225,47 +237,26 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -2.9,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Money Times",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
-          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam",
-          "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
-          "FXStreet",
-          "InfoMoney",
+          "Folha de S.Paulo",
           "Money Times",
           "Moomoo",
           "TechStock²",
-          "UOL Economia"
+          "UOL Economia",
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF",
-          "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários"
+          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
         ],
         "horizon": "10d"
       },
@@ -287,18 +278,19 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 0.58,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
-          "InfoMoney",
+          "Folha de S.Paulo",
+          "Modern Diplomacy",
           "Seeking Alpha",
-          "moderndiplomacy.eu"
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       }
@@ -307,15 +299,16 @@
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,47%; 5 pregões -0,10%; 10 pregões -1,42%. USD/BRL no último pregão: -0,47%; momento em 5 pregões: -0,10%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo, Brasil — política / eleições, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,28%; 5 pregões +0,09%; 10 pregões -1,23%. USD/BRL no último pregão: -0,28%; momento em 5 pregões: +0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
       "Bloomberg Línea Brasil",
       "Folha de S.Paulo",
+      "O GLOBO",
       "Estadão",
-      "InfoMoney",
+      "infomoney.com.br",
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
@@ -327,31 +320,47 @@
       "Moomoo",
       "TechStock²",
       "Devdiscourse",
-      "moderndiplomacy.eu",
-      "FOREX.com",
-      "Newsquawk",
-      "FXStreet"
+      "Modern Diplomacy"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo, Brasil — política / eleições, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
     "drivers": [
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -3.53,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "Money Times",
+          "O GLOBO",
+          "UOL Economia",
+          "infomoney.com.br"
+        ],
+        "examples": [
+          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
+          "Bolsa sobe ao maior nível em quatro meses e dólar cai a R$ 5,08. Saiba o que contribuiu com o movimento",
+          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam"
+        ],
+        "horizon": "90d"
+      },
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -3.1,
-        "evidence_count": 11,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
           "Folha de S.Paulo",
           "Investing.com",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "Money Times",
-          "Newsquawk",
           "UOL Economia"
         ],
         "examples": [
@@ -362,47 +371,26 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -2.9,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Money Times",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
-          "Ibovespa salta 1,2% com eleição no radar e alta do petróleo; Petrobras e Vale avançam",
-          "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Devdiscourse",
           "Estadão",
-          "FOREX.com",
-          "FXStreet",
-          "InfoMoney",
+          "Folha de S.Paulo",
           "Money Times",
           "Moomoo",
           "TechStock²",
-          "UOL Economia"
+          "UOL Economia",
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF",
-          "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários"
+          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
         ],
         "horizon": "10d"
       },
@@ -424,18 +412,19 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 0.58,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
-          "InfoMoney",
+          "Folha de S.Paulo",
+          "Modern Diplomacy",
           "Seeking Alpha",
-          "moderndiplomacy.eu"
+          "infomoney.com.br"
         ],
         "examples": [
+          "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
           "Dow Jones hoje cai e petróleo sobe com ataques na Arábia Saudita; inflação dos EUA fica no radar",
-          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF"
+          "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir"
         ],
         "horizon": "10d"
       }
@@ -445,14 +434,15 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 240,
+    "raw_news_results": 244,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg Línea Brasil",
       "Folha de S.Paulo",
+      "O GLOBO",
       "Estadão",
-      "InfoMoney",
+      "infomoney.com.br",
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
@@ -464,10 +454,7 @@
       "Moomoo",
       "TechStock²",
       "Devdiscourse",
-      "moderndiplomacy.eu",
-      "FOREX.com",
-      "Newsquawk",
-      "FXStreet"
+      "Modern Diplomacy"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -490,10 +477,13 @@
       "name": "Folha de S.Paulo"
     },
     {
+      "name": "O GLOBO"
+    },
+    {
       "name": "Estadão"
     },
     {
-      "name": "InfoMoney"
+      "name": "infomoney.com.br"
     },
     {
       "name": "CNN Brasil"
@@ -529,16 +519,7 @@
       "name": "Devdiscourse"
     },
     {
-      "name": "moderndiplomacy.eu"
-    },
-    {
-      "name": "FOREX.com"
-    },
-    {
-      "name": "Newsquawk"
-    },
-    {
-      "name": "FXStreet"
+      "name": "Modern Diplomacy"
     }
   ],
   "sources_checked": [
@@ -558,10 +539,13 @@
       "name": "Folha de S.Paulo"
     },
     {
+      "name": "O GLOBO"
+    },
+    {
       "name": "Estadão"
     },
     {
-      "name": "InfoMoney"
+      "name": "infomoney.com.br"
     },
     {
       "name": "CNN Brasil"
@@ -597,21 +581,12 @@
       "name": "Devdiscourse"
     },
     {
-      "name": "moderndiplomacy.eu"
-    },
-    {
-      "name": "FOREX.com"
-    },
-    {
-      "name": "Newsquawk"
-    },
-    {
-      "name": "FXStreet"
+      "name": "Modern Diplomacy"
     }
   ],
   "source_analysis": [
     {
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "count": 5,
       "score": -0.62,
       "status": "material",
@@ -632,7 +607,21 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
+      "source": "Folha de S.Paulo",
+      "count": 2,
+      "score": -0.88,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
       "source": "Estadão",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "count": 2,
       "score": 0.0,
       "status": "material",
@@ -646,25 +635,11 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Folha de S.Paulo",
+      "source": "O GLOBO",
       "count": 1,
-      "score": -0.88,
+      "score": -0.63,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
-      "source": "CNN Brasil",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Investing.com",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -681,7 +656,7 @@
     {
       "name": "Momento da PTAX",
       "score": -2,
-      "detail": "5 pregões -0,10%; 10 pregões -1,42%; último pregão -0,47%."
+      "detail": "5 pregões +0,09%; 10 pregões -1,23%; último pregão -0,28%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -691,7 +666,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": -3.0,
-      "detail": "28 notícia(s) material(is), 20 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 18 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -738,6 +713,21 @@
       "factors": []
     },
     {
+      "title": "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
+      "source": "Folha de S.Paulo",
+      "published": "11/09/2026 09:56",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQM05Sb0tBVFdDZVJuQ01RWlZNMk5rUmMxa2Nnb2RpMm9tZnFWQ0dPZWFieEFWUjFxanJJTnhtQURQMmdJN1QyRWV2QXdjTmdZRWlFakVxd0NWLWpjUkxPZFBMbGhfX0Y2Tzk1SmdWNFppNGVwR2tFOHp3RnhCMTF4SnV1a2pwbW9weWJrR29ERlB0eXJ6TzZwLU1GWklnZFNCWjBpY25pWVJIUHB0ZmozZDRQQVRpdjQ4?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Dados econômicos dos EUA"
+      ]
+    },
+    {
       "title": "Dólar cai e Bolsa avança com pesquisas eleitorais e alta de commodities",
       "source": "Folha de S.Paulo",
       "published": "08/09/2026 10:25",
@@ -750,6 +740,20 @@
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Bolsa sobe ao maior nível em quatro meses e dólar cai a R$ 5,08. Saiba o que contribuiu com o movimento",
+      "source": "O GLOBO",
+      "published": "08/09/2026 17:04",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQUhJOEc2RVVpY1h6Q1Mxa0o5WUEyY29qa2ljYmJ5TnNMclRwelNyU2g5Q3lCLUNsUl9WSUkyRjZPNG5mMmlCa0kyazd5WHN1LUZuVy1lTVFBQnJwbFZNSnE3cGJsQUpVNXBTY0o1T040XzB6c05zdnFUV0NzZ2hVbG9YbThOd1FlNW9xZtIBmwFBVV95cUxQZVNnSmdXa3ZoQkcwSE9ZU1lzSW1xS0hCWVl4TVpfWEVMQzdKd0Q2eXM0UkozXzlBV1V0Y2x4czlQMTFWOTMteWxhOTdYMUR2U3ZaN2xiaHJ3UktYWmZDRlBkSjFDblk2YTJJbDBLNktGZERVRzA5ajdYbEtQdEgySmpldThlWmhTS3FwaDZrOXJ3MExlbllEZzRydw?oc=5",
+      "relevance": "média",
+      "credibility": 0.88,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
       ]
     },
     {
@@ -776,8 +780,8 @@
       "relevance": "média",
       "credibility": 0.88,
       "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
+      "horizon": "10d",
+      "theme": "Dados econômicos dos EUA",
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
@@ -785,7 +789,7 @@
     },
     {
       "title": "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF",
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "published": "09/09/2026 17:10",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNEliQUZTZlFGRTZ0ZWNRaWVsVUx5ZTZGbHpWUjdldUwwWDAyS1NOX1VJeENJUExwdXpBQmkzVXl6OFROUFlkSTNhbXhsMXJrNURKOVpnWjJXYkRXU3Z5eDRGelRoU1NoWVVUX1V1eEpmekNLMURSLV9zT2wzNG5tTGx3ZEZoQkxZQXFLU3Y4bUg5MERKSzFiTDVhWmE5aTNrdFpyUnBzSFZ3NGlmZEdrQVZMTdIBuAFBVV95cUxOa3VwZnJ4a3RtNmJpanBzWGI3bFJDVmEzYlBRN0lpbkgtUGFOajhGRDhjVmU3QVpkRDdVMVhhcmNEXzBXblRhblVTQ2d5X0pFWUJlTVRWbUQ1cFlTbzNVTHRBdldfS09kR3BLM1kxV1ROekRmdVF2cEpmNnl6S1lnQVB5bHNRdlhDZUpsNVlURVFHSHFnaXJiT2NRZjktUkl5d245U2pMdFREMEoyYU44aWZjUW5GeW0y?oc=5",
       "relevance": "alta",
@@ -800,7 +804,7 @@
     },
     {
       "title": "Ibovespa tem a maior queda em quatro semanas; dólar volta a subir",
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "published": "09/09/2026 17:32",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUEJtSEtPNkVNQWxqeDBBaUpjYXFMUUc2UEN4R29EN0RlZnlsbWtNNlI2N09EbFJvaEFoc0J2cHRkN0pUNDlSUkFlSHdQMW5UTU8zYklHQUlZYXQzTnpUUDhiUDFmUzIzNDZqTWRqNnZ6SXRUZ1JUX055MnFUbTR3UU9qSkhNS25SVUY5ZXM3WQ?oc=5",
       "relevance": "alta",
@@ -814,7 +818,7 @@
     },
     {
       "title": "Ibovespa fecha em alta de mais de 1%, com eleições; dólar recua a R$ 5,08",
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "published": "08/09/2026 17:28",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNGpmazlhY0FDMFR6VDhPZWd1X0RUYnA4OUVCdFF0Si15ZzVyVHNKSGpYMHVRVm9jdHA4eXNFTE1rVU51bS01bVhwbUR6WUJ3cGtjb3VTWmxvUjRFdEREQlBuaHRfQUsxY0ZSNFZYYTlGVDB5cGNyMVBoTlI4TDEzRllxd3UyZ0ZNQ1VyaERybw?oc=5",
       "relevance": "média",
@@ -828,7 +832,7 @@
     },
     {
       "title": "Ibovespa Hoje Ao Vivo: Bolsa cai com dados de inflação, eleições e STF",
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "published": "11/09/2026 11:01",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZklxaklFQzBNcFdqUndIV3o0eGZtOE5JVkIyUDhNNzdVY2ZFcklneUl4Qm9BQ2h6VHRNUDNOTFhIai1wY0xBQ0VvdkZ4SmtNRGNGNGtmeEtDUFcxOFM0TG9XTDZvcDR4RXJWbmtKRFBrcGtEVHFuXzI2MFVTTmZqUmVmN1dBU2N3eEFwc09Iaw?oc=5",
       "relevance": "média",
@@ -844,7 +848,7 @@
     },
     {
       "title": "Com rali em curso, Ibovespa encara inflação no Brasil e nos EUA; veja os cenários",
-      "source": "InfoMoney",
+      "source": "infomoney.com.br",
       "published": "11/09/2026 05:00",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSklIc2g4UzJvQmlkSXZmME91aHJDOG1VRzYwRk9NZHFZVFE1VHA1eUhWUnlxX0w1eWZ4N1A0QnZ5ZExYdWNidGdlTVIyUGdhQzQ0MzM2cG9QUExQNnJKUjVfN3ZJZmZtYU1ncVZSa1hGMjdJSGFBbDV2M1luZkVpNUFR0gGHAUFVX3lxTFBYMkQ0S09wNUUzNGNOcXMzY2NrNlpWQlkyaVNxUTFTT1Nfd1VwdFBnbU5RUl9Ib082dEtibmxKUGZRZkZMaEJqUjFWTUFUZ2FCRkpreENCOEFwRk4zc1ZXRVJiQVo4SHkybFJiZGR6MkJCdjE1RGsyTXhMdDlFUXF5WlNLNy1Sdw?oc=5",
       "relevance": "média",
@@ -875,7 +879,7 @@
     {
       "title": "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar",
       "source": "UOL Economia",
-      "published": "11/09/2026 10:39",
+      "published": "11/09/2026 11:32",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSXFIc2lBZDJNS2tjVDJaQlNBUWh1Nl9iNk44eW1nc0JjRDJGSWZHYmpHS0ZaVWpnMy12clpaNURjMzE4TmV3S2dkOHlpQXh3dzEyTExUSUxJWHdYb1paQ0pvdHNsMDBnZ1BGSHJSVzI4WHRYTjlxRVduZFpWX3JDM2k3c1JpRGFYM0h0dm1YUExtLXJNZVEwYnI1dnRFLTctMnI0ZHNRVzNHQ3hNVnBVdXlDdEo?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
@@ -978,6 +982,18 @@
       ]
     },
     {
+      "title": "WarrenAI, seu assistente financeiro pessoal de IA",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "published": "09/09/2026 18:00",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFZ4blZaamY4Q0NLamxZVlVPVmlFVF9pX0pyemg1UHVWNTBFQmg4b2NTZnp0S3JwbFN6Ujd1bGNNQ2pnSk0tbUhrNE1LQkRJX2VRS1M1T3Z3NnFUd3hLRHl1ZUlCRXhiNWtneTNZOTRLeHYwaUJMcFVEcGVrVlQ5akhDSXllNW9GLWl2VkdHX1hLNHhaWDdzRjZRMA?oc=5",
+      "relevance": "média",
+      "credibility": 0.8,
+      "impact": "neutro",
+      "horizon": "hoje",
+      "theme": "Movimento do USD/BRL",
+      "factors": []
+    },
+    {
       "title": "U.S. Dollar Bid Ahead Of ECB Rate Hike",
       "source": "Seeking Alpha",
       "published": "10/09/2026 09:12",
@@ -1006,55 +1022,6 @@
       "factors": [
         "Dados econômicos dos EUA",
         "Brasil — política / eleições",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "The U.S. Dollar Index has fallen for four consecutive sessions, with inflation data emerging as a key variable as the market awaits a directional cue.",
-      "source": "Moomoo",
-      "published": "10/09/2026 02:10",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdHpkVUNfNHRjaWtlS2dQTDg1Zi1DZUtKdzVBek5GdXZDeWt5UHVRa0JicXdTZU5HOF90WnZhNEx3Z2M1cDFVRlZpSW5KYksxZjRRR0MxSjNxQUwxcHlDdjkzeENpOXdrbXFyS3dBZGF0ZHdQTmVfZXpMSWJVSUl0cm5qb1o2NUZfejJnS0g2OXhHalBMZkg3a19rWjBVOGFNQWZjXw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "U.S. Dollar Index Rises to 99.08 Before CPI—What Moves It Next",
-      "source": "TechStock²",
-      "published": "10/09/2026 18:50",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb3NqQTRrUS1DYURnOXlXLTluQzJLc3hqc3UxUnhKd0QtaHc0WXhsMXZ5dzZmeEF3WVNhTEktUXdvQ1Rwc1NUSDBHUTdhX3l0RTZ6b2FLRnBuQU4tOG9heTFfU2stN1RHZzAtdFBKdEZCX2RtNU9MaFpQWnpKRVpkNWQtWml1T29XcWc?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "Middle East Tensions Fuel Dollar Surge: Inflation and Oil Prices at Play",
-      "source": "Devdiscourse",
-      "published": "11/09/2026 08:39",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcG8yczRQbDhnTkE3TFdhN1l2OVFzTEtBcDJVNVBxVzhpeE9aRk9YSHRWUWpzcDF1SXhTRzlRZWxWTGlDdzcyODJHU29lZmJ0Z1ZnNFdwVVV4UVlMVl9rRzl0VHdQM3c1Q3Z3ZDNMUVNpRmZUWDduaGh3UUEzT0FMMXRwOGNnSmVYYjNGNnNWVzNLQUxhYnN4Y3hXTzdOUXJCRDZyTl9yREx0MzBhVzhsVndNQXpRYXN2bDFpNkJIcnR4UElJODFtWNIByAFBVV95cUxNcG8yczRQbDhnTkE3TFdhN1l2OVFzTEtBcDJVNVBxVzhpeE9aRk9YSHRWUWpzcDF1SXhTRzlRZWxWTGlDdzcyODJHU29lZmJ0Z1ZnNFdwVVV4UVlMVl9rRzl0VHdQM3c1Q3Z3ZDNMUVNpRmZUWDduaGh3UUEzT0FMMXRwOGNnSmVYYjNGNnNWVzNLQUxhYnN4Y3hXTzdOUXJCRDZyTl9yREx0MzBhVzhsVndNQXpRYXN2bDFpNkJIcnR4UElJODFtWA?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA",
         "Commodities / petróleo"
       ]
     }
