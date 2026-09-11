@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-11T15:29:21.882360+00:00",
+  "generated_at": "2026-09-11T16:30:21.496782+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -5.0,
   "market_move": {
-    "material": false,
-    "day_variation_pct": -0.27762028583158127,
-    "momentum_5_pct": 0.08830108708450801,
-    "momentum_10_pct": -1.2296193021184343,
+    "material": true,
+    "day_variation_pct": -0.45162173258518346,
+    "momentum_5_pct": -0.08633884070482489,
+    "momentum_10_pct": -1.401959645249995,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 18 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
-    "today_summary": "USD/BRL no último pregão: -0,28%; momento em 5 pregões: +0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 17 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA.",
+    "today_summary": "USD/BRL no último pregão: -0,45%; momento em 5 pregões: -0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA.",
     "factors": [
       {
         "factor": "Brasil — política / eleições",
@@ -61,18 +61,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 10,
+        "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
           "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
+          "Investing.com",
           "Money Times",
           "Moomoo",
           "TechStock²",
           "UOL Economia",
-          "infomoney.com.br"
+          "infomoney.com.br",
+          "tmgm.com"
         ],
         "examples": [
           "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
@@ -104,7 +105,7 @@
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
-          "Modern Diplomacy",
+          "Investing.com",
           "Seeking Alpha",
           "infomoney.com.br"
         ],
@@ -126,11 +127,11 @@
           "Investing.com",
           "Investing.com India",
           "Investing.com UK",
-          "Modern Diplomacy",
           "Moomoo",
           "Reuters",
           "Seeking Alpha",
-          "TechStock²"
+          "TechStock²",
+          "tmgm.com"
         ],
         "examples": [
           "Yen holds near seven-month high as US dollar steadies",
@@ -150,11 +151,11 @@
           "Investing.com",
           "Investing.com India",
           "Investing.com UK",
-          "Modern Diplomacy",
           "Moomoo",
           "Reuters",
           "Seeking Alpha",
-          "TechStock²"
+          "TechStock²",
+          "tmgm.com"
         ],
         "examples": [
           "Yen holds near seven-month high as US dollar steadies",
@@ -176,20 +177,6 @@
           "Dólar hoje fecha em alta e supera os R$ 5,11 com tensão geopolítica e atenção ao STF"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fluxo / apetite a risco",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil"
-        ],
-        "examples": [
-          "Inflação e juros nos EUA reverberam e pressionam mercados emergentes"
-        ],
-        "horizon": "10d"
       }
     ],
     "future_drivers": [
@@ -240,18 +227,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 10,
+        "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
           "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
+          "Investing.com",
           "Money Times",
           "Moomoo",
           "TechStock²",
           "UOL Economia",
-          "infomoney.com.br"
+          "infomoney.com.br",
+          "tmgm.com"
         ],
         "examples": [
           "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
@@ -283,7 +271,7 @@
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
-          "Modern Diplomacy",
+          "Investing.com",
           "Seeking Alpha",
           "infomoney.com.br"
         ],
@@ -299,17 +287,16 @@
   "outlook10": {
     "bias": "BAIXA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,28%; 5 pregões +0,09%; 10 pregões -1,23%. USD/BRL no último pregão: -0,28%; momento em 5 pregões: +0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: -5.0. PTAX: último pregão -0,45%; 5 pregões -0,09%; 10 pregões -1,40%. USD/BRL no último pregão: -0,45%; momento em 5 pregões: -0,09%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Commodities / petróleo, Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
-      "Bloomberg Línea Brasil",
+      "bloomberglinea.com.br",
       "Folha de S.Paulo",
       "O GLOBO",
       "Estadão",
       "infomoney.com.br",
-      "CNN Brasil",
       "UOL Economia",
       "Investing.com",
       "Investing.com UK",
@@ -320,7 +307,7 @@
       "Moomoo",
       "TechStock²",
       "Devdiscourse",
-      "Modern Diplomacy"
+      "tmgm.com"
     ]
   },
   "future_outlook": {
@@ -374,18 +361,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -1.4,
-        "evidence_count": 10,
+        "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
           "Devdiscourse",
           "Estadão",
           "Folha de S.Paulo",
+          "Investing.com",
           "Money Times",
           "Moomoo",
           "TechStock²",
           "UOL Economia",
-          "infomoney.com.br"
+          "infomoney.com.br",
+          "tmgm.com"
         ],
         "examples": [
           "Dólar abre em queda após IPCA registrar deflação de 0,32%; Bolsa recua com inflação dos EUA",
@@ -417,7 +405,7 @@
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
-          "Modern Diplomacy",
+          "Investing.com",
           "Seeking Alpha",
           "infomoney.com.br"
         ],
@@ -434,16 +422,15 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 244,
+    "raw_news_results": 243,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
-      "Bloomberg Línea Brasil",
+      "bloomberglinea.com.br",
       "Folha de S.Paulo",
       "O GLOBO",
       "Estadão",
       "infomoney.com.br",
-      "CNN Brasil",
       "UOL Economia",
       "Investing.com",
       "Investing.com UK",
@@ -454,7 +441,7 @@
       "Moomoo",
       "TechStock²",
       "Devdiscourse",
-      "Modern Diplomacy"
+      "tmgm.com"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -471,7 +458,7 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg Línea Brasil"
+      "name": "bloomberglinea.com.br"
     },
     {
       "name": "Folha de S.Paulo"
@@ -484,9 +471,6 @@
     },
     {
       "name": "infomoney.com.br"
-    },
-    {
-      "name": "CNN Brasil"
     },
     {
       "name": "UOL Economia"
@@ -519,7 +503,7 @@
       "name": "Devdiscourse"
     },
     {
-      "name": "Modern Diplomacy"
+      "name": "tmgm.com"
     }
   ],
   "sources_checked": [
@@ -533,7 +517,7 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg Línea Brasil"
+      "name": "bloomberglinea.com.br"
     },
     {
       "name": "Folha de S.Paulo"
@@ -546,9 +530,6 @@
     },
     {
       "name": "infomoney.com.br"
-    },
-    {
-      "name": "CNN Brasil"
     },
     {
       "name": "UOL Economia"
@@ -581,7 +562,7 @@
       "name": "Devdiscourse"
     },
     {
-      "name": "Modern Diplomacy"
+      "name": "tmgm.com"
     }
   ],
   "source_analysis": [
@@ -621,6 +602,13 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
+      "source": "Investing.com",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "count": 2,
       "score": 0.0,
@@ -628,18 +616,11 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Bloomberg Línea Brasil",
+      "source": "bloomberglinea.com.br",
       "count": 1,
       "score": 0.0,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "O GLOBO",
-      "count": 1,
-      "score": -0.63,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -656,7 +637,7 @@
     {
       "name": "Momento da PTAX",
       "score": -2,
-      "detail": "5 pregões +0,09%; 10 pregões -1,23%; último pregão -0,28%."
+      "detail": "5 pregões -0,09%; 10 pregões -1,40%; último pregão -0,45%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -666,7 +647,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": -3.0,
-      "detail": "28 notícia(s) material(is), 18 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 17 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -702,7 +683,7 @@
     },
     {
       "title": "Dólar mais forte em 2027? Veja as projeções da Oxford Economics para a América Latina",
-      "source": "Bloomberg Línea Brasil",
+      "source": "bloomberglinea.com.br",
       "published": "10/09/2026 08:27",
       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQV1pxd2dmTXhHMWZSaFl5MWdsRUU0UTE0YWVCR3ZuSmp4bXBOSnVyNml6RUFSWng4MEx6cDYteENpbUNra05BVFMteU1IQ00xbk9JN3VYZ2ZQTDRRV3JjejZxa1Z1VVJHdUt6a3ZBUFh3VkJTSEYycTlpRUx1U0Z2NVBxRnMybGlOSkRYaTVjcE0zZzhQS3ptZGhXN3BsWHM5RGRmbWIwMnZTUUR0YmFfb1ZiN1dJTy1oWnllTVdHMTFHTmh6S1dDczhELUhqME9Gc2M2QTlZMnUyWU3SAdsBQVVfeXFMUFdacXdnZk14RzFmUmhZeTFnbEVFNFExNGFlQkd2bkpqeG1wTkp1cjZpekVBUlp4ODBMenA2LXhDaW1Da2tOQVRTLXlNSENNMW5PSTd1WGdmUEw0UVdyY3o2cWtWdVVSR3VLemt2QVBYd1ZCU0hGMnE5aUVMdVNGdjVQcUZzMmxpTkpEWGk1Y3BNM2c4UEt6bWRoVzdwbFhzOURkZm1iMDJ2U1FEdGJhX29WYjdXSU8taFp5ZU1XRzExR05oektXQ3M4RC1IajBPRnNjNkE5WTJ1MllN?oc=5",
       "relevance": "média",
@@ -780,8 +761,8 @@
       "relevance": "média",
       "credibility": 0.88,
       "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dados econômicos dos EUA",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
@@ -862,24 +843,9 @@
       ]
     },
     {
-      "title": "Inflação e juros nos EUA reverberam e pressionam mercados emergentes",
-      "source": "CNN Brasil",
-      "published": "08/09/2026 04:02",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUN3MjNEbm1ZV3hTRjVYRGp3SzhPdlZucTl5Q3M5Yk1NTkQzXzRjaHpwREdGVlRHZlZ6NWs3RmtqZmFfRmlJQWJwZjduYVdVODY5WVdKd2dJTnVZaVZFcHhEX1F3S210blplanY3aVR3OXRPWFVOak5IZzZRcDRpUzRJWmpKWW15UjVJaHpMTzZJQU9wRENDUXl6UDA3SnB1ZmZ4Z29peW5hblgwS3VWT0U4QVR3NU5QRGp1QUx3?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dados econômicos dos EUA",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "Fluxo / apetite a risco"
-      ]
-    },
-    {
       "title": "Dólar cai a R$ 5,08 e Bolsa recua, com inflação, juros e petróleo no radar",
       "source": "UOL Economia",
-      "published": "11/09/2026 11:32",
+      "published": "11/09/2026 13:08",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSXFIc2lBZDJNS2tjVDJaQlNBUWh1Nl9iNk44eW1nc0JjRDJGSWZHYmpHS0ZaVWpnMy12clpaNURjMzE4TmV3S2dkOHlpQXh3dzEyTExUSUxJWHdYb1paQ0pvdHNsMDBnZ1BGSHJSVzI4WHRYTjlxRVduZFpWX3JDM2k3c1JpRGFYM0h0dm1YUExtLXJNZVEwYnI1dnRFLTctMnI0ZHNRVzNHQ3hNVnBVdXlDdEo?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
@@ -979,6 +945,21 @@
       "theme": "Movimento do USD/BRL",
       "factors": [
         "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Gold’s Pre CPI Bounce Looks More Like a Trap Than a Turn",
+      "source": "Investing.com",
+      "published": "11/09/2026 03:46",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ1hCSDA3Z0E5anBYN0g5ZEg4U0lTSjZPc2poYjliN0JfMWt5OGxKalN2aTZGQWtjd2hBaUd1TldWWXR0b0owVTQ1VUVudnlHT0h2UEI2QVJhYy1pY2V1akl4ZFBxamtZOXZrVDRFbGgydXYyRS1RcG1uenV1UWZyU3BSbzdZbkg2X2RUdlBITC11bldLbmRQUU5yUm9lY1Y5M0J4bi1BdFkta2NE?oc=5",
+      "relevance": "média",
+      "credibility": 0.8,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Dados econômicos dos EUA"
       ]
     },
     {
