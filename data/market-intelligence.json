@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T21:28:57.664599+00:00",
+  "generated_at": "2026-09-14T21:46:39.357332+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 4.0,
   "market_move": {
@@ -26,10 +26,10 @@
           "InfoMoney",
           "J1 Agora",
           "Monitor do Mercado",
-          "Reuters",
           "SpaceMoney",
           "Times Brasil | CNBC",
-          "UOL Economia"
+          "UOL Economia",
+          "reuters.com"
         ],
         "examples": [
           "Wall Street jumps, oil lower ahead of Fed vote next week",
@@ -51,9 +51,9 @@
           "InfoMoney",
           "Monitor do Mercado",
           "Moomoo",
-          "Reuters",
           "SpaceMoney",
           "UOL Economia",
+          "reuters.com",
           "富途牛牛"
         ],
         "examples": [
@@ -208,10 +208,10 @@
           "InfoMoney",
           "J1 Agora",
           "Monitor do Mercado",
-          "Reuters",
           "SpaceMoney",
           "Times Brasil | CNBC",
-          "UOL Economia"
+          "UOL Economia",
+          "reuters.com"
         ],
         "examples": [
           "Wall Street jumps, oil lower ahead of Fed vote next week",
@@ -233,9 +233,9 @@
           "InfoMoney",
           "Monitor do Mercado",
           "Moomoo",
-          "Reuters",
           "SpaceMoney",
           "UOL Economia",
+          "reuters.com",
           "富途牛牛"
         ],
         "examples": [
@@ -353,7 +353,7 @@
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
-      "Reuters",
+      "reuters.com",
       "Bloomberg.com",
       "WSJ",
       "Times Brasil | CNBC",
@@ -388,10 +388,10 @@
           "InfoMoney",
           "J1 Agora",
           "Monitor do Mercado",
-          "Reuters",
           "SpaceMoney",
           "Times Brasil | CNBC",
-          "UOL Economia"
+          "UOL Economia",
+          "reuters.com"
         ],
         "examples": [
           "Wall Street jumps, oil lower ahead of Fed vote next week",
@@ -413,9 +413,9 @@
           "InfoMoney",
           "Monitor do Mercado",
           "Moomoo",
-          "Reuters",
           "SpaceMoney",
           "UOL Economia",
+          "reuters.com",
           "富途牛牛"
         ],
         "examples": [
@@ -533,7 +533,7 @@
     "raw_news_results": 221,
     "material_news_results": 28,
     "dynamic_sources_used": [
-      "Reuters",
+      "reuters.com",
       "Bloomberg.com",
       "WSJ",
       "Times Brasil | CNBC",
@@ -563,7 +563,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg.com"
@@ -622,7 +622,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg.com"
@@ -703,7 +703,7 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
+      "source": "reuters.com",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -761,7 +761,7 @@
   "news": [
     {
       "title": "Wall Street jumps, oil lower ahead of Fed vote next week",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "11/09/2026 21:36",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ3pYNkdSYUhxbHl1RjJnc01XMWdUV2NHRFBXaTJhN0FzcUtqV3RFOU5EaUZyTnZYTVJ5ZlduWkJGTzB1Wm8xdmpLdXNBSzdubXRLbmxZRlQtTkh4YkRrbjUwQVFScUVBM3MxLTdITll1ZnZmUGljV1NtRXk?oc=5",
       "relevance": "média",
