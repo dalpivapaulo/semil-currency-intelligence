@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T18:32:41.147863+00:00",
+  "generated_at": "2026-09-16T19:28:05.097031+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 5.0,
   "market_move": {
@@ -11,13 +11,13 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Commodities / petróleo, Brasil — política / eleições, Treasuries, Fed / juros dos EUA.",
-    "today_summary": "USD/BRL no último pregão: +0,07%; momento em 5 pregões: +1,07%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Commodities / petróleo, Treasuries, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 12 fonte(s) independente(s). Principais vetores de ALTA/risco: Commodities / petróleo, Fed / juros dos EUA, Brasil — política / eleições, Treasuries.",
+    "today_summary": "USD/BRL no último pregão: +0,07%; momento em 5 pregões: +1,07%. Pressões de alta: Commodities / petróleo, Fed / juros dos EUA, Treasuries.",
     "factors": [
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 3.78,
+        "score": 4.66,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
@@ -28,9 +28,33 @@
           "UOL Economia"
         ],
         "examples": [
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
+          "Dólar e Bolsa recuam após decisão do Fed, com Copom e petróleo no radar",
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
           "Inflação e petróleo pressionam Fed para mais uma alta de juros nos EUA"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.94,
+        "evidence_count": 15,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNBC",
+          "CNN Brasil",
+          "Exame",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com",
+          "UOL Economia",
+          "Valor Econômico"
+        ],
+        "examples": [
+          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar à vista avança com exterior negativo e eleições no radar"
         ],
         "horizon": "10d"
       },
@@ -49,8 +73,8 @@
         ],
         "examples": [
           "Dólar à vista avança com exterior negativo e eleições no radar",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos"
+          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos",
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -58,10 +82,9 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 2.4,
-        "evidence_count": 5,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
           "Investing.com",
           "WSJ"
         ],
@@ -73,37 +96,28 @@
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Fluxo / apetite a risco",
         "impact": "alta",
-        "score": 2.28,
-        "evidence_count": 16,
+        "score": 0.78,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
-          "CNBC",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Investing.com",
-          "Investing.com South Africa",
-          "UOL Economia",
-          "Valor Econômico"
+          "Exame"
         ],
         "examples": [
-          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
-          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Dólar à vista avança com exterior negativo e eleições no radar"
+          "Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15"
         ],
         "horizon": "10d"
       },
       {
         "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.8,
+        "impact": "neutro",
+        "score": -0.14,
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
+          "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
           "UOL Economia",
@@ -111,7 +125,7 @@
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
+          "Dólar e Bolsa recuam após decisão do Fed, com Copom e petróleo no radar",
           "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
         ],
         "horizon": "10d"
@@ -120,10 +134,9 @@
         "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
           "WSJ"
         ],
         "examples": [
@@ -154,7 +167,7 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 3.78,
+        "score": 4.66,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
@@ -165,9 +178,33 @@
           "UOL Economia"
         ],
         "examples": [
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
+          "Dólar e Bolsa recuam após decisão do Fed, com Copom e petróleo no radar",
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
           "Inflação e petróleo pressionam Fed para mais uma alta de juros nos EUA"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.94,
+        "evidence_count": 15,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNBC",
+          "CNN Brasil",
+          "Exame",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com",
+          "UOL Economia",
+          "Valor Econômico"
+        ],
+        "examples": [
+          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar à vista avança com exterior negativo e eleições no radar"
         ],
         "horizon": "10d"
       },
@@ -186,8 +223,8 @@
         ],
         "examples": [
           "Dólar à vista avança com exterior negativo e eleições no radar",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos"
+          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos",
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -195,10 +232,9 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 2.4,
-        "evidence_count": 5,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
           "Investing.com",
           "WSJ"
         ],
@@ -210,46 +246,16 @@
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Fluxo / apetite a risco",
         "impact": "alta",
-        "score": 2.28,
-        "evidence_count": 16,
+        "score": 0.78,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
-          "CNBC",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Investing.com",
-          "Investing.com South Africa",
-          "UOL Economia",
-          "Valor Econômico"
+          "Exame"
         ],
         "examples": [
-          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
-          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Dólar à vista avança com exterior negativo e eleições no radar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.8,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
-          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
+          "Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15"
         ],
         "horizon": "10d"
       }
@@ -258,7 +264,7 @@
   "outlook10": {
     "bias": "ALTA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +5.0. PTAX: último pregão +0,07%; 5 pregões +1,07%; 10 pregões -0,08%. USD/BRL no último pregão: +0,07%; momento em 5 pregões: +1,07%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Commodities / petróleo, Treasuries, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Brasil — política / eleições, Treasuries, Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: +5.0. PTAX: último pregão +0,07%; 5 pregões +1,07%; 10 pregões -0,08%. USD/BRL no último pregão: +0,07%; momento em 5 pregões: +1,07%. Pressões de alta: Commodities / petróleo, Fed / juros dos EUA, Treasuries. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Fed / juros dos EUA, Brasil — política / eleições, Treasuries.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -272,17 +278,18 @@
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
-      "Investing.com South Africa"
+      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "Exame"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Brasil — política / eleições, Treasuries, Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Fed / juros dos EUA, Brasil — política / eleições, Treasuries.",
     "drivers": [
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 3.78,
+        "score": 4.66,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
@@ -293,9 +300,33 @@
           "UOL Economia"
         ],
         "examples": [
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
+          "Dólar e Bolsa recuam após decisão do Fed, com Copom e petróleo no radar",
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
           "Inflação e petróleo pressionam Fed para mais uma alta de juros nos EUA"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.94,
+        "evidence_count": 15,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNBC",
+          "CNN Brasil",
+          "Exame",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com",
+          "UOL Economia",
+          "Valor Econômico"
+        ],
+        "examples": [
+          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar à vista avança com exterior negativo e eleições no radar"
         ],
         "horizon": "10d"
       },
@@ -314,8 +345,8 @@
         ],
         "examples": [
           "Dólar à vista avança com exterior negativo e eleições no radar",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos"
+          "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos",
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -323,10 +354,9 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 2.4,
-        "evidence_count": 5,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
           "Investing.com",
           "WSJ"
         ],
@@ -338,46 +368,16 @@
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Fluxo / apetite a risco",
         "impact": "alta",
-        "score": 2.28,
-        "evidence_count": 16,
+        "score": 0.78,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
-          "CNBC",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Investing.com",
-          "Investing.com South Africa",
-          "UOL Economia",
-          "Valor Econômico"
+          "Exame"
         ],
         "examples": [
-          "Reunião do Fed: o que pode acontecer com o dólar, Wall St e as moedas da América Latina",
-          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Dólar à vista avança com exterior negativo e eleições no radar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.8,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
-          "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
-          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
+          "Ibovespa volta a subir de olho em STF, Fed e Copom: dólar avança para R$ 5,15"
         ],
         "horizon": "10d"
       }
@@ -400,7 +400,8 @@
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
-      "Investing.com South Africa"
+      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "Exame"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -444,7 +445,10 @@
       "name": "Investing.com"
     },
     {
-      "name": "Investing.com South Africa"
+      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
+      "name": "Exame"
     }
   ],
   "sources_checked": [
@@ -485,16 +489,19 @@
       "name": "Investing.com"
     },
     {
-      "name": "Investing.com South Africa"
+      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
+      "name": "Exame"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 7,
+      "count": 6,
       "score": 0.86,
       "status": "material",
-      "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "UOL Economia",
@@ -570,7 +577,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 12 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -678,13 +685,13 @@
       ]
     },
     {
-      "title": "Bolsa e dólar recuam à espera de decisões de juros do Copom e do Fed, com petróleo no radar",
+      "title": "Dólar e Bolsa recuam após decisão do Fed, com Copom e petróleo no radar",
       "source": "Folha de S.Paulo",
       "published": "16/09/2026 09:43",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWno0LWI0bUdqSVM0SDB2bmYxbUpqVnV1XzRydUV6cEx1aTM4ZndRZ0xGUDNPR1p3SFRzQXJlbXE3d0NRLXhlYVdSVXVDb2dKbG9Gam14Mmt4aENrdlJVTmtTdzZVcURKZ1p4NnFpTjhkaXMwTFVTRWNYeHlydW5UUHZybUk1bTdQX0tEZGRXcXAwU3dweDlqZkdWbktNMHgzVGViUkpzVXo3LUM0WEFJel9TRjhHZVBiVDlz?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
-      "impact": "baixa",
+      "impact": "neutro",
       "horizon": "10d",
       "theme": "Fed / juros dos EUA",
       "factors": [
@@ -708,6 +715,20 @@
       ]
     },
     {
+      "title": "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos",
+      "source": "Estadão",
+      "published": "15/09/2026 05:34",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNktPYXpuLWZzQXFNcHZDc01jUElhdDRTcmpqYnVjOVNvWnZ3NEJhY3JZMUw4dmZTZE9xWmdPNVJEVTZpRnFzcUY4X21zbERoajBpUkVNV19PTEVoVDRORUpMUGxMY09yUTN4N3V5U1ZJU0VjTXdGSTlEMUhkbVV2cU5mcF9XdVpsT0c4VmJjWFhDNDNab1J5MTlpN3VqaGltNGVuZFpDcGZEMXlrTFFxZUNPVGx5cDVTWFRlUEdjUS1xSEpqamZkQlAxVlgxTXJQR09Fd2lLNFlRMHI5dmtMY18xS21MMlln0gHuAUFVX3lxTFAwNEQwY2dLYktQZ0NrMFZoNGh0aWlycGZxT3I5a1RtNGVvT2M0UmVOSHBQZmtjWC1ER0ZQczRtdFNJUmtnYmNtaHVCSkpnM19mRWliOTNIbVp2ZE1rdTlYTjRZczhmR1pheEcweDdEc2FOcERhaFVGY0t6UW1vRnQ0alVKWlNNQzFVYnFLS1dadGo5MlJ5RGhrWkg5WHV6THQta0pfbFpjZERCX1ptc1VudGZKSlBZWVdvc05RNW9JbWxjaEZwSHMzam5LNjFXS3RSZGlIQnlaa2JzT0FDYzdyaHQ3aXItaE9mcUtEM1E?oc=5",
+      "relevance": "média",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
       "source": "Estadão",
       "published": "15/09/2026 20:00",
@@ -724,40 +745,9 @@
       ]
     },
     {
-      "title": "Como as opções viraram o trade eleitoral de Bolsa e dólar entre gestores brasileiros e gringos",
-      "source": "Estadão",
-      "published": "15/09/2026 05:34",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNktPYXpuLWZzQXFNcHZDc01jUElhdDRTcmpqYnVjOVNvWnZ3NEJhY3JZMUw4dmZTZE9xWmdPNVJEVTZpRnFzcUY4X21zbERoajBpUkVNV19PTEVoVDRORUpMUGxMY09yUTN4N3V5U1ZJU0VjTXdGSTlEMUhkbVV2cU5mcF9XdVpsT0c4VmJjWFhDNDNab1J5MTlpN3VqaGltNGVuZFpDcGZEMXlrTFFxZUNPVGx5cDVTWFRlUEdjUS1xSEpqamZkQlAxVlgxTXJQR09Fd2lLNFlRMHI5dmtMY18xS21MMlln0gHuAUFVX3lxTFAwNEQwY2dLYktQZ0NrMFZoNGh0aWlycGZxT3I5a1RtNGVvT2M0UmVOSHBQZmtjWC1ER0ZQczRtdFNJUmtnYmNtaHVCSkpnM19mRWliOTNIbVp2ZE1rdTlYTjRZczhmR1pheEcweDdEc2FOcERhaFVGY0t6UW1vRnQ0alVKWlNNQzFVYnFLS1dadGo5MlJ5RGhrWkg5WHV6THQta0pfbFpjZERCX1ptc1VudGZKSlBZWVdvc05RNW9JbWxjaEZwSHMzam5LNjFXS3RSZGlIQnlaa2JzT0FDYzdyaHQ3aXItaE9mcUtEM1E?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Super 4ª: Com Copom e Fed em direções opostas, o que esperar para mercado brasileiro?",
+      "title": "Dólar tem leve alta após Fomc e com decisão do Copom no radar",
       "source": "InfoMoney",
-      "published": "16/09/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZThaZGRUbGpVQWF5RVBCZzNoV2FSMUVlbGREZEh3X0V1WWtRUVpGMHFCaHdCdnlLSElFY18zRGxyeE03dGN1TmVsVWJ6M0JFVnlkaGdCbUpBRXF3QVAyN0M3cVJsck5Xd2c1VjJlVmhLdjJmSVF5LUswUXFHUV9DOGNqSUpfbWNnYVpkc0IzRmlycXBtOGRIYmJpQnBJTXRKeFc1RTlOa0JzSE1BOTZxeVRmSTlSNDRBRkcyQm9wUjdhN1nSAcMBQVVfeXFMUGU4WmRkVGxqVUFheUVQQmczaFdhUjFFZWxkRGRId19FdVlrUVFaRjBxQmh3QnZ5S0hJRWNfM0RscnhNN3RjdU5lbFViejNCRVZ5ZGhnQm1KQUVxd0FQMjdDN3FSbHJOV3dnNVYyZVZoS3YyZklReS1LMFFxR1FfQzhjaklKX21jZ2FaZHNCM0ZpcnFwbThkSGJiaUJwSU10SnhXNUU5TmtCc0hNQTk2cXlUZkk5UjQ0QUZHMkJvcFI3YTdZ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries",
-        "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Dólar hoje vira para alta em dia de decisões de juros do Fed e Copom",
-      "source": "InfoMoney",
-      "published": "16/09/2026 10:44",
+      "published": "16/09/2026 15:57",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM181aWFNWl9CVl94OXFsUGoySW5nNzdSQlZuSVM5WWZjazlQUTZhbGliUG9wbmNPU2dOSFpLZXliMEFWY2hGSnllQkVZQUgyWjlEY0FjenpaMXhyZkhrV2ZLdXJralhhaVJZRWVIc0xrcXhySV84V1lheGwteENuMWpUNm1ubC1BT01GOFR1MW9UdWJqN0xXYkxYSTDSAaIBQVVfeXFMT2wwT2NYQW5QeW9ZcE1Ec3RaUDdhVmwzRmQyeHVXd1hiNjhiMnZMSElDcDZrYWx6V0RJdjhfdVRfMFdfdEp5WWhRMnp1RGlIWlhmdmxwbmdzd2VmNFFLNHRrVlBBNnRfUlFhMXp0M0tDSG9NeldiX216RWxOYzBBUXc5dkNvaklUaVRjdEF3NFY4STA5X3ZPMWlkVkU0bHBDV1l3?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
@@ -869,10 +859,10 @@
       ]
     },
     {
-      "title": "Super Quarta tem decisões de juros do Copom e Fed, IBC-Br e varejo nos EUA",
+      "title": "Super 4ª: Com Copom e Fed em direções opostas, o que esperar para mercado brasileiro?",
       "source": "InfoMoney",
-      "published": "16/09/2026 05:53",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RcHNKa2tVT2g4dVN3cGVuX0ptdlJqa1VVUEZMUEllenNoT21OSlZlVXhuaVZ0Unc1c2tORlZ2eDV4MFVYam5CU0VncUxaVVczUkZHdnFUYXhpSlBiSmhlOVlfYkU3U1NCUkE1dWdyS1h6QnZjbHNjZE9R?oc=5",
+      "published": "16/09/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZThaZGRUbGpVQWF5RVBCZzNoV2FSMUVlbGREZEh3X0V1WWtRUVpGMHFCaHdCdnlLSElFY18zRGxyeE03dGN1TmVsVWJ6M0JFVnlkaGdCbUpBRXF3QVAyN0M3cVJsck5Xd2c1VjJlVmhLdjJmSVF5LUswUXFHUV9DOGNqSUpfbWNnYVpkc0IzRmlycXBtOGRIYmJpQnBJTXRKeFc1RTlOa0JzSE1BOTZxeVRmSTlSNDRBRkcyQm9wUjdhN1nSAcMBQVVfeXFMUGU4WmRkVGxqVUFheUVQQmczaFdhUjFFZWxkRGRId19FdVlrUVFaRjBxQmh3QnZ5S0hJRWNfM0RscnhNN3RjdU5lbFViejNCRVZ5ZGhnQm1KQUVxd0FQMjdDN3FSbHJOV3dnNVYyZVZoS3YyZklReS1LMFFxR1FfQzhjaklKX21jZ2FaZHNCM0ZpcnFwbThkSGJiaUJwSU10SnhXNUU5TmtCc0hNQTk2cXlUZkk5UjQ0QUZHMkJvcFI3YTdZ?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
@@ -926,6 +916,20 @@
       "factors": [
         "Fed / juros dos EUA",
         "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Dólar sobe com mercado em busca de proteção antes de novas revelações do caso Master",
+      "source": "UOL Economia",
+      "published": "11/09/2026 17:16",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUlhzMXh5aGlrMzZoXzd0Q3U5cm9QbGlDNXg3TnAxeTFGUGdENlpES1huT3g4VDBzRmkwUWlKNjBjWDNwSENkaG9UY1RZQXBZUG9hZmZIM1ZJWkpQc05YMkV1Rnk2U0FfWlZxZnpyTlduWlV5QkYzN3prVWdiNmZvZTFDYUI3T2x0TGlXYl9iaE9mOGUtTE9xY0plb3NvSWVtZGluc2U5NHNnamxEbHh6QkF3?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
       ]
     }
   ]
