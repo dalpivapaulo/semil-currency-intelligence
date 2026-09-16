@@ -1,30 +1,29 @@
 {
-  "generated_at": "2026-09-16T12:36:11.810220+00:00",
+  "generated_at": "2026-09-16T13:31:17.498373+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 3.0,
+  "score10": 5.0,
   "market_move": {
     "material": true,
-    "day_variation_pct": -0.3984834416589256,
-    "momentum_5_pct": 1.2466572282523236,
-    "momentum_10_pct": -0.6291492975142865,
+    "day_variation_pct": 0.22140221402213722,
+    "momentum_5_pct": 1.2259950175562473,
+    "momentum_10_pct": 0.06592980414970029,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 9 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Commodities / petróleo, Treasuries, Fed / juros dos EUA, Brasil — política / eleições.",
-    "today_summary": "USD/BRL no último pregão: -0,40%; momento em 5 pregões: +1,25%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Treasuries, Fed / juros dos EUA, Dólar global / DXY.",
+    "summary": "A leitura reuniu 28 evidência(s) em 9 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Commodities / petróleo, Brasil — política / eleições, Dólar global / DXY, Treasuries.",
+    "today_summary": "USD/BRL no último pregão: +0,22%; momento em 5 pregões: +1,23%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Dólar global / DXY, Treasuries, Fluxo / apetite a risco.",
     "factors": [
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 5.48,
-        "evidence_count": 6,
+        "score": 3.08,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "InfoMoney",
-          "Investing.com",
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
@@ -32,47 +31,6 @@
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 4.28,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "Investing.com",
-          "WSJ"
-        ],
-        "examples": [
-          "Bond Yields Could Come Down as Fast as They’ve Climbed",
-          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
-          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 3.63,
-        "evidence_count": 15,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "Investing.com",
-          "Reuters",
-          "UOL Economia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Dollar edges lower before expected Fed hike",
-          "Dólar à vista avança hoje, apesar de otimismo local com eleições",
-          "Dollar girded by bets on a U.S. hiking cycle"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -84,8 +42,8 @@
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
-          "UOL Economia",
-          "Valor Econômico"
+          "Valor Econômico",
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar à vista avança hoje, apesar de otimismo local com eleições",
@@ -95,7 +53,44 @@
         "horizon": "90d"
       },
       {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -2.19,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Valor Econômico",
+          "economia.uol.com.br"
+        ],
+        "examples": [
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar abre em queda à espera de decisões de juros do Copom e do Fed",
+          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
+        ],
+        "horizon": "10d"
+      },
+      {
         "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.88,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "WSJ"
+        ],
+        "examples": [
+          "Bond Yields Could Come Down as Fast as They’ve Climbed",
+          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
+          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
         "impact": "alta",
         "score": 1.88,
         "evidence_count": 5,
@@ -118,7 +113,7 @@
         "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
@@ -126,20 +121,25 @@
         "horizon": "10d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.27,
-        "evidence_count": 6,
+        "factor": "Fed / juros dos EUA",
+        "impact": "neutro",
+        "score": 0.31,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
+          "CNBC",
+          "CNN Brasil",
           "Estadão",
+          "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia"
+          "Reuters",
+          "Valor Econômico",
+          "economia.uol.com.br"
         ],
         "examples": [
-          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Super Quarta 16/9: Copom deve cortar Selic e Fed elevar juros"
+          "Dollar bides time ahead of expected Fed hike",
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar à vista avança hoje, apesar de otimismo local com eleições"
         ],
         "horizon": "10d"
       },
@@ -152,7 +152,7 @@
         "sources": [
           "Estadão",
           "InfoMoney",
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
@@ -166,14 +166,13 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 5.48,
-        "evidence_count": 6,
+        "score": 3.08,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "InfoMoney",
-          "Investing.com",
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
@@ -181,47 +180,6 @@
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 4.28,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "Investing.com",
-          "WSJ"
-        ],
-        "examples": [
-          "Bond Yields Could Come Down as Fast as They’ve Climbed",
-          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
-          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 3.63,
-        "evidence_count": 15,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "Investing.com",
-          "Reuters",
-          "UOL Economia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Dollar edges lower before expected Fed hike",
-          "Dólar à vista avança hoje, apesar de otimismo local com eleições",
-          "Dollar girded by bets on a U.S. hiking cycle"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -233,8 +191,8 @@
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
-          "UOL Economia",
-          "Valor Econômico"
+          "Valor Econômico",
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar à vista avança hoje, apesar de otimismo local com eleições",
@@ -244,7 +202,44 @@
         "horizon": "90d"
       },
       {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -2.19,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Valor Econômico",
+          "economia.uol.com.br"
+        ],
+        "examples": [
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar abre em queda à espera de decisões de juros do Copom e do Fed",
+          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
+        ],
+        "horizon": "10d"
+      },
+      {
         "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.88,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "WSJ"
+        ],
+        "examples": [
+          "Bond Yields Could Come Down as Fast as They’ve Climbed",
+          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
+          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
         "impact": "alta",
         "score": 1.88,
         "evidence_count": 5,
@@ -267,28 +262,10 @@
         "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.27,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Super Quarta 16/9: Copom deve cortar Selic e Fed elevar juros"
         ],
         "horizon": "10d"
       }
@@ -297,7 +274,7 @@
   "outlook10": {
     "bias": "ALTA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +3.0. PTAX: último pregão -0,40%; 5 pregões +1,25%; 10 pregões -0,63%. USD/BRL no último pregão: -0,40%; momento em 5 pregões: +1,25%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Treasuries, Fed / juros dos EUA, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Treasuries, Fed / juros dos EUA, Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: +5.0. PTAX: último pregão +0,22%; 5 pregões +1,23%; 10 pregões +0,07%. USD/BRL no último pregão: +0,22%; momento em 5 pregões: +1,23%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Dólar global / DXY, Treasuries, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Brasil — política / eleições, Dólar global / DXY, Treasuries.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -305,28 +282,27 @@
       "WSJ",
       "Valor Econômico",
       "CNBC",
+      "Folha de S.Paulo",
       "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "UOL Economia",
-      "Investing.com"
+      "economia.uol.com.br"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Treasuries, Fed / juros dos EUA, Brasil — política / eleições.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo, Brasil — política / eleições, Dólar global / DXY, Treasuries.",
     "drivers": [
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 5.48,
-        "evidence_count": 6,
+        "score": 3.08,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "InfoMoney",
-          "Investing.com",
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
@@ -334,47 +310,6 @@
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 4.28,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "Investing.com",
-          "WSJ"
-        ],
-        "examples": [
-          "Bond Yields Could Come Down as Fast as They’ve Climbed",
-          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
-          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 3.63,
-        "evidence_count": 15,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "Investing.com",
-          "Reuters",
-          "UOL Economia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Dollar edges lower before expected Fed hike",
-          "Dólar à vista avança hoje, apesar de otimismo local com eleições",
-          "Dollar girded by bets on a U.S. hiking cycle"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -386,8 +321,8 @@
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
-          "UOL Economia",
-          "Valor Econômico"
+          "Valor Econômico",
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar à vista avança hoje, apesar de otimismo local com eleições",
@@ -397,7 +332,44 @@
         "horizon": "90d"
       },
       {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -2.19,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Valor Econômico",
+          "economia.uol.com.br"
+        ],
+        "examples": [
+          "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+          "Dólar abre em queda à espera de decisões de juros do Copom e do Fed",
+          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa"
+        ],
+        "horizon": "10d"
+      },
+      {
         "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.88,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "WSJ"
+        ],
+        "examples": [
+          "Bond Yields Could Come Down as Fast as They’ve Climbed",
+          "Wall Street Confronts Prospect of a New Era After Treasury Yield Hits 5%",
+          "U.S. 10-Year Yield Cools After Topping 5%, German Bund Yield Hits 15-Year High"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
         "impact": "alta",
         "score": 1.88,
         "evidence_count": 5,
@@ -420,28 +392,10 @@
         "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "UOL Economia"
+          "economia.uol.com.br"
         ],
         "examples": [
           "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.27,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Super Quarta 16/9: Copom deve cortar Selic e Fed elevar juros"
         ],
         "horizon": "10d"
       }
@@ -450,19 +404,19 @@
   },
   "collection_status": {
     "web_searches_total": 16,
-    "web_searches_succeeded": 13,
-    "raw_news_results": 240,
+    "web_searches_succeeded": 12,
+    "raw_news_results": 243,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "WSJ",
       "Valor Econômico",
       "CNBC",
+      "Folha de S.Paulo",
       "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "UOL Economia",
-      "Investing.com"
+      "economia.uol.com.br"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -488,6 +442,9 @@
       "name": "CNBC"
     },
     {
+      "name": "Folha de S.Paulo"
+    },
+    {
       "name": "Estadão"
     },
     {
@@ -497,10 +454,7 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "UOL Economia"
-    },
-    {
-      "name": "Investing.com"
+      "name": "economia.uol.com.br"
     }
   ],
   "sources_checked": [
@@ -523,6 +477,9 @@
       "name": "CNBC"
     },
     {
+      "name": "Folha de S.Paulo"
+    },
+    {
       "name": "Estadão"
     },
     {
@@ -532,10 +489,7 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "UOL Economia"
-    },
-    {
-      "name": "Investing.com"
+      "name": "economia.uol.com.br"
     }
   ],
   "source_analysis": [
@@ -547,11 +501,11 @@
       "summary": "8 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "UOL Economia",
-      "count": 6,
+      "source": "economia.uol.com.br",
+      "count": 5,
       "score": 3.28,
       "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "WSJ",
@@ -575,14 +529,14 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
-      "count": 1,
-      "score": 0.0,
+      "source": "Valor Econômico",
+      "count": 2,
+      "score": -0.92,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Valor Econômico",
+      "source": "Reuters",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -609,8 +563,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 0,
-      "detail": "5 pregões +1,25%; 10 pregões -0,63%; último pregão -0,40%."
+      "score": 2,
+      "detail": "5 pregões +1,23%; 10 pregões +0,07%; último pregão +0,22%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -620,12 +574,12 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 9 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 9 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
-      "title": "Dollar edges lower before expected Fed hike",
+      "title": "Dollar bides time ahead of expected Fed hike",
       "source": "Reuters",
       "published": "15/09/2026 21:58",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMWFHQ1hoSVRaSzc4anZCS1Rpekx5UTA2d2d2VmRfeXRGaWpGS2tTNi1YaDBRRlhKZmNjcldfdVhOVU9sRG9yMlg4TVB5SkhzTHIzaGFLZFVRWlkwOFg0QVROVnVIcGlCMkM2YVNTUlc4WU9sMkhnSF9mUVd3S0lUS210by1uSWlaUE9iRjQ3ZkVQMDhOWmhN?oc=5",
@@ -699,6 +653,21 @@
       ]
     },
     {
+      "title": "Dólar recua frente ao real com mercado à espera de Fed e Copom",
+      "source": "Valor Econômico",
+      "published": "16/09/2026 09:47",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYTRZTnRUamNvQUtlU3pfQTcwQk1uWU5TaXRnclZEUGVjWTdsWFdQb29CcVA3bUUtY0pYZGpSUldITmNIdnc1d2F3YVhyMGZpQTNkNk0xMFRvYS1tMXZTdnZzRF9Kc3B0R1VHN2pJOG91NE1jSkxhTm11OVVVaTF1aHF3aGxaWGJSdXFNUGdXdnQ3S2JYcVU4VmRxTkNGTVotUElRUXJIS0hvN253X1NobWREUmpPSlhfQXZaQtIBywFBVV95cUxNLUZzMkNVUkhOSkpOYzUydFV2RHd1XzVBdnltc2hvWVQ2TFctREExQXZsYWdiRklINDhkZkdSVUNoNFhBNXVLQm43TmdqdVpKTG1fdGE2bHBxRGV2T2lmUHczRWFuaUNYa2N5bXBrSmtPWEdEamtTcGZlUHpna0lEeFA2clZuZ0VhSExoUi1yQ2lwdFNwVks5NTYzdk40dGFmUkZ1U2JCZ0pMaWVtUlh0TDhXRnhocjRvWEMwSkVWNHlOamtmSHpDaXNmbw?oc=5",
+      "relevance": "alta",
+      "credibility": 0.92,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Dólar à vista avança hoje, apesar de otimismo local com eleições",
       "source": "Valor Econômico",
       "published": "14/09/2026 09:38",
@@ -725,6 +694,21 @@
       "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA"
+      ]
+    },
+    {
+      "title": "Dólar abre em queda à espera de decisões de juros do Copom e do Fed",
+      "source": "Folha de S.Paulo",
+      "published": "16/09/2026 09:43",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWno0LWI0bUdqSVM0SDB2bmYxbUpqVnV1XzRydUV6cEx1aTM4ZndRZ0xGUDNPR1p3SFRzQXJlbXE3d0NRLXhlYVdSVXVDb2dKbG9Gam14Mmt4aENrdlJVTmtTdzZVcURKZ1p4NnFpTjhkaXMwTFVTRWNYeHlydW5UUHZybUk1bTdQX0tEZGRXcXAwU3dweDlqZkdWbktNMHgzVGViUkpzVXo3LUM0WEFJel9TRjhHZVBiVDlz?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -934,7 +918,7 @@
     },
     {
       "title": "Dólar sobe e fecha perto de R$ 5,15 em dia de aversão a risco com petróleo",
-      "source": "UOL Economia",
+      "source": "economia.uol.com.br",
       "published": "14/09/2026 17:45",
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdjVEQW1qMHhlNDJRb0kyMG12Qi1tcUhtSWw5UkdNTFJXWE13NXZVX1E5Um8zYkpCOFFoWTZwei1EVFhmbEdPZ2xvaTh5MFdQYVJ0UlltY3lyUDNJREYwX20xb19lWkpIWHNWVm5Ba3hhRmZoYTIxMGZRMC1VeDlFQ0doam8xeDljWEVCQXZFWVl6eEdIbFdxNjIyRWg3cHVnTU82dTlxTWthdlZnS1NYQ1hCNnJNQ0NWUWVxOG5UOVFLTm9DcXVQeGw3Wmp4WmNXMXJNbF9HRFM?oc=5",
       "relevance": "alta",
@@ -945,37 +929,6 @@
       "factors": [
         "Fed / juros dos EUA",
         "Fluxo / apetite a risco",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Dólar ronda R$ 5,10 e Bolsa recua, com inflação, juros e petróleo no radar",
-      "source": "UOL Economia",
-      "published": "11/09/2026 13:08",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSXFIc2lBZDJNS2tjVDJaQlNBUWh1Nl9iNk44eW1nc0JjRDJGSWZHYmpHS0ZaVWpnMy12clpaNURjMzE4TmV3S2dkOHlpQXh3dzEyTExUSUxJWHdYb1paQ0pvdHNsMDBnZ1BGSHJSVzI4WHRYTjlxRVduZFpWX3JDM2k3c1JpRGFYM0h0dm1YUExtLXJNZVEwYnI1dnRFLTctMnI0ZHNRVzNHQ3hNVnBVdXlDdEo?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "Brasil — política / eleições",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Dólar avança ante real com petróleo em alta e cautela eleitoral do mercado",
-      "source": "UOL Economia",
-      "published": "14/09/2026 09:46",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQckN2Sl9pRHpoTjM4dTdPa1AtT1RBcldZd0lPYTZGNUw3VnBDY1JUWnBoNVhJZ1kySzJDUjZRYTJnTmljV0ozNWFnOEZsN0lCeHRhYmtTUXQwVFdub1RoY3lmQlF5M19wTVFzNVAtMjRzbDlYa1A3N05zU2pvRlFjakhya3Y1eXN4OE9TZ1lrM01Qa21UZ1N4TmpIdnpVMzFJZlNyYVFoS1UzdU9wWi1jQ05wNWFuMktNeDhSQXZhYlhZLXJXUS1qeFpLMVQtMmYyeWJQUjZDUWwyX1U?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições",
         "Commodities / petróleo"
       ]
     }
