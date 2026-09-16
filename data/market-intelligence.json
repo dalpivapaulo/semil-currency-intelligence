@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T17:27:48.956421+00:00",
+  "generated_at": "2026-09-16T18:32:41.147863+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 5.0,
   "market_move": {
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 12 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Commodities / petróleo, Brasil — política / eleições, Treasuries, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Commodities / petróleo, Brasil — política / eleições, Treasuries, Fed / juros dos EUA.",
     "today_summary": "USD/BRL no último pregão: +0,07%; momento em 5 pregões: +1,07%. Pressões de baixa: BCB / Selic / Copom. Pressões de alta: Commodities / petróleo, Treasuries, Fed / juros dos EUA.",
     "factors": [
       {
@@ -76,7 +76,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.28,
-        "evidence_count": 15,
+        "evidence_count": 16,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -100,7 +100,7 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.8,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -213,7 +213,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.28,
-        "evidence_count": 15,
+        "evidence_count": 16,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -237,7 +237,7 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.8,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -272,8 +272,7 @@
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
-      "Investing.com South Africa",
-      "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+      "Investing.com South Africa"
     ]
   },
   "future_outlook": {
@@ -342,7 +341,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.28,
-        "evidence_count": 15,
+        "evidence_count": 16,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -366,7 +365,7 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.8,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -401,8 +400,7 @@
       "CNN Brasil",
       "UOL Economia",
       "Investing.com",
-      "Investing.com South Africa",
-      "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+      "Investing.com South Africa"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -447,9 +445,6 @@
     },
     {
       "name": "Investing.com South Africa"
-    },
-    {
-      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     }
   ],
   "sources_checked": [
@@ -491,18 +486,15 @@
     },
     {
       "name": "Investing.com South Africa"
-    },
-    {
-      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 6,
+      "count": 7,
       "score": 0.86,
       "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "UOL Economia",
@@ -578,7 +570,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 12 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -749,7 +741,7 @@
       "title": "Super 4ª: Com Copom e Fed em direções opostas, o que esperar para mercado brasileiro?",
       "source": "InfoMoney",
       "published": "16/09/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHM3SnR5aTFFdmk0NlNucjZXODRhNlU5ejF4RVVfLWRQY0REWHRoZnhnYWdtTEFvaUMwX2Z0UTVObkZEYkVmMXdZNW1WeEpqcFJZUFR2ZjM0by1nckRnZDNKc1ViZ2QybjlxUUh1THl6bllmakxNRXN5dmtaR1E3Q0xMNEg2VUZBTFJ1QkdVa3dpSlo2UG5FUndla0hWVHRGZVhBbGppRkZlMFdjWl92ekk3MTkzSkVfMWV6U25n0gHDAUFVX3lxTFBlOFpkZFRsalVBYXlFUEJnM2hXYVIxRWVsZERkSHdfRXVZa1FRWkYwcUJod0J2eUtISUVjXzNEbHJ4TTd0Y3VOZWxVYnozQkVWeWRoZ0JtSkFFcXdBUDI3QzdxUmxyTld3ZzVWMmVWaEt2MmZJUXktSzBRcUdRX0M4Y2pJSl9tY2dhWmRzQjNGaXJxcG04ZEhiYmlCcElNdEp4VzVFOU5rQnNITUE5NnF5VGZJOVI0NEFGRzJCb3BSN2E3WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZThaZGRUbGpVQWF5RVBCZzNoV2FSMUVlbGREZEh3X0V1WWtRUVpGMHFCaHdCdnlLSElFY18zRGxyeE03dGN1TmVsVWJ6M0JFVnlkaGdCbUpBRXF3QVAyN0M3cVJsck5Xd2c1VjJlVmhLdjJmSVF5LUswUXFHUV9DOGNqSUpfbWNnYVpkc0IzRmlycXBtOGRIYmJpQnBJTXRKeFc1RTlOa0JzSE1BOTZxeVRmSTlSNDRBRkcyQm9wUjdhN1nSAcMBQVVfeXFMUGU4WmRkVGxqVUFheUVQQmczaFdhUjFFZWxkRGRId19FdVlrUVFaRjBxQmh3QnZ5S0hJRWNfM0RscnhNN3RjdU5lbFViejNCRVZ5ZGhnQm1KQUVxd0FQMjdDN3FSbHJOV3dnNVYyZVZoS3YyZklReS1LMFFxR1FfQzhjaklKX21jZ2FaZHNCM0ZpcnFwbThkSGJiaUJwSU10SnhXNUU5TmtCc0hNQTk2cXlUZkk5UjQ0QUZHMkJvcFI3YTdZ?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -877,6 +869,21 @@
       ]
     },
     {
+      "title": "Super Quarta tem decisões de juros do Copom e Fed, IBC-Br e varejo nos EUA",
+      "source": "InfoMoney",
+      "published": "16/09/2026 05:53",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RcHNKa2tVT2g4dVN3cGVuX0ptdlJqa1VVUEZMUEllenNoT21OSlZlVXhuaVZ0Unc1c2tORlZ2eDV4MFVYam5CU0VncUxaVVczUkZHdnFUYXhpSlBiSmhlOVlfYkU3U1NCUkE1dWdyS1h6QnZjbHNjZE9R?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Dólar sobe a R$ 5,15 e Bolsa cai, com petróleo e decisões de juros no radar",
       "source": "UOL Economia",
       "published": "14/09/2026 13:10",
@@ -919,20 +926,6 @@
       "factors": [
         "Fed / juros dos EUA",
         "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Dólar sobe com mercado em busca de proteção antes de novas revelações do caso Master",
-      "source": "UOL Economia",
-      "published": "11/09/2026 17:16",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUlhzMXh5aGlrMzZoXzd0Q3U5cm9QbGlDNXg3TnAxeTFGUGdENlpES1huT3g4VDBzRmkwUWlKNjBjWDNwSENkaG9UY1RZQXBZUG9hZmZIM1ZJWkpQc05YMkV1Rnk2U0FfWlZxZnpyTlduWlV5QkYzN3prVWdiNmZvZTFDYUI3T2x0TGlXYl9iaE9mOGUtTE9xY0plb3NvSWVtZGluc2U5NHNnamxEbHh6QkF3?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     }
   ]
