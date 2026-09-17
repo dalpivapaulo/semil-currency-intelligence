@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T21:27:36.708053+00:00",
+  "generated_at": "2026-09-17T21:43:21.095767+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 3.8,
   "market_move": {
@@ -38,7 +38,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 7,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -50,7 +50,7 @@
         "examples": [
           "Dólar à vista tem queda firme com apoio externo e quadro eleitoral",
           "Dólar cai e Bolsa sobe com reajuste do Bolsa Família e eleições no radar",
-          "Banco Central injeta US$ 1 bilhão no mercado à vista em meio a saída de dólares"
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -58,7 +58,7 @@
         "factor": "Commodities / petróleo",
         "impact": "alta",
         "score": 1.48,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -190,7 +190,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 7,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -202,7 +202,7 @@
         "examples": [
           "Dólar à vista tem queda firme com apoio externo e quadro eleitoral",
           "Dólar cai e Bolsa sobe com reajuste do Bolsa Família e eleições no radar",
-          "Banco Central injeta US$ 1 bilhão no mercado à vista em meio a saída de dólares"
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -210,7 +210,7 @@
         "factor": "Commodities / petróleo",
         "impact": "alta",
         "score": 1.48,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -343,7 +343,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 7,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -355,7 +355,7 @@
         "examples": [
           "Dólar à vista tem queda firme com apoio externo e quadro eleitoral",
           "Dólar cai e Bolsa sobe com reajuste do Bolsa Família e eleições no radar",
-          "Banco Central injeta US$ 1 bilhão no mercado à vista em meio a saída de dólares"
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
         ],
         "horizon": "90d"
       },
@@ -363,7 +363,7 @@
         "factor": "Commodities / petróleo",
         "impact": "alta",
         "score": 1.48,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -550,10 +550,10 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 8,
+      "count": 9,
       "score": 0.86,
       "status": "material",
-      "summary": "8 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "9 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Reuters",
@@ -561,13 +561,6 @@
       "score": 2.94,
       "status": "material",
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Folha de S.Paulo",
-      "count": 3,
-      "score": -0.88,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "Estadão",
@@ -587,6 +580,13 @@
       "source": "Valor Econômico",
       "count": 2,
       "score": -0.92,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "Folha de S.Paulo",
+      "count": 2,
+      "score": -0.88,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
@@ -846,20 +846,6 @@
       ]
     },
     {
-      "title": "Banco Central injeta US$ 1 bilhão no mercado à vista em meio a saída de dólares",
-      "source": "Folha de S.Paulo",
-      "published": "15/09/2026 13:12",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQdWF5ZTg0U3U3RU00T2dHQmhFLVI1ekFTLXBIelNwQi1rcS05SmM5UU1NenNQaS1tUnFCUVc5akJ5eV9Jbk8ySzExY2JocGVuME9sY2w3b1oyaUJEUkdzay1kXzQyVG1yMUFSUVJJRnhsaFBHaWU0WHhtbWZBNksyWVRiQTJkbGZ4X1o4eTI4aGFBV05qbEd1MVhXVTFac2JkVVpUTllCOFlOSE0zejNfX2lyd1hTYmUwVVE5VF9jLWFmWGFCSGdtTXhB?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
       "source": "Estadão",
       "published": "15/09/2026 20:00",
@@ -993,6 +979,20 @@
       "theme": "Commodities / China / petróleo",
       "factors": [
         "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dólar hoje ronda estabilidade após anúncio de reajuste no Bolsa Família",
+      "source": "InfoMoney",
+      "published": "17/09/2026 12:26",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR3d1b0U1X0NPVHU0YU5DR0wxLVp3Y0l2SVpyZ1JQa3VtOENKRm5ac3dkSUREN293RFNlWEd6NFlhUTNyWWpJTTU2eWgtUGhDYnpaUWFOeEJGRzctRnBXNG94dlZ5REViLXl1NnJORHlBYlprVlE2MTNTQnhYcEZhTHViVkVEbU1UN09ndkdFa29LRUMwSWtMdEJHV0_SAaIBQVVfeXFMTVpYWW5xYkJjNXVuSFd0RkFlSXctNGZpNWttT2NkdWxBVmtJdHMxaXV2bFhLRExkeUxFSkozbG5pLVRFNFVYbE9KN3VKbmNkTzhFWC1WaWh6d2x5amNRQkwwUXVUN1ZUY2ppSHBHaHdrWE8yS0FISFFJR09zX1FidXpjWEpLV01jY0I4djVMc3N2TWtsOGI1aUFBMzdQUHZSWlNR?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
       ]
     }
   ]
