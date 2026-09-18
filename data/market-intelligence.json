@@ -1,94 +1,39 @@
 {
-  "generated_at": "2026-09-18T14:29:05.545255+00:00",
+  "generated_at": "2026-09-18T15:28:52.098698+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 5.4,
+  "score10": 3.46,
   "market_move": {
     "material": true,
-    "day_variation_pct": 0.14557170862368185,
-    "momentum_5_pct": 1.3315526925645083,
-    "momentum_10_pct": 1.244064204701556,
+    "day_variation_pct": 0.22709186545293303,
+    "momentum_5_pct": 1.414038257590633,
+    "momentum_10_pct": 1.3264785526470702,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom, Brasil — fiscal. Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Brasil — fiscal. Principais vetores de ALTA/risco: Commodities / petróleo.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -1.74,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "estadao.com.br"
-        ],
-        "examples": [
-          "Ibovespa hoje: pesquisa eleitoral e petróleo entram no radar após decisões de juros; dólar cai",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -3.86,
         "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
           "Valor Econômico",
           "WSJ",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
+          "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
+          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions"
         ],
         "horizon": "10d"
       },
@@ -96,19 +41,36 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -0.92,
-        "evidence_count": 10,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai",
+          "Dólar hoje opera quase estável após nova pesquisa e antes de leilões do BC",
+          "Dólar ronda estabilidade com nova pesquisa eleitoral e leilão no radar"
         ],
         "horizon": "90d"
       },
@@ -128,17 +90,16 @@
       },
       {
         "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -0.38,
-        "evidence_count": 9,
+        "impact": "alta",
+        "score": 0.5,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -148,101 +109,79 @@
         "horizon": "10d"
       },
       {
+        "factor": "Dólar global / DXY",
+        "impact": "neutro",
+        "score": -0.12,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC TV18",
+          "InfoMoney",
+          "WSJ",
+          "reuters.com"
+        ],
+        "examples": [
+          "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+          "Dollar pauses after Fed rally as yields, oil retreat",
+          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "neutro",
+        "score": -0.12,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC TV18",
+          "InfoMoney",
+          "WSJ",
+          "reuters.com"
+        ],
+        "examples": [
+          "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+          "Dollar pauses after Fed rally as yields, oil retreat",
+          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions"
+        ],
+        "horizon": "10d"
+      },
+      {
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
-          "Reuters",
-          "WSJ",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
-          "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
-          "U.S. Markets Sell Off After Fed’s Warsh Says Inflation Is Still ‘Too High’",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
+          "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead"
         ],
         "horizon": "10d"
       }
     ],
     "future_drivers": [
       {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -1.74,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "estadao.com.br"
-        ],
-        "examples": [
-          "Ibovespa hoje: pesquisa eleitoral e petróleo entram no radar após decisões de juros; dólar cai",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -3.86,
         "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
           "Valor Econômico",
           "WSJ",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
+          "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
+          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions"
         ],
         "horizon": "10d"
       },
@@ -250,19 +189,36 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -0.92,
-        "evidence_count": 10,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai",
+          "Dólar hoje opera quase estável após nova pesquisa e antes de leilões do BC",
+          "Dólar ronda estabilidade com nova pesquisa eleitoral e leilão no radar"
         ],
         "horizon": "90d"
       },
@@ -282,17 +238,16 @@
       },
       {
         "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -0.38,
-        "evidence_count": 9,
+        "impact": "alta",
+        "score": 0.5,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -305,12 +260,12 @@
   },
   "outlook10": {
     "bias": "ALTA MODERADA",
-    "confidence": 82,
-    "summary": "Score técnico consolidado: +5.4. PTAX: último pregão +0,15%; 5 pregões +1,33%; 10 pregões +1,24%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries.",
+    "confidence": 75,
+    "summary": "Score técnico consolidado: +3.5. PTAX: último pregão +0,23%; 5 pregões +1,41%; 10 pregões +1,33%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
-      "Reuters",
+      "reuters.com",
       "Bloomberg Línea Brasil",
       "WSJ",
       "Valor Econômico",
@@ -318,90 +273,35 @@
       "Times Brasil | CNBC",
       "CNBC",
       "Folha de S.Paulo",
-      "estadao.com.br",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Commodities / petróleo.",
     "drivers": [
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC TV18",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -1.74,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "estadao.com.br"
-        ],
-        "examples": [
-          "Ibovespa hoje: pesquisa eleitoral e petróleo entram no radar após decisões de juros; dólar cai",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai"
-        ],
-        "horizon": "90d"
-      },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -3.86,
         "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
           "Valor Econômico",
           "WSJ",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
+          "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-          "VIEW Stocks pull back after Fed raises rates, points to another hike this year"
+          "World stocks rebound, Treasury yields retreat after Fed, BoE decisions"
         ],
         "horizon": "10d"
       },
@@ -409,19 +309,36 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -0.92,
-        "evidence_count": 10,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa fecha em alta com fiscal e eleição no radar; dólar cai",
+          "Dólar hoje opera quase estável após nova pesquisa e antes de leilões do BC",
+          "Dólar ronda estabilidade com nova pesquisa eleitoral e leilão no radar"
         ],
         "horizon": "90d"
       },
@@ -441,17 +358,16 @@
       },
       {
         "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -0.38,
-        "evidence_count": 9,
+        "impact": "alta",
+        "score": 0.5,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters",
-          "estadao.com.br"
+          "reuters.com"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -461,15 +377,15 @@
         "horizon": "10d"
       }
     ],
-    "confidence": 82
+    "confidence": 75
   },
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 12,
-    "raw_news_results": 253,
+    "raw_news_results": 259,
     "material_news_results": 28,
     "dynamic_sources_used": [
-      "Reuters",
+      "reuters.com",
       "Bloomberg Línea Brasil",
       "WSJ",
       "Valor Econômico",
@@ -477,7 +393,7 @@
       "Times Brasil | CNBC",
       "CNBC",
       "Folha de S.Paulo",
-      "estadao.com.br",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil"
     ],
@@ -493,7 +409,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg Línea Brasil"
@@ -517,7 +433,7 @@
       "name": "Folha de S.Paulo"
     },
     {
-      "name": "estadao.com.br"
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -534,7 +450,7 @@
       "name": "Federal Reserve"
     },
     {
-      "name": "Reuters"
+      "name": "reuters.com"
     },
     {
       "name": "Bloomberg Línea Brasil"
@@ -558,7 +474,7 @@
       "name": "Folha de S.Paulo"
     },
     {
-      "name": "estadao.com.br"
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -570,38 +486,31 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 7,
+      "count": 8,
       "score": 0.86,
       "status": "material",
-      "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "8 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
+      "source": "reuters.com",
       "count": 5,
       "score": -0.98,
       "status": "material",
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "estadao.com.br",
-      "count": 4,
-      "score": -0.88,
-      "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
       "source": "CNN Brasil",
-      "count": 3,
+      "count": 4,
       "score": 0.62,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "WSJ",
       "count": 2,
-      "score": 0.0,
+      "score": -2.82,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "CNBC TV18",
@@ -609,6 +518,13 @@
       "score": 2.7,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "Estadão",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Bloomberg Línea Brasil",
@@ -639,7 +555,7 @@
     {
       "name": "Momento da PTAX",
       "score": 4,
-      "detail": "5 pregões +1,33%; 10 pregões +1,24%; último pregão +0,15%."
+      "detail": "5 pregões +1,41%; 10 pregões +1,33%; último pregão +0,23%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -648,14 +564,30 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 1.4,
+      "score": -0.54,
       "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
+      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
+      "source": "reuters.com",
+      "published": "16/09/2026 17:10",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Dollar pauses after Fed rally as yields, oil retreat",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "16/09/2026 23:08",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZNWlJSb0NGaG9WNmRjR0U4YUM2anpuRFREdGRvRmRaRUhwbzVIb2JndlpsZ2g4a1hvbkdZWEl2YUV6WWRjYThBSGt2VGlzak44MmVyWkFPeTJfdlBreG1ERkhYbjVEaTVlLXpwOW9SeDRvbzZIYVJLTUdWcWc1Y2RFTFVPelhoaWNqWVpNd1YxWTR2ZWxaX2U5dzQwUUxNWWFyQXB5U2d4UFJTMXM4?oc=5",
       "relevance": "alta",
@@ -672,7 +604,7 @@
     },
     {
       "title": "World stocks rebound, Treasury yields retreat after Fed, BoE decisions",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "16/09/2026 23:05",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUnBManB6Nl9tbnMzaXhPbHh4RmJVX0xWNmdaeENoNW50NGxxanVfMHFMaWVENklmQ09OSzdDVnFtSFhiXzJ0YTE5RVgzSHYtekRVZHU2QXE0LVNWeS1nalgyNldtV3l1X3FUc3NudktmOWZJVVZORXFNbWloZzlOZkdRWQ?oc=5",
       "relevance": "alta",
@@ -687,24 +619,8 @@
       ]
     },
     {
-      "title": "VIEW Stocks pull back after Fed raises rates, points to another hike this year",
-      "source": "Reuters",
-      "published": "16/09/2026 17:10",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcHE5d2RsZk5YWi1pLWw0M0tWX0pGZl81OEcwZVJtUlJsbTVoUnpQWUxJYjZGSjhvMmlDd0JrcVVFQjJ0aFRJRkh1cTFteld2Y0lSeXhyMFllMU5vSGthbExhbzc5MVNSRTFHOS1JWVcwZ09jSllmTDJoeHBEUEFJanI2aEZqQm1PbXZJZHpwRHpRU2FoMG9EMmVoVmxiZ0h1YV8xTk12QjRMVm1LQ1Zfcm1qUGhUWkFH?oc=5",
-      "relevance": "alta",
-      "credibility": 0.98,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
       "title": "Gold gains over 2% on weaker dollar, easing oil prices",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "16/09/2026 23:27",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmRrQzlscmZjQ08wVi1BSUZCTEU4d0xkdFpFelAzQURMS0VyS21Gb1VWUkV2OEIzRTVUWmJQTXkxRXJnTEltLXR6dWJiWW9UV1pzZWJQOEdJRGpkMnhXV0lIWUlHUEdHNVIzYmU2UTY3OHAwczNsVmpuRDNUVlpkeVl5emEtTlJoWFJrUnhWSUxFTkZqMGxSYUd5M05GVHA0bGZ6eWZ5YWpLWFMy?oc=5",
       "relevance": "alta",
@@ -719,7 +635,7 @@
     },
     {
       "title": "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
-      "source": "Reuters",
+      "source": "reuters.com",
       "published": "16/09/2026 07:01",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0VZMTZPMGRVWVVTY0lVRERxMHhQdlNnb2NBOHROMDJETXBLVmJFTW12SmFybUloWGRfYm1ueDhEZHJuOWNPQXh3RHpDVllhRVpSUVFVeDJmMGFNNTM2RTRqMkVFaXdwTmM1eG1UeVhqLXNuYW5LMjZGYUFCYUV0djFqUTUxRkF2Vk9NeTh5VU44bENZYi1kaTBnS1NuVngtX1dIeEVtaw?oc=5",
       "relevance": "média",
@@ -747,20 +663,19 @@
       ]
     },
     {
-      "title": "U.S. Markets Sell Off After Fed’s Warsh Says Inflation Is Still ‘Too High’",
+      "title": "U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged",
       "source": "WSJ",
-      "published": "16/09/2026 18:55",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWXpmRks3Sk0xbFZuU01XWVltWmRBU1pHbUFQdnhUQmlZNWNzR2J4Y2huaURKOWpJckkyMHY0ZkNxeU04Q0ZwaDJVd21sMFEtNHBBdS1CSFZ2QXdDNzc1elZwdERMdmliWkFobC15d2ltVlliaVBVZXpjU1RIVGhHWnMtQ1QxUk5KOGh1UFBiUkhudmNGNko3Tmd2QWd4NEt3MGllRjRGY09BM0JHeFJnVm1uWWdITUZq?oc=5",
+      "published": "17/09/2026 11:49",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVER1UFJ0ZVpGNjRWcnkxSU96Z01OUHY4MVVqQmcyZDYwZVhkNFdpMWlyU1NnNjhSQmZpSG5FODhMLXktd1laTjRESnhfc2pLenBvckhkWmRSNDFxMEw0Yi1DenJEc3l0bzExaGVZaDc3RDFUT3FkN2dmZGEzOVI4WkxadmZ4ZGtaaFVNUGFPeHhlNnQ5UkZXQkx0OVFPcWdVWWtVR0FISmRXb0s5dUI4aThxSmQ2dGktYTdySlJFcldQMEhOWkE?oc=5",
       "relevance": "alta",
       "credibility": 0.94,
-      "impact": "neutro",
+      "impact": "baixa",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
         "Dólar global / DXY",
         "Fed / juros dos EUA",
-        "Treasuries",
-        "Dados econômicos dos EUA"
+        "Treasuries"
       ]
     },
     {
@@ -869,23 +784,8 @@
       ]
     },
     {
-      "title": "Ibovespa hoje: pesquisa eleitoral e petróleo entram no radar após decisões de juros; dólar cai",
-      "source": "estadao.com.br",
-      "published": "18/09/2026 09:07",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0hGUmd5U3Z1S1hRVldGOE0tQ3VRM2R0dS1RVGFMSTdOS0dXNGpnekVGTXdfc0FWU0R4Vk12VlEwYURKUTdhZkZqeEtUYWhlM2JIU3ZXeGgxZUswVUlSZ25PMnFCNWp3emZaanJTY29penNwVGEwdVpWbllpaTRleWVpclZSMnltMGp0Rk5FenRmRkJZNUNqTmlGWG8xd2tFbjludUxBdVZHOVZ2TlVsSmVINDl3U0NUMmdrNzIwZGIyMFZoUksyMWc3YUXSAdIBQVVfeXFMTUVsREs4ZUZxTDA4cWtqYmdxZkhSZkdqbFhhcGtVSnB2SW1oQnRuYmQ2YVBVV2M5eHhRbVFINE5SdklwVWZTN25pYUpxLV9WVUpjTkZMNGc0YmZFQ2VCNFZNcVpIZFhyNXA4eG1DTmdmSDduVDVLOHhfMGZyZHFUZjVQcC03SDkwbzRhUmdKWGxlTml5VzlJR2E3MHpRd2NtbF9IRmo4Vk8wYmlZRnViTldPWURwX2lYeFpOVzhhVzV6alc0a29oV3JZbXpLWFR4aFFB?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Commodities / China / petróleo",
-      "factors": [
-        "Brasil — política / eleições",
-        "Commodities / petróleo"
-      ]
-    },
-    {
       "title": "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "published": "15/09/2026 11:05",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQzlST3ZsczkzOHlINWNkd29WWUV4UUtnVnpvMi0yLTRCLVlfbmFqRmVSbXVJVlA5RUNpQW5mT0RGQlVaVVVmUTN6d29RV1RUS0RtNmVFZTlUY0JOZUo2YWRja0lrSUxqcDIwU0M0VVZGZGlGSEZYU3NheFlqVTdsWHBYVllqYjlMek9FbHIzdlNjRE95eFpuZFFhNUJCZnUyYkFzbzhibkx3cFJmdXpYbHVkNmlyM1czNXgyUlQ5S2l5X0RweU9fa1VOR2NNTkNnM0dkT1d2aHo0LWR4Yk92amtTbFJ1TEJSUEdN0gHwAUFVX3lxTE1zOWxDU3VOY2hEdzdaRXJqU1hXcEh5MnZLb25qME5YQTg1RjZDS1dfa2Q1T21KbkVoYWhaeVN6RENFNFpMRXM3bW1GNjE4TkFGVFpmaFRYR2MyUzlqWEJsMTB4UWdmdUtNRWdqMkhZdzR4Z1NoZmxSamJnRUFWT1BLbGxMd0FqNnJEVG10NldLWEJRcVZsRjhXbXFxcUpTX2xUMTR0UndlbHNhbUhwRUV2WENlYmhlOWV6NFRtTWxiUFhtNGtMTm0tU0hLUzBFcXc5ZWxQVVprTjAzbktaVHdGNngxUF9ZQlc4Q3Z0dVV2YQ?oc=5",
       "relevance": "alta",
@@ -898,24 +798,8 @@
       ]
     },
     {
-      "title": "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-      "source": "estadao.com.br",
-      "published": "15/09/2026 20:00",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDVYT05mb3htaEREdHJXTUVHQk5sbUxQRE9LWVh0TnFoTVhZd0E2ZnpmNVVYV3dmZFF1MlgwT1dtZTJ3QUZVdFBOZnNhMnhFTXNOdnVuSkJDVFFXdmZHcXplMDh1T2RaTTdCSnEwX2kzMVNtR0tRSzBMSjA5ekQxdUk3Z0hYdS1yandvZ1ZJVjNrMnFWdU41ODFBcTVtZjkzQ0dVTVJxdlR4bzlHdDlDNlkzYnBtVTRUa19kSnFZRUFRQ2lTaVAwUTI1c3V5ei14Nlk3MDVB0gHbAUFVX3lxTE1oeTQwczNvOE5fS0kxcllMSldwXzdtenFiOTlhR29tbXFtZFFycDNIeHhpV2VhMkZCZDNoRXVmVXcySE5DN24wcG93cW10dzJDTk5RVEhjZ3pNVzBnNVJER3FORVhPYkV0OTBCWTlkZVkxdlh1dExJenNabmhrcE80bFF0QldWSmdhQ1BGSXhIRXJOSS1iTEVXVnF3V0R4QzAxMVU4UFJpSER0ODVGUGdwUXQ5ZnFoVWlhV2NOWHZXeWp0T0NJWjViNWFvSDVaWUowX1hTMnR6NW1SYw?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "published": "17/09/2026 16:38",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQajA0ZDJZQjlCSTZIMU1jRnV4SldKaGE2MGtSU1ZrVURnczBsNFNTNU9FVVhmX1FaX1V1UEVkM3NXWjZxT1ZYRExRbE1vQnRvM1JKUTdqcXZvMUp4LUxldXdHMnJHZFVuV3E0UkJ4U2E4YXFMbGtVZTg2ckdGNXpUZFhWSnZoSnRXUGxVZUt2Wm1TTkJGdU9TY3A4MlpDbFRzN1FDcUctanZkeVNsMmxzTENLc2h5WlZPelp1MXFScGhCb1FjMHl2dzlnSnlldU1yMjBHSGxWRdIB1wFBVV95cUxQajA0ZDJZQjlCSTZIMU1jRnV4SldKaGE2MGtSU1ZrVURnczBsNFNTNU9FVVhmX1FaX1V1UEVkM3NXWjZxT1ZYRExRbE1vQnRvM1JKUTdqcXZvMUp4LUxldXdHMnJHZFVuV3E0UkJ4U2E4YXFMbGtVZTg2ckdGNXpUZFhWSnZoSnRXUGxVZUt2Wm1TTkJGdU9TY3A4MlpDbFRzN1FDcUctanZkeVNsMmxzTENLc2h5WlZPelp1MXFScGhCb1FjMHl2dzlnSnlldU1yMjBHSGxWRQ?oc=5",
       "relevance": "média",
@@ -932,7 +816,7 @@
       "title": "Super 4ª: Com Copom e Fed em direções opostas, o que esperar para mercado brasileiro?",
       "source": "InfoMoney",
       "published": "16/09/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWHM3SnR5aTFFdmk0NlNucjZXODRhNlU5ejF4RVVfLWRQY0REWHRoZnhnYWdtTEFvaUMwX2Z0UTVObkZEYkVmMXdZNW1WeEpqcFJZUFR2ZjM0by1nckRnZDNKc1ViZ2QybjlxUUh1THl6bllmakxNRXN5dmtaR1E3Q0xMNEg2VUZBTFJ1QkdVa3dpSlo2UG5FUndla0hWVHRGZVhBbGppRkZlMFdjWl92ekk3MTkzSkVfMWV6U25n0gHDAUFVX3lxTFBlOFpkZFRsalVBYXlFUEJnM2hXYVIxRWVsZERkSHdfRXVZa1FRWkYwcUJod0J2eUtISUVjXzNEbHJ4TTd0Y3VOZWxVYnozQkVWeWRoZ0JtSkFFcXdBUDI3QzdxUmxyTld3ZzVWMmVWaEt2MmZJUXktSzBRcUdRX0M4Y2pJSl9tY2dhWmRzQjNGaXJxcG04ZEhiYmlCcElNdEp4VzVFOU5rQnNITUE5NnF5VGZJOVI0NEFGRzJCb3BSN2E3WQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZThaZGRUbGpVQWF5RVBCZzNoV2FSMUVlbGREZEh3X0V1WWtRUVpGMHFCaHdCdnlLSElFY18zRGxyeE03dGN1TmVsVWJ6M0JFVnlkaGdCbUpBRXF3QVAyN0M3cVJsck5Xd2c1VjJlVmhLdjJmSVF5LUswUXFHUV9DOGNqSUpfbWNnYVpkc0IzRmlycXBtOGRIYmJpQnBJTXRKeFc1RTlOa0JzSE1BOTZxeVRmSTlSNDRBRkcyQm9wUjdhN1nSAcMBQVVfeXFMUGU4WmRkVGxqVUFheUVQQmczaFdhUjFFZWxkRGRId19FdVlrUVFaRjBxQmh3QnZ5S0hJRWNfM0RscnhNN3RjdU5lbFViejNCRVZ5ZGhnQm1KQUVxd0FQMjdDN3FSbHJOV3dnNVYyZVZoS3YyZklReS1LMFFxR1FfQzhjaklKX21jZ2FaZHNCM0ZpcnFwbThkSGJiaUJwSU10SnhXNUU5TmtCc0hNQTk2cXlUZkk5UjQ0QUZHMkJvcFI3YTdZ?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -961,10 +845,10 @@
       ]
     },
     {
-      "title": "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?",
+      "title": "Dólar hoje fecha estável no Brasil, a R$ 5,15, após Fed elevar juros e antes do Copom",
       "source": "InfoMoney",
-      "published": "17/09/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlJmbk1rdmUtUjh5ZlBtVzJNdkE5ZzBsUTF3MGJCN1ktVmJMQjNZSzFaVE5lOXpkOGFhVEcwdUp3ZE1oZGhWUUU0RFhzN3c1X3dXcWV1WFIwdUFXNGNPQW9SYVdSUFVmeEJkSGZjV2Y1MWpEMUJOUXVPT2oxUzdyVDhfNS1sU0xqaHM4NFRTdmNxVFBVVkpZM3JEUEI5a2N1OFNxbGVhTXVBc1RzSTI5eTM1UXlwNnV5YVJTMNIBwgFBVV95cUxOODdmR0RuMjRsbGhVRFNlZmpIcERvekxQQkZLaDVRM0V2NXd6aEZmeWZTa05rQmJOSE5CZVVzTGhyUEdaMWpnUVE1VEhRRHRxQlBOdzhCVlAyNzJNOUIxT1RBenBpTEpmdFl3eFAyR0tVd2dqV3ZwMzY0RWc5T2VJbjV2N0pTWm9qNnNLSURfc0VXeG4tZ2pvcFJpY0l5TGxqQnRqSHhzX0kzTnI4WTlxM3VHUS1zYk10RktkbWFGUk9QQQ?oc=5",
+      "published": "16/09/2026 17:39",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM181aWFNWl9CVl94OXFsUGoySW5nNzdSQlZuSVM5WWZjazlQUTZhbGliUG9wbmNPU2dOSFpLZXliMEFWY2hGSnllQkVZQUgyWjlEY0FjenpaMXhyZkhrV2ZLdXJralhhaVJZRWVIc0xrcXhySV84V1lheGwteENuMWpUNm1ubC1BT01GOFR1MW9UdWJqN0xXYkxYSTDSAaIBQVVfeXFMT2wwT2NYQW5QeW9ZcE1Ec3RaUDdhVmwzRmQyeHVXd1hiNjhiMnZMSElDcDZrYWx6V0RJdjhfdVRfMFdfdEp5WWhRMnp1RGlIWlhmdmxwbmdzd2VmNFFLNHRrVlBBNnRfUlFhMXp0M0tDSG9NeldiX216RWxOYzBBUXc5dkNvaklUaVRjdEF3NFY4STA5X3ZPMWlkVkU0bHBDV1l3?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -976,10 +860,10 @@
       ]
     },
     {
-      "title": "Dólar hoje fecha estável no Brasil, a R$ 5,15, após Fed elevar juros e antes do Copom",
+      "title": "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?",
       "source": "InfoMoney",
-      "published": "16/09/2026 17:39",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM181aWFNWl9CVl94OXFsUGoySW5nNzdSQlZuSVM5WWZjazlQUTZhbGliUG9wbmNPU2dOSFpLZXliMEFWY2hGSnllQkVZQUgyWjlEY0FjenpaMXhyZkhrV2ZLdXJralhhaVJZRWVIc0xrcXhySV84V1lheGwteENuMWpUNm1ubC1BT01GOFR1MW9UdWJqN0xXYkxYSTDSAaIBQVVfeXFMT2wwT2NYQW5QeW9ZcE1Ec3RaUDdhVmwzRmQyeHVXd1hiNjhiMnZMSElDcDZrYWx6V0RJdjhfdVRfMFdfdEp5WWhRMnp1RGlIWlhmdmxwbmdzd2VmNFFLNHRrVlBBNnRfUlFhMXp0M0tDSG9NeldiX216RWxOYzBBUXc5dkNvaklUaVRjdEF3NFY4STA5X3ZPMWlkVkU0bHBDV1l3?oc=5",
+      "published": "17/09/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlJmbk1rdmUtUjh5ZlBtVzJNdkE5ZzBsUTF3MGJCN1ktVmJMQjNZSzFaVE5lOXpkOGFhVEcwdUp3ZE1oZGhWUUU0RFhzN3c1X3dXcWV1WFIwdUFXNGNPQW9SYVdSUFVmeEJkSGZjV2Y1MWpEMUJOUXVPT2oxUzdyVDhfNS1sU0xqaHM4NFRTdmNxVFBVVkpZM3JEUEI5a2N1OFNxbGVhTXVBc1RzSTI5eTM1UXlwNnV5YVJTMNIBwgFBVV95cUxOODdmR0RuMjRsbGhVRFNlZmpIcERvekxQQkZLaDVRM0V2NXd6aEZmeWZTa05rQmJOSE5CZVVzTGhyUEdaMWpnUVE1VEhRRHRxQlBOdzhCVlAyNzJNOUIxT1RBenBpTEpmdFl3eFAyR0tVd2dqV3ZwMzY0RWc5T2VJbjV2N0pTWm9qNnNLSURfc0VXeG4tZ2pvcFJpY0l5TGxqQnRqSHhzX0kzTnI4WTlxM3VHUS1zYk10RktkbWFGUk9QQQ?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -1017,6 +901,34 @@
       "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA"
+      ]
+    },
+    {
+      "title": "Ibovespa fecha em queda com juros futuros e crise no STF; dólar sobe",
+      "source": "CNN Brasil",
+      "published": "14/09/2026 09:34",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeDF0YWhlNEJoa0R4b0RxcDBMd3h4UG1wTnJrR1VkYUhlUE9hVEZySDVaa1RJdnl6V1NETklIWUYybWhEZlNDSnRDRldNRmk3Wl9Nc2dfZ2pEM0JDZVVIY3VFWUZBN0tVZGY5dG9OUFZ4RUNyTUY4SkpVbkhJNWdUeWp2MXlxR3Nva0ZXN1lFc0twV3lMbDlLT2RlSU9vNUE1NzFTSnNR?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
+      "factors": [
+        "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dólar hoje opera quase estável após nova pesquisa e antes de leilões do BC",
+      "source": "InfoMoney",
+      "published": "18/09/2026 09:30",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR0hKM2ZIMGJmZVotQklzQUNBY0xFQnEwbWdWR1hEOTFRSEhBOXJpcDVoaVJuMGpHbURDV18zYmxWWnpoR2RxQ2M5T3RTNjJsUll6d205Ukk2V0NrQ081OXFucDBVNjJSN1BFQVNEMGVUaVdzaVl6OGU0NEhZQm5RblJLOGEtbjNZdXYyQy1TMVljS3owUndPMk8wXzlzRk5RbFHSAaIBQVVfeXFMUEdISjNmSDBiZmVaLUJJc0FDQWNMRUJxMG1nVkdYRDkxUUhIQTlyaXA1aGlSbjBqR21EQ1dfM2JsVlp6aEdkcUNjOU90UzYybFJZendtOVJJNldDa0NPNTlxbnAwVTYyUjdQRUFTRDBlVGlXc2lZejhlNDRIWUJuUW5SSzhhLW4zWXV2MkMtUzFZY0t6MFJ3TzJPMF85c0ZOUWxR?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
       ]
     }
   ]
