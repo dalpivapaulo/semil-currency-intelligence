@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T21:27:38.341112+00:00",
+  "generated_at": "2026-09-18T21:43:09.471246+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
@@ -11,17 +11,18 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 10 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Dados econômicos dos EUA, Dólar global / DXY, Treasuries, Brasil — política / eleições.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Dados econômicos dos EUA, Dólar global / DXY, Treasuries, Brasil — política / eleições.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -3.86,
+        "score": -3.78,
         "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
+          "CNBC",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
@@ -61,9 +62,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -79,9 +80,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -132,10 +133,11 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
+          "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -143,7 +145,7 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
@@ -169,11 +171,12 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -3.86,
+        "score": -3.78,
         "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
+          "CNBC",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
@@ -213,9 +216,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -231,9 +234,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -284,10 +287,11 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
+          "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -295,7 +299,7 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
@@ -313,7 +317,8 @@
       "Bloomberg Línea Brasil",
       "WSJ",
       "Valor Econômico",
-      "cnbctv18.com",
+      "CNBC TV18",
+      "CNBC",
       "Times Brasil | CNBC",
       "Folha de S.Paulo",
       "Estadão",
@@ -328,11 +333,12 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -3.86,
+        "score": -3.78,
         "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
+          "CNBC",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
@@ -372,9 +378,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -390,9 +396,9 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "CNBC TV18",
           "Reuters",
-          "WSJ",
-          "cnbctv18.com"
+          "WSJ"
         ],
         "examples": [
           "Global shares fall, Treasury yields rise as central banks double down on inflation fight",
@@ -443,10 +449,11 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
+          "CNBC",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -454,7 +461,7 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
           "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
@@ -465,14 +472,15 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 12,
-    "raw_news_results": 260,
+    "raw_news_results": 261,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg Línea Brasil",
       "WSJ",
       "Valor Econômico",
-      "cnbctv18.com",
+      "CNBC TV18",
+      "CNBC",
       "Times Brasil | CNBC",
       "Folha de S.Paulo",
       "Estadão",
@@ -503,7 +511,10 @@
       "name": "Valor Econômico"
     },
     {
-      "name": "cnbctv18.com"
+      "name": "CNBC TV18"
+    },
+    {
+      "name": "CNBC"
     },
     {
       "name": "Times Brasil | CNBC"
@@ -541,7 +552,10 @@
       "name": "Valor Econômico"
     },
     {
-      "name": "cnbctv18.com"
+      "name": "CNBC TV18"
+    },
+    {
+      "name": "CNBC"
     },
     {
       "name": "Times Brasil | CNBC"
@@ -562,10 +576,10 @@
   "source_analysis": [
     {
       "source": "Reuters",
-      "count": 6,
-      "score": 1.96,
+      "count": 5,
+      "score": 2.94,
       "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "InfoMoney",
@@ -596,7 +610,7 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "cnbctv18.com",
+      "source": "CNBC TV18",
       "count": 2,
       "score": 2.7,
       "status": "material",
@@ -641,7 +655,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 10 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -708,21 +722,6 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
-      ]
-    },
-    {
-      "title": "Gold gains over 2% on weaker dollar, easing oil prices",
-      "source": "Reuters",
-      "published": "16/09/2026 23:27",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmRrQzlscmZjQ08wVi1BSUZCTEU4d0xkdFpFelAzQURMS0VyS21Gb1VWUkV2OEIzRTVUWmJQTXkxRXJnTEltLXR6dWJiWW9UV1pzZWJQOEdJRGpkMnhXV0lIWUlHUEdHNVIzYmU2UTY3OHAwczNsVmpuRDNUVlpkeVl5emEtTlJoWFJrUnhWSUxFTkZqMGxSYUd5M05GVHA0bGZ6eWZ5YWpLWFMy?oc=5",
-      "relevance": "alta",
-      "credibility": 0.98,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Commodities / petróleo"
       ]
     },
     {
@@ -817,7 +816,7 @@
     },
     {
       "title": "US 10-year yield may rise to 5.5% by mid-2027, stronger dollar to pressure rupee: Standard Chartered",
-      "source": "cnbctv18.com",
+      "source": "CNBC TV18",
       "published": "18/09/2026 01:01",
       "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPMXJfU1YxRlVHb1RUZ1V0cEVCdUp6NDhZbXNnSFRMVHAtd1hpQ1I0Z2JDOVBGaFBDbTYwRzY3R29rNUVUVXdjWVEwZldfXzBJYWhsT0VpMnpGWnpLS0dPRmQtWmxvQ3k2WUZ4cVhzZVo3aEtvampsZFY4NHhaU3d0d21peXRmVGNRMnU2bDRia3RQQ2RXTEN5V1lqZG92UmlTaDVMcTQwVU9WNUFDOFJJOHlvZ21vN3VEblV1bjhncDdvUVNCZHBrMDVlQ1dsRDZ0cmcxMHdpRFh4Rm1nLVZpWFdrSE03RnNJdE02M242M3hSNGttNFZ1UVdkUC01dDV1TFYxTUNPTk9KdDZrZE0tUnRUWVRsT1F4OFpj0gGgAkFVX3lxTE1OSklaZnJlZUdxajdwVVd1NG0wZ3gzZm1tWE9fUU1ob0dnbEdWT1ljbmNVSEJDZkpqYkJOYnk3V0p2NWRXRUdvTWlmLUNFZXJxdFRkMmlRTlFUbHpsbGwtZVVHVjhLeEc2V0xNdDFjQTFVR0NGVXJ4ZEdnRmVXakdtSkRINHNHVWp0ZldsdmRaMmVRdm1pWU02M1NScnNBempSUEhCclc0b3FDalllY2tNeWJ3X2E0NkhheFhfU3VwQ3paMUp2T0NDQnlCX293VlVXTU9hSzNOVV95dGNnS1pDS3hsUDZNQlU2Q2RhYzFzTU5tbnZqQzQwWEMxZjdYLXdBVWpMbkoyQ2VkcS1hTFd6eUZyV3VyR2tVMDgtMWt2SQ?oc=5",
       "relevance": "alta",
@@ -831,8 +830,23 @@
       ]
     },
     {
+      "title": "Gold gains more than 2% on weaker dollar, easing oil prices",
+      "source": "CNBC",
+      "published": "17/09/2026 02:42",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaG9YazhGMnhxa0V4TFlVbVFjSldNRkUwTUdRZV9FY0RQXzlTTFMzekN4WlVrMzdESVpZbmNNV0IwUXZDeGZCYmljN0pGTUNnZWxZdWRiSmh5a3VjcDB5a3hlbzhUclBCZTB6eVdhWGRWR2dBSE9Nc19hX3pPN0JfbThqbnI1dzJwcVJRTUdsQjBTYWxobkgzM9IBngFBVV95cUxPYzNuR1dpWnNWeDRxTWJCY1g3ZXR0T2ZlOWdMSXB1TGNYR3VBOHdyajR4ekxFalhIUk9hUGlLM1I4RjZXdl9NS1lUeVFvRDBpQjNYbU9uOG9XNkxnc2FsZWhaMXAtN3djMkNmTnVvSktqMV9uckpVRVlYTWJQbWtOT2U3X2F2b196ZjhsLVljSHNiaTAycUtsOGhTT192UQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.9,
+      "impact": "baixa",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Commodities / petróleo"
+      ]
+    },
+    {
       "title": "Rupee crosses 96 against dollar for first time since July 27",
-      "source": "cnbctv18.com",
+      "source": "CNBC TV18",
       "published": "17/09/2026 00:55",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOODVPNnNLaXJRRUUwX1lYNFFKbGw2ZHl6ci1mM3RCX3lzWk9nYzhxdXdUelFsU09jOUNWcUtSd054Z0ZPUzFINzZiYll6dFVveWk0TXBOM2pmR0VFdllHWHc4VHFiN3lhV3BVWGNHU1pPV1paRkNmd3ZjcllBdXVHWlp2UXBybDBaSTZjZ2xCZlVwOG5kWVg1TFNvWjJLS1dyYU15N1MzbzBqbWE1N0lr0gG0AUFVX3lxTE5oSFdXZHhpN2stMHEweWZMWmlzZ3F3elZWT243QVJVcHRybEdlUUE1NlNHUmNsb3Z4UFpUQkpSXzFuVWNVN3dqSmtueHZkN2VXLXdSX3c1dlZvZ3lncnlNMnVOdUVFTzdxbnZLVTNWNG90SDN5aV9FeE53WDR0M2tHaFZYSE9iNG1lVjY0RU5GY2drRlJwVzBnZjZOZXoxaTVpNThPYzRfa283WW9vNy1vX0oxcg?oc=5",
       "relevance": "alta",
