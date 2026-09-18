@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-18T16:28:12.060864+00:00",
+  "generated_at": "2026-09-18T17:26:02.585928+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 6.28,
+  "score10": 6.36,
   "market_move": {
     "material": true,
     "day_variation_pct": 0.10481163020903406,
@@ -53,17 +53,17 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -0.96,
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -79,11 +79,11 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
@@ -100,8 +100,8 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
-          "InfoMoney",
-          "estadao.com.br"
+          "Estadão",
+          "InfoMoney"
         ],
         "examples": [
           "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
@@ -127,7 +127,7 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
@@ -139,8 +139,8 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
-          "Gold reaches one-week high as crude oil prices ease"
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
+          "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
       },
@@ -148,15 +148,17 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 2,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
-          "Reuters",
-          "estadao.com.br"
+          "Estadão",
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
           "Fed raises rates in search of 'timelier' drop in inflation, sees more tightening ahead",
-          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas"
+          "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
+          "Inflação e petróleo pressionam Fed para mais uma alta de juros nos EUA"
         ],
         "horizon": "10d"
       }
@@ -201,17 +203,17 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -0.96,
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -227,11 +229,11 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
@@ -248,8 +250,8 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
-          "InfoMoney",
-          "estadao.com.br"
+          "Estadão",
+          "InfoMoney"
         ],
         "examples": [
           "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
@@ -275,7 +277,7 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
@@ -287,8 +289,8 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
-          "Gold reaches one-week high as crude oil prices ease"
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
+          "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
       }
@@ -297,7 +299,7 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +6.3. PTAX: último pregão +0,10%; 5 pregões +1,29%; 10 pregões +1,20%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo.",
+    "summary": "Score técnico consolidado: +6.4. PTAX: último pregão +0,10%; 5 pregões +1,29%; 10 pregões +1,20%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -306,10 +308,10 @@
       "WSJ",
       "Valor Econômico",
       "CNBC TV18",
-      "Times Brasil | CNBC",
       "CNBC",
+      "Times Brasil | CNBC",
       "Folha de S.Paulo",
-      "estadao.com.br",
+      "Estadão",
       "CNN Brasil",
       "InfoMoney"
     ]
@@ -357,17 +359,17 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.04,
+        "score": -0.96,
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNBC",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
@@ -383,11 +385,11 @@
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Times Brasil | CNBC",
-          "Valor Econômico",
-          "estadao.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar recua frente ao real com mercado à espera de Fed e Copom",
@@ -404,8 +406,8 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
-          "InfoMoney",
-          "estadao.com.br"
+          "Estadão",
+          "InfoMoney"
         ],
         "examples": [
           "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
@@ -431,7 +433,7 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.5,
+        "score": 0.58,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
@@ -443,8 +445,8 @@
         ],
         "examples": [
           "Dollar pauses after Fed rally as yields, oil retreat",
-          "Gold gains over 2% on weaker dollar, easing oil prices",
-          "Gold reaches one-week high as crude oil prices ease"
+          "Gold gains more than 2% on weaker dollar, easing oil prices",
+          "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável"
         ],
         "horizon": "10d"
       }
@@ -462,10 +464,10 @@
       "WSJ",
       "Valor Econômico",
       "CNBC TV18",
-      "Times Brasil | CNBC",
       "CNBC",
+      "Times Brasil | CNBC",
       "Folha de S.Paulo",
-      "estadao.com.br",
+      "Estadão",
       "CNN Brasil",
       "InfoMoney"
     ],
@@ -496,16 +498,16 @@
       "name": "CNBC TV18"
     },
     {
-      "name": "Times Brasil | CNBC"
+      "name": "CNBC"
     },
     {
-      "name": "CNBC"
+      "name": "Times Brasil | CNBC"
     },
     {
       "name": "Folha de S.Paulo"
     },
     {
-      "name": "estadao.com.br"
+      "name": "Estadão"
     },
     {
       "name": "CNN Brasil"
@@ -537,16 +539,16 @@
       "name": "CNBC TV18"
     },
     {
-      "name": "Times Brasil | CNBC"
+      "name": "CNBC"
     },
     {
-      "name": "CNBC"
+      "name": "Times Brasil | CNBC"
     },
     {
       "name": "Folha de S.Paulo"
     },
     {
-      "name": "estadao.com.br"
+      "name": "Estadão"
     },
     {
       "name": "CNN Brasil"
@@ -558,17 +560,17 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 7,
+      "count": 8,
       "score": 0.86,
       "status": "material",
-      "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "8 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Reuters",
-      "count": 5,
-      "score": -0.98,
+      "count": 4,
+      "score": 0.0,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "CNN Brasil",
@@ -578,7 +580,7 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "count": 3,
       "score": 0.0,
       "status": "material",
@@ -636,7 +638,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 2.28,
+      "score": 2.36,
       "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
@@ -688,21 +690,6 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
-      ]
-    },
-    {
-      "title": "Gold gains over 2% on weaker dollar, easing oil prices",
-      "source": "Reuters",
-      "published": "16/09/2026 23:27",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdmRrQzlscmZjQ08wVi1BSUZCTEU4d0xkdFpFelAzQURMS0VyS21Gb1VWUkV2OEIzRTVUWmJQTXkxRXJnTEltLXR6dWJiWW9UV1pzZWJQOEdJRGpkMnhXV0lIWUlHUEdHNVIzYmU2UTY3OHAwczNsVmpuRDNUVlpkeVl5emEtTlJoWFJrUnhWSUxFTkZqMGxSYUd5M05GVHA0bGZ6eWZ5YWpLWFMy?oc=5",
-      "relevance": "alta",
-      "credibility": 0.98,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Commodities / petróleo"
       ]
     },
     {
@@ -795,6 +782,21 @@
       ]
     },
     {
+      "title": "Gold gains more than 2% on weaker dollar, easing oil prices",
+      "source": "CNBC",
+      "published": "17/09/2026 02:42",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaG9YazhGMnhxa0V4TFlVbVFjSldNRkUwTUdRZV9FY0RQXzlTTFMzekN4WlVrMzdESVpZbmNNV0IwUXZDeGZCYmljN0pGTUNnZWxZdWRiSmh5a3VjcDB5a3hlbzhUclBCZTB6eVdhWGRWR2dBSE9Nc19hX3pPN0JfbThqbnI1dzJwcVJRTUdsQjBTYWxobkgzM9IBngFBVV95cUxPYzNuR1dpWnNWeDRxTWJCY1g3ZXR0T2ZlOWdMSXB1TGNYR3VBOHdyajR4ekxFalhIUk9hUGlLM1I4RjZXdl9NS1lUeVFvRDBpQjNYbU9uOG9XNkxnc2FsZWhaMXAtN3djMkNmTnVvSktqMV9uckpVRVlYTWJQbWtOT2U3X2F2b196ZjhsLVljSHNiaTAycUtsOGhTT192UQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.9,
+      "impact": "baixa",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Commodities / petróleo"
+      ]
+    },
+    {
       "title": "Rupee crosses 96 against dollar for first time since July 27",
       "source": "CNBC TV18",
       "published": "17/09/2026 00:55",
@@ -824,21 +826,6 @@
       ]
     },
     {
-      "title": "Gold reaches one-week high as crude oil prices ease",
-      "source": "CNBC",
-      "published": "17/09/2026 23:31",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWs4MWFWRlNadUhOVWkyMFJsZkdXWk1tRmMwXy11MU5KVUt2MWZuMmVvRmpFTHYxZ01FZUszanRTZUJqNkFEcVAtdWhlblE1bDZIVlo4YjU0Vk1RUGJGaUtqWFFfR1FEOW1MMmF4MGE5eHJmRlN6MU5lUmRzOVN2TzBZeEtMbmRoQk4yeFFZSmNYd2vSAZgBQVVfeXFMUDlNV3FqOFFjZFA0dmphY3pxcXl6elJqQTRuMFV5QjFWTFVvR1llOFdKTTh2YVE2ZUJoTWota3ZQTUFqeGtESm1IWEtpZjREVUZsWm1sbjVyXzI5WFBJMDVoVEZnRzFacTRQcUx1SzdKOWdOam5uUGl4YkJMZEFUZFNLUHljX2gyN010OHRTWTl6M3k1cFAtdGw?oc=5",
-      "relevance": "média",
-      "credibility": 0.9,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Commodities / petróleo"
-      ]
-    },
-    {
       "title": "Bolsa fecha em queda após decisão do Fed, com Copom e petróleo no radar; dólar fica estável",
       "source": "Folha de S.Paulo",
       "published": "16/09/2026 09:43",
@@ -856,7 +843,7 @@
     },
     {
       "title": "Gestoras reduzem posição comprada em dólar e aumentam aposta na Bolsa brasileira, mostra pesquisa",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "published": "15/09/2026 11:05",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOQzlST3ZsczkzOHlINWNkd29WWUV4UUtnVnpvMi0yLTRCLVlfbmFqRmVSbXVJVlA5RUNpQW5mT0RGQlVaVVVmUTN6d29RV1RUS0RtNmVFZTlUY0JOZUo2YWRja0lrSUxqcDIwU0M0VVZGZGlGSEZYU3NheFlqVTdsWHBYVllqYjlMek9FbHIzdlNjRE95eFpuZFFhNUJCZnUyYkFzbzhibkx3cFJmdXpYbHVkNmlyM1czNXgyUlQ5S2l5X0RweU9fa1VOR2NNTkNnM0dkT1d2aHo0LWR4Yk92amtTbFJ1TEJSUEdN0gHwAUFVX3lxTE1zOWxDU3VOY2hEdzdaRXJqU1hXcEh5MnZLb25qME5YQTg1RjZDS1dfa2Q1T21KbkVoYWhaeVN6RENFNFpMRXM3bW1GNjE4TkFGVFpmaFRYR2MyUzlqWEJsMTB4UWdmdUtNRWdqMkhZdzR4Z1NoZmxSamJnRUFWT1BLbGxMd0FqNnJEVG10NldLWEJRcVZsRjhXbXFxcUpTX2xUMTR0UndlbHNhbUhwRUV2WENlYmhlOWV6NFRtTWxiUFhtNGtMTm0tU0hLUzBFcXc5ZWxQVVprTjAzbktaVHdGNngxUF9ZQlc4Q3Z0dVV2YQ?oc=5",
       "relevance": "alta",
@@ -870,7 +857,7 @@
     },
     {
       "title": "O Copom e a eleição: como a inflação e os juros tendem a se comportar, na visão de analistas",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "published": "15/09/2026 20:00",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOZDVYT05mb3htaEREdHJXTUVHQk5sbUxQRE9LWVh0TnFoTVhZd0E2ZnpmNVVYV3dmZFF1MlgwT1dtZTJ3QUZVdFBOZnNhMnhFTXNOdnVuSkJDVFFXdmZHcXplMDh1T2RaTTdCSnEwX2kzMVNtR0tRSzBMSjA5ekQxdUk3Z0hYdS1yandvZ1ZJVjNrMnFWdU41ODFBcTVtZjkzQ0dVTVJxdlR4bzlHdDlDNlkzYnBtVTRUa19kSnFZRUFRQ2lTaVAwUTI1c3V5ei14Nlk3MDVB0gHbAUFVX3lxTE1oeTQwczNvOE5fS0kxcllMSldwXzdtenFiOTlhR29tbXFtZFFycDNIeHhpV2VhMkZCZDNoRXVmVXcySE5DN24wcG93cW10dzJDTk5RVEhjZ3pNVzBnNVJER3FORVhPYkV0OTBCWTlkZVkxdlh1dExJenNabmhrcE80bFF0QldWSmdhQ1BGSXhIRXJOSS1iTEVXVnF3V0R4QzAxMVU4UFJpSER0ODVGUGdwUXQ5ZnFoVWlhV2NOWHZXeWp0T0NJWjViNWFvSDVaWUowX1hTMnR6NW1SYw?oc=5",
       "relevance": "média",
@@ -886,7 +873,7 @@
     },
     {
       "title": "Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real",
-      "source": "estadao.com.br",
+      "source": "Estadão",
       "published": "17/09/2026 16:38",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQajA0ZDJZQjlCSTZIMU1jRnV4SldKaGE2MGtSU1ZrVURnczBsNFNTNU9FVVhmX1FaX1V1UEVkM3NXWjZxT1ZYRExRbE1vQnRvM1JKUTdqcXZvMUp4LUxldXdHMnJHZFVuV3E0UkJ4U2E4YXFMbGtVZTg2ckdGNXpUZFhWSnZoSnRXUGxVZUt2Wm1TTkJGdU9TY3A4MlpDbFRzN1FDcUctanZkeVNsMmxzTENLc2h5WlZPelp1MXFScGhCb1FjMHl2dzlnSnlldU1yMjBHSGxWRdIB1wFBVV95cUxQajA0ZDJZQjlCSTZIMU1jRnV4SldKaGE2MGtSU1ZrVURnczBsNFNTNU9FVVhmX1FaX1V1UEVkM3NXWjZxT1ZYRExRbE1vQnRvM1JKUTdqcXZvMUp4LUxldXdHMnJHZFVuV3E0UkJ4U2E4YXFMbGtVZTg2ckdGNXpUZFhWSnZoSnRXUGxVZUt2Wm1TTkJGdU9TY3A4MlpDbFRzN1FDcUctanZkeVNsMmxzTENLc2h5WlZPelp1MXFScGhCb1FjMHl2dzlnSnlldU1yMjBHSGxWRQ?oc=5",
       "relevance": "média",
@@ -999,6 +986,20 @@
       "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Ibovespa fecha em alta apoiado por Petrobras e de olho no STF; dólar sobe",
+      "source": "CNN Brasil",
+      "published": "15/09/2026 09:32",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdXpuYjFvOGVaWTdDWlZUZllkSzhaNVhOel9PWkZ0LUlJNmgxUkU0MjhSbXNUSGFubF9pd1RqX3hFOGFWMmJxcU9peW5zNkVfU2lxdV9yU3RNWS1ZYnNhY3lfa3hPWU9SS0VtZ29QMGtEUkpHZGhnaWJyeEdFbjN2RXk2a210QmIzSEdzRkZZTHJrV08wbDJJWmdDWGd1b0xEclc0N09n?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
+      "factors": [
+        "Commodities / petróleo"
       ]
     }
   ]
