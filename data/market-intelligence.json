@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-21T18:32:35.981080+00:00",
+  "generated_at": "2026-09-21T19:28:25.879741+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": -1.91,
+  "score10": -1.09,
   "market_move": {
     "material": true,
     "day_variation_pct": -0.8880271449345556,
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 13 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Commodities / petróleo. Principais vetores de ALTA/risco: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries.",
+    "summary": "A leitura reuniu 28 evidência(s) em 13 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Commodities / petróleo. Principais vetores de ALTA/risco: Fed / juros dos EUA, Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
@@ -23,15 +23,56 @@
         "sources": [
           "Estadão",
           "Exame",
+          "InfoMoney",
           "TradingView",
           "VT Markets",
-          "infomoney.com.br",
           "tmgm.com"
         ],
         "examples": [
           "Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta",
           "Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real",
           "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Exame",
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "Dólar entre juros nos EUA e eleição no Brasil: o que esperar da moeda americana?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "FX weekly: Dollar strengthens as Fed signals further rate hike"
         ],
         "horizon": "10d"
       },
@@ -57,13 +98,14 @@
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
         "score": 1.27,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "InfoMoney",
           "Times Brasil | CNBC",
-          "infomoney.com.br"
+          "bol.uol.com.br"
         ],
         "examples": [
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
@@ -71,49 +113,6 @@
           "Banco Central reduz Selic a 13,75% ao ano antes das eleições e deixa passos futuros em aberto"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Exame",
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -125,8 +124,8 @@
           "CNN Brasil",
           "Exame",
           "Folha de S.Paulo",
-          "UOL Economia",
-          "infomoney.com.br"
+          "InfoMoney",
+          "UOL Economia"
         ],
         "examples": [
           "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
@@ -160,8 +159,8 @@
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Reuters",
-          "infomoney.com.br"
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
           "Global shares edge higher as central banks double down on inflation fight",
@@ -180,15 +179,56 @@
         "sources": [
           "Estadão",
           "Exame",
+          "InfoMoney",
           "TradingView",
           "VT Markets",
-          "infomoney.com.br",
           "tmgm.com"
         ],
         "examples": [
           "Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta",
           "Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real",
           "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Exame",
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "Dólar entre juros nos EUA e eleição no Brasil: o que esperar da moeda americana?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "FX weekly: Dollar strengthens as Fed signals further rate hike"
         ],
         "horizon": "10d"
       },
@@ -214,13 +254,14 @@
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
         "score": 1.27,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "InfoMoney",
           "Times Brasil | CNBC",
-          "infomoney.com.br"
+          "bol.uol.com.br"
         ],
         "examples": [
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
@@ -228,56 +269,13 @@
           "Banco Central reduz Selic a 13,75% ao ano antes das eleições e deixa passos futuros em aberto"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Exame",
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
       }
     ]
   },
   "outlook10": {
     "bias": "BAIXA LEVE",
     "confidence": 75,
-    "summary": "Score técnico consolidado: -1.9. PTAX: último pregão -0,89%; 5 pregões -1,12%; 10 pregões -0,27%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries.",
+    "summary": "Score técnico consolidado: -1.1. PTAX: último pregão -0,89%; 5 pregões -1,12%; 10 pregões -0,27%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -286,8 +284,8 @@
       "Folha de S.Paulo",
       "Estadão",
       "CNN Brasil",
-      "infomoney.com.br",
-      "tnonline.uol.com.br",
+      "InfoMoney",
+      "bol.uol.com.br",
       "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Exame",
@@ -298,7 +296,7 @@
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
     "drivers": [
       {
         "factor": "Fed / juros dos EUA",
@@ -309,15 +307,56 @@
         "sources": [
           "Estadão",
           "Exame",
+          "InfoMoney",
           "TradingView",
           "VT Markets",
-          "infomoney.com.br",
           "tmgm.com"
         ],
         "examples": [
           "Ibovespa hoje fecha em queda com Vale e Petrobras sob pressão; dólar tem leve alta",
           "Selic cai, Fed sobe, mas juros do Brasil ainda atraem estrangeiros para stablecoins em real",
           "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Exame",
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "Dólar entre juros nos EUA e eleição no Brasil: o que esperar da moeda americana?"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 1.74,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Reuters",
+          "TradingView",
+          "VT Markets",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Global shares edge higher as central banks double down on inflation fight",
+          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
+          "FX weekly: Dollar strengthens as Fed signals further rate hike"
         ],
         "horizon": "10d"
       },
@@ -343,13 +382,14 @@
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
         "score": 1.27,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "InfoMoney",
           "Times Brasil | CNBC",
-          "infomoney.com.br"
+          "bol.uol.com.br"
         ],
         "examples": [
           "Em dia de Superquarta, Ibovespa cai 0,51% e dólar fica estável após decisão de juros nos EUA",
@@ -357,49 +397,6 @@
           "Banco Central reduz Selic a 13,75% ao ano antes das eleições e deixa passos futuros em aberto"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Exame",
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.92,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Reuters",
-          "TradingView",
-          "VT Markets",
-          "tmgm.com",
-          "tnonline.uol.com.br"
-        ],
-        "examples": [
-          "Global shares edge higher as central banks double down on inflation fight",
-          "Diferença de juros entre Brasil e EUA diminui, mas ativos locais seguem atrativos para estrangeiros",
-          "Dólar recua com exterior favorável e trade eleitoral - TNOnline"
-        ],
-        "horizon": "10d"
       }
     ],
     "confidence": 75
@@ -407,7 +404,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 213,
+    "raw_news_results": 212,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -415,8 +412,8 @@
       "Folha de S.Paulo",
       "Estadão",
       "CNN Brasil",
-      "infomoney.com.br",
-      "tnonline.uol.com.br",
+      "InfoMoney",
+      "bol.uol.com.br",
       "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Exame",
@@ -451,10 +448,10 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "infomoney.com.br"
+      "name": "InfoMoney"
     },
     {
-      "name": "tnonline.uol.com.br"
+      "name": "bol.uol.com.br"
     },
     {
       "name": "UOL Economia"
@@ -498,10 +495,10 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "infomoney.com.br"
+      "name": "InfoMoney"
     },
     {
-      "name": "tnonline.uol.com.br"
+      "name": "bol.uol.com.br"
     },
     {
       "name": "UOL Economia"
@@ -524,7 +521,7 @@
   ],
   "source_analysis": [
     {
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "count": 9,
       "score": 0.0,
       "status": "material",
@@ -566,11 +563,11 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "tnonline.uol.com.br",
+      "source": "bol.uol.com.br",
       "count": 1,
-      "score": -0.82,
+      "score": 0.0,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "UOL Economia",
@@ -603,7 +600,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 1.09,
+      "score": 1.91,
       "detail": "28 notícia(s) material(is), 13 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
@@ -758,7 +755,7 @@
     },
     {
       "title": "Dólar, Bolsa e juros: como mercado brasileiro deve reagir nesta 5ª após Copom e Fed?",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "17/09/2026 05:00",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUlJmbk1rdmUtUjh5ZlBtVzJNdkE5ZzBsUTF3MGJCN1ktVmJMQjNZSzFaVE5lOXpkOGFhVEcwdUp3ZE1oZGhWUUU0RFhzN3c1X3dXcWV1WFIwdUFXNGNPQW9SYVdSUFVmeEJkSGZjV2Y1MWpEMUJOUXVPT2oxUzdyVDhfNS1sU0xqaHM4NFRTdmNxVFBVVkpZM3JEUEI5a2N1OFNxbGVhTXVBc1RzSTI5eTM1UXlwNnV5YVJTMNIBwgFBVV95cUxOODdmR0RuMjRsbGhVRFNlZmpIcERvekxQQkZLaDVRM0V2NXd6aEZmeWZTa05rQmJOSE5CZVVzTGhyUEdaMWpnUVE1VEhRRHRxQlBOdzhCVlAyNzJNOUIxT1RBenBpTEpmdFl3eFAyR0tVd2dqV3ZwMzY0RWc5T2VJbjV2N0pTWm9qNnNLSURfc0VXeG4tZ2pvcFJpY0l5TGxqQnRqSHhzX0kzTnI4WTlxM3VHUS1zYk10RktkbWFGUk9QQQ?oc=5",
       "relevance": "alta",
@@ -773,7 +770,7 @@
     },
     {
       "title": "Dólar hoje fecha estável no Brasil, a R$ 5,15, após Fed elevar juros e antes do Copom",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "16/09/2026 17:39",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQM181aWFNWl9CVl94OXFsUGoySW5nNzdSQlZuSVM5WWZjazlQUTZhbGliUG9wbmNPU2dOSFpLZXliMEFWY2hGSnllQkVZQUgyWjlEY0FjenpaMXhyZkhrV2ZLdXJralhhaVJZRWVIc0xrcXhySV84V1lheGwteENuMWpUNm1ubC1BT01GOFR1MW9UdWJqN0xXYkxYSTDSAaIBQVVfeXFMT2wwT2NYQW5QeW9ZcE1Ec3RaUDdhVmwzRmQyeHVXd1hiNjhiMnZMSElDcDZrYWx6V0RJdjhfdVRfMFdfdEp5WWhRMnp1RGlIWlhmdmxwbmdzd2VmNFFLNHRrVlBBNnRfUlFhMXp0M0tDSG9NeldiX216RWxOYzBBUXc5dkNvaklUaVRjdEF3NFY4STA5X3ZPMWlkVkU0bHBDV1l3?oc=5",
       "relevance": "alta",
@@ -803,7 +800,7 @@
     },
     {
       "title": "Dólar tem baixa e real se recupera após reação negativa a reajuste do Bolsa Família",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "17/09/2026 17:15",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR3d1b0U1X0NPVHU0YU5DR0wxLVp3Y0l2SVpyZ1JQa3VtOENKRm5ac3dkSUREN293RFNlWEd6NFlhUTNyWWpJTTU2eWgtUGhDYnpaUWFOeEJGRzctRnBXNG94dlZ5REViLXl1NnJORHlBYlprVlE2MTNTQnhYcEZhTHViVkVEbU1UN09ndkdFa29LRUMwSWtMdEJHV0_SAaIBQVVfeXFMTVpYWW5xYkJjNXVuSFd0RkFlSXctNGZpNWttT2NkdWxBVmtJdHMxaXV2bFhLRExkeUxFSkozbG5pLVRFNFVYbE9KN3VKbmNkTzhFWC1WaWh6d2x5amNRQkwwUXVUN1ZUY2ppSHBHaHdrWE8yS0FISFFJR09zX1FidXpjWEpLV01jY0I4djVMc3N2TWtsOGI1aUFBMzdQUHZSWlNR?oc=5",
       "relevance": "alta",
@@ -817,7 +814,7 @@
     },
     {
       "title": "Dólar hoje recua com fraqueza global e novo empate técnico entre Lula e Flávio",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "21/09/2026 12:59",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaEhBNHhXWHlYX0JHbXNNcXFEMThONUdQUFdPTmlhQnloaXRoU0YzNmlwMGhEYzBuZDdEUDA4LUkyZ1l6M2Vhb1N0WVlZd1ZTLWhNSURCb1AxWHh5TnU0cEhISkJ1cDR2cmZrX2NxOS1BZ3ZhNGxFcG9wRUN5U1Y3V1NTNGVBV1ZRTUp6aWhMV3h5V3JWXzJKMFRSUEbSAaIBQVVfeXFMTkQ2MFRrSUgzNE0tNTFFOC1jOUpWQ29kb08wanhDSzViSk1LeGV6Vnc5b2FydmhTcGpMNFlXVEc2QnNCOWF6bE8yV29jeG5ZNmRreng1ZlVDbmJicTFPRmQ3QVFIXzFyelVRRFdjMDNONnktQ3J4c3hmWXRtdVMwbzdEUFk2Q3A1MlVCbHNqeXlIV2l4NUtFdGk4NmszQkFIV1dB?oc=5",
       "relevance": "alta",
@@ -831,7 +828,7 @@
     },
     {
       "title": "Dólar hoje opera quase estável após nova pesquisa e antes de leilões do BC",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "18/09/2026 09:30",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR0hKM2ZIMGJmZVotQklzQUNBY0xFQnEwbWdWR1hEOTFRSEhBOXJpcDVoaVJuMGpHbURDV18zYmxWWnpoR2RxQ2M5T3RTNjJsUll6d205Ukk2V0NrQ081OXFucDBVNjJSN1BFQVNEMGVUaVdzaVl6OGU0NEhZQm5RblJLOGEtbjNZdXYyQy1TMVljS3owUndPMk8wXzlzRk5RbFHSAaIBQVVfeXFMUEdISjNmSDBiZmVaLUJJc0FDQWNMRUJxMG1nVkdYRDkxUUhIQTlyaXA1aGlSbjBqR21EQ1dfM2JsVlp6aEdkcUNjOU90UzYybFJZendtOVJJNldDa0NPNTlxbnAwVTYyUjdQRUFTRDBlVGlXc2lZejhlNDRIWUJuUW5SSzhhLW4zWXV2MkMtUzFZY0t6MFJ3TzJPMF85c0ZOUWxR?oc=5",
       "relevance": "alta",
@@ -859,7 +856,7 @@
     },
     {
       "title": "Ibovespa Hoje Ao Vivo: Bolsa sobe com exterior e eleições em foco",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "21/09/2026 12:10",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkJ5MFVYNlBPSjNvdzhTWm1pMWhFZllrekg5YmtBUWNDSEZxSmYxS2hEQXh5U3RnRXpCT1l6S0lYY1VKNGtrTllUVG1qMFVzclRSZUVtRldzdmVpMGh6RktuWjNwSFh4YVNxbTNfOHdBR0lsemRuRXZoWGpxQjd3UWdSMmJFRnJkQVJHV2w3UQ?oc=5",
       "relevance": "média",
@@ -874,7 +871,7 @@
     },
     {
       "title": "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "21/09/2026 10:56",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORnFFUVNuWkZJYnBXYVJnUVo4U2hoUURjRUNmdC1YVVdEUXdiRnA1TWUzVEtYOTZmZkpJdm9VSXpMX3dfLWRSX3M3cmNfdnpGY2ViY2FlN1RNZllWc3FFVkFSY09SQV8xNGZwN2I5SEpERHpSTkU1Q08wdnQtRmhfd3pyVmN4SjRxczFYclhSaGNFcTc3d2szMDJJOWJmOGwtcklNc1JhQ0t6RFRrUHfSAbMBQVVfeXFMUHo0eGd1WkVhaVhONGEyaTNDTGFlWmxRUHM2MF9IV3l4WnNJQklENDNWb3lHTXlld1U2YkRWX2l6aUdGdTQ0bm4zb3FCSlRrdXN0Ri1IQ3Bab2lhYldZTUJTMTdwcmVzY3RVcGsxM1BmX0Z4bF83NGR4Z2d1a25zRlZRZ0RjUmZqY3hUSU92MTNyaldycHVXNC05T0ZmU0lLQXdnT1RVbkRIWDJFYUdKUnNpSU0?oc=5",
       "relevance": "média",
@@ -889,7 +886,7 @@
     },
     {
       "title": "O que escolher em uma bolsa “amassada” antes das eleições? Veja apostas do mercado",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "21/09/2026 11:00",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQc2FGNU4ybFJZaktJZVk5RzZzcmNFeGpIdkVicXZKcmRrV1JGRWpZY19KNWtpRlZqdVE3UFAwNHpxcVFybEFJQ0NCN3R6OTRFSVBSQXM2UkpBTGhhM1JiUUlkWUNZWWx1S0diVm9FeUYzSUtRaWE2bTExaE5EVTFkT2NDUFh4QmVmNV9UcnF0a9IBjwFBVV95cUxQc2FGNU4ybFJZaktJZVk5RzZzcmNFeGpIdkVicXZKcmRrV1JGRWpZY19KNWtpRlZqdVE3UFAwNHpxcVFybEFJQ0NCN3R6OTRFSVBSQXM2UkpBTGhhM1JiUUlkWUNZWWx1S0diVm9FeUYzSUtRaWE2bTExaE5EVTFkT2NDUFh4QmVmNV9UcnF0aw?oc=5",
       "relevance": "média",
@@ -904,7 +901,7 @@
     },
     {
       "title": "Estrangeiro voltou à Bolsa; Selic menor e Fed mais duro podem frear o rali?",
-      "source": "infomoney.com.br",
+      "source": "InfoMoney",
       "published": "17/09/2026 13:00",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01WUJ0LXZyVDdlT0FPZ2lPRkFoRnk0aUJ1bUN5dW9xSk4tanlqdW51dFFfMjJzZ3NYTnZRVXBuTnNEVjRlZjlKOC1ELU9vNXgwcU9TYVFrYnNtWHNiYUFkMTRDcHFNLXIxSDBTeU0yLVJITjU2XzJpcTI3bEzSAYIBQVVfeXFMT2NFbm5jQnN2VGNmRUYwQ0J2RUJNV21nRGpwRWNhSlc1REI5SDVfTHhWZnVZSFNwdXZwSzZILUMwMUhvTnBoQ3dEWGhyMkFrNmVOLW5PampGR3lKeFNRTVg4Q1BhbGlOOVZoYVdRTjVOZHUtT3VEdk1ZVmdoQ3gtQjNqZw?oc=5",
       "relevance": "média",
@@ -918,18 +915,17 @@
       ]
     },
     {
-      "title": "Dólar recua com exterior favorável e trade eleitoral - TNOnline",
-      "source": "tnonline.uol.com.br",
-      "published": "21/09/2026 09:48",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDROeTA1eXFYSEFIUEVfRHN0Z3NYdXFWTG9HZmJ2ZV9qb1JsdmNuTmVLcnRGTzA0Y3MyQzJLWTlTdVNJMHBreXZjQTZKT3ZRMmZaTVQ1eWtUTTE4Vk14cUl1WHNCN00tZHNuUjNPRmhnM0xhUVFSOEdkczBwLTF4T0NSNm1vSjVYVUUxRW1CU2Z0TmZnQV84MTJqVHIzRTJxWmJwc190bFg5QdIBtAFBVV95cUxQR1hDYmtneTE1VmJ2Tmd3Q0hBUHRFbk4xVzJIRWxfTlZidG9sTllJbXlFYzY4RllUVFEtMzVqc0luRnZQemNXRmI5Q0pwd19yYmFQSUFhTzBMaktGY0VhV0RIUDg4a2dBWHhrTF82c1VaX3h5cS1CY0g4aDVrVnp3Ny0zUUpSU2pUSGU2QzJQUUlMS0FkamVXdTZjLWVaa0lfN0RWUmVVSWFzM0FuMlBCWW5Gbnc?oc=5",
+      "title": "Dólar abre última sessão de semana marcada por juros e política econômica",
+      "source": "bol.uol.com.br",
+      "published": "18/09/2026 09:04",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbXVkaWFMSVkxcHJCVnpQN1p6d2FkZkhuckhDNlJLamdlRjJhRldaTjMwSk9vM1dCTGYtdTZSZENUZ3JuY0Jwcm9YMU1Qc1lEbE9ZNVFpVXAwTDdTQy13Z0dORU5kbGhpTmtCM1NYMmVPdk1fazctT0YydlRmSUFaRVQtM081S0t4V3pIM3BSSU92R2RMU2U3bkpCU3k?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
       "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
+        "BCB / Selic / Copom"
       ]
     },
     {
