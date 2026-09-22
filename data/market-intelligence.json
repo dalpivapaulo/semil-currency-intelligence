@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-22T16:30:37.621309+00:00",
+  "generated_at": "2026-09-22T17:27:59.478777+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 1.3,
+  "score10": 2.12,
   "market_move": {
     "material": false,
     "day_variation_pct": 0.08607703894987218,
@@ -11,39 +11,21 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 13 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Brasil — fiscal, BCB / Selic / Copom, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 13 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: BCB / Selic / Copom, Brasil — fiscal, Fed / juros dos EUA.",
     "today_summary": "USD/BRL no último pregão: +0,09%; momento em 5 pregões: -0,64%. Pressões de alta: Fed / juros dos EUA.",
     "factors": [
       {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
-          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
-          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
-        "score": 1.64,
-        "evidence_count": 10,
+        "score": 2.46,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
@@ -53,19 +35,37 @@
         "horizon": "90d"
       },
       {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 1.7,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
+          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
+          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 1.16,
-        "evidence_count": 11,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
+          "Exame",
           "FXEmpire",
+          "FXStreet",
           "InfoMoney",
           "VT Markets",
           "Yahoo Finance Singapore",
-          "exame.com",
-          "mitrade.com",
           "stonex.com"
         ],
         "examples": [
@@ -83,10 +83,10 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
-          "exame.com"
+          "Times Brasil | CNBC"
         ],
         "examples": [
           "Ibovespa sobe 0,74% com eleição e caso Master no foco; dólar cai a R$ 5,11 com apetite por risco",
@@ -99,16 +99,16 @@
         "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": 0.3,
-        "evidence_count": 9,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
+          "Exame",
           "FXEmpire",
+          "FXStreet",
           "Folha de S.Paulo",
           "InfoMoney",
           "VT Markets",
           "Yahoo Finance Singapore",
-          "exame.com",
-          "mitrade.com",
           "stonex.com"
         ],
         "examples": [
@@ -122,15 +122,15 @@
         "factor": "Treasuries",
         "impact": "neutro",
         "score": 0.3,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "FXEmpire",
+          "FXStreet",
           "Folha de S.Paulo",
           "InfoMoney",
           "VT Markets",
           "Yahoo Finance Singapore",
-          "mitrade.com",
           "stonex.com"
         ],
         "examples": [
@@ -163,50 +163,34 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 2,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
+          "FXEmpire",
           "Folha de S.Paulo",
           "InfoMoney"
         ],
         "examples": [
           "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%"
+          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%",
+          "U.S. Dollar Tests New Highs As Fed’s Collins Warns About Inflation Risks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
       }
     ],
     "future_drivers": [
       {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
-          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
-          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
-        "score": 1.64,
-        "evidence_count": 10,
+        "score": 2.46,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
@@ -216,19 +200,37 @@
         "horizon": "90d"
       },
       {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 1.7,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
+          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
+          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 1.16,
-        "evidence_count": 11,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
+          "Exame",
           "FXEmpire",
+          "FXStreet",
           "InfoMoney",
           "VT Markets",
           "Yahoo Finance Singapore",
-          "exame.com",
-          "mitrade.com",
           "stonex.com"
         ],
         "examples": [
@@ -246,10 +248,10 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
-          "exame.com"
+          "Times Brasil | CNBC"
         ],
         "examples": [
           "Ibovespa sobe 0,74% com eleição e caso Master no foco; dólar cai a R$ 5,11 com apetite por risco",
@@ -263,7 +265,7 @@
   "outlook10": {
     "bias": "ALTA LEVE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +1.3. PTAX: último pregão +0,09%; 5 pregões -0,64%; 10 pregões +0,60%. USD/BRL no último pregão: +0,09%; momento em 5 pregões: -0,64%. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, BCB / Selic / Copom, Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: +2.1. PTAX: último pregão +0,09%; 5 pregões -0,64%; 10 pregões +0,60%. USD/BRL no último pregão: +0,09%; momento em 5 pregões: -0,64%. Pressões de alta: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: BCB / Selic / Copom, Brasil — fiscal, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -272,50 +274,32 @@
       "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "economia.uol.com.br",
+      "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "exame.com",
+      "Exame",
       "FXEmpire",
       "stonex.com",
+      "FXStreet",
       "VT Markets",
-      "Yahoo Finance Singapore",
-      "mitrade.com"
+      "Yahoo Finance Singapore"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, BCB / Selic / Copom, Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: BCB / Selic / Copom, Brasil — fiscal, Fed / juros dos EUA.",
     "drivers": [
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
-        ],
-        "examples": [
-          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
-          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
-          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
-        ],
-        "horizon": "90d"
-      },
       {
         "factor": "BCB / Selic / Copom",
         "impact": "alta",
-        "score": 1.64,
-        "evidence_count": 10,
+        "score": 2.46,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
@@ -325,19 +309,37 @@
         "horizon": "90d"
       },
       {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 1.7,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dólar sobe e Bolsa cai com eleições e cenário fiscal no radar dos investidores",
+          "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
+          "Dólar hoje: O Diferencial de Juros Começou a Mudar o Câmbio"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 1.16,
-        "evidence_count": 11,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
+          "Exame",
           "FXEmpire",
+          "FXStreet",
           "InfoMoney",
           "VT Markets",
           "Yahoo Finance Singapore",
-          "exame.com",
-          "mitrade.com",
           "stonex.com"
         ],
         "examples": [
@@ -355,10 +357,10 @@
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
+          "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
-          "exame.com"
+          "Times Brasil | CNBC"
         ],
         "examples": [
           "Ibovespa sobe 0,74% com eleição e caso Master no foco; dólar cai a R$ 5,11 com apetite por risco",
@@ -373,7 +375,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 222,
+    "raw_news_results": 225,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Times Brasil | CNBC",
@@ -381,14 +383,14 @@
       "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "economia.uol.com.br",
+      "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "exame.com",
+      "Exame",
       "FXEmpire",
       "stonex.com",
+      "FXStreet",
       "VT Markets",
-      "Yahoo Finance Singapore",
-      "mitrade.com"
+      "Yahoo Finance Singapore"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -417,13 +419,13 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "economia.uol.com.br"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "name": "exame.com"
+      "name": "Exame"
     },
     {
       "name": "FXEmpire"
@@ -432,13 +434,13 @@
       "name": "stonex.com"
     },
     {
+      "name": "FXStreet"
+    },
+    {
       "name": "VT Markets"
     },
     {
       "name": "Yahoo Finance Singapore"
-    },
-    {
-      "name": "mitrade.com"
     }
   ],
   "sources_checked": [
@@ -464,13 +466,13 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "economia.uol.com.br"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "name": "exame.com"
+      "name": "Exame"
     },
     {
       "name": "FXEmpire"
@@ -479,13 +481,13 @@
       "name": "stonex.com"
     },
     {
+      "name": "FXStreet"
+    },
+    {
       "name": "VT Markets"
     },
     {
       "name": "Yahoo Finance Singapore"
-    },
-    {
-      "name": "mitrade.com"
     }
   ],
   "source_analysis": [
@@ -504,11 +506,11 @@
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "economia.uol.com.br",
-      "count": 4,
-      "score": 1.64,
+      "source": "UOL Economia",
+      "count": 3,
+      "score": 2.46,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
@@ -519,10 +521,10 @@
     },
     {
       "source": "FXEmpire",
-      "count": 2,
+      "count": 3,
       "score": 1.16,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Times Brasil | CNBC",
@@ -569,7 +571,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 1.3,
+      "score": 2.12,
       "detail": "28 notícia(s) material(is), 13 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
@@ -782,7 +784,7 @@
     },
     {
       "title": "Dólar sobe a R$ 5,15 Bolsa cai, com ajustes a juros e à política fiscal",
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "published": "18/09/2026 13:04",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeE5WUUt6TGJVSjBVSzgtR3F1VldVWU5DeXNyZFE5bVdkUzhwUU8zZnlyNHVKOUE4SFpTOHNoaEgzZm9WbTFNTnVGdjIyMndXeTJ0ZHF4WGZ0QlZ3Rm04X0FQNHRheS1DeW5fam9wQURhV0R0T1VqbWFPVUJLa0pDZ19JMUFEWnBfQXYtcUFpNTRyalZmeXhNTllHc2tkMlhXNWl1WnlTbExXSldXSGx4eGNzZEw?oc=5",
       "relevance": "alta",
@@ -797,7 +799,7 @@
     },
     {
       "title": "Dólar sobe a R$ 5,12 e Bolsa tem queda, após BC divulgar ata do Copom",
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "published": "22/09/2026 12:33",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbEd0Vm5jQTI2eHRMdjZlbTMyblVMSTZVSW1BTGsyS3FCVnZWT29hM0FtWm5XWmdSOUE0QTVUNGVieV81Q3owNy1Zb002SmEzNGRwR0JfVUNHcFpkSFR0bkJCNXVJMFRZUi1CNU01dmxsbjNKNC1uT29GVXdWbXRRbzFDZHZSR1VpcHRDQ1FIUm15N3hmVXNDZUxyR3FaQmNLTlctLWo5d0I5OEl1V3VHVUFqN1k?oc=5",
       "relevance": "alta",
@@ -811,26 +813,12 @@
     },
     {
       "title": "Dólar sobe ante real com mercado digerindo ata do Copom",
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "published": "22/09/2026 09:17",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGNEbnYwa3NQTm94S0h1U1p5MGZCcTZUeGpHVXV1TG16czZHRDRMNWV0SXhNLTU5ZmJCclJWdTdEbzFyMWFzbVh3MlRxMmhkSGFRRDZtRGRJMzE2b1g2Z2F3SDBEc0JBWlphb1N3OEt1bTZ5d1JrbU1PYnBjS2NqOWtDT184SW5qZmpwOFM0R0pzQXNTSGlSWm15STFyU1d5SzRvWHo1WmpIcWh3QnczdmltZ09RNGFV?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
       "impact": "alta",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Dólar cai a R$ 5,139 e Bolsa sobe após aumento do programa Bolsa Família",
-      "source": "economia.uol.com.br",
-      "published": "17/09/2026 17:03",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN0p1YTFjQm9RYm0zMGFxRGpKVmZlSW56aWNvY0plZUZmWjFHRkZmY0t5a19ZelE1SHhvaldpSzRLQ3ZCcGk5dGtyd1ZCZ1BoUHJ4cWRPSzBQcFlYNk1Va3dkTmdwaFJHVzhtb0NFZV93WXJtS21DaDNtUFZnV2p5c3hOVnZVYWxTN19GMjFtWWJNUXpUOGV5M2p3bzJxelhKaTVPRkhIZVB4RkZpQTNvMnIwMVNnOXdaZHJOYw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "baixa",
       "horizon": "90d",
       "theme": "BCB / Selic / Copom",
       "factors": [
@@ -880,7 +868,7 @@
     },
     {
       "title": "Dólar entre juros nos EUA e eleição no Brasil: o que esperar da moeda americana?",
-      "source": "exame.com",
+      "source": "Exame",
       "published": "21/09/2026 05:04",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPY0pGX2hPVGxWdmtSMmwtdGlSMy15d3FwNHhtQXdENURqbFh1UlhDMUFhdVdxN0daWE5jTVJXelNKal9yVGhPZ0hZWXBqRF95MTgxVTRVX0VuU0hlTlk4dzhvcDdmZmprQVc3TklhbHI0OG1pUXdlaEc5bWxia3piMDdVTy1OZkh1V2lGeW1KWThmNWZSdElsaE9OWmdYZ2c5TFVMX1ZXMGoxVGZUVHdVNDUtdw?oc=5",
       "relevance": "alta",
@@ -911,10 +899,10 @@
       ]
     },
     {
-      "title": "Interest Rate Forecast: Fed Hike Expectations Support US Dollar",
-      "source": "FXEmpire",
-      "published": "20/09/2026 07:34",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSmFoblhvUmJCZTZBNVUwV0Rnd1diSS04M3hRcHpTUFdFVGhZSFJQa2g4M0p5TGdNdTFVakNHQjhGeVZyN180R09OQkVMNmV3YmhmLVg2Sm1KTTc4eFpyLXRLVjRURktpU0FXRFB6VEtWTDlma0hoQzNCa1ZOUmJ5XzRQVm10UnpWQWo0czNjYi1TMEk5NEZqVWFlbnd2bTlRVUozSXZxc0hQS2NsV1JzcVJGcw?oc=5",
+      "title": "Fed tightening cycles and the US dollar: what history shows",
+      "source": "stonex.com",
+      "published": "21/09/2026 20:00",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPb1RUVzVfalI1RWs5cFFMU3NKeTZhY0xBbmdBRGdhU3Bwck5tQmpiTEFXOEpqelptcncwdTJZVGlxZmFsOGFBS1VSV21BYjJMS3B2SE1ZSlpNSU1aNHFiZmxyeExEN1cxd3BuSzFXT1RQTjZYcWxqNjlfOV9IM1NQeHNPMUVteXVlZWdzSjV4Sl9DRE5YQUVlbnFkdXFhbEpCOGN2NkctSVJkZw?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
@@ -924,6 +912,23 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
+      ]
+    },
+    {
+      "title": "U.S. Dollar Tests New Highs As Fed’s Collins Warns About Inflation Risks: Analysis For EUR/USD, GBP/USD, USD/CAD, USD/JPY",
+      "source": "FXEmpire",
+      "published": "22/09/2026 13:59",
+      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPenhTN2hZZHBZb2cxN2lzOVRxTUZXZkgzUXNzaGRIbWVleThJajBkbGIyRS14NTdUN2ItSkJ3X3RFbnl2eXhCcVhGM3EzNnVIOEJiTHA1VGtYUm1fdXFzNmpLdFkzVTJFQkdEQkx6MDhLeUhJdnZVNXBIbm54Mkh3UW5uN0l5TDA4My1meUVZR0FweVpObEI5SjZnRm1zbElGRE00OVNTSTcxSVI4ODgyWkdOZGROQ3EzS3VBNDhSd1d2QnNKQVBvN0NyYWZRTWtNUTE4WEZoUzYxZFUzU1RfSE54YUlLZ2JjODZBZ2lSTDBBbVpRZDZhMXB3?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries",
+        "Dados econômicos dos EUA"
       ]
     }
   ]
