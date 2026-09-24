@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-23T21:44:29.592377+00:00",
+  "generated_at": "2026-09-24T12:36:14.065926+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 3.62,
+  "score10": 5.0,
   "market_move": {
     "material": true,
     "day_variation_pct": 0.49451730810576855,
@@ -11,291 +11,297 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 8 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom, Dólar global / DXY. Principais vetores de ALTA/risco: Brasil — política / eleições, Commodities / petróleo, Fed / juros dos EUA, Dados econômicos dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 9 fonte(s) independente(s). Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Commodities / petróleo.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.52,
-        "evidence_count": 12,
+        "score": 4.32,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia"
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
         ],
         "examples": [
-          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Goldman Sachs vê eleição abrindo cenários opostos para o dólar e aponta o fator decisivo",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 4.32,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.64,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Rupee slips as dollar gets Fed hike expectations tailwind",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 1.7,
+        "score": 1.86,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "Reuters",
           "UOL Economia"
         ],
         "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
           "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.9,
+        "factor": "Fluxo / apetite a risco",
+        "impact": "alta",
+        "score": 1.8,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Times Brasil | CNBC"
+        ],
+        "examples": [
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "alta",
+        "score": 1.7,
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
           "UOL Economia"
         ],
         "examples": [
-          "Ibovespa sobe 0,44% com bancos, Petrobras, Vale e trade eleitoral; dólar cai a R$ 5,10 após ata do Copom",
-          "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
+          "Ibovespa hoje: BC, fiscal e Datafolha movimentam mercado nesta quinta"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 0.86,
-        "evidence_count": 7,
+        "factor": "BCB / Selic / Copom",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Rupee slips as dollar gets Fed hike expectations tailwind",
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "baixa",
-        "score": -0.86,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.82,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
           "Folha de S.Paulo",
           "InfoMoney",
           "UOL Economia"
         ],
         "examples": [
-          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%",
-          "Dólar sobe a R$ 5,168 e Bolsa cai com petróleo em alta e inflação nos EUA"
+          "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
+          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic",
+          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.38,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "InfoMoney"
         ],
         "examples": [
-          "Eleições 2026: que esperar do dólar durante o período, segundo o Goldman Sachs"
+          "Ibovespa hoje: BC, fiscal e Datafolha movimentam mercado nesta quinta",
+          "Eleições 2026: que esperar do dólar durante o período, segundo o Goldman Sachs",
+          "A armadilha do populismo fiscal e como ela chega à sua carteira"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
+          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%"
         ],
         "horizon": "90d"
       }
     ],
     "future_drivers": [
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.52,
-        "evidence_count": 12,
+        "score": 4.32,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia"
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
         ],
         "examples": [
-          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Goldman Sachs vê eleição abrindo cenários opostos para o dólar e aponta o fator decisivo",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 4.32,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.64,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Rupee slips as dollar gets Fed hike expectations tailwind",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 1.7,
+        "score": 1.86,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "Reuters",
           "UOL Economia"
         ],
         "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
           "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.9,
+        "factor": "Fluxo / apetite a risco",
+        "impact": "alta",
+        "score": 1.8,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Times Brasil | CNBC"
+        ],
+        "examples": [
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "alta",
+        "score": 1.7,
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
           "UOL Economia"
         ],
         "examples": [
-          "Ibovespa sobe 0,44% com bancos, Petrobras, Vale e trade eleitoral; dólar cai a R$ 5,10 após ata do Copom",
-          "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
+          "Ibovespa hoje: BC, fiscal e Datafolha movimentam mercado nesta quinta"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 0.86,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Rupee slips as dollar gets Fed hike expectations tailwind",
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "baixa",
-        "score": -0.86,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.82,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%",
-          "Dólar sobe a R$ 5,168 e Bolsa cai com petróleo em alta e inflação nos EUA"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.38,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
       }
     ]
   },
   "outlook10": {
     "bias": "ALTA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +3.6. PTAX: último pregão +0,49%; 5 pregões -0,22%; 10 pregões +0,85%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Commodities / petróleo, Fed / juros dos EUA, Dados econômicos dos EUA.",
+    "summary": "Score técnico consolidado: +5.0. PTAX: último pregão +0,49%; 5 pregões -0,22%; 10 pregões +0,85%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Commodities / petróleo.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -305,143 +311,128 @@
       "Folha de S.Paulo",
       "Estadão",
       "InfoMoney",
-      "CNN Brasil",
-      "UOL Economia"
+      "UOL Economia",
+      "Investing.com",
+      "Investing.com India"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Commodities / petróleo, Fed / juros dos EUA, Dados econômicos dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Commodities / petróleo.",
     "drivers": [
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.52,
-        "evidence_count": 12,
+        "score": 4.32,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia"
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
         ],
         "examples": [
-          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Goldman Sachs vê eleição abrindo cenários opostos para o dólar e aponta o fator decisivo",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 4.32,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "Investing.com",
+          "Investing.com India",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 3.64,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "WSJ"
+        ],
+        "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
+          "Rupee slips as dollar gets Fed hike expectations tailwind",
+          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 1.7,
+        "score": 1.86,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
+          "Reuters",
           "UOL Economia"
         ],
         "examples": [
+          "Rupee declines to one-week low as oil rally fans global rate hike worries",
           "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.9,
+        "factor": "Fluxo / apetite a risco",
+        "impact": "alta",
+        "score": 1.8,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Times Brasil | CNBC"
+        ],
+        "examples": [
+          "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "alta",
+        "score": 1.7,
         "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Times Brasil | CNBC",
           "UOL Economia"
         ],
         "examples": [
-          "Ibovespa sobe 0,44% com bancos, Petrobras, Vale e trade eleitoral; dólar cai a R$ 5,10 após ata do Copom",
-          "Opinião - Samuel Pessôa: A relação entre câmbio e juros reais",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
+          "Dólar sobe mais de 1% com alta do petróleo e cenário eleitoral no radar; Bolsa fecha em baixa",
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
+          "Ibovespa hoje: BC, fiscal e Datafolha movimentam mercado nesta quinta"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 0.86,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "WSJ"
-        ],
-        "examples": [
-          "Rupee slips as dollar gets Fed hike expectations tailwind",
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "baixa",
-        "score": -0.86,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.82,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Fed: Goolsbee vê espaço para corte de juros se inflação caminhar para 2%",
-          "Dólar sobe a R$ 5,168 e Bolsa cai com petróleo em alta e inflação nos EUA"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.38,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "InfoMoney",
-          "WSJ"
-        ],
-        "examples": [
-          "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
-          "U.S. Stocks Decline as Treasury Selloff Deepens",
-          "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio"
-        ],
-        "horizon": "10d"
       }
     ],
     "confidence": 82
@@ -449,7 +440,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 246,
+    "raw_news_results": 244,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -458,8 +449,9 @@
       "Folha de S.Paulo",
       "Estadão",
       "InfoMoney",
-      "CNN Brasil",
-      "UOL Economia"
+      "UOL Economia",
+      "Investing.com",
+      "Investing.com India"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -491,10 +483,13 @@
       "name": "InfoMoney"
     },
     {
-      "name": "CNN Brasil"
+      "name": "UOL Economia"
     },
     {
-      "name": "UOL Economia"
+      "name": "Investing.com"
+    },
+    {
+      "name": "Investing.com India"
     }
   ],
   "sources_checked": [
@@ -523,26 +518,22 @@
       "name": "InfoMoney"
     },
     {
-      "name": "CNN Brasil"
+      "name": "UOL Economia"
     },
     {
-      "name": "UOL Economia"
+      "name": "Investing.com"
+    },
+    {
+      "name": "Investing.com India"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 9,
+      "count": 11,
       "score": 0.0,
       "status": "material",
-      "summary": "9 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 5,
-      "score": 1.64,
-      "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "11 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Folha de S.Paulo",
@@ -552,18 +543,18 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "CNN Brasil",
+      "source": "UOL Economia",
       "count": 4,
-      "score": 0.0,
+      "score": 0.82,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "WSJ",
+      "source": "Reuters",
       "count": 2,
-      "score": 0.0,
+      "score": 0.98,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Estadão",
@@ -573,7 +564,14 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Reuters",
+      "source": "Investing.com",
+      "count": 2,
+      "score": 2.4,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "WSJ",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -582,9 +580,9 @@
     {
       "source": "Times Brasil | CNBC",
       "count": 1,
-      "score": -0.9,
+      "score": 1.8,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -610,11 +608,28 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 1.62,
-      "detail": "28 notícia(s) material(is), 8 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "score": 3.0,
+      "detail": "28 notícia(s) material(is), 9 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
+    {
+      "title": "Rupee declines to one-week low as oil rally fans global rate hike worries",
+      "source": "Reuters",
+      "published": "23/09/2026 23:45",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYWxRcGJGem9jUEZ0dXY2NDVGblVTZElHakV4bmVHQXl5SHpyemdjME1vZFlOMldrWk5uWm5ncFI3dHNpdUJpS2FPUHFxTGc3bVFFQjF3bmR2ckdpaU1NUXl6OUNudzlYLWE4ZEVHelRFNk5GdzRRQzV2ZFRlNmJUSGtZSFhTWEFmMmdIdlRTVjlucjVhTEE3STJtdGppemZpM2Vka0RsTE1qbjZJZHlZ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries",
+        "Commodities / petróleo"
+      ]
+    },
     {
       "title": "Rupee slips as dollar gets Fed hike expectations tailwind",
       "source": "Reuters",
@@ -632,7 +647,7 @@
     {
       "title": "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets",
       "source": "WSJ",
-      "published": "23/09/2026 11:11",
+      "published": "23/09/2026 11:48",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWd1TXlQMWFteE5laG9vTTFUNkFieFpXVlo2SG5TWS1mNUxZbW5kUkhGUkpBa0tkNW1hc1Q2ZEhXMVQ4TW84Q2ZYdld5OHZzV3dXbi1FYTc4WjZpVko1QVo4NU4zdEdJakpOM1UyeFI2RktZeDA3UklxSUhNaFQyVUs2UjhsSDRuMVNxaExiSmptWDdJcmdfb01MdFowS2tSM2RCWDZJcGszQzR1anJYcDB0MlVrY0tleEFsSnMyTmJaUTktSmJr?oc=5",
       "relevance": "alta",
       "credibility": 0.94,
@@ -646,32 +661,20 @@
       ]
     },
     {
-      "title": "U.S. Stocks Decline as Treasury Selloff Deepens",
-      "source": "WSJ",
-      "published": "23/09/2026 15:19",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbkdxd3BfVEw4UWYweEFZc3VGdTFOeDNYZ1JGSGdLZWNlSlc2bjJ5N3p6YmNTSTdOdDdQbkxEY2piQ0R0MjFnYWZ0OGxtNUVsYjhMbkx5V0lzWnFPSkVyZFJZTDBBYm1tVDVZU3lBQjRyZTFsMzlqaENEaUk1Uy1FY01CUVhIUExBQ0RwWkhhbWxZbE5HOGdwVzF2TW4wRUsydWF2a1J4MGJBMkNOWVFxSDln?oc=5",
+      "title": "Ibovespa cai 0,86% com aversão a risco global; dólar dispara a R$ 5,17 com temor de novas altas do Fed",
+      "source": "Times Brasil | CNBC",
+      "published": "23/09/2026 18:20",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOLVl5cVZScE52Mm0wOEl3WTBwdUVkM2Z6bFlvMk50b3QzYzR3OV9DRlJUcndGeHc4d1VvVGFBaG1XX1pwX2U4Sl9xa2w3bC1QdmJxN29URjRNcVNBSk0xSGhrekw5VDlTZ2xETGtHUXVvQmhYSXNsdnlZWE0tN3gtM2dQN0p4OVlPNlBmaXVmVFgxSWhySk9FQmZEdlZST1RycTRtbzFvSV9QUTA2RU5KMTk1R01oYjZkNEhkX285MUNDWmFBdFR0SjRydU82RjNnQkdQc29kSW9PQ2JLLVE?oc=5",
       "relevance": "alta",
-      "credibility": 0.94,
-      "impact": "neutro",
+      "credibility": 0.9,
+      "impact": "alta",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
         "Dólar global / DXY",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Ibovespa sobe 0,44% com bancos, Petrobras, Vale e trade eleitoral; dólar cai a R$ 5,10 após ata do Copom",
-      "source": "Times Brasil | CNBC",
-      "published": "22/09/2026 18:02",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPM2lBZ3I0WWFaa1RHLXo5bG5pbC1oRlY1MTRRSFZGM2xaYWRaaDdQekpBcVc4SFFSTnNzdjNETzRLWDhIQ0ZaRnQyUzhzeGpOcXk5ekwtOEh1UkFRcDhwc0pMdUVqSWE4bnBhYzlwcGkxZkt3SFFQYm82Z01iM2dxTjVoUG54NHRpYmgtQXpsczl3Z2xKbjNYN3JsNzhwTHZaU2UwRGF5ZzQxNEFELU1XbXpmUGFPR3dyMTltMVdlUUNBM3JwLXdyNWNUYVBnSmhLZGNxWGFpLTZTM24ySVE?oc=5",
-      "relevance": "alta",
-      "credibility": 0.9,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom"
+        "Fed / juros dos EUA",
+        "Treasuries",
+        "Fluxo / apetite a risco"
       ]
     },
     {
@@ -701,20 +704,6 @@
       "theme": "BCB / Selic / Copom",
       "factors": [
         "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Goldman Sachs vê eleição abrindo cenários opostos para o dólar e aponta o fator decisivo",
-      "source": "Estadão",
-      "published": "23/09/2026 17:07",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSU12UTMxRDVVdGpmVlQ0dS05TDE3TE0xR01TS1M4V0pRc3FSOE1kd3FYWFlaOXVORzhZbVFZckpsdExtYnpuRWNvS0lQRTZLUng1QzJJRjN1YmdVbkpxYnNmbGgzWEY5QnZRN3F4Vi0yOTMwYXRfLVBTZFZqbTU1Z3RYZ2VjR2NtWjhQTFp2ZFN5WmxETXlVUnZiMl9CMHZudFkySDVmR05QUHBrUDZLRUZSTVI0N0syNGdKRVZ0MDczeXotRmJza0tnR2R6TmFnTXJtUjg2VDJpazV2YVNwbNIB5gFBVV95cUxQal9nVy1UQ3M0c05Pazc2V28zVUVmY3Zxd3VnUGtLVkVBSm8wTzhwZnlQQ1JCVEVja1V4NGNlSWdMZnRCNzVnRzZnUTZfdGFFOU51TFFyZzFkdU0xSV9aNk1tUVJIdTMzaEtFX3dHSTJJb3BSSlByQTB5eEx3M0U4NWhkbmtndkV3WHFQUktOUFJJUHdrVkVsSnVlM1lrcXdnYU9UNTF2WHpUY0hQS1l1R1JUWlE3X09GM2Fwdng2M0tCMmtlUEFpUFo5Y0pLWDkzRTFWaDh6QS1KcVdRY1B1dGxRWDlnUQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     },
     {
@@ -764,6 +753,21 @@
       ]
     },
     {
+      "title": "Ibovespa hoje: BC, fiscal e Datafolha movimentam mercado nesta quinta",
+      "source": "Estadão",
+      "published": "24/09/2026 08:13",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNENYT2JUYTduOWUtUzZKaG1hN3ZrbVJVY0V2djhwY1o2aS0yWGJYcU5Hd2JWUm5NZTlUU0R1TzFnemVFWFhnZktrbVBqVDZ6U19RS1Z5ZG4wbi1uYlFZamlJSzhTbTlXb0N3RkZiUXpNTE56M3B1cGVnSC13RDBoajkwQ1VJajVtbUFYd2Vja3dJeFlFRWphYnhiVlo5TG81ZHpDQ0NxYUt5NVBHMGNmbnNjY2ZRcGt4S0psLUIzN3B4d3pKVUVTdFdNTQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Dólar cai 0,7%, a R$ 5,10, com exterior e novo empate técnico entre Lula e Flávio",
       "source": "InfoMoney",
       "published": "21/09/2026 17:19",
@@ -782,7 +786,7 @@
       "title": "Eleições 2026: que esperar do dólar durante o período, segundo o Goldman Sachs",
       "source": "InfoMoney",
       "published": "23/09/2026 14:25",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZGg3TjA4SkRoNmhBX1RuWmJya3FHVzcxUWxiY2p5LTBVY0ktbVp4UEVtSE9ON1FEY0pFLUFPNXJFa09fV0VnLV9VVlFXS3U5OFB4Q2xXWVBmRTJ6UHdyZ3Uyb2hvbGp2eTVBSXE0ejBuWWdJWWdZRk5ZT0Y5SkZ3Yk1yR2hqQmJncXF3YWdrYWhaMjlUdU1VZmhvajVlVmxlVFlXczhPLXpPMHAzN282WXR2QTlkdmk5S1Nr0gG7AUFVX3lxTFBkaDdOMDhKRGg2aEFfVG5aYnJrcUdXNzFRbGJjanktMFVjSS1tWnhQRW1IT043UURjSkUtQU81ckVrT19XRWctX1VWUVdLdTk4UHhDbFdZUGZFMnpQd3JndTJvaG9sanZ5NUFJcTR6MG5ZZ0lZZ1lGTllPRjlKRndiTXJHaGpCYmdxcXdhZ2thaFoyOVR1TVVmaG9qNWVWbGVUWVdzOE8tek8wcDM3bzZZdHZBOWR2aTlLU2s?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeWx5ZWxhVTl3d284aXJTX0FXb3VjSGY0MXBqWkFSMzRpaWZoOHJhOFZoNmRqQlhVb3J4XzdmYzlQbkN2TnJXR1BuejRadHJUcDd5WXJoTkM1LWtmZjhUVXBGb2d4bkxucnNSUWVHeUVrSlk0dmk0QXgtZVNPWXgzZ0g2OE03SFFiVGNBLTROeGJlaTZVRjQwSlBWRlIxU2lwbmFnR0ZiaV83LU0xZTY2Z1BZcUFXQdIBuwFBVV95cUxQZGg3TjA4SkRoNmhBX1RuWmJya3FHVzcxUWxiY2p5LTBVY0ktbVp4UEVtSE9ON1FEY0pFLUFPNXJFa09fV0VnLV9VVlFXS3U5OFB4Q2xXWVBmRTJ6UHdyZ3Uyb2hvbGp2eTVBSXE0ejBuWWdJWWdZRk5ZT0Y5SkZ3Yk1yR2hqQmJncXF3YWdrYWhaMjlUdU1VZmhvajVlVmxlVFlXczhPLXpPMHAzN282WXR2QTlkdmk5S1Nr?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -850,10 +854,10 @@
       ]
     },
     {
-      "title": "Dólar hoje avança ante real com pesquisa eleitoral e falas do BC no radar",
+      "title": "Dólar hoje sobe a R$ 5,17, máxima desde agosto, com pesquisa eleitoral e exterior",
       "source": "InfoMoney",
-      "published": "23/09/2026 09:16",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdWxlLXVRdkUzQlBfQzBQbjZyRk1GanhiWlkyV3BSWXJaeWZtVWN0UEFubm9zeXJNV0NhMVJ4Z0hHUjJWZ1prbkhIckpybXkwZmpQTk5TVGlGeWgxUWVHSmRwMHBzWmZDZm0yTDlyZmxDUVA1aE5mOWdheVJKckNhSEo4X2JEU3pCeHNxWlFjYkpQbG9uN2Z0TWkteF9odnNldXfSAaIBQVVfeXFMT3VsZS11UXZFM0JQX0MwUG42ckZNRmp4YlpZMldwUllyWnlmbVVjdFBBbm5vc3lyTVdDYTFSeGdIR1IyVmdaa25ISHJKcm15MGZqUE5OU1RpRnloMVFlR0pkcDBwc1pmQ2ZtMkw5cmZsQ1FQNWhOZjlnYXlSSnJDYUhKOF9iRFN6QnhzcVpRY2JKUGxvbjdmdE1pLXhfaHZzZXV3?oc=5",
+      "published": "23/09/2026 17:34",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNLUJ3VHdiUV9NZXlvTE1Zay1uRDNiakFmOXozTHQ2SXl5YVR3Z3VuVXdlNDVVRHJ4aWwtcEdvbFpWbDRLZS1mcE5wdXdIcHVzRTVVYW5YdTVUX0VMelJ3Qk5VMk1CcVoyVU5LNWpYakxMTURoMVo4dkY3aHN2dTJFQVB3a2pyRmV1cFNBb29KYzlyWFZ4d1NRWkNaem3SAaIBQVVfeXFMT3VsZS11UXZFM0JQX0MwUG42ckZNRmp4YlpZMldwUllyWnlmbVVjdFBBbm5vc3lyTVdDYTFSeGdIR1IyVmdaa25ISHJKcm15MGZqUE5OU1RpRnloMVFlR0pkcDBwc1pmQ2ZtMkw5cmZsQ1FQNWhOZjlnYXlSSnJDYUhKOF9iRFN6QnhzcVpRY2JKUGxvbjdmdE1pLXhfaHZzZXV3?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -864,74 +868,16 @@
       ]
     },
     {
-      "title": "Ibovespa fecha em alta e dólar cai a R$ 5,10 com eleições e exterior",
-      "source": "CNN Brasil",
-      "published": "22/09/2026 09:52",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVEJOMm9VLVhsYk5ValVlRzlxelBhQ3RyQ2NnZlVDVHYyRlBlUnBDS0ViM2UtUDBnLVV0dml4ZHV2YkdhWEpCZTlPVVBzVkFWbkM2cXhkVWI3RGJrMmNsX2g1VWR2WDEzZWJjY200WmVad3JCb3pLa3BqemZTd2ViX1N2bVpYV3RDOEo1TUtjY21yYmlJMHJNNnNrcmwwMDZTMjNseUZR?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Ibovespa avança com eleições e ambiente favorável no exterior; dólar cai",
-      "source": "CNN Brasil",
-      "published": "21/09/2026 09:21",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNWJ0NHo5akRIc1FzU1hlRF9OWlhsSVRVRWxVSGJ5RDZWbmxOV3NRR0ZjRmhlY21vVGVEOVMxeG14cjhNS0Q4RzVOeGxDcWhtSkpvdFJZbmlzNlplOE9pLTZvekZzTUJpVUxTTGZlNGhNc253MlZlWHdaa2xtVjByX0xSLXVyZWZaMGdoU29DSFpSOEYzTXRrWkd0dlZ2SE1MZVZVTmhCbVo?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar apresenta alta com cenário eleitoral em destaque",
-      "source": "CNN Brasil",
-      "published": "23/09/2026 09:50",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQjUwd2NZYTNEQ2hUdzB3c0VvTDJBcXlDa2ZLZTRLZWpCWldTd0I4UWhsS0lQdnBjZ3V1TUpDRGZSMGlUQlo3dl9xRFpickVoN3NONWp1MF9DVjRINWltRjJrNjFqRlVqZXN0NkEyWmNVLVFUeVRxZVE5ZUFyUTE0SzF1c3Z2eEZtTzVvTDBJS3oyc3dCSE9rT1RWWXljajZyaXhOQXdhOUcyaXM?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Juros futuros sobem após nova pesquisa eleitoral e alta dos Treasuries",
-      "source": "CNN Brasil",
-      "published": "23/09/2026 16:49",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPa3NEX2xUOGc2cUxRYjVvNzFKcU5VWkZFNnhRYUdISmxnYlBFSUhuQ09MbDJhc0dtWVV6VTZlekFfbTRreWJNRlFIMDJnZVIwZlVVUEl5c1pISjhYbF9CTUFUYWs5bndydUhyUUdqaERNN2daVUpGc2VSSkxNbmdkMTJROFNqMDJWS0JpYXgyQkpWWUNjX0RuWEFIRWgyUXkxVG82ZGg1N3dmWWFyTlUxTXVuUEkzWlBleWlmRzNOU2U?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Treasuries",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Ibovespa recupera terreno e sobe com exterior e eleições, apesar de Vale e Petrobras",
+      "title": "Ibovespa Hoje Ao Vivo: Confira o que movimenta Bolsa, Dólar e Juros nesta quinta",
       "source": "InfoMoney",
-      "published": "21/09/2026 17:28",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkJ5MFVYNlBPSjNvdzhTWm1pMWhFZllrekg5YmtBUWNDSEZxSmYxS2hEQXh5U3RnRXpCT1l6S0lYY1VKNGtrTllUVG1qMFVzclRSZUVtRldzdmVpMGh6RktuWjNwSFh4YVNxbTNfOHdBR0lsemRuRXZoWGpxQjd3UWdSMmJFRnJkQVJHV2w3UQ?oc=5",
-      "relevance": "média",
+      "published": "24/09/2026 07:59",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWDlmSmNNWTFBTVJJcDhJcXI3ZTFWcTZUUmlUZ0M3amQyNXdiTURiQTB2dWU2VVZneEN4MVdYMnZiQkgzVWVxRFZZa284Z1RxaE9Fd3I1UWs2Wm5ITUo2bnY5VkFSTDJYNVZtZGdqVFRpdklESVF0STA0elFSTGJDT0dRNUFMNDZGd1IxWTBMbw?oc=5",
+      "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
       "factors": [
-        "Fed / juros dos EUA",
         "Brasil — política / eleições"
       ]
     },
@@ -951,17 +897,75 @@
       ]
     },
     {
-      "title": "Dólar sobe a R$ 5,168 e Bolsa cai com petróleo em alta e inflação nos EUA",
+      "title": "Ibovespa recupera terreno e sobe com exterior e eleições, apesar de Vale e Petrobras",
+      "source": "InfoMoney",
+      "published": "21/09/2026 17:28",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdkJ5MFVYNlBPSjNvdzhTWm1pMWhFZllrekg5YmtBUWNDSEZxSmYxS2hEQXh5U3RnRXpCT1l6S0lYY1VKNGtrTllUVG1qMFVzclRSZUVtRldzdmVpMGh6RktuWjNwSFh4YVNxbTNfOHdBR0lsemRuRXZoWGpxQjd3UWdSMmJFRnJkQVJHV2w3UQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "A armadilha do populismo fiscal e como ela chega à sua carteira",
+      "source": "InfoMoney",
+      "published": "22/09/2026 17:32",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZzNNNkU2cFc2NWlCemhveUFsV3NOYWpJV29IMUZRcHBFRG9ZVDdnaldWSWFGaEhGRlhzMWNTT2pRbXpWdUZkTkxtM3VHOTdhUk5WWW4wNk52SW9FVGFvS1lFMnhzQ1d5cFN3dDNEUDVabGdEVms3MDRiM1NOSmxISWtPODNNOWE3Y2ZuSm1pZkdCYlBDTGZDNTktd2lXRl9FVkJoMk9JSjMwLVNzel9yT19JbThiRVdjQjRkczRLc9IBxAFBVV95cUxNb2pURkhHMFR6TC1mMzd6dkFmWVRCVEN5VGJMbFdUMnhncGhBR1E4cTV1aGdOZnR1UTJlQ2EzSWlQMFFZS3U2Ti1IUlpsN3A3M1g0ZXU2QWdQY3JoRlZxMmt0RExTdUh4SWxvN1o1LVdld2JVeDZlRWlzQnR5LUU4STZ1b1NFODFOOXV6QV9Eay1aUDRibzVtV25MRVlpclFBZ1NOc05PMld2SnExYWFrUUZJS2VVV0VtTFRtYnFRcDIxRHNr?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar cai a R$ 5,10 e Bolsa sobe com queda no petróleo e ata do Copom",
       "source": "UOL Economia",
-      "published": "23/09/2026 17:03",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYVhzU2R0LVlvSlEzMjhjNXUwam1DTWRYdXktQ1JPTHh0dkdlWmpMY2N2T2xYd1NYWlhEOW9lTTk4N0l1ZV9SdHcyQXRibXBCTGhaRThPXzI4a3dzQmVZeTY1M2wtRnlDdUJ1WjJIZi1xRVEzUzAtQUtoUU5sclVfYjZIdktZeklkSTRmNFBBUV9rbjljalJzMzFsaVRjLVBGLTd0UHotSlNwMFdUNmR3V0tHTzRaY3lXNGNlWg?oc=5",
+      "published": "22/09/2026 17:04",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSU9sam50emh2NElaQ013b1kyd0NnZFMxTnNUdURtTGhjbHFudEJ5MHE0RG9kZDhSSWlkZEVWdzFIaXJncXM4akpLVmkzcklGV05adHJ5b1FiemFQOHp4NUZLcmxxdUg2U2dlMk41cm5Vc2d0eXNmOHpMemo5VFlNTU1ZSlhrd0ZuVUQyUXBrZ21ua3d3ZjBMZVJwbWN2SURMQXRmcVFFQ0pvdlJZSHhuZXlUc21PQjlpQndYQg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dólar sobe ante real com mercado digerindo ata do Copom",
+      "source": "UOL Economia",
+      "published": "22/09/2026 09:17",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNNGNEbnYwa3NQTm94S0h1U1p5MGZCcTZUeGpHVXV1TG16czZHRDRMNWV0SXhNLTU5ZmJCclJWdTdEbzFyMWFzbVh3MlRxMmhkSGFRRDZtRGRJMzE2b1g2Z2F3SDBEc0JBWlphb1N3OEt1bTZ5d1JrbU1PYnBjS2NqOWtDT184SW5qZmpwOFM0R0pzQXNTSGlSWm15STFyU1d5SzRvWHo1WmpIcWh3QnczdmltZ09RNGFV?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Dólar sobe a R$ 5,17 e Bolsa recua, com eleições e petróleo no radar",
+      "source": "UOL Economia",
+      "published": "23/09/2026 13:09",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZXhyenJ2RnFma1pRRXFSR1BXN0pPbm9JcFpMTUFOMW9NVGdnc3RTbmFtM2xwUUs0VWJuMURORkdHaHRFa0tMYkFVa0xKYzhlbXZ3Mi1yM3hJSFctVGRabUxkamh6bnJWZi1yWm5YU0pEZDJlMG4xOG5xZFg1c3doZzRIZjh6U2JDYXN3US1INGg2T0NoVlVsNFJZRjVGLWhjUTJzdURZbGozc05uWE9FcnlVRjQ?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
       "impact": "alta",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
-        "Dados econômicos dos EUA",
         "Brasil — política / eleições",
         "Commodities / petróleo"
       ]
