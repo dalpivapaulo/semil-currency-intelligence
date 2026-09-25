@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T18:31:44.610398+00:00",
+  "generated_at": "2026-09-25T19:27:27.074261+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
@@ -420,7 +420,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 248,
+    "raw_news_results": 247,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -799,6 +799,20 @@
       ]
     },
     {
+      "title": "Dólar fecha em leve queda, a R$ 5,10, em meio à expectativa de acordo entre EUA e Irã",
+      "source": "InfoMoney",
+      "published": "22/09/2026 17:23",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS0k0RWhqZ0NFcWxCaWQ1cy1FQXFEQlV0SmY2TFhLOGlla2lMMkxLcTBKdEtMV2F0NGxmbWtxNXZkN0NZWEFnOU1JY2pzR1k3UDlvTGZocHlyNEZMR3AxdHFrekVMbklldFg5c081TlNkaVppRlJXZy1TeXlncXYtS0licWlCUjloVlpQUWhpSExDSWdBM2Qya2tWdVLSAaIBQVVfeXFMTlNjTW1aemx1bk1iNTJONmZLRnVFSFhYM2wwTk0xcmFaMDBYYXdTTDZkT0lPLXFzUWVpYk5tZ0RnWXVNaHUxUUlial9ZQUpCbVJGaDIzYkRaX0RSUVVtR3dMamxxaVBFZzRuRjZqb3piTGt1WnlpbDU5U1I1d1VZWEQ1YzFvQ2F6Wm1FSDc2bWwxdW5KNHFCOUN1cU96Y29DN3p3?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Dólar hoje avança ante real com pesquisa eleitoral e falas do BC no radar",
       "source": "InfoMoney",
       "published": "23/09/2026 09:16",
@@ -827,23 +841,9 @@
       ]
     },
     {
-      "title": "Dólar fecha em leve queda, a R$ 5,10, em meio à expectativa de acordo entre EUA e Irã",
-      "source": "InfoMoney",
-      "published": "22/09/2026 17:23",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS0k0RWhqZ0NFcWxCaWQ1cy1FQXFEQlV0SmY2TFhLOGlla2lMMkxLcTBKdEtMV2F0NGxmbWtxNXZkN0NZWEFnOU1JY2pzR1k3UDlvTGZocHlyNEZMR3AxdHFrekVMbklldFg5c081TlNkaVppRlJXZy1TeXlncXYtS0licWlCUjloVlpQUWhpSExDSWdBM2Qya2tWdVLSAaIBQVVfeXFMTlNjTW1aemx1bk1iNTJONmZLRnVFSFhYM2wwTk0xcmFaMDBYYXdTTDZkT0lPLXFzUWVpYk5tZ0RnWXVNaHUxUUlial9ZQUpCbVJGaDIzYkRaX0RSUVVtR3dMamxxaVBFZzRuRjZqb3piTGt1WnlpbDU5U1I1d1VZWEQ1YzFvQ2F6Wm1FSDc2bWwxdW5KNHFCOUN1cU96Y29DN3p3?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Ibovespa cai a patamar de 182 mil pontos com eleições e IPCA-15; dólar sobe",
+      "title": "Ibovespa cede com IPCA-15 acima do esperado e cenário eleitoral; dólar sobe",
       "source": "CNN Brasil",
-      "published": "25/09/2026 06:36",
+      "published": "25/09/2026 15:14",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2FRZ3UzVkYtTWNiTW1qWTZsMHFNejZlOWNaUzRJeXUyOEpBME8tQThJM1J1T1VHNE5Db0xOMzhnUjR6V3JOREJVdHVtNmhLcDFfUUE4T05ScDA2ejh2X2M1aVpEbWRQUVhSZ1IzVF90cG5WT09VZnpRNWhQNnAxQUNkcDdPSXVzTy1kQjY1aGI5UU44a09UaUZhQzRGVVRmanVJd1V3?oc=5",
       "relevance": "média",
       "credibility": 0.86,
