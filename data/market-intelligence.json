@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T19:27:27.074261+00:00",
+  "generated_at": "2026-09-25T20:28:46.684217+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 8 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
+    "summary": "A leitura reuniu 28 evidência(s) em 8 fonte(s) independente(s). Principais vetores de ALTA/risco: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
@@ -38,7 +38,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 4.54,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "InfoMoney",
@@ -92,10 +92,28 @@
         "horizon": "90d"
       },
       {
+        "factor": "Brasil — política / eleições",
+        "impact": "alta",
+        "score": 0.62,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "Folha de S.Paulo",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
+          "Ibovespa tem nova queda e dólar, mais uma alta, com eleição e exterior; Vale perde 1%",
+          "Eleições 2026: que esperar do dólar durante o período, segundo o Goldman Sachs"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 4,
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -107,24 +125,6 @@
           "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic",
           "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
           "Dólar fecha em leve queda, a R$ 5,10, em meio à expectativa de acordo entre EUA e Irã"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "alta",
-        "score": 0.62,
-        "evidence_count": 14,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Dólar fecha em queda com petróleo em baixa e cenário eleitoral no radar; Bolsa sobe",
-          "Ibovespa tem nova queda e dólar, mais uma alta, com eleição e exterior; Vale perde 1%",
-          "Eleições 2026: que esperar do dólar durante o período, segundo o Goldman Sachs"
         ],
         "horizon": "90d"
       },
@@ -187,7 +187,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 4.54,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "InfoMoney",
@@ -241,29 +241,10 @@
         "horizon": "90d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic",
-          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Dólar fecha em leve queda, a R$ 5,10, em meio à expectativa de acordo entre EUA e Irã"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 0.62,
-        "evidence_count": 14,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -282,7 +263,7 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +7.0. PTAX: último pregão +0,38%; 5 pregões +0,81%; 10 pregões +2,11%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
+    "summary": "Score técnico consolidado: +7.0. PTAX: último pregão +0,38%; 5 pregões +0,81%; 10 pregões +2,11%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -298,7 +279,7 @@
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
+    "summary": "Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Dólar global / DXY, Commodities / petróleo.",
     "drivers": [
       {
         "factor": "Treasuries",
@@ -324,7 +305,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 4.54,
-        "evidence_count": 11,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "InfoMoney",
@@ -378,29 +359,10 @@
         "horizon": "90d"
       },
       {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -0.82,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Petróleo caro ajuda o real, mas pode cobrar a conta na Selic",
-          "Copom vê atividade econômica mais fraca sob efeito de juros altos e queda da inflação, mostra ata",
-          "Dólar fecha em leve queda, a R$ 5,10, em meio à expectativa de acordo entre EUA e Irã"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 0.62,
-        "evidence_count": 14,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -503,10 +465,10 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 12,
+      "count": 11,
       "score": 0.24,
       "status": "material",
-      "summary": "12 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "11 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "CNN Brasil",
@@ -537,6 +499,13 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
+      "source": "UOL Economia",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
       "source": "WSJ",
       "count": 1,
       "score": 0.0,
@@ -549,13 +518,6 @@
       "score": 2.7,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 1,
-      "score": -0.82,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -841,10 +803,10 @@
       ]
     },
     {
-      "title": "Ibovespa cede com IPCA-15 acima do esperado e cenário eleitoral; dólar sobe",
+      "title": "Ibovespa fecha em queda com eleições e exterior desfavorável; dólar sobe",
       "source": "CNN Brasil",
-      "published": "25/09/2026 15:14",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2FRZ3UzVkYtTWNiTW1qWTZsMHFNejZlOWNaUzRJeXUyOEpBME8tQThJM1J1T1VHNE5Db0xOMzhnUjR6V3JOREJVdHVtNmhLcDFfUUE4T05ScDA2ejh2X2M1aVpEbWRQUVhSZ1IzVF90cG5WT09VZnpRNWhQNnAxQUNkcDdPSXVzTy1kQjY1aGI5UU44a09UaUZhQzRGVVRmanVJd1V3?oc=5",
+      "published": "23/09/2026 09:50",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkxfaWpVMkZKRXVMSGNvRjJjclJVM0s4VVZWZnZVV2YxTFBlUDAzQVRXX1ZMLWtzN2ExaWNmeW1SVzBUUkgwUm1Ja1UxcnZ1d3NUb1FjV2JrNTYybEhkVERJcVhlemxQMTlsUjNyd05KaWNYYkd0WVNIeXE5ZTZLV0pLMmFid2ZDbFJhQ3FTc0xKVGQ4WGpVdDZyZVR1bldhQ2FtMkNn?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "alta",
@@ -855,10 +817,10 @@
       ]
     },
     {
-      "title": "Ibovespa fecha em queda com eleições e exterior desfavorável; dólar sobe",
+      "title": "Ibovespa cede com IPCA-15 acima do esperado e cenário eleitoral; dólar sobe",
       "source": "CNN Brasil",
-      "published": "23/09/2026 09:50",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWkxfaWpVMkZKRXVMSGNvRjJjclJVM0s4VVZWZnZVV2YxTFBlUDAzQVRXX1ZMLWtzN2ExaWNmeW1SVzBUUkgwUm1Ja1UxcnZ1d3NUb1FjV2JrNTYybEhkVERJcVhlemxQMTlsUjNyd05KaWNYYkd0WVNIeXE5ZTZLV0pLMmFid2ZDbFJhQ3FTc0xKVGQ4WGpVdDZyZVR1bldhQ2FtMkNn?oc=5",
+      "published": "25/09/2026 06:36",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNd2FRZ3UzVkYtTWNiTW1qWTZsMHFNejZlOWNaUzRJeXUyOEpBME8tQThJM1J1T1VHNE5Db0xOMzhnUjR6V3JOREJVdHVtNmhLcDFfUUE4T05ScDA2ejh2X2M1aVpEbWRQUVhSZ1IzVF90cG5WT09VZnpRNWhQNnAxQUNkcDdPSXVzTy1kQjY1aGI5UU44a09UaUZhQzRGVVRmanVJd1V3?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "alta",
