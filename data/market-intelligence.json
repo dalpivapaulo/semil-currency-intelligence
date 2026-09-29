@@ -1,155 +1,151 @@
 {
-  "generated_at": "2026-09-29T00:23:47.092919+00:00",
+  "generated_at": "2026-09-29T18:06:58.204042+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
     "material": true,
-    "day_variation_pct": 0.27120078475120213,
-    "momentum_5_pct": 1.985640784866094,
-    "momentum_10_pct": 0.8433921386567622,
+    "day_variation_pct": 0.13811094912914434,
+    "momentum_5_pct": 2.0386622622700745,
+    "momentum_10_pct": 1.386677024664973,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 14 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom, Dados econômicos dos EUA. Principais vetores de ALTA/risco: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
-    "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
+    "summary": "A leitura reuniu 28 evidência(s) em 14 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: BCB / Selic / Copom. Principais vetores de ALTA/risco: Treasuries, Dólar global / DXY, Commodities / petróleo, Fed / juros dos EUA.",
+    "today_summary": "USD/BRL no último pregão: +0,14%; momento em 5 pregões: +2,04%. Pressões de alta: Treasuries, Dólar global / DXY, Commodities / petróleo.",
     "factors": [
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 6.82,
-        "evidence_count": 11,
+        "score": 8.32,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 5.66,
-        "evidence_count": 10,
+        "score": 7.16,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 4.63,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Investing.com",
-          "Investing.com India",
-          "Reuters",
-          "The Business Times",
-          "The Jerusalem Post",
-          "VT Markets",
-          "stl.news"
-        ],
-        "examples": [
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Zinc Drops As Stronger Dollar And Fed Rate Hike Bets Continue To Weigh On Prices By Kedia Advisory"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 4.19,
-        "evidence_count": 10,
+        "score": 5.35,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
+          "CNN Brasil",
           "InfoMoney",
-          "Investing.com India",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Ibovespa tem nova queda e dólar, mais uma alta, com eleição e exterior; Vale perde 1%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 4.57,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "Investing.com",
+          "O.Económico",
+          "Reuters",
+          "StreetInsider"
+        ],
+        "examples": [
+          "Gold hits seven-week low as oil surge fuels rate hike bets",
+          "Dollar hold near two-month peak as yields rise, Fed data looms",
+          "Gold slips 4% to fall below $4,200 on firmer dollar, bond rout, and Fed hike bets"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 1.63,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "StreetInsider",
+          "The Mighty 790 KFGO"
+        ],
+        "examples": [
+          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
+          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições",
+          "Dollar firms near two-month peak as oil, US yields rise; jobs data looms"
+        ],
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.27,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Diferencial de juros coloca câmbio e ações no radar dos investidores",
-          "Dolarizar ficou mais barato: veja a conta que faz o dólar ganhar do CDI"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -1.27,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "CNN Brasil",
           "Estadão"
         ],
         "examples": [
           "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições"
+          "Diferencial de juros coloca câmbio e ações no radar dos investidores"
         ],
         "horizon": "90d"
       },
       {
         "factor": "Brasil — política / eleições",
-        "impact": "alta",
-        "score": 1.16,
-        "evidence_count": 10,
+        "impact": "neutro",
+        "score": 0.03,
+        "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
-          "Agência Brasil",
-          "Canal Rural",
+          "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "UOL Economia"
         ],
         "examples": [
           "Dólar fecha em alta com cautela global e cenário eleitoral brasileiro no radar; Bolsa recua",
@@ -162,7 +158,7 @@
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 5,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -181,144 +177,120 @@
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 6.82,
-        "evidence_count": 11,
+        "score": 8.32,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 5.66,
-        "evidence_count": 10,
+        "score": 7.16,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 4.63,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Investing.com",
-          "Investing.com India",
-          "Reuters",
-          "The Business Times",
-          "The Jerusalem Post",
-          "VT Markets",
-          "stl.news"
-        ],
-        "examples": [
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Zinc Drops As Stronger Dollar And Fed Rate Hike Bets Continue To Weigh On Prices By Kedia Advisory"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 4.19,
-        "evidence_count": 10,
+        "score": 5.35,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
+          "CNN Brasil",
           "InfoMoney",
-          "Investing.com India",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Ibovespa tem nova queda e dólar, mais uma alta, com eleição e exterior; Vale perde 1%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 4.57,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "Investing.com",
+          "O.Económico",
+          "Reuters",
+          "StreetInsider"
+        ],
+        "examples": [
+          "Gold hits seven-week low as oil surge fuels rate hike bets",
+          "Dollar hold near two-month peak as yields rise, Fed data looms",
+          "Gold slips 4% to fall below $4,200 on firmer dollar, bond rout, and Fed hike bets"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 1.63,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "StreetInsider",
+          "The Mighty 790 KFGO"
+        ],
+        "examples": [
+          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
+          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições",
+          "Dollar firms near two-month peak as oil, US yields rise; jobs data looms"
+        ],
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.27,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Diferencial de juros coloca câmbio e ações no radar dos investidores",
-          "Dolarizar ficou mais barato: veja a conta que faz o dólar ganhar do CDI"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -1.27,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "CNN Brasil",
           "Estadão"
         ],
         "examples": [
           "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "alta",
-        "score": 1.16,
-        "evidence_count": 10,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Canal Rural",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Dólar fecha em alta com cautela global e cenário eleitoral brasileiro no radar; Bolsa recua",
-          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições",
-          "Dólar a R$ 4,90 ou R$ 5,50? JPMorgan traça cenários para câmbio com eleição no Brasil"
+          "Diferencial de juros coloca câmbio e ações no radar dos investidores"
         ],
         "horizon": "90d"
       }
@@ -327,171 +299,147 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +7.0. PTAX: último pregão +0,27%; 5 pregões +1,99%; 10 pregões +0,84%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom, Dados econômicos dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
+    "summary": "Score técnico consolidado: +7.0. PTAX: último pregão +0,14%; 5 pregões +2,04%; 10 pregões +1,39%. USD/BRL no último pregão: +0,14%; momento em 5 pregões: +2,04%. Pressões de alta: Treasuries, Dólar global / DXY, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Commodities / petróleo, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
-      "Estadão",
+      "CNBC",
+      "cnbctv18.com",
       "Folha de S.Paulo",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "Agência Brasil",
-      "Investing.com India",
+      "UOL Economia",
       "Investing.com",
+      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "The Mighty 790 KFGO",
       "VT Markets",
-      "Canal Rural",
-      "The Business Times",
-      "The Jerusalem Post",
-      "Seeking Alpha",
-      "stl.news"
+      "StreetInsider",
+      "O.Económico"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom, Dados econômicos dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Commodities / petróleo, Fed / juros dos EUA.",
     "drivers": [
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 6.82,
-        "evidence_count": 11,
+        "score": 8.32,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 5.66,
-        "evidence_count": 10,
+        "score": 7.16,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com",
-          "Investing.com India",
+          "CNBC",
+          "Folha de S.Paulo",
+          "O.Económico",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
-          "The Jerusalem Post",
+          "The Mighty 790 KFGO",
           "VT Markets",
-          "stl.news"
+          "cnbctv18.com"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Why US Treasury Yields Have Risen Above 5%"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "alta",
-        "score": 4.63,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Investing.com",
-          "Investing.com India",
-          "Reuters",
-          "The Business Times",
-          "The Jerusalem Post",
-          "VT Markets",
-          "stl.news"
-        ],
-        "examples": [
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-          "Zinc Drops As Stronger Dollar And Fed Rate Hike Bets Continue To Weigh On Prices By Kedia Advisory"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 4.19,
-        "evidence_count": 10,
+        "score": 5.35,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
-          "Canal Rural",
+          "CNN Brasil",
           "InfoMoney",
-          "Investing.com India",
           "Reuters",
-          "Seeking Alpha",
-          "The Business Times",
+          "StreetInsider",
+          "The Mighty 790 KFGO",
           "VT Markets"
         ],
         "examples": [
           "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Gold hits seven-week low as oil surge fuels rate hike bets",
-          "Ibovespa tem nova queda e dólar, mais uma alta, com eleição e exterior; Vale perde 1%"
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 4.57,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "Investing.com",
+          "O.Económico",
+          "Reuters",
+          "StreetInsider"
+        ],
+        "examples": [
+          "Gold hits seven-week low as oil surge fuels rate hike bets",
+          "Dollar hold near two-month peak as yields rise, Fed data looms",
+          "Gold slips 4% to fall below $4,200 on firmer dollar, bond rout, and Fed hike bets"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 1.63,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "StreetInsider",
+          "The Mighty 790 KFGO"
+        ],
+        "examples": [
+          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
+          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições",
+          "Dollar firms near two-month peak as oil, US yields rise; jobs data looms"
+        ],
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.27,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Diferencial de juros coloca câmbio e ações no radar dos investidores",
-          "Dolarizar ficou mais barato: veja a conta que faz o dólar ganhar do CDI"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -1.27,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "CNN Brasil",
           "Estadão"
         ],
         "examples": [
           "Focus eleva projeção para inflação 2026 e estimativas mais recentes já passam de 5%; Selic estaciona",
-          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "alta",
-        "score": 1.16,
-        "evidence_count": 10,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Canal Rural",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Dólar fecha em alta com cautela global e cenário eleitoral brasileiro no radar; Bolsa recua",
-          "Ibovespa cai 0,95% na semana com pressão de inflação, juros e eleições",
-          "Dólar a R$ 4,90 ou R$ 5,50? JPMorgan traça cenários para câmbio com eleição no Brasil"
+          "Diferencial de juros coloca câmbio e ações no radar dos investidores"
         ],
         "horizon": "90d"
       }
@@ -501,23 +449,23 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 209,
+    "raw_news_results": 216,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
-      "Estadão",
+      "CNBC",
+      "cnbctv18.com",
       "Folha de S.Paulo",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil",
-      "Agência Brasil",
-      "Investing.com India",
+      "UOL Economia",
       "Investing.com",
+      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "The Mighty 790 KFGO",
       "VT Markets",
-      "Canal Rural",
-      "The Business Times",
-      "The Jerusalem Post",
-      "Seeking Alpha",
-      "stl.news"
+      "StreetInsider",
+      "O.Económico"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -534,10 +482,16 @@
       "name": "Reuters"
     },
     {
-      "name": "Estadão"
+      "name": "CNBC"
+    },
+    {
+      "name": "cnbctv18.com"
     },
     {
       "name": "Folha de S.Paulo"
+    },
+    {
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -546,31 +500,25 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "Agência Brasil"
-    },
-    {
-      "name": "Investing.com India"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com"
     },
     {
+      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
+      "name": "The Mighty 790 KFGO"
+    },
+    {
       "name": "VT Markets"
     },
     {
-      "name": "Canal Rural"
+      "name": "StreetInsider"
     },
     {
-      "name": "The Business Times"
-    },
-    {
-      "name": "The Jerusalem Post"
-    },
-    {
-      "name": "Seeking Alpha"
-    },
-    {
-      "name": "stl.news"
+      "name": "O.Económico"
     }
   ],
   "sources_checked": [
@@ -584,10 +532,16 @@
       "name": "Reuters"
     },
     {
-      "name": "Estadão"
+      "name": "CNBC"
+    },
+    {
+      "name": "cnbctv18.com"
     },
     {
       "name": "Folha de S.Paulo"
+    },
+    {
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -596,40 +550,48 @@
       "name": "CNN Brasil"
     },
     {
-      "name": "Agência Brasil"
-    },
-    {
-      "name": "Investing.com India"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com"
     },
     {
+      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
+    },
+    {
+      "name": "The Mighty 790 KFGO"
+    },
+    {
       "name": "VT Markets"
     },
     {
-      "name": "Canal Rural"
+      "name": "StreetInsider"
     },
     {
-      "name": "The Business Times"
-    },
-    {
-      "name": "The Jerusalem Post"
-    },
-    {
-      "name": "Seeking Alpha"
-    },
-    {
-      "name": "stl.news"
+      "name": "O.Económico"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 7,
+      "count": 6,
+      "score": 0.62,
+      "status": "material",
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "Reuters",
+      "count": 4,
+      "score": 1.69,
+      "status": "material",
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "CNN Brasil",
+      "count": 4,
       "score": 0.0,
       "status": "material",
-      "summary": "7 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Estadão",
@@ -639,46 +601,32 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Reuters",
-      "count": 2,
-      "score": 0.71,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "CNN Brasil",
+      "source": "Folha de S.Paulo",
       "count": 2,
       "score": 0.0,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Investing.com India",
-      "count": 2,
-      "score": 1.6,
+      "source": "CNBC",
+      "count": 1,
+      "score": 2.7,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Investing.com",
-      "count": 2,
-      "score": 1.6,
+      "source": "cnbctv18.com",
+      "count": 1,
+      "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "VT Markets",
-      "count": 2,
-      "score": 3.48,
+      "source": "UOL Economia",
+      "count": 1,
+      "score": -0.59,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "The Business Times",
-      "count": 2,
-      "score": 0.58,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -695,7 +643,7 @@
     {
       "name": "Momento da PTAX",
       "score": 4,
-      "detail": "5 pregões +1,99%; 10 pregões +0,84%; último pregão +0,27%."
+      "detail": "5 pregões +2,04%; 10 pregões +1,39%; último pregão +0,14%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -726,6 +674,37 @@
       ]
     },
     {
+      "title": "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+      "source": "Reuters",
+      "published": "28/09/2026 23:57",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUtsNnBXN3BFb1pqRHQ0ZkpIVGNickIzQXk0UWNDdV9DSlBsbEc5QTlZZ05sQkYwOUlJbGZLNmJNS3cxWmNqXzN6ZkdQblFkUDAyY0E0UG5ZYTBrRnd5blJwdEJyMTdQTTFGUTJpY1hOZDhkSGxJa2F0LUotZ1J2LXEzZmNaMEcwMlZFaHZwZkpKR1RHNF96d2EzSUlLek5kcGtpNQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries",
+        "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dollar gains as Treasury yields top 5%, Aussie slides after RBA hike",
+      "source": "Reuters",
+      "published": "28/09/2026 22:57",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcm1xMjE3YTBSdTBJRVI5blBWcFFOS1ZSQWZlcVhMZU1iWU1kZTkyaElQUXhyRzZ4My1UcmdUVW1MZldrdjMzblF5eEh5amIwb2tlWmozYjloa29GaEhoT2dMbFFteHRwLV9pem9OYkowV3RUaGhnTUhDUjcwLXozSG1rT0dOMmdsdERFUlVwM1p4TjBZQlFZZWx2aTc4VC03QURrOWM1c1IwVXc?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Gold hits seven-week low as oil surge fuels rate hike bets",
       "source": "Reuters",
       "published": "27/09/2026 22:41",
@@ -738,6 +717,52 @@
       "factors": [
         "Fed / juros dos EUA",
         "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dollar hold near two-month peak as yields rise, Fed data looms",
+      "source": "CNBC",
+      "published": "29/09/2026 01:11",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVVAwQWZvTE9lV1ZkWTFJSzVzTGNhYjFMaU9wQkhJMHRWUnhjanFrTWcwdGpBdENXbW91cmEwaU9zYTJGWF8xUzVPelJBSEZkelRia0hjWkpyUmV6M0diZEpFWXBHMERJcWdUZlh5NlpOM0FIZm5nbVA3dkVLQVYzRVFBcHkwSVFhUlpkaTN3bVpJbUhXR2NlNkRVeUtlSmPSAaQBQVVfeXFMTWVLYWNVV1lPREF3T1Uxd2t2MjNZWHFxRTZORVptbGFwaEpzbF9NQTZxY21SaDJ1eWZQRF8xbHlYZldreTNWSUNBQWpjbTBFdTB6S01HRlBzS0UyZUNhY25yUTAyd3JSSDdzTUJ6ai1KQzhHMFpfdnlaclg3M0dsR2JMMmdJMlFEZmpZS25kTzJWUzZ0eVg3SDhFZFlWTllfYXRGTTU?oc=5",
+      "relevance": "alta",
+      "credibility": 0.9,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries"
+      ]
+    },
+    {
+      "title": "Rupee edges lower to 96.05 against dollar: What is driving the move",
+      "source": "cnbctv18.com",
+      "published": "29/09/2026 00:56",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1BmamVLMUVkWXR0Nkptd3VjNFZ1aHlsclVCVDhpVjA2cGFFZXoxOHdYRjNFaE9vUnFQV1BTTy1ZOUs1UHNJYm0zdVZBNWtxTmdDWWZZcmtOTDRZQ25tNk02YmNoVDZZYjQtWHlhLXgyMFJ2WW1VaXg2M3U5dVp6VkRiOWxZdW9lX0pQcHlhbVRJZ3IzN0NUZUVXcVNaY1dDWEFUVlNBaVhYZW9RbENtedIBtgFBVV95cUxNNTZUUjRtSDlHelI4d3NjNkV2VEctdkVsLVJ1VDhTSjlZWjV3VWVFdUp6M0pHR3BPTzFScjNDemRaUDlQXzNtM2dMWG9DQ0lCLVB3TlN4MGtYakJMVWl5RUV5ak1VWkpSaVlycWNQSGRzaXJoekZ3RkNHM1ZlUjgyc2FiNmlHVzVEMFh6c241TW40Q1ByOHhmN3pGQ1piTXBNZjV6U19qM3NmZjdFUE85REtua0t0QQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.9,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
+      "title": "Dólar perde força com 'Sell America' e incertezas geradas por governo Trump, diz Itaú",
+      "source": "Folha de S.Paulo",
+      "published": "29/09/2026 08:00",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMEUwZUFlWXViSlk0d1N4TTEwcUFrem5ZbGtUUTlIdXYzQ3lYcHZpb3Mzb3p5UHZSclNfSDdwMnlGN1B4WDBodjhyZVVzQkp0dWxPOE9sSDg5M2xBS3Bqa1N4RFhYeHlVSldDU1hOV0VTRnFYb0hPOW9fMXpsUjB5R1ZYWkZDVUVKS0VPY1hqVXdYN0Z3WXhvanBrQmltbzBCNExWdHhmRGRRbG4wVFNOUV9oY0VKeFRrWkRPS2l3Q0VvTzVuN01DUkFtMEN6SXc?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
       ]
     },
     {
@@ -829,23 +854,9 @@
       ]
     },
     {
-      "title": "Análise: O câmbio está fora do lugar",
-      "source": "CNN Brasil",
-      "published": "28/09/2026 10:07",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXVnTE9tcU1nNGJWellpNVZhcF9kTXV0VDBlZHRzb1JkX1hDcXB0X2x1MUJicEFWc2hlRzg2Q25XZUlNTzdwUVZTRTlhbVBIbDhEWTBYMHI2eXpnOXJBMmx1ZWNzM3p2TnhMYU9SOVFtcHZha1VkcjJfZTc0MndScDd4U3R1bFVBbk9xT044OEdrQzM3bGNmWUtRUnNkUXdzNDB2aGhUTl8?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — fiscal",
-      "factors": [
-        "Brasil — fiscal"
-      ]
-    },
-    {
       "title": "Diferencial de juros coloca câmbio e ações no radar dos investidores",
       "source": "CNN Brasil",
-      "published": "25/09/2026 04:00",
+      "published": "28/09/2026 13:24",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd050R09mU1AxMVEtbWtGYmJtVFQ0OWwtSDhBSC12M3laejdvenBfNWRuRXpOSHE3dVcwRTBmTU1wRlVJbEl0aVpGUVRIY0pFQUo0SEFhU3F6ZFFCX1Y5dkJYVmxNdHlic2tpNFZkTmtXRk9OSVEtWDdhUzBVcGNZeGtiYUdweWFXc09ZTVJBTlBPTDhEd1VXaGhqV0NMWm1yX2NIbVBLQmJkTkxmR2hPU1hPRGFfSXV5cDhsSHJ3?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
@@ -857,17 +868,32 @@
       ]
     },
     {
-      "title": "Dolarizar ficou mais barato: veja a conta que faz o dólar ganhar do CDI",
-      "source": "InfoMoney",
-      "published": "24/09/2026 09:51",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYV80bnNLWTBHcU9EVW1RQ0YzbnIwQV9VYkIzbW0ybHdrckRPNy11aDRHUTJTLXpBY1RzZ1AxX0lrYTNpUk1HNU5lbHRiNzZpSHVBWlkwMlMtX21lZkpjdENPWEhLOE4zRHdwQ0pnZ0lLMmd3eTY4bEpwNVlHcVZBczBnTXV6VXdNa2fSAY8BQVVfeXFMTkxDc0JMOTJ4MXl0Q25WZnQ3bld6SlEwbWNTMXk4OUpXaFdKSDQ1dWdkak5KUjFYOGpPRXkwVU5QRm5LeGh2YWdCWFg3V05UOFpickVmZ2lnT2pLVDBsdmtQcnNFd1VhdVZGUFNlVERIMEYxbG5kN191TDVsWEtQMjQzNTYxNVR2M0ljX1FxWVE?oc=5",
+      "title": "Análise: O câmbio está fora do lugar",
+      "source": "CNN Brasil",
+      "published": "28/09/2026 07:07",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXVnTE9tcU1nNGJWellpNVZhcF9kTXV0VDBlZHRzb1JkX1hDcXB0X2x1MUJicEFWc2hlRzg2Q25XZUlNTzdwUVZTRTlhbVBIbDhEWTBYMHI2eXpnOXJBMmx1ZWNzM3p2TnhMYU9SOVFtcHZha1VkcjJfZTc0MndScDd4U3R1bFVBbk9xT044OEdrQzM3bGNmWUtRUnNkUXdzNDB2aGhUTl8?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "theme": "Brasil — fiscal",
       "factors": [
-        "BCB / Selic / Copom"
+        "Brasil — fiscal"
+      ]
+    },
+    {
+      "title": "Ibovespa cede com petróleo e eleições no radar; dólar vai a R$ 5,23",
+      "source": "CNN Brasil",
+      "published": "29/09/2026 09:49",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVzc3ZzFyQTFfZllETkhJbHVrRWRkX2VHYm16WTk5WFpHNVpsaXY4dUd0UUV1bFZYRGUwNXphQzJzMld0N2pRYXZyMmFaWUhmVlo3eTJ1LWh4TjVsTFRBbkdYQzJReXg5bERPZWNCdVptRGxuQXR5TnYzRjRlcW9NNkZ4ZjN3RUFPSU93eTRkU2plRS1KZUpIVEdFbTRES3ozdzEzcmt3?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições",
+        "Commodities / petróleo"
       ]
     },
     {
@@ -876,6 +902,34 @@
       "published": "28/09/2026 09:22",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTmdBMW9OV1AwUkNLdmVGemdJcHhmTlNMR2RFSXM5NjdKV3JWeHI5a1BCM055YTJ5WEUySi13ZHdEUmJaOFdkTERad20wWEJ6c1M1LWNkeGFCR1B1VDlBZXE5aDRiMWVKVjZWVGpvTnplSlVFVEZuOUFtZXlOcHBCV2d6OHhhN2tZeTNKUHQxRGJ5RDMxWlMyOEZDTW52aFhSNHfSAaIBQVVfeXFMTU5nQTFvTldQMFJDS3ZlRnpnSXB4Zk5TTEdkRUlzOTY3SldyVnhyOWtQQjNOeWEyeVhFMkotd2R3RFJiWjhXZExEWndtMFhCenNTNS1jZHhhQkdQdVQ5QWVxOWg0YjFlSlY2VlRqb056ZUpVRVRGbjlBbWV5TnBwQldnejh4YTdrWXkzSlB0MURieUQzMVpTMjhGQ01udmhYUjR3?oc=5",
       "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Ibovespa fecha com leve queda, com exterior e bancos; dólar sobe a R$ 5,22",
+      "source": "InfoMoney",
+      "published": "28/09/2026 17:36",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVZ5VkRSQnVBNjh6R1hrZHR2bXhTc01SYXczR083dk03aDMyMndhaWZVdzFLRlR6dG1mUm5kSjROZDEybkdqbjh6czk5SHBIb1Z1V1Foc0o0TDJQbmgwNGtOb0pzZnJwZDFubDNOTDF1TFJScUhSLXp1YmhYWFNWMGFHdEJHT3djcDFzdUYtMA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar a R$ 5,20: Câmbio deve sofrer forte volatilidade à espera de eleições",
+      "source": "CNN Brasil",
+      "published": "29/09/2026 04:10",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdE5JcXdjWldVOFpKY1VKLUpRNE1Jd2FkckkzYUxmcVVPeE5CVzVmSmpsNndJZW9KUWcyQ1J6VXBpQm5acm1EbUFwbDdCVk5xaWVpbDIxRlFPa1h5NEVpdXp3MGJPTFZYb0x6Y29LcnpkMzlXX3ozcWlIWl9Kb2FZNllKdzRKcGJpaHRIZi1PcGg3eFZuc0o4eE1JdGg4WXNVWjFSV0pXbEtqUTRPN1JjNDZ3cTNOOXRxWXVMOUVzbUpZNFBF?oc=5",
+      "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
@@ -900,25 +954,10 @@
       ]
     },
     {
-      "title": "A armadilha do populismo fiscal e como ela chega à sua carteira",
+      "title": "Ibovespa Hoje Ao Vivo: Bolsa cai e tenta manter os 182 mil com eleições em foco",
       "source": "InfoMoney",
-      "published": "24/09/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZzNNNkU2cFc2NWlCemhveUFsV3NOYWpJV29IMUZRcHBFRG9ZVDdnaldWSWFGaEhGRlhzMWNTT2pRbXpWdUZkTkxtM3VHOTdhUk5WWW4wNk52SW9FVGFvS1lFMnhzQ1d5cFN3dDNEUDVabGdEVms3MDRiM1NOSmxISWtPODNNOWE3Y2ZuSm1pZkdCYlBDTGZDNTktd2lXRl9FVkJoMk9JSjMwLVNzel9yT19JbThiRVdjQjRkczRLc9IBxAFBVV95cUxNb2pURkhHMFR6TC1mMzd6dkFmWVRCVEN5VGJMbFdUMnhncGhBR1E4cTV1aGdOZnR1UTJlQ2EzSWlQMFFZS3U2Ti1IUlpsN3A3M1g0ZXU2QWdQY3JoRlZxMmt0RExTdUh4SWxvN1o1LVdld2JVeDZlRWlzQnR5LUU4STZ1b1NFODFOOXV6QV9Eay1aUDRibzVtV25MRVlpclFBZ1NOc05PMld2SnExYWFrUUZJS2VVV0VtTFRtYnFRcDIxRHNr?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — fiscal",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Ibovespa Hoje Ao Vivo: Bolsa oscila com exterior e reta final das eleições no radar",
-      "source": "InfoMoney",
-      "published": "28/09/2026 12:26",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVZ5VkRSQnVBNjh6R1hrZHR2bXhTc01SYXczR083dk03aDMyMndhaWZVdzFLRlR6dG1mUm5kSjROZDEybkdqbjh6czk5SHBIb1Z1V1Foc0o0TDJQbmgwNGtOb0pzZnJwZDFubDNOTDF1TFJScUhSLXp1YmhYWFNWMGFHdEJHT3djcDFzdUYtMA?oc=5",
+      "published": "29/09/2026 10:33",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSVhaWHA1RHhtVF9FWEFyZ0RCLWRwakVheEVQdmZUOEFTSGdBWHlXNVViRGFrb1hnOHhpb3F5cm1rVnJfVWhoUEFnclpibnZGUFp2cmk1ZUI0S3pUUlBpVlJSMlZEeERtSVNaOVVZeUhXZmRXVklmYjh4el9hdzhORWVQWHgyOTAtVFY5SExSYw?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
@@ -930,63 +969,17 @@
       ]
     },
     {
-      "title": "Dólar aproxima-se de R$ 5,17, com notícias do exterior e eleições",
-      "source": "Agência Brasil",
-      "published": "23/09/2026 22:37",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORnd5NkI4VXU3ZnFBeGl1cmh4OU9ta0g4TzhCaFF5ZnhvNGtKWG1fVFJrT044b2VFaWNZa3VaeGI2UzRSd0VEN0tvNEl2dFRSMEZVNlVEeUQzT215czlERGRUYWdkdjF4cFZ6OHhJUURlZy1iNl9fcGk2YXJjLV9uRi1zRnRDblBBX0ZmcTBCa0Vid1ZRakg2SU1hN3NQdGhpTzhkU1ZGRE1FQkJmUVRtaDQ1SkJzR2ZpVzM3eg?oc=5",
+      "title": "Dólar cai no Brasil com nova pesquisa eleitoral e exterior no foco",
+      "source": "UOL Economia",
+      "published": "29/09/2026 09:09",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV0pNYlVROTc4elFNZ0YtSjRPZWVibWNTSkhfTVYybmhhd0YwQVJnYlVITkFkWlZhOXZJSXpJZ0RrM3Z1UV8wRXF0NEpocHlXNEw1MkV2Y1EyVEh1bHBGZ1dzWTRvSVg4bC00RDVCLVRDLWwwSU1UcUdoMWtFenlRUHQzOHd6NkZfTEpnRmRMaklBbmw1RGI0WTFGRFk4V0FhemRxczlVLVJFM1VVaGtmQ1Z2a1dzU3FYblNiVUxHN2dGLTlyU2JR?oc=5",
       "relevance": "média",
-      "credibility": 0.84,
-      "impact": "neutro",
+      "credibility": 0.82,
+      "impact": "baixa",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Gold tumbles below $4,200 as oil, Fed hike bets weigh on bullion",
-      "source": "Investing.com India",
-      "published": "28/09/2026 07:00",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUTFKRnM0Z08wUVdtSTdxRnVLWWdLMmJCTWFBUFBVeW81OHg4STVMN1kzX3UtWUZsRmpQUzQxcUVVbUZfNDBGS3VhYzJZeGowblgxRGF4Ujh4QjVaT0RGelRnNUdqandfRzNFMlB4WVExOEFvVW9NTGJhOEpPWE5CQlZlYmtHdm96cFZJdEpvbklqZ0picDdHc1kwSERjQlNjbzBqbjhub3Nod094RXVrRDQ0V0ZmRG80Wi1BdE5PUQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Why US Treasury Yields Have Risen Above 5%",
-      "source": "Investing.com",
-      "published": "28/09/2026 18:03",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNR05KckF0QU5SOTZGOHdkNVFtN2ZSNy1vU2VCWk1BbEd3bng5NHFROEwyT1RXNVhSRDdUZUNUZThKQWtVTFpreHFWclRSQy1BM19UNm5sSWpwcEJGcWtnYjV5eWQ1RW9SNVNSMlUxUmZ6OWR6T2lsS0tkZzhJYXRiNFlQbnNJVndzMzgteVdMTQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Zinc Drops As Stronger Dollar And Fed Rate Hike Bets Continue To Weigh On Prices By Kedia Advisory",
-      "source": "Investing.com India",
-      "published": "28/09/2026 01:16",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSnFqeFJXX2NFTlZaRmc4VEhWeUpKdkcyTzZTUkJ2VXEyMENJaTJTWVBjbWVfX3dhS1FLZkJtdUdDaXhXNExSS3Y3YnViR2lVd3YyUHhOQXhsZ0pkblJmMEd5RDhfZmRHRThIVzlrcUlIUmRfeXhmOU95YXNLdC15NEJYYzN4ZWI2X3RBVHdCYnVtem55M1B4M0JiZzhONWF0bGVFVWpveXkxUnFoaHpDOFpPd0VHc3l0WjU0eHRRMXBYTnNEaC1YODBBcWNNNzFw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA"
       ]
     },
     {
@@ -1004,69 +997,16 @@
       ]
     },
     {
-      "title": "Dollar hits two-month high as Treasury yields rise and markets price further Fed tightening",
-      "source": "VT Markets",
-      "published": "26/09/2026 00:20",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbHRMeHpxWi1DdUd0TW42UjEydlVIVjJyWDZDUVhIVkJPUHVSMnRhRG93aUc4SzVWNnBfalhPM1Q0YXVyOFZRQUgyZE1MVHZJVG5xN2lCSmsyaVg1VFJ0WWgwQzBzVzh3MERDdW5rdUttaGZDU1ZfWXJKTEdRWjEzSmtiTzhwMVU1UG8xa3ZMazd1Z1ZRM0pmWWk2blROZEdKTzRJWXVKbjZoMml0ZlZvWmIyZDRkQklnYTNpWlRRcE1UUFV3emFWQ0hjRzFJR0Qzb3pJ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Sterling Holds Firm as Oil Surge and Treasury Yields Climb, Keeping GBP/USD Near 1.3250",
-      "source": "VT Markets",
-      "published": "28/09/2026 19:20",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPal9fMkJiRVNqenh4X0hmN2tqd1BETzhOck9CbXRXUWcxc1BmZ0FOcHZQRkFCdm1lTGJfSEdMbkY3U3BiNVhRMHVpQXUwaC0yVlZxckM5cVV4enpGQ21ZT3BQcnRubUY5Z1dncUtMaUJtZHp3MHB6VlByLTFBU3JQVDB5dlFDV2FVb3dpdkczYUMzS2Q3T1JrQzItazFvZzdtLWpSZ3JoVEZXODNKYzBpTWM3clNjUll4dUNGbU9YZ2d6VjRuZVNGMm5WQldkOGc?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Juros futuros sobem com pressão de petróleo, dólar e Treasuries",
-      "source": "Canal Rural",
-      "published": "28/09/2026 09:57",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcmVYbkFYbFY3cHNDWC1CVWdUVEFETFJBckpCZkRJV3lLUkJGc3ZmLVQ0b2xfc2JWYTM4b1ZYaWhvN2QzS21hekNfeGM3d255b0ZoV3kxOHFEVC1TYmhNUVdnUEJya0pFYm1pME1rQ2NKVnlfZkNlZ09YMUEzNmFLMlpBejhYT2RkVkdoNndYWFlfMHNnd2R5UUF0MldlbFhrS1pHTw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Treasuries",
-        "Brasil — política / eleições",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Dollar near two-month high as US-Iran stalemate bolsters oil, Fed rate hike bets",
-      "source": "The Business Times",
-      "published": "28/09/2026 09:39",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPeUphaXhTWGZ3T285bHp0V3RWUE9vQ25PbHFsd1dGaThFWTNQNFRVQW9rQXZHeVd0WFRlS205MlhyTUF3YmNkTjVyUVZ1WTAwYjZPLU1xZjVNM29zbDlrSmI5a241VUJFOUdYSUlkZHpudHFJU1VLSlh4UjVBenhiY2lYVVc3RjE0MUxzaDQ4M0plTHpsU2V6dmtBTTN5OXlNSzhVUERjam9wR2c0b3FnbS1DblpRbk1WSENFQWJ0MVRTRE55NDhhSnRZSWthejVVRF9seU9lS0tCT00?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries",
-        "Commodities / petróleo"
-      ]
+      "title": "Ibovespa e dólar hoje: incerteza eleitoral e juros nos EUA no radar antes de IGP-M",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "published": "28/09/2026 18:30",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOalQ1ZFdYWkV4X3lKM0hIUWhkanBmekdGSXptT29kMWp4WkdTS2xOdHNFY29IMUVGRkgzclloQmw5ejFJaG1iQlpUUkRVX1UzTDFtdF9kLXc0RjBzQWpzcXJhcVBYRTlUM3BlcVA0V2hxMUxPYV9PN0JiU2RGS1dYbGZGWU1OYk9hQV9sTDAxWEhlV3laWGFYVnc2cmhqTUlFQXoyTk9YTWZ4SjVKY0NqRWVpbHRBVFZQSFl0d2JHSzJJcmZ5YzA5VkNSdmhXUGFDREE?oc=5",
+      "relevance": "média",
+      "credibility": 0.8,
+      "impact": "neutro",
+      "horizon": "hoje",
+      "theme": "Movimento do USD/BRL",
+      "factors": []
     }
   ]
 }
