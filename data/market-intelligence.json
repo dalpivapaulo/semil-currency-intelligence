@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:20:07.446947+00:00",
+  "generated_at": "2026-10-01T00:48:05.246670+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 3.76,
   "market_move": {
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 9 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA, Brasil — política / eleições.",
+    "summary": "A leitura reuniu 28 evidência(s) em 8 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dados econômicos dos EUA, BCB / Selic / Copom. Principais vetores de ALTA/risco: Fed / juros dos EUA, Commodities / petróleo.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
@@ -69,9 +69,27 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.38,
+        "score": 0.46,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "InfoMoney",
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar flat as US-Iran stand-off lifts oil, yields",
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Brasil — política / eleições",
+        "impact": "neutro",
+        "score": -0.24,
         "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
@@ -89,30 +107,12 @@
         "horizon": "90d"
       },
       {
-        "factor": "Commodities / petróleo",
-        "impact": "neutro",
-        "score": -0.15,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar flat as US-Iran stand-off lifts oil, yields",
-          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
-          "Gold hits seven-week low as oil surge fuels rate hike bets"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 8,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
           "CNBC TV18",
           "Folha de S.Paulo",
           "Reuters"
@@ -128,10 +128,9 @@
         "factor": "Treasuries",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 8,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
           "CNBC TV18",
           "Folha de S.Paulo",
           "Reuters"
@@ -147,7 +146,7 @@
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -232,36 +231,33 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.38,
-        "evidence_count": 13,
+        "score": 0.46,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
-          "Eleição no Brasil opõe estratégias para dívida, inflação e gastos, diz Oxford Economics",
-          "Dólar e Ibovespa fecham setembro com eleições no radar; o que esperar de outubro?",
-          "Dólar fecha a R$ 5,17 com dados de inflação dos EUA e cenário eleitoral brasileiro; Bolsa sobe mais de 1%"
+          "Dollar flat as US-Iran stand-off lifts oil, yields",
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
       }
     ]
   },
   "outlook10": {
     "bias": "ALTA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +3.8. PTAX: último pregão -0,76%; 5 pregões +0,77%; 10 pregões +0,55%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: +3.8. PTAX: último pregão -0,76%; 5 pregões +0,77%; 10 pregões +0,55%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Commodities / petróleo.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
-      "Bloomberg.com",
       "Bloomberg Línea Brasil",
       "WSJ",
       "CNBC TV18",
@@ -273,7 +269,7 @@
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Brasil — política / eleições.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Commodities / petróleo.",
     "drivers": [
       {
         "factor": "Fed / juros dos EUA",
@@ -330,24 +326,22 @@
         "horizon": "90d"
       },
       {
-        "factor": "Brasil — política / eleições",
+        "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 0.38,
-        "evidence_count": 13,
+        "score": 0.46,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
-          "Eleição no Brasil opõe estratégias para dívida, inflação e gastos, diz Oxford Economics",
-          "Dólar e Ibovespa fecham setembro com eleições no radar; o que esperar de outubro?",
-          "Dólar fecha a R$ 5,17 com dados de inflação dos EUA e cenário eleitoral brasileiro; Bolsa sobe mais de 1%"
+          "Dollar flat as US-Iran stand-off lifts oil, yields",
+          "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
+          "Gold hits seven-week low as oil surge fuels rate hike bets"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
       }
     ],
     "confidence": 82
@@ -355,11 +349,10 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 242,
+    "raw_news_results": 247,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
-      "Bloomberg.com",
       "Bloomberg Línea Brasil",
       "WSJ",
       "CNBC TV18",
@@ -381,9 +374,6 @@
     },
     {
       "name": "Reuters"
-    },
-    {
-      "name": "Bloomberg.com"
     },
     {
       "name": "Bloomberg Línea Brasil"
@@ -418,9 +408,6 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg.com"
-    },
-    {
       "name": "Bloomberg Línea Brasil"
     },
     {
@@ -444,16 +431,16 @@
   ],
   "source_analysis": [
     {
+      "source": "InfoMoney",
+      "count": 7,
+      "score": 1.24,
+      "status": "material",
+      "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
       "source": "Reuters",
       "count": 6,
       "score": 0.71,
-      "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "InfoMoney",
-      "count": 6,
-      "score": 1.24,
       "status": "material",
       "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
@@ -479,13 +466,6 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Bloomberg.com",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
       "source": "Bloomberg Línea Brasil",
       "count": 1,
       "score": 0.0,
@@ -498,6 +478,13 @@
       "score": 0.94,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "CNBC TV18",
+      "count": 1,
+      "score": 0.0,
+      "status": "material",
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -524,7 +511,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": 0.76,
-      "detail": "28 notícia(s) material(is), 9 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 8 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -563,7 +550,7 @@
     {
       "title": "Rupee ends nearly flat as traders remain glued to oil moves, RBI caps fall",
       "source": "Reuters",
-      "published": "29/09/2026 18:37",
+      "published": "28/09/2026 23:57",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTUtsNnBXN3BFb1pqRHQ0ZkpIVGNickIzQXk0UWNDdV9DSlBsbEc5QTlZZ05sQkYwOUlJbGZLNmJNS3cxWmNqXzN6ZkdQblFkUDAyY0E0UG5ZYTBrRnd5blJwdEJyMTdQTTFGUTJpY1hOZDhkSGxJa2F0LUotZ1J2LXEzZmNaMEcwMlZFaHZwZkpKR1RHNF96d2EzSUlLek5kcGtpNQ?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -619,21 +606,6 @@
       "factors": [
         "Fed / juros dos EUA",
         "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Surge in Bond Yields Is Spilling Over to the Dollar",
-      "source": "Bloomberg.com",
-      "published": "30/09/2026 19:09",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTDZGSkZfd2RLcGRNSE1ZalFtN0p5U3QyWlo0alBJcVlPYVU5d09RYmNIc2JxQlYyTHdNelpsdkVOYkpzQjdMR3dVY2haUEZtVnNvamFKelZnVzM2MGUtME9XODFZdWEzR3pLWDVteV8wdlhxNmhLWlkwTzlOTHJrdGpjM21mYndtdVF1d2VfbTF2LVNXTUJ2b2Z0cE1KMTBzcjl5MWk3REs?oc=5",
-      "relevance": "alta",
-      "credibility": 0.96,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
       ]
     },
     {
@@ -879,6 +851,20 @@
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Em compasso de espera, Bolsa perde força e dólar sobe na reta final do 1º turno",
+      "source": "InfoMoney",
+      "published": "28/09/2026 19:30",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQWphMlBDRjMzSXNVS3hpR3FQeDN6YVJENm5MNFFOOUJJOVlGd2pFYUlRZC1kRHY3UG9KWHdNczI1UzhrTjlUR1FPX1QyQUVHbWlLbEt0cWZoM0w5a1VWUUFHcnQxN2NYWWpVbjNXYllSMzlnUWVTeWxNOEJnWmg0aFhDSmVLbUowT014Q0JESGNxd1dGWlJF0gGcAUFVX3lxTFBZMkVxeENRcFNOa0tIdWZMWElWaHgwZDI0OEVuTkx2aktaeUhhSkdUd3R3U2NTekF3X3JGbWhoNV9tTTgtVWtPd3lPODZmWnByYmlJVldOdHQwY3BhakQtSy1rWkUybXM2X2dxR2JENUsyQk9xbkdpYXRRLU9fLVdiQTJWSDJ4R2MyTV9Vc0o2cGhsdmhOOG5helR4aw?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "alta",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
