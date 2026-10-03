@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T22:17:41.810794+00:00",
+  "generated_at": "2026-10-03T00:42:08.581163+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 3.29,
   "market_move": {
@@ -11,21 +11,21 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 8 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dados econômicos dos EUA, BCB / Selic / Copom, Brasil — política / eleições. Principais vetores de ALTA/risco: Treasuries, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 7 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dados econômicos dos EUA, BCB / Selic / Copom, Brasil — política / eleições. Principais vetores de ALTA/risco: Treasuries, Fed / juros dos EUA.",
     "today_summary": "USD/BRL no último pregão: +0,31%; momento em 5 pregões: +0,48%. Pressões de baixa: Dados econômicos dos EUA. Pressões de alta: Treasuries, Fed / juros dos EUA.",
     "factors": [
       {
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -2.23,
-        "evidence_count": 7,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "Bloomberg.com",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -54,13 +54,12 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.9,
-        "evidence_count": 6,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -76,11 +75,10 @@
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
           "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -97,10 +95,10 @@
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
-          "CNBC",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "Gold edges up as softer inflation data dents Fed rate-hike bets",
@@ -129,33 +127,15 @@
         "horizon": "90d"
       },
       {
-        "factor": "Dólar global / DXY",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Reuters"
-        ],
-        "examples": [
-          "US dollar flat against peers after softer-than-expected inflation data",
-          "Rupee drops to two-month low as global bond rout deepens, oil jumps",
-          "Global stocks weather third-quarter AI, bond and crude maelstrom"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 5,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "InfoMoney"
+          "InfoMoney",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -165,16 +145,19 @@
         "horizon": "90d"
       },
       {
-        "factor": "Fluxo / apetite a risco",
+        "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "Folha de S.Paulo"
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
-          "Mercados emergentes superam desenvolvidos com agravamento da venda de títulos"
+          "US dollar flat against peers after softer-than-expected inflation data",
+          "Rupee drops to two-month low as global bond rout deepens, oil jumps",
+          "Global stocks weather third-quarter AI, bond and crude maelstrom"
         ],
         "horizon": "10d"
       }
@@ -184,14 +167,14 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -2.23,
-        "evidence_count": 7,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "Bloomberg.com",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -220,13 +203,12 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.9,
-        "evidence_count": 6,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -242,11 +224,10 @@
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
           "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -263,10 +244,10 @@
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
-          "CNBC",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "Gold edges up as softer inflation data dents Fed rate-hike bets",
@@ -286,9 +267,8 @@
       "Federal Reserve",
       "Reuters",
       "Bloomberg.com",
-      "Bloomberg Línea Brasil",
-      "CNBC",
-      "Folha de S.Paulo",
+      "bloomberglinea.com.br",
+      "cnbc.com",
       "Estadão",
       "InfoMoney",
       "CNN Brasil"
@@ -302,14 +282,14 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -2.23,
-        "evidence_count": 7,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "Bloomberg.com",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -338,13 +318,12 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.9,
-        "evidence_count": 6,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
-          "Folha de S.Paulo",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "US dollar flat against peers after softer-than-expected inflation data",
@@ -360,11 +339,10 @@
         "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
           "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney"
+          "InfoMoney",
+          "bloomberglinea.com.br"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -381,10 +359,10 @@
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
-          "CNBC",
           "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "cnbc.com"
         ],
         "examples": [
           "Gold edges up as softer inflation data dents Fed rate-hike bets",
@@ -399,14 +377,13 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 294,
+    "raw_news_results": 288,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg.com",
-      "Bloomberg Línea Brasil",
-      "CNBC",
-      "Folha de S.Paulo",
+      "bloomberglinea.com.br",
+      "cnbc.com",
       "Estadão",
       "InfoMoney",
       "CNN Brasil"
@@ -429,13 +406,10 @@
       "name": "Bloomberg.com"
     },
     {
-      "name": "Bloomberg Línea Brasil"
+      "name": "bloomberglinea.com.br"
     },
     {
-      "name": "CNBC"
-    },
-    {
-      "name": "Folha de S.Paulo"
+      "name": "cnbc.com"
     },
     {
       "name": "Estadão"
@@ -461,13 +435,10 @@
       "name": "Bloomberg.com"
     },
     {
-      "name": "Bloomberg Línea Brasil"
+      "name": "bloomberglinea.com.br"
     },
     {
-      "name": "CNBC"
-    },
-    {
-      "name": "Folha de S.Paulo"
+      "name": "cnbc.com"
     },
     {
       "name": "Estadão"
@@ -482,10 +453,10 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 6,
+      "count": 10,
       "score": 1.48,
       "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "10 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "CNN Brasil",
@@ -502,13 +473,6 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Folha de S.Paulo",
-      "count": 4,
-      "score": 0.0,
-      "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
       "source": "Estadão",
       "count": 4,
       "score": -1.27,
@@ -516,7 +480,7 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Bloomberg Línea Brasil",
+      "source": "bloomberglinea.com.br",
       "count": 2,
       "score": 0.0,
       "status": "material",
@@ -530,7 +494,7 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "CNBC",
+      "source": "cnbc.com",
       "count": 1,
       "score": 0.9,
       "status": "material",
@@ -561,7 +525,7 @@
     {
       "name": "Noticiário dinâmico",
       "score": -0.71,
-      "detail": "28 notícia(s) material(is), 8 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 7 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -644,7 +608,7 @@
     },
     {
       "title": "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
-      "source": "Bloomberg Línea Brasil",
+      "source": "bloomberglinea.com.br",
       "published": "01/10/2026 10:01",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaGdTRXVWTEcxU0xCaE5mX2tpLU9hcVpSZFpWWXc0aE1MVDVSMUpDNi0zeUhyQXhnN1ZRd25KV25MY0gxbjVvTnU4ZFhjR1NaTkR5empiNmcxTlllSzd6WmJqcDJ1X19SX1h4aGxUdFk4NTFuVXYzOEQ0Ukw1WU9CRXJsLUJZbjRiWTBXd3BETEJ2ak9JbXBOMjFUSVdTMW1xa2N1ZTJlZW5aUDJKbTRydTFBN3NYeUJiM2FNU1M3c2JUU2fSAdcBQVVfeXFMT09TWlJDU0VFMFZnQnZoV0JpcVN5VDZUbHF0SnltQ1JwSl95Z1RVeHlsdU9zdEZjMDBZTmZKUnZJNW5UR3NlcXk3T1pFQ1ByV1p3RGdDUVhtWVlpT0xxajJfamFTTk1TQURlRHVSNXI5WmVibE5XdWNrZVlPM1dBVE1GZlhnX2VibGhOZ3I5dGctTWZPNzl1dllpR0tua0paVFZ4VDlIWE5Yc2Q4RVdfWThhRXA1NTlnblMzYkw5dnYxWVhpRDhrRXZMQVlweWZjUEdBaGk4dDg?oc=5",
       "relevance": "alta",
@@ -659,7 +623,7 @@
     },
     {
       "title": "Eleição no Brasil opõe estratégias para dívida, inflação e gastos, diz Oxford Economics",
-      "source": "Bloomberg Línea Brasil",
+      "source": "bloomberglinea.com.br",
       "published": "30/09/2026 04:39",
       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORUlJQ3lPNzcxMnhqbVRaTE9kS1p5bzdGdmFRZHB2Rk14RVJ5dEVQUU91MUFNUTZiQ0dDalM5WHZkQk5OOVBKckg4VVZrMEVLaXdNRmlNN3htZEd1QzM4QkxUb29RQzFMb0hFWnZrV2lPMzE5Zi1PQVJBWEFFTGctUmdINmZibERDOGNCZ1Zvb21aRkJjTElQeUpiQko3TkdCU1I4Rzl5ODFzdENFbjc4aVJLVFZxbUktelh5c1V5Zldxb1pmUkM0LUZBRHRSb3kyYmEzTlhnUkNsd9IB2gFBVV95cUxORUlJQ3lPNzcxMnhqbVRaTE9kS1p5bzdGdmFRZHB2Rk14RVJ5dEVQUU91MUFNUTZiQ0dDalM5WHZkQk5OOVBKckg4VVZrMEVLaXdNRmlNN3htZEd1QzM4QkxUb29RQzFMb0hFWnZrV2lPMzE5Zi1PQVJBWEFFTGctUmdINmZibERDOGNCZ1Zvb21aRkJjTElQeUpiQko3TkdCU1I4Rzl5ODFzdENFbjc4aVJLVFZxbUktelh5c1V5Zldxb1pmUkM0LUZBRHRSb3kyYmEzTlhnUkNsdw?oc=5",
       "relevance": "média",
@@ -675,7 +639,7 @@
     },
     {
       "title": "Gold holds steady as firm dollar, yields counter easing Fed rate hike bets",
-      "source": "CNBC",
+      "source": "cnbc.com",
       "published": "01/10/2026 02:19",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPN3VTUm1mWHp6bTZUVy1TVUZJV3VQUEYwUEJOSUNHUzlGZk5zUUlwbWpQVFNHeTMyVUZHY21GbmpOR0lEbWZ5ek45bll5Vm9GdVEtbG8wVWpsR21SQTNxNzhUX0FodENNTm9Rc0VXZUZHcXFNYTRZNWozVm53VnJmWkhWVUd4YlFB0gGOAUFVX3lxTE43LTRmNkJ2RDViRHhUX2VUY0dBbGpJdjBDa2xLd3h1VV9ZVDlKd0t3cG5md1dnaXFOcEg3UURrQ25XdHdWcm91clBfQVNnZmtCNFhGcmx1VlJ5MWo4c05mZmJacHNvQlk3TW5NdHU1WkNLT29mR2Jfd0JVQm9GTWVscE5sTFliS0t3WGFLZ0E?oc=5",
       "relevance": "alta",
@@ -686,22 +650,6 @@
       "factors": [
         "Fed / juros dos EUA",
         "Treasuries"
-      ]
-    },
-    {
-      "title": "Mercados emergentes superam desenvolvidos com agravamento da venda de títulos",
-      "source": "Folha de S.Paulo",
-      "published": "02/10/2026 15:52",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNME1ZWm1SZURqMXhmNmM2NUxHMjI4X3V4dWNkWWtXdFBVcUI0NHVmNGg4ZG5rd1dUb3hwR1h6X21UZUc0VlllcE0yb08yWHlrQ3J6dXJtcllEWllXM216YjZpcGhsQXJlek91QVg5RzBRNURWYUxuSlFHV1ZKbUFzYVBHVlpOMDIzN21hMlVQQ1pSLWxqMmtUQTdzSzhDZ1U5V2Q4NUtxTlJ5TWVyRmNBaFY5Z0RudkgwbDJKdjRWQ24yS0I3ZjZESQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Fluxo / apetite a risco"
       ]
     },
     {
@@ -720,34 +668,6 @@
       ]
     },
     {
-      "title": "Dólar fecha em queda e Bolsa sobe com mercado de olho em emprego e eleições",
-      "source": "Folha de S.Paulo",
-      "published": "29/09/2026 10:07",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRXZ3dTBoLWE1ZktNSnFYNmpaS3RvVnRSOEdDcXJaWGcxd1RpcFNIZFRmN2d5Sk5hUlZmMkdEMWtnR0VCcF9aWFNaS3hXMkh4NWhhejNTcllVZFhIdVVWUmJEODZjN0t5Q01Sd1NNeW5wdUtUTERtdjJYZjYxMi1vMlZiSTFSeW1abVV6ckxpMHV1ZVhYaDhNZHl5TmNndVg4cmw5MTlKYllRalRNc1NLUGJmQkRNU1ZlbVF0UTQ5WnB3VGJlZnRDZHl1ZG1tNjg?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar fecha em alta de quase 1% e Bolsa avança antes de Datafolha, com títulos dos EUA em alta",
-      "source": "Folha de S.Paulo",
-      "published": "01/10/2026 10:03",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdERkOWZyTDZ5ZVdtTzY5MXl5SGVGbm5JQkgwVWZjSXhpSHF4dktMM0tfVTJ2dEEySmdaeF93ZUMzS3VzRHRoTkNzcXBJWWVIczByZzFMWm1CajAxV2x3alFLaUdPSjV4VjJuRS11Q2JCZEtSNTZOcmJsLXFXZHRLeHFNazJGcENJTWw0SzdqOTZVeFN1Q1R1UFFiR2ROZFp0MW5sWEYwVnlnZ1JLRUxxNmZsSVRYemR3dnZFRUJBZHJWTFdxWFdiWS1vbEkzT3lIaWVhby13?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Ibovespa chega ao último pregão antes da eleição com payroll e petróleo acima de US$ 100",
       "source": "Estadão",
       "published": "02/10/2026 04:30",
@@ -761,20 +681,6 @@
         "Dados econômicos dos EUA",
         "Brasil — política / eleições",
         "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Dólar fecha em alta com cautela global e cenário eleitoral brasileiro no radar; Bolsa recua",
-      "source": "Folha de S.Paulo",
-      "published": "28/09/2026 09:34",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOaGJmQlVhQURPa1ljTEdwN25HSmY5eUpMUmJBc0Y0SnhlRHRoNHJ3T2I4ZDF4NFB1bWQwVXdBX0VJUVBCUjZ6b0FSdGhZbDVseUdFZTlhR3M4UFd4TjA4TmxlYzFzSDUxRS1LQjg5ZnZYWS1Vc2FSd25zajJ6d0xzS2ViWTc1ZHJvUVpTYjlvRU1YaFp1a0F3X05zSWtkX0ljVkJQRVhFaGExMUptYXUxNjNacXVmbWlnaWxicA?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     },
     {
@@ -883,6 +789,20 @@
       ]
     },
     {
+      "title": "Diferencial de juros coloca câmbio e ações no radar dos investidores",
+      "source": "CNN Brasil",
+      "published": "28/09/2026 04:00",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd050R09mU1AxMVEtbWtGYmJtVFQ0OWwtSDhBSC12M3laejdvenBfNWRuRXpOSHE3dVcwRTBmTU1wRlVJbEl0aVpGUVRIY0pFQUo0SEFhU3F6ZFFCX1Y5dkJYVmxNdHlic2tpNFZkTmtXRk9OSVEtWDdhUzBVcGNZeGtiYUdweWFXc09ZTVJBTlBPTDhEd1VXaGhqV0NMWm1yX2NIbVBLQmJkTkxmR2hPU1hPRGFfSXV5cDhsSHJ3?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Análise: O câmbio está fora do lugar",
       "source": "CNN Brasil",
       "published": "28/09/2026 10:07",
@@ -911,17 +831,60 @@
       ]
     },
     {
-      "title": "Diferencial de juros coloca câmbio e ações no radar dos investidores",
+      "title": "Ibovespa fecha com leve queda, com exterior e bancos; dólar sobe a R$ 5,22",
+      "source": "InfoMoney",
+      "published": "28/09/2026 17:36",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVZ5VkRSQnVBNjh6R1hrZHR2bXhTc01SYXczR083dk03aDMyMndhaWZVdzFLRlR6dG1mUm5kSjROZDEybkdqbjh6czk5SHBIb1Z1V1Foc0o0TDJQbmgwNGtOb0pzZnJwZDFubDNOTDF1TFJScUhSLXp1YmhYWFNWMGFHdEJHT3djcDFzdUYtMA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
+      "factors": [
+        "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Dólar fecha em alta firme e vai a R$ 5,22 com cenário eleitoral; bolsa sobe",
       "source": "CNN Brasil",
-      "published": "28/09/2026 04:00",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd050R09mU1AxMVEtbWtGYmJtVFQ0OWwtSDhBSC12M3laejdvenBfNWRuRXpOSHE3dVcwRTBmTU1wRlVJbEl0aVpGUVRIY0pFQUo0SEFhU3F6ZFFCX1Y5dkJYVmxNdHlic2tpNFZkTmtXRk9OSVEtWDdhUzBVcGNZeGtiYUdweWFXc09ZTVJBTlBPTDhEd1VXaGhqV0NMWm1yX2NIbVBLQmJkTkxmR2hPU1hPRGFfSXV5cDhsSHJ3?oc=5",
-      "relevance": "alta",
+      "published": "01/10/2026 09:36",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcVdZNlVFUVVDWEViVGFZeVkxdmNObWFQSkNFaWN3dTVPZ2ZFQktWTTFJOXE5WkJlNjh2OGRDQnpBaDV6bzdqWnpybmZaT1pIRGE3U1ZVV0h4Sjd0M045allsLUxSa0xMRFY1UGdWWWZ4SEZDX20tb3hlZVJSbGxzTjJ6NEhNRlZXakthWENBVnp2ODVqZGYtT2JKc0lJS01sdE5V?oc=5",
+      "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "theme": "Brasil — política / eleições",
       "factors": [
-        "BCB / Selic / Copom"
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar a R$ 5,20: Câmbio deve sofrer forte volatilidade à espera de eleições",
+      "source": "CNN Brasil",
+      "published": "29/09/2026 04:10",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdE5JcXdjWldVOFpKY1VKLUpRNE1Jd2FkckkzYUxmcVVPeE5CVzVmSmpsNndJZW9KUWcyQ1J6VXBpQm5acm1EbUFwbDdCVk5xaWVpbDIxRlFPa1h5NEVpdXp3MGJPTFZYb0x6Y29LcnpkMzlXX3ozcWlIWl9Kb2FZNllKdzRKcGJpaHRIZi1PcGg3eFZuc0o4eE1JdGg4WXNVWjFSV0pXbEtqUTRPN1JjNDZ3cTNOOXRxWXVMOUVzbUpZNFBF?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Bolsas de NY sobem com payroll reforçando manutenção de juros pelo Fed em outubro",
+      "source": "InfoMoney",
+      "published": "02/10/2026 17:25",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYkgwQmJwTzZjaElrWUpXbU1TOVFMcEVRbjZqMkI1a0pIai03amVZTlhZaEY3TkFFRmtoLW9ScGsyNlZRTGRQSmdOYkNFM0JlT1gzaVdLU1ZtalcxM193WjBJZHR0b2RCQ244VmQxU005cnFUamdDSHFCMURBc1JCSDBpcU03T1lFMUdQTDNYRnRkOWdjd3dFZElMcWc1Z0ZMNmxFcFUyVUt4TEhPVS0zMDlJQnRJWlp6WHU3UNIBwgFBVV95cUxPWXRIaFFnLUJWNHctWURBUDAtX3dYX3dYS1dueW9kLUZCVmIzNmh4OWVaR3BhTmxidk1VV0RIQlJRSEl6bTlMOUo5SXVxOGJuSm9qeU9QZnBZb1lHU0JHSkQxeTBpdUU5RmVMV1REU1VJLWplT0R3b3BOVHd4TTVjQWhDMXNubUJyT2RKS0IxTGJIZ1BDc2JId2FQUlJONTJUdktCR0MtOUFxVGxhSms0RzgwVDZOTVRVQ1RYcEpraDU4dw?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Dados econômicos dos EUA"
       ]
     }
   ]
