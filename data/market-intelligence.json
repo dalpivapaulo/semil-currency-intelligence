@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-05T20:45:12.721248+00:00",
+  "generated_at": "2026-10-06T01:46:27.393960+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": -5.35,
+  "score10": -2.57,
   "market_move": {
     "material": true,
     "day_variation_pct": -4.5541559784065155,
@@ -11,52 +11,68 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 17 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries, Commodities / petróleo.",
+    "summary": "A leitura reuniu 28 evidência(s) em 15 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA.",
     "today_summary": "USD/BRL no último pregão: -4,55%; momento em 5 pregões: -4,36%. Pressões de alta: Dólar global / DXY, Treasuries, Commodities / petróleo.",
     "factors": [
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "alta",
+        "score": 2.94,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC TV18",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
+          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.11,
-        "evidence_count": 14,
+        "score": -1.49,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "BBC",
@@ -64,8 +80,8 @@
           "CNN Brasil",
           "InfoMoney",
           "O GLOBO",
-          "Valor Econômico",
-          "economia.uol.com.br"
+          "UOL Economia",
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -75,42 +91,22 @@
         "horizon": "90d"
       },
       {
-        "factor": "Commodities / petróleo",
-        "impact": "alta",
-        "score": 0.78,
-        "evidence_count": 4,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg.com",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "The Spokesman-Review",
-          "cnbctv18.com"
-        ],
-        "examples": [
-          "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
-          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "Fed / juros dos EUA",
-        "impact": "neutro",
-        "score": 0.02,
+        "impact": "alta",
+        "score": 0.98,
         "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
+          "CNBC TV18",
           "InfoMoney",
           "Reuters",
-          "Yahoo Finance",
-          "cnbctv18.com",
-          "economia.uol.com.br"
+          "UOL Economia",
+          "Yahoo Finance"
         ],
         "examples": [
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
-          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained"
+          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
+          "Ibovespa dispara com eleições, tem maior alta em mais de 6 anos e passa dos 200 mil"
         ],
         "horizon": "10d"
       },
@@ -144,7 +140,7 @@
           "Estadão",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "economia.uol.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Mercado volta a prever inflação acima de 5% e reduz projeção para o PIB",
@@ -189,46 +185,62 @@
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "alta",
+        "score": 2.94,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC TV18",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
+          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.11,
-        "evidence_count": 14,
+        "score": -1.49,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "BBC",
@@ -236,8 +248,8 @@
           "CNN Brasil",
           "InfoMoney",
           "O GLOBO",
-          "Valor Econômico",
-          "economia.uol.com.br"
+          "UOL Economia",
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -247,38 +259,38 @@
         "horizon": "90d"
       },
       {
-        "factor": "Commodities / petróleo",
+        "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 0.78,
-        "evidence_count": 4,
+        "score": 0.98,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "The Spokesman-Review",
-          "cnbctv18.com"
+          "CNBC TV18",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia",
+          "Yahoo Finance"
         ],
         "examples": [
-          "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
           "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
+          "Ibovespa dispara com eleições, tem maior alta em mais de 6 anos e passa dos 200 mil"
         ],
         "horizon": "10d"
       }
     ]
   },
   "outlook10": {
-    "bias": "BAIXA MODERADA",
-    "confidence": 82,
-    "summary": "Score técnico consolidado: -5.3. PTAX: último pregão -4,55%; 5 pregões -4,36%; 10 pregões -2,46%. USD/BRL no último pregão: -4,55%; momento em 5 pregões: -4,36%. Pressões de alta: Dólar global / DXY, Treasuries, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo.",
+    "bias": "BAIXA LEVE",
+    "confidence": 75,
+    "summary": "Score técnico consolidado: -2.6. PTAX: último pregão -4,55%; 5 pregões -4,36%; 10 pregões -2,46%. USD/BRL no último pregão: -4,55%; momento em 5 pregões: -4,36%. Pressões de alta: Dólar global / DXY, Treasuries, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
-      "Bloomberg.com",
       "Bloomberg Línea Brasil",
       "Valor Econômico",
-      "cnbctv18.com",
+      "CNBC TV18",
       "BBC",
       "Times Brasil | CNBC",
       "Estadão",
@@ -286,60 +298,75 @@
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
-      "economia.uol.com.br",
+      "UOL Economia",
       "Investing.com",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "The Spokesman-Review",
       "Yahoo Finance"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA.",
     "drivers": [
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 2.72,
+        "score": 3.92,
         "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Investing.com",
           "Reuters",
-          "The Spokesman-Review",
           "Yahoo Finance"
         ],
         "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease"
+          "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "alta",
+        "score": 2.94,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC TV18",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
+          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.11,
-        "evidence_count": 14,
+        "score": -1.49,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "BBC",
@@ -347,8 +374,8 @@
           "CNN Brasil",
           "InfoMoney",
           "O GLOBO",
-          "Valor Econômico",
-          "economia.uol.com.br"
+          "UOL Economia",
+          "Valor Econômico"
         ],
         "examples": [
           "Dólar pode ir de R$ 4,50 a R$ 5,80 após eleição e depende do fiscal, segundo o Goldman",
@@ -358,38 +385,38 @@
         "horizon": "90d"
       },
       {
-        "factor": "Commodities / petróleo",
+        "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 0.78,
-        "evidence_count": 4,
+        "score": 0.98,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "The Spokesman-Review",
-          "cnbctv18.com"
+          "CNBC TV18",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia",
+          "Yahoo Finance"
         ],
         "examples": [
-          "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
           "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
+          "Ibovespa dispara com eleições, tem maior alta em mais de 6 anos e passa dos 200 mil"
         ],
         "horizon": "10d"
       }
     ],
-    "confidence": 82
+    "confidence": 75
   },
   "collection_status": {
     "web_searches_total": 16,
-    "web_searches_succeeded": 14,
-    "raw_news_results": 213,
+    "web_searches_succeeded": 13,
+    "raw_news_results": 218,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
-      "Bloomberg.com",
       "Bloomberg Línea Brasil",
       "Valor Econômico",
-      "cnbctv18.com",
+      "CNBC TV18",
       "BBC",
       "Times Brasil | CNBC",
       "Estadão",
@@ -397,10 +424,9 @@
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
-      "economia.uol.com.br",
+      "UOL Economia",
       "Investing.com",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "The Spokesman-Review",
       "Yahoo Finance"
     ],
     "fallback_used": false,
@@ -418,16 +444,13 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg.com"
-    },
-    {
       "name": "Bloomberg Línea Brasil"
     },
     {
       "name": "Valor Econômico"
     },
     {
-      "name": "cnbctv18.com"
+      "name": "CNBC TV18"
     },
     {
       "name": "BBC"
@@ -451,16 +474,13 @@
       "name": "Agência Brasil"
     },
     {
-      "name": "economia.uol.com.br"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com"
     },
     {
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
-    },
-    {
-      "name": "The Spokesman-Review"
     },
     {
       "name": "Yahoo Finance"
@@ -477,16 +497,13 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg.com"
-    },
-    {
       "name": "Bloomberg Línea Brasil"
     },
     {
       "name": "Valor Econômico"
     },
     {
-      "name": "cnbctv18.com"
+      "name": "CNBC TV18"
     },
     {
       "name": "BBC"
@@ -510,7 +527,7 @@
       "name": "Agência Brasil"
     },
     {
-      "name": "economia.uol.com.br"
+      "name": "UOL Economia"
     },
     {
       "name": "Investing.com"
@@ -519,26 +536,30 @@
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
-      "name": "The Spokesman-Review"
-    },
-    {
       "name": "Yahoo Finance"
     }
   ],
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 8,
+      "count": 9,
       "score": 0.0,
       "status": "material",
-      "summary": "8 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "9 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "count": 3,
       "score": -0.59,
       "status": "material",
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "Reuters",
+      "count": 2,
+      "score": 3.92,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Estadão",
@@ -555,20 +576,6 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Reuters",
-      "count": 1,
-      "score": 0.98,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Bloomberg.com",
-      "count": 1,
-      "score": -0.96,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
       "source": "Bloomberg Línea Brasil",
       "count": 1,
       "score": 0.0,
@@ -577,6 +584,13 @@
     },
     {
       "source": "Valor Econômico",
+      "count": 1,
+      "score": 0.0,
+      "status": "material",
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "CNBC TV18",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -606,11 +620,27 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -0.35,
-      "detail": "28 notícia(s) material(is), 17 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "score": 2.43,
+      "detail": "28 notícia(s) material(is), 15 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
     }
   ],
   "news": [
+    {
+      "title": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+      "source": "Reuters",
+      "published": "04/10/2026 22:22",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUzk3bWZMY2M2d1ZHLWhKbzhqV2VPZjY0N2JCcm0tMGRLUTAzM2V5TmZ3RzI1dGZNZ0duR2NmZXIxQU1qaWZvdGI5SUwtRWpiQ0dkWTBVdUIxNFZzVDAxOWpQa0FmQWFTRWZUTV9lWE1yRGR5MmN6WG16UGJNamRNUzB4WQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries",
+        "Commodities / petróleo"
+      ]
+    },
     {
       "title": "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
       "source": "Reuters",
@@ -625,21 +655,6 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
-      ]
-    },
-    {
-      "title": "Dollar Falls as Soft Job Data Roils Timing of Fed Rate-Hike Bets",
-      "source": "Bloomberg.com",
-      "published": "02/10/2026 17:47",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQa1RMakhNNkV1ai11aHZSMURRNmtES2pGX29KSUJkV3ZSM3p1X1ZoT1EtUFFVNEFHbTB5blRnWkJpV0sxR2F3RVlONG5qTnV3dUZGb2FrM1UxZ3BuWXpLenpKV1RDNGxkSm9NbDh0a3hBZ1FNX1d3bUw5YkFpbkd6WnlTZTZhLVZyZE9ZTXduY01XUkpQLW5oQW93MkxzczNlcklqcEpXNkhGTzdjV05VRDZTZjY?oc=5",
-      "relevance": "alta",
-      "credibility": 0.96,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Commodities / petróleo"
       ]
     },
     {
@@ -674,7 +689,7 @@
     },
     {
       "title": "Rupee gains 10 paise against dollar: Oil, Fed bets and RBI role explained",
-      "source": "cnbctv18.com",
+      "source": "CNBC TV18",
       "published": "05/10/2026 00:53",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVnVkMG51OXAtVGIwSTE3RG41OVZiSk1fb0VyMzFnNy02MHpnTlR4OE02anZtNE5wVC1NOFJzMXhjaUdvc0gxd205eTZ4NG9HQkhKaHJ0Wi1kSzVPMXhlXzVhdXlERm85V0JlQnc1OVE1N3R0aDcwVEVWdWJBOU5ReXIzQW5pUFJmal93SnpjQWtGN0hnWDJTSFBwdzgxYldqY1pDc0JBeGxfS2RxLU82cENB0gG3AUFVX3lxTE9RUWJhMUZ5LWV4U25LQTlfRU1KSHQ2LXM5VGtUYTFNVE5XelZEQnU2MGJ3UkhfUDNPN1R6cm5WVVZ4X3djTVVHODVuSzVqMjVlR1Z2Wk1hZkROMUREbm9CZ09UdHJqdUNMeEVWMzhRZ1FMMWZQRmpQUDFqLUxUaGo3X1lTQ0JxTDVWaW9tajliZjR3WUdmTnBHTU5fa3FjemZfdGtqTFZRc0tiZWJPMnJSTkhuVEdvMA?oc=5",
       "relevance": "alta",
@@ -690,7 +705,7 @@
     {
       "title": "Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno",
       "source": "BBC",
-      "published": "05/10/2026 15:09",
+      "published": "05/10/2026 15:20",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSeWZzYWl1Q2YydHNyLU9QS09nUlladTNPVC0tSllaeWhoU0kzN254QXdHSnZnYzRZbW91cDdWSE84T0MybkNvTVhuR2pJOEdIU1YxellTWnU5Y3l0YzFjT3Z5UdIBaEFVX3lxTE1lQUVNbm04WnJFaXQ4UGhwOUY3eUZ4RHgxa2J5WVEwTkV1a05XLXFvajJXSkxnMG4tR2phV0V5WURkM25zTDBxeHJTNDJHRmRYYW94TERVMHRBZ3Nuc1BGS29KYlQ3cWV3?oc=5",
       "relevance": "alta",
       "credibility": 0.9,
@@ -730,9 +745,9 @@
       ]
     },
     {
-      "title": "Ibovespa bate recorde histórico em pontos, e dólar chega a cair abaixo de R$ 4,95",
+      "title": "Ibovespa bate recorde histórico em pontos e dólar tem maior queda diária desde 2018",
       "source": "O GLOBO",
-      "published": "05/10/2026 08:22",
+      "published": "05/10/2026 17:21",
       "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUEo5d2hYODZXWVV2b0oxcmt0eEdmbURhYlItdTJNN3A3SE0yb3AtZ1hmaDQwN19UdHBNU2owN1lOOXlPMkVjNWZBNUE1SDJXckt4QmUtYmxYVThuYm5USVNVbHlIeXV5Rm13ZkJ4MjQyc0Fod0JkV29sQVZwOWZscFh4STYxU01majlLOUVJeHVKTkRxNFJ1N3ptUlM2b0VtSmxPMl9iS1NmczJZd29ES0JiVUNObFFlTHZzOXJFSW9lSGxGN2pBMDhObVY3SEI0S2tXQ1VJTFctYndfYkNfaG04QXZUQdIB9AFBVV95cUxQMm1iQjRyWmwtN0lfU1hfNy1zRHpFUkZTdFJJX09OeHZMZnN6YmJtWnNuTnhwTmxQa2haUmUzS3ZCSHdpSUFXSkRMT2NrUVYtc0VGRHZaZDNNYk1jSlVRRlVmRkhtemVCR2JIRHFOWjdOUlhtSlF1ZHF6cnFIOEFENTllWVN0M2pXbHh1TGprbVE2N3hyYzZqRGtwTjJSUG1aS3M1dDM3aDZXUFRld1FTcXlUQ1JEWGxhVTMta3ZZb0Rvd1hVQmVFbUV2MEpzOTNPbTdHYUdwYmFmZ3JfcUxpTXBERTBTcFMtbTdBZlptTGdnX0k0?oc=5",
       "relevance": "média",
       "credibility": 0.88,
@@ -774,20 +789,6 @@
       ]
     },
     {
-      "title": "Ibovespa bate inéditos 209 mil pontos e dólar despenca após 1º turno",
-      "source": "CNN Brasil",
-      "published": "05/10/2026 09:14",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbWlWVnUtN2JfYS14eHRqNGxCZVJmMkFiZ2puLU5jcU9SeEZNc204eURkNG9oSzJHYWIxRnlSUk5zTk1oeWd6MVlZaFYtbVo3OGZQS1FPZWZuSHZqZ1FCSGs0elRERWgxWUxTd0dIRzlqX0lyT09ESHVhdmRyVWUwMzhISkh6X2s?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Após o primeiro turno das eleições, até onde o dólar pode ir?",
       "source": "InfoMoney",
       "published": "05/10/2026 15:36",
@@ -798,6 +799,35 @@
       "horizon": "hoje",
       "theme": "Movimento do USD/BRL",
       "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Ibovespa renova máxima histórica e dólar fecha em R$ 5 após 1º turno",
+      "source": "CNN Brasil",
+      "published": "05/10/2026 18:02",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbWlWVnUtN2JfYS14eHRqNGxCZVJmMkFiZ2puLU5jcU9SeEZNc204eURkNG9oSzJHYWIxRnlSUk5zTk1oeWd6MVlZaFYtbVo3OGZQS1FPZWZuSHZqZ1FCSGs0elRERWgxWUxTd0dIRzlqX0lyT09ESHVhdmRyVWUwMzhISkh6X2s?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Ibovespa dispara com eleições, tem maior alta em mais de 6 anos e passa dos 200 mil",
+      "source": "InfoMoney",
+      "published": "05/10/2026 17:31",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZHV6QXJPMVhFbS1vRlhJSERSMFRTaUlfbnRsc3FlNXZZMGY3dkhwU1VzQkJxeXlQWGM2QVJGdkZlSjhyNjZYdVRkVTJzMkk0Vkg1Njh3OUlUM09FY2g5S0JrMmVVbEl1RE0tM1N4Q3N1SEpGbUVBSW9NMTNZNHhOYm1pRERnQnRUN2M3Z01ZOA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
         "Brasil — política / eleições"
       ]
     },
@@ -879,7 +909,7 @@
     {
       "title": "Euro despenca 5% ante real com crise fiscal na França e eleição no Brasil",
       "source": "InfoMoney",
-      "published": "05/10/2026 11:18",
+      "published": "05/10/2026 15:39",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWi1tZkRqc1ZQdWRIOWVzbDlQaW9nUnd6OUNJX1Fub25YNDBmZkRpa0lYd2RMVGR2WXRJYi1Bbk9jZ1BQUFZuT3ZUS1UwLWZHVVJQcEdKNUs3c2ZScWR4SDBmZ1Z2NVBOVTltazVyNXVZODJmNVRORVFBdkU2Um5vZWJJdkV3NDMzMnNIbHVUVVVRV01KVjVMUk9tLW5nMWF5ZTdF0gGoAUFVX3lxTE9PU1FGLUVGQ2ExcW1Yc0k1Z19yalZMSnh2X0t2QzJPdmlNbERQTVZVSDhtZWlra04yZEc3eDM1UEhsNDJTVmFNQ29BN2xVZDhQOS1JeUxZcFVxQ1ZSaWhfUDM5VHVUUjFKdnhidHpXSHhHQlVENFRIYlRwbUI0cUN4Tl9KRFJyczRQbktwMlpScjFLTEFKN1Nab3VVWE5PUXA4QmEwcG00bQ?oc=5",
       "relevance": "média",
       "credibility": 0.86,
@@ -907,8 +937,22 @@
       ]
     },
     {
+      "title": "Euforia do mercado após 1º turno derruba dólar a R$ 5; Bolsa bate recorde",
+      "source": "UOL Economia",
+      "published": "05/10/2026 17:03",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRGtpLWo3T3E4YlVkNEtaQm15UGYySFJaQ2dBc3ZmYlBEZFptdUVGZllTaWNtTzBWb3RseEJtUjBPTVMyYlRiVWlBVy11dVZ0WHB6TXVEU2p1R09OcncwRFpDN1M5YnpLaWNyUk9wNjZOZDVJczlnZlZvdEVPRVVuRlZmQWdQbWVjR2piQUlMVUtPRmRXV054Zkk0NkpicHhuTUpnaUhjVzJHby1HRTBXeEJqNW8?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Dólar cai abaixo de R$ 5 e Ibovespa sobe 8% a 207 mil pontos após 1º turno",
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "published": "05/10/2026 13:12",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdjNrczZJZjlUYWtTZjhKUmRJanBwRkdiZk9FUlZTUjk2NFFRYXoyYVp3bDJXelVmYUVXcVlCVllnbnlWLWJFVnBrU2pOalJMbk9lcFlfZURhbDNlS3lfMTVaek56Rm40b080SXlKLWV6M05KODJFdjFGbWNoRS1qSmhkMldYS0dOY3hLTXlHQ0Zqa2szLVpDNTZrbkNTdU1lZHNGMFgtS2F3Zk1FSDhaRUVn?oc=5",
       "relevance": "média",
@@ -921,22 +965,8 @@
       ]
     },
     {
-      "title": "Dólar ronda R$ 5,22 e Bolsa sobe, por eleições no Brasil e emprego nos EUA",
-      "source": "economia.uol.com.br",
-      "published": "02/10/2026 13:09",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWlkzbDVnaE9oOW9wbjNUVWdVVzB2aWktTWwxRzJkbzh0bnVOZFdHTXg1ajk2SHRLWWstVGY3Y1R2NmNjOEw4M05EYzBINnlfbWhiaHo4dnEyVGNEWW1DUDNIVTk4TXRHbHNibW4wUDZld05BYzVDRFFsWWpaZDN4NGh4ZDYtVWhYbndVdW9BRnotMElSb3dLdEhoNkczSlE5ZmJJTEVrWmpnVkhWV0NRbkFB?oc=5",
-      "relevance": "média",
-      "credibility": 0.82,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Mercado tem PMIs, inflação no Brasil, ata do Fed e reação ao 1º turno",
-      "source": "economia.uol.com.br",
+      "source": "UOL Economia",
       "published": "05/10/2026 12:54",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVE9EbHNwSXVkOWdral82MV9mcmJ5STJxSmNSRkpRN0FuVXJ4VVR3cElZM0tTUFB0bUZENVVoWkg0bUotM2EydHQ3WFNxQ2xMRUJ1YmU2d0pYSzRUVTRjYkZhMlg2UWg5b0ZrVVNxWVE0MkNINC1pMFpKdFJwcXlRcERGM3pQd1h5ZmVXYUtlRldTa21NeDQ5bFB5U2o2bGVMVWk4aTh4SldNRU1qX1hpOUhuWng5TjRlcjgyOWE5YVAtaVFwLTVMdDhvaUVZOFRaMlBr?oc=5",
       "relevance": "média",
@@ -947,21 +977,6 @@
       "factors": [
         "Fed / juros dos EUA",
         "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "US Dollar Index Rises 0.4% as Euro Hits 17-Month Low",
-      "source": "Investing.com",
-      "published": "05/10/2026 14:15",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcktGR1dnZFhwNFF2bllvdkszUVUxZDYwQkxfQlJjSlJpQmxQTG1QaXZpbGU2b1c0Q0FLWGx6czhWM1dtek5ib1I2cGZ4ZXFrLWY3TV82OVNZM0hxSGcteHEzRTZBbXVGTy05cjY4ZXhjRXd0QnJCdExQV1J4R1pUY29KdURxelpBc3B2NTZyT09KZEtTMU56cW5R?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
       ]
     }
   ]
