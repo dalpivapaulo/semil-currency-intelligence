@@ -1,112 +1,108 @@
 {
-  "generated_at": "2026-10-07T00:59:43.966907+00:00",
+  "generated_at": "2026-10-07T18:58:18.151014+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -1.0,
   "market_move": {
     "material": true,
-    "day_variation_pct": -0.32291060791431736,
-    "momentum_5_pct": -4.800398436901377,
-    "momentum_10_pct": -2.8596000860030113,
+    "day_variation_pct": 0.4768803573584446,
+    "momentum_5_pct": -3.6171321585052874,
+    "momentum_10_pct": -2.876648383708713,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 14 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
-    "today_summary": "USD/BRL no último pregão: -0,32%; momento em 5 pregões: -4,80%. Pressões de alta: Treasuries, Dólar global / DXY, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 13 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Treasuries, Fed / juros dos EUA, Commodities / petróleo, Dólar global / DXY.",
+    "today_summary": "USD/BRL no último pregão: +0,48%; momento em 5 pregões: -3,62%. Pressões de alta: Treasuries, Fed / juros dos EUA, Commodities / petróleo.",
     "factors": [
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 5.88,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Bitget",
-          "CNBC",
-          "Reuters",
-          "boca.com.br"
-        ],
-        "examples": [
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Gold climbs as dollar, Treasury yields slip"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 3.92,
+        "score": 6.68,
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
-          "Reuters",
-          "boca.com.br"
+          "Investing.com",
+          "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Euro bounces as decline in French bond yields cools debt jitters"
+          "Gold climbs as dollar, Treasury yields slip",
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 2.94,
+        "score": 4.64,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
           "CNBC",
           "InfoMoney",
+          "Investing.com",
           "Reuters",
           "UOL Economia"
         ],
         "examples": [
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
           "Gold climbs as dollar, Treasury yields slip",
-          "Gold inches lower as firmer dollar, higher yields weigh"
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
+          "Dollar gains as oil climbs and investors focus on the Fed"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 2.94,
+        "score": 3.84,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "CNBC",
           "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
+          "Dollar gains as oil climbs and investors focus on the Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 3.74,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Euro bounces as decline in French bond yields cools debt jitters",
+          "Hawkish Fed triggers emerging market outflows in September By Reuters"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.1,
-        "evidence_count": 15,
+        "score": -2.05,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "BBC",
           "CNN Brasil",
+          "Folha de S.Paulo",
           "InfoMoney",
-          "O GLOBO",
           "UOL Economia",
-          "Valor Econômico",
-          "boca.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "BC pode baixar o juro após as eleições?",
           "Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno",
-          "Ibovespa bate recorde histórico em pontos e dólar tem maior queda diária desde 2018"
+          "Dólar sobe e Bolsa recua em correção após euforia com resultado eleitoral"
         ],
         "horizon": "90d"
       },
@@ -144,21 +140,23 @@
         "examples": [
           "Mercado volta a prever inflação acima de 5% e reduz projeção para o PIB",
           "Bolsas de NY sobem com payroll reforçando manutenção de juros pelo Fed em outubro",
-          "Payroll nos EUA e indústria no Brasil dividem atenções antes das eleições do 1º turno"
+          "“Lua de mel” com a inflação acabou e BC deve cortar Selic “cautelosamente”, diz XP"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Fluxo / apetite a risco",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Times Brasil | CNBC"
+          "Times Brasil | CNBC",
+          "UOL Economia"
         ],
         "examples": [
-          "Ibovespa supera 197 mil pontos em novo recorde; dólar é negociado a R$ 5,02 no menor nível em dois anos"
+          "Ibovespa supera 197 mil pontos em novo recorde; dólar é negociado a R$ 5,02 no menor nível em dois anos",
+          "Dólar fecha quase estável, a R$ 5,2165, com cautela antes das eleições"
         ],
         "horizon": "10d"
       },
@@ -166,13 +164,15 @@
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "CNN Brasil",
           "InfoMoney"
         ],
         "examples": [
-          "Euro despenca 5% ante real com crise fiscal na França e eleição no Brasil"
+          "Euro despenca 5% ante real com crise fiscal na França e eleição no Brasil",
+          "Mercado se anima com Flávio, mas sustentabilidade da alta depende de fiscal"
         ],
         "horizon": "90d"
       }
@@ -181,96 +181,92 @@
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 5.88,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Bitget",
-          "CNBC",
-          "Reuters",
-          "boca.com.br"
-        ],
-        "examples": [
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Gold climbs as dollar, Treasury yields slip"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 3.92,
+        "score": 6.68,
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
-          "Reuters",
-          "boca.com.br"
+          "Investing.com",
+          "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Euro bounces as decline in French bond yields cools debt jitters"
+          "Gold climbs as dollar, Treasury yields slip",
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 2.94,
+        "score": 4.64,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
           "CNBC",
           "InfoMoney",
+          "Investing.com",
           "Reuters",
           "UOL Economia"
         ],
         "examples": [
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
           "Gold climbs as dollar, Treasury yields slip",
-          "Gold inches lower as firmer dollar, higher yields weigh"
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
+          "Dollar gains as oil climbs and investors focus on the Fed"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 2.94,
+        "score": 3.84,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "CNBC",
           "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
+          "Dollar gains as oil climbs and investors focus on the Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 3.74,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Euro bounces as decline in French bond yields cools debt jitters",
+          "Hawkish Fed triggers emerging market outflows in September By Reuters"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.1,
-        "evidence_count": 15,
+        "score": -2.05,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "BBC",
           "CNN Brasil",
+          "Folha de S.Paulo",
           "InfoMoney",
-          "O GLOBO",
           "UOL Economia",
-          "Valor Econômico",
-          "boca.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "BC pode baixar o juro após as eleições?",
           "Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno",
-          "Ibovespa bate recorde histórico em pontos e dólar tem maior queda diária desde 2018"
+          "Dólar sobe e Bolsa recua em correção após euforia com resultado eleitoral"
         ],
         "horizon": "90d"
       }
@@ -279,123 +275,118 @@
   "outlook10": {
     "bias": "BAIXA LEVE",
     "confidence": 75,
-    "summary": "Score técnico consolidado: -1.0. PTAX: último pregão -0,32%; 5 pregões -4,80%; 10 pregões -2,86%. USD/BRL no último pregão: -0,32%; momento em 5 pregões: -4,80%. Pressões de alta: Treasuries, Dólar global / DXY, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
+    "summary": "Score técnico consolidado: -1.0. PTAX: último pregão +0,48%; 5 pregões -3,62%; 10 pregões -2,88%. USD/BRL no último pregão: +0,48%; momento em 5 pregões: -3,62%. Pressões de alta: Treasuries, Fed / juros dos EUA, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Commodities / petróleo, Dólar global / DXY.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
+      "Bloomberg Línea Brasil",
       "Valor Econômico",
       "CNBC",
       "BBC",
       "Times Brasil | CNBC",
       "Estadão",
-      "O GLOBO",
-      "InfoMoney",
+      "Folha de S.Paulo",
       "CNN Brasil",
+      "InfoMoney",
       "Agência Brasil",
       "UOL Economia",
-      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "boca.com.br",
-      "Bitget"
+      "Investing.com"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Dólar global / DXY, Fed / juros dos EUA, Commodities / petróleo.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Treasuries, Fed / juros dos EUA, Commodities / petróleo, Dólar global / DXY.",
     "drivers": [
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 5.88,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Bitget",
-          "CNBC",
-          "Reuters",
-          "boca.com.br"
-        ],
-        "examples": [
-          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Gold climbs as dollar, Treasury yields slip"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 3.92,
+        "score": 6.68,
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
-          "Reuters",
-          "boca.com.br"
+          "Investing.com",
+          "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Euro bounces as decline in French bond yields cools debt jitters"
+          "Gold climbs as dollar, Treasury yields slip",
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 2.94,
+        "score": 4.64,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bitget",
           "CNBC",
           "InfoMoney",
+          "Investing.com",
           "Reuters",
           "UOL Economia"
         ],
         "examples": [
-          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
           "Gold climbs as dollar, Treasury yields slip",
-          "Gold inches lower as firmer dollar, higher yields weigh"
+          "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
+          "Dollar gains as oil climbs and investors focus on the Fed"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "alta",
-        "score": 2.94,
+        "score": 3.84,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "CNBC",
           "Reuters"
         ],
         "examples": [
           "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
-          "Ibovespa e dólar hoje refletem tensões no Oriente Médio, alta no preço do petróleo"
+          "Dollar gains as oil climbs and investors focus on the Fed"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 3.74,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Investing.com",
+          "Reuters"
+        ],
+        "examples": [
+          "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
+          "Euro bounces as decline in French bond yields cools debt jitters",
+          "Hawkish Fed triggers emerging market outflows in September By Reuters"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.1,
-        "evidence_count": 15,
+        "score": -2.05,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "BBC",
           "CNN Brasil",
+          "Folha de S.Paulo",
           "InfoMoney",
-          "O GLOBO",
           "UOL Economia",
-          "Valor Econômico",
-          "boca.com.br"
+          "Valor Econômico"
         ],
         "examples": [
           "BC pode baixar o juro após as eleições?",
           "Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno",
-          "Ibovespa bate recorde histórico em pontos e dólar tem maior queda diária desde 2018"
+          "Dólar sobe e Bolsa recua em correção após euforia com resultado eleitoral"
         ],
         "horizon": "90d"
       }
@@ -405,23 +396,22 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 225,
+    "raw_news_results": 231,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
+      "Bloomberg Línea Brasil",
       "Valor Econômico",
       "CNBC",
       "BBC",
       "Times Brasil | CNBC",
       "Estadão",
-      "O GLOBO",
-      "InfoMoney",
+      "Folha de S.Paulo",
       "CNN Brasil",
+      "InfoMoney",
       "Agência Brasil",
       "UOL Economia",
-      "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "boca.com.br",
-      "Bitget"
+      "Investing.com"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -438,6 +428,9 @@
       "name": "Reuters"
     },
     {
+      "name": "Bloomberg Línea Brasil"
+    },
+    {
       "name": "Valor Econômico"
     },
     {
@@ -453,13 +446,13 @@
       "name": "Estadão"
     },
     {
-      "name": "O GLOBO"
-    },
-    {
-      "name": "InfoMoney"
+      "name": "Folha de S.Paulo"
     },
     {
       "name": "CNN Brasil"
+    },
+    {
+      "name": "InfoMoney"
     },
     {
       "name": "Agência Brasil"
@@ -468,13 +461,7 @@
       "name": "UOL Economia"
     },
     {
-      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
-    },
-    {
-      "name": "boca.com.br"
-    },
-    {
-      "name": "Bitget"
+      "name": "Investing.com"
     }
   ],
   "sources_checked": [
@@ -488,6 +475,9 @@
       "name": "Reuters"
     },
     {
+      "name": "Bloomberg Línea Brasil"
+    },
+    {
       "name": "Valor Econômico"
     },
     {
@@ -503,13 +493,13 @@
       "name": "Estadão"
     },
     {
-      "name": "O GLOBO"
-    },
-    {
-      "name": "InfoMoney"
+      "name": "Folha de S.Paulo"
     },
     {
       "name": "CNN Brasil"
+    },
+    {
+      "name": "InfoMoney"
     },
     {
       "name": "Agência Brasil"
@@ -518,22 +508,23 @@
       "name": "UOL Economia"
     },
     {
-      "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
-    },
-    {
-      "name": "boca.com.br"
-    },
-    {
-      "name": "Bitget"
+      "name": "Investing.com"
     }
   ],
   "source_analysis": [
     {
+      "source": "UOL Economia",
+      "count": 6,
+      "score": -1.18,
+      "status": "material",
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
       "source": "InfoMoney",
-      "count": 7,
+      "count": 5,
       "score": 0.0,
       "status": "material",
-      "summary": "7 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Reuters",
@@ -543,14 +534,14 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "UOL Economia",
-      "count": 4,
-      "score": -0.59,
+      "source": "Estadão",
+      "count": 2,
+      "score": 0.0,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Estadão",
+      "source": "CNN Brasil",
       "count": 2,
       "score": 0.0,
       "status": "material",
@@ -564,25 +555,18 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
+      "source": "Bloomberg Línea Brasil",
+      "count": 1,
+      "score": 0.0,
+      "status": "material",
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
       "source": "Valor Econômico",
       "count": 1,
       "score": 0.0,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "CNBC",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "BBC",
-      "count": 1,
-      "score": -0.9,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -599,7 +583,7 @@
     {
       "name": "Momento da PTAX",
       "score": -4,
-      "detail": "5 pregões -4,80%; 10 pregões -2,86%; último pregão -0,32%."
+      "detail": "5 pregões -3,62%; 10 pregões -2,88%; último pregão +0,48%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -609,14 +593,14 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 14 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 13 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
       "title": "Nasdaq hits record as dollar and Treasury yields climb, oil prices ease",
       "source": "Reuters",
-      "published": "04/10/2026 22:22",
+      "published": "05/10/2026 18:38",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOUzk3bWZMY2M2d1ZHLWhKbzhqV2VPZjY0N2JCcm0tMGRLUTAzM2V5TmZ3RzI1dGZNZ0duR2NmZXIxQU1qaWZvdGI5SUwtRWpiQ0dkWTBVdUIxNFZzVDAxOWpQa0FmQWFTRWZUTV9lWE1yRGR5MmN6WG16UGJNamRNUzB4WQ?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -630,26 +614,25 @@
       ]
     },
     {
-      "title": "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
+      "title": "Gold climbs as dollar, Treasury yields slip",
       "source": "Reuters",
-      "published": "04/10/2026 23:12",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0dGUTlhay1BaS1nWk41NWd0UFdwbV9QSzNuNGZnTjVYRlpYNXo5NFF6TkZDWV9QNGpDMEhzd3QwUG41clBBTVVGalVyQy1nZkw5SHNRbGktSTJrbjJoMmZNR3NWNTY2WVpIeXA4YUVBOUlkb2dyMExSTXlpaDBvLU93bXpIZWtpbzNTMFAxMmJ5ODhMMmJIWUhVbw?oc=5",
+      "published": "05/10/2026 23:15",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
       "impact": "alta",
       "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
+      "theme": "Fed / juros dos EUA",
       "factors": [
-        "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
       ]
     },
     {
-      "title": "Gold climbs as dollar, Treasury yields slip",
+      "title": "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
       "source": "Reuters",
-      "published": "05/10/2026 23:15",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS3Z3SEV1TFdScWdiaHBPbEVUTjFEYWV0WjJSQjRPRkl2LTZsNHJoNzU1RGEyM0V2bE5LYk9KUDUtZ0tNMGFKYWw3NWFoUEdkQU5MaklVVy1lUmNMRlJQOUk3VjFjNmJZWGk1bzZtRkpLVWxmTUMzZ0NadVJsZUs3TWNlY0JrdGNubHpXOWNTRXEyVXM0YkUxWGd2UDQ2dkJi?oc=5",
+      "published": "05/10/2026 23:24",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV0dGUTlhay1BaS1nWk41NWd0UFdwbV9QSzNuNGZnTjVYRlpYNXo5NFF6TkZDWV9QNGpDMEhzd3QwUG41clBBTVVGalVyQy1nZkw5SHNRbGktSTJrbjJoMmZNR3NWNTY2WVpIeXA4YUVBOUlkb2dyMExSTXlpaDBvLU93bXpIZWtpbzNTMFAxMmJ5ODhMMmJIWUhVbw?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
       "impact": "alta",
@@ -676,6 +659,18 @@
       ]
     },
     {
+      "title": "Dólar a R$ 4,50 e bolsa em 250 mil pontos? As previsões de Wall Street após o 1º turno",
+      "source": "Bloomberg Línea Brasil",
+      "published": "07/10/2026 08:09",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbkRFbmM5ZGJEZlJHS3Vyc1hVaS1iSm9VSVQwNXZxQVFVZEVTNnhiNS1jVXdCWUZhaFdQLTBWSm5KXzBrcTBMLXRrRHlaYmRYeWVydGowYVBFWFNqZGR0R2Z1QjdwQ19sT29kd2UwYnBhYXFNZFZlQnVRYnNEdDdTckhlQVBIeWtpNGVpTFUybHJXdzNub05LejByVW9FcW9vbWUzWWlmWWJNdkstOXFtc0J2TTRyTXI4aGZVQzhBa2xkSnVG0gHYAUFVX3lxTE9WcTY2b0l5RzVUZjZQWUVySWd2SzJtX1lkVVpkTjlLMU0zQmE0MjItQlNscUplOXY2SFFWeXV3bEdLdkVtSmJHbG5uUjRlTnNLZnZobWNfQkh1SlVJTE1pdUMyOXlPeXpmRlpnek1hWmRXTUViRXhkNURjR0Z1T1NxbElHWWlYTERSNmt6M1ZoZ0JuN19yaGZHcUpqOTdLby1ERHFBSllyazNpV0FBNGR5R1pzNUVWUU5qSExuYWhUSlBacGdBQl9DMkgzZm53OFZzM1I2RnVsNg?oc=5",
+      "relevance": "média",
+      "credibility": 0.96,
+      "impact": "neutro",
+      "horizon": "hoje",
+      "theme": "Movimento do USD/BRL",
+      "factors": []
+    },
+    {
       "title": "BC pode baixar o juro após as eleições?",
       "source": "Valor Econômico",
       "published": "05/10/2026 05:00",
@@ -691,18 +686,18 @@
       ]
     },
     {
-      "title": "Gold inches lower as firmer dollar, higher yields weigh",
+      "title": "Dollar gains as oil climbs and investors focus on the Fed",
       "source": "CNBC",
-      "published": "06/10/2026 00:25",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVpuYmsxZzVtZTY4OEtvU0xxWlVpeGFQM1Ytdl9sbmpPTFV1WC14R0Z0YlJyeDluVkhrYkZHSnBxNTdIYldLY2VWVjlWWjRVdmozakNwc3R4S0tBZEFSdDlSU3lURzF0NThmbi1YWXNxclAzWWJWRjZGX1o1NFludHg1bElSVDlvOHg5VzNpVFpDeDdTdEZfdGltONIBmwFBVV95cUxNVVpuYmsxZzVtZTY4OEtvU0xxWlVpeGFQM1Ytdl9sbmpPTFV1WC14R0Z0YlJyeDluVkhrYkZHSnBxNTdIYldLY2VWVjlWWjRVdmozakNwc3R4S0tBZEFSdDlSU3lURzF0NThmbi1YWXNxclAzWWJWRjZGX1o1NFludHg1bElSVDlvOHg5VzNpVFpDeDdTdEZfdGltOA?oc=5",
+      "published": "06/10/2026 22:48",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmVYbzRZZ2d1cFZ2ejYyZXNxbzhCQ1Q5WGZWMjU0YU1OQWU1VThySVkyVjJnUW9vT28zcFJrdUMzQXlPSXlqWFdMRFJlYjU2cDlURXFiWFJSU2RLdTdxS3VLd0prRHJ2MFZlckRFZHVjaGNUdjNfV0pWRkxpWVQtNDQ4dG9TbXRLMVFWTkw4OXVUUlV5Z3plODdn0gGfAUFVX3lxTE95OEtpeGVSMmdkVFV3dXQxSTF4YTdKZ0hJM3ZfQUU2dzNyZUt1M3NjWG5CSEtVYnpaNkVubXFDTi10Slk5VHZTWk9sbElRR1o3d1UzWC11VjhYd1F5NUZ6OXlkOUhPN3hkOXo5X2UzWDFaOWVhYWxpaE1XSHNhdzMyZ1hGWWp2dVBVMmlrUHluSTAtT01lZnhydF9ERXBoUQ?oc=5",
       "relevance": "alta",
       "credibility": 0.9,
-      "impact": "neutro",
+      "impact": "alta",
       "horizon": "10d",
       "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA",
-        "Treasuries"
+        "Commodities / petróleo"
       ]
     },
     {
@@ -737,7 +732,7 @@
       "title": "Mercado pós-primeiro turno: o guia para entender o que mexe com Bolsa, dólar e juros nesta segunda",
       "source": "Estadão",
       "published": "04/10/2026 17:53",
-      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd01KVm1pTzdmZC1yd0R5ZmZQMkRBd3k1aDVPb3ZjQURrWDh6VVhfUUVyVVNzUUpmZkRmVUp6Zk9FMVFYLXJyV09pczdGTWJKNUdDTkNqQWlhaFY3ck96alBIZVRvLXhZT2ZhNzA0NHgzM2pKLW5KVksxajcwaG1SS0xYd3JjcTh6dkt0OGxONWxEMDRUMkgza3lwa29NdkJHSlotZUtjLTNBUjdxSnVYMmVyVWlaT2xFN04tSlVkMzhNNGl6UUduTXlEZ3ZmeVdNMDYzYnBpcUdPcExkT1lOZ3hPOVg1WG94MG9F?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPd01KVm1pTzdmZC1yd0R5ZmZQMkRBd3k1aDVPb3ZjQURrWDh6VVhfUUVyVVNzUUpmZkRmVUp6Zk9FMVFYLXJyV09pczdGTWJKNUdDTkNqQWlhaFY3ck96alBIZVRvLXhZT2ZhNzA0NHgzM2pKLW5KVksxajcwaG1SS0xYd3JjcTh6dkt0OGxONWxEMDRUMkgza3lwa29NdkJHSlotZUtjLTNBUjdxSnVYMmVyVWlaT2xFN04tSlVkMzhNNGl6UUduTXlEZ3ZmeVdNMDYzYnBpcUdPcExkT1lOZ3hPOVg1WG94MG9F0gHwAUFVX3lxTE0wNDhPTkFYR0NuUktiZEZkT0JzMC03VWV4ck5yejJHcFRkMlZuelJybG02RXhiTFFJZHM2elgtajhiak1FQXItZTloQUtIVnhxMFd6UERmcE9jeFB3M2RjVU9zS1JZLTJ5aVk2bEhXdEpHNlA1VlJFSy1pc21tYlV5WUFGeGZqTHpKT2NvNTdETWZmREN2bi1NTS1OYXV4aVpEeC1xU1dYTjBWby1GekUwMEpSa1BycHVmQkZ0QkpHZV9QY2NYSWptd1c4ckg2M0J0MVpRYUZTS0NEMnpOUThNSFdpRlI4LUN0RkJTeTZKSg?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
       "impact": "neutro",
@@ -748,13 +743,13 @@
       ]
     },
     {
-      "title": "Ibovespa bate recorde histórico em pontos e dólar tem maior queda diária desde 2018",
-      "source": "O GLOBO",
-      "published": "05/10/2026 08:22",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQUEo5d2hYODZXWVV2b0oxcmt0eEdmbURhYlItdTJNN3A3SE0yb3AtZ1hmaDQwN19UdHBNU2owN1lOOXlPMkVjNWZBNUE1SDJXckt4QmUtYmxYVThuYm5USVNVbHlIeXV5Rm13ZkJ4MjQyc0Fod0JkV29sQVZwOWZscFh4STYxU01majlLOUVJeHVKTkRxNFJ1N3ptUlM2b0VtSmxPMl9iS1NmczJZd29ES0JiVUNObFFlTHZzOXJFSW9lSGxGN2pBMDhObVY3SEI0S2tXQ1VJTFctYndfYkNfaG04QXZUQdIB9AFBVV95cUxQMm1iQjRyWmwtN0lfU1hfNy1zRHpFUkZTdFJJX09OeHZMZnN6YmJtWnNuTnhwTmxQa2haUmUzS3ZCSHdpSUFXSkRMT2NrUVYtc0VGRHZaZDNNYk1jSlVRRlVmRkhtemVCR2JIRHFOWjdOUlhtSlF1ZHF6cnFIOEFENTllWVN0M2pXbHh1TGprbVE2N3hyYzZqRGtwTjJSUG1aS3M1dDM3aDZXUFRld1FTcXlUQ1JEWGxhVTMta3ZZb0Rvd1hVQmVFbUV2MEpzOTNPbTdHYUdwYmFmZ3JfcUxpTXBERTBTcFMtbTdBZlptTGdnX0k0?oc=5",
+      "title": "Dólar sobe e Bolsa recua em correção após euforia com resultado eleitoral",
+      "source": "Folha de S.Paulo",
+      "published": "07/10/2026 09:54",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNTmdWY0hTdjI5c3lZbXVVTHRIWG9NN2FaRFpCSUVjUFQ1SmRJcDJXSjNHMU1sRnBlSHdkZU5FZ25PNFkxVmMtUUZCaVl5V1hnMHNTUDJrWFQ5R29ENFJiZ0dreVBFZG1GYjJfckxucHVrdWpaRm5XakpwbzlVTXZxZlJxUnhySzJWbEZmVnBsQU9YaURFNUZGUjNXMVlEZDU5ZzZJcjBJd0pvdjFOM0NWU1RIc2w2X2VwTEZIdDcxR3d0NlVuVkhn?oc=5",
       "relevance": "média",
       "credibility": 0.88,
-      "impact": "neutro",
+      "impact": "alta",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
@@ -774,20 +769,6 @@
       "factors": [
         "Dados econômicos dos EUA",
         "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Após o primeiro turno das eleições, até onde o dólar pode ir?",
-      "source": "InfoMoney",
-      "published": "05/10/2026 15:36",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZkpZSXJucTh6aGhVX1k2OS1wNGQzLUl0bEpTUFFRa2NPcFdsSUk5LVQ4SEx1Ukx5Z093LVlpalhtR25scVFPSy1LcHgwbE5QLTRNN1plaDkwZmoyODZEXzk0NXhKUXBvRmlRRlhSVG9LYmlGU2l4NTFnMFFqQUtPY1Q3QS1JQW1ONkQ2N012bnRkMUIxb3NYRlNhek4tMDjSAaQBQVVfeXFMTnUzc2MtampCS3pOVk9EWmQ3Vk1qTzlNSmhHUjlWUFBzWHhicjNvREt2ZTJKdkZjOXNEMWI5VWgtUndZMHVYVktLOWxZcExZYUFuaUEtTTRWTkJiVlJxbDExVFNVWXVDaDVfdDc1WHdpR09LSkJJNmZWWDc0TGFpaHV4TVppRGFwcU1jWlFDQUhfczgyMU1ncWgxSk1UTlFrb3kyNFo?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "hoje",
-      "theme": "Movimento do USD/BRL",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     },
     {
@@ -835,18 +816,18 @@
       ]
     },
     {
-      "title": "Payroll nos EUA e indústria no Brasil dividem atenções antes das eleições do 1º turno",
+      "title": "“Lua de mel” com a inflação acabou e BC deve cortar Selic “cautelosamente”, diz XP",
       "source": "InfoMoney",
-      "published": "02/10/2026 06:16",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOWIyU1QyZGY3Zjh2X29NdVZtQ25Ddm45eml4R1dHd2dCR2JfRXVTZUxPbF9tUU1fRDc1a09oZC1hLTljb1R2RzlXMHQxS2h0RVV6UFV5Wl9GaE9Cc24wRzVVMVJqb0ZDcWNoZnlpc3ZvVU50UU5ZYmY2OXZ3dDNOVTU5REE3TGpFVEFOaUJ4cGTSAZYBQVVfeXFMUGtjTlVYRDk0Z2FEb05COVFydFFRTUxwVWxzR0tHc1pJYXJtX29FVUxRTnRmU0lhSHljR29nY29YbW9TTHNoQms3cDJTdGh1SWNrZGdfYTdRM1pMU3BqY2JTeGxqUDFsRWxOQ044Z3MxZ19oVGMxMGJJLUZQWFVQZ2FWa0VJQmotY2V5Z3Z6bFlrdmROZ1VR?oc=5",
+      "published": "07/10/2026 12:22",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNOXRyODhDY1dSczdkWVFxOExyUDQ0ai1LSVNoWm1laUtfWTJVOFBjRkpuZTJVNTd2dkVYUXkyWE1wZDBzQm1XY1pRNTV2OExjS0MtbmYteTBNcXc1NHJXdHRXWUNKUkNzZFNlNW1WaEtDdG5yc0N5N1hqdk1JaGZHc1VPTFdyQXVkdWtQekJfeEl0NVhqcW5OdXVnRjdxWktPeEljYzV6STZRT3JWaGVkUmxtdGU1bHPSAbwBQVVfeXFMT0c3Ukl3cC0tdzlwUzZlS0FYT3BqTDUtOHdrTHI3aG1TZ21KRkswdWdMSmIxOTA3QXhUcV9pWmRMUUtBdXltZVBsZmQxazR0Z0JKVEdQdnUwc19RN2trMUpfM1NGOFVJMnlzZEZKd0VXQ0wyTjNneldiNnpwR3AwY05vaXM2U0t6VDVhRkJpcmdCR3Y4c0pNMl9uSEVKSUxycENjQkJpRmtyOUNRRUphaFlKRzNnYTUtZ214Qlg?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dados econômicos dos EUA",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
       "factors": [
         "Dados econômicos dos EUA",
-        "Brasil — política / eleições"
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -854,21 +835,6 @@
       "source": "InfoMoney",
       "published": "05/10/2026 12:39",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUWE3cDFSVEdNYlRxWGJ6TUNDY2pvdUdKM2lFV1VLWDYxTjFaODVJVHgyN003V2Y0ZVhqdzJ2dWVVOUk0R29haktpYjlNWFEzMHhMcFJKSlNSdXJPaHdBOUFpZG9uS1dCRVlXSUtiTkRVZDczNzJNeEt6UFlEM25OTjVSX0g0YkpxSmxYdkpfc1F3MEtNNkFQb01mVjlUMmpLVDJxMmEyTjlwOEQ3UHk1cFU5WTdBaXpic1JrbGRDbkNqQdIBxwFBVV95cUxPV0IwR1NtT3ZTcDY5bVBEOVl1UjQzYjNXaWdINl9sMmRSMDdZZHNYLVA3TzBWWXV1cVNVOHlTalJFUUhLWk90U0h4N0JDNjBwWnNNdVBkeXkwQWtrRzdqa2pNSHNrXzRKX2RSSU5QUVVwR3lWZmtiSHAtdzZ1VWlrZVhLVTY5UlFHTnR5bEVnT3FzeDN0YXVHX0RlR3huNEJBUUZpRWZNeFJJREhqOWRJeG9TTmdLbG5CdkN2MUg4OENaU3lVX0Nn?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "As 7 ações mais recomendadas para surfar a avalanche na Bolsa após as eleições",
-      "source": "InfoMoney",
-      "published": "02/10/2026 13:00",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd3d3V25hLWtGMEludk9IYXV3bFZtZHJqNExIOF9tX3dGMldsUG40VGc4UVFMTk5OMUk5TWFCMDVZeTJRSTREVjRrZ1lTTXRubWdEbzdzb3NHNEtyT3dEWTljZGFDTEdHQUpEM2lTa3FFYUdTclNFQVhOalJtblE5M2JCRG50c1ZKZVpodWln0gGTAUFVX3lxTFBvRnpzUkppWkdEbThIQkdQYkFNdUtiT3BBSnlTWnVQRHA2eWVmbXZNZTVZLUVfWGJtVGhCNjRrSTJPb01vb2FzdzIzcktmNUh3ZW1MSEh3RFA0ZVd4MmdRWHMxZEVGcnJYdlNkWFA0Rko4VGdDTmxTa3U0QW5LVXJGNFNXN0VmSHViOGZXWjEtTWxiNA?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
@@ -889,6 +855,21 @@
       "impact": "neutro",
       "horizon": "90d",
       "theme": "Brasil — fiscal",
+      "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Mercado se anima com Flávio, mas sustentabilidade da alta depende de fiscal",
+      "source": "CNN Brasil",
+      "published": "06/10/2026 04:05",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdGNLY29hdzh5UmhtMk5lNnVzU0N6V1RoU2dRYWkweWRnOWpMdi1EUEl3alE0MDlhelF0eUYxZElQWU1qVDg1bTgzVGF6THZhYWJ5S0lhUmozckNIbFloXy1OSlN1N3dsMFFXRFpnN1dvSkdpaGhleEpka0V0ckFoWUtFSml6Nl96b01uMWlnWUMydW82VkRwck5JQ2MxRllXcXY3M3k5UzBubmpiR1VsVHRtV3FpUEJPMlJuaHl1dkdDNGZxSEE?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — fiscal",
         "Brasil — política / eleições"
@@ -924,6 +905,21 @@
       ]
     },
     {
+      "title": "Dólar fecha quase estável, a R$ 5,2165, com cautela antes das eleições",
+      "source": "UOL Economia",
+      "published": "02/10/2026 17:46",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORjlxSi13c2FFcGk1R29JOVY1ZmZ4TGVwY3lCejBiLXlkRi1FNThTN3NHcTdVaDF3U2l0bENid0tfNEJSS0J0X29UUnpvSFhvMXhMZlhycEVJNnFvVVZKZE92VDZPaGV1X2JHUk5sUzRaQkRUbkxXOVRUb3hkeTZwdXZPRXNJUDVwcTltZzhnbktMV2YyckMySy1Ha01KVXJ0cEFOd2xfX3Bud3A4SjBXMk83eHJkTjREY1NzbV8wQXpqRUZzcG51U3hZZGRPMUI0?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fluxo / apetite a risco",
+      "factors": [
+        "Brasil — política / eleições",
+        "Fluxo / apetite a risco"
+      ]
+    },
+    {
       "title": "Euforia do mercado após 1º turno derruba dólar a R$ 5; Bolsa bate recorde",
       "source": "UOL Economia",
       "published": "05/10/2026 17:03",
@@ -945,20 +941,6 @@
       "relevance": "média",
       "credibility": 0.82,
       "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar segue abaixo de R$ 5 e Ibovespa vira para queda após rali eleitoral",
-      "source": "UOL Economia",
-      "published": "06/10/2026 13:14",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcXhxS1NzX3FBdzFxazh1MkJ0SVBJV2FOaUlGaHkxck1XekljYUhNMGpRWjhOWmc2TVg4YnQxaFNLamtaaHhGZ1h5cncxdzh0Ym53T1hDZURqVWFHSGktWlVCNlVjWmtDS2prLXVyNUZtWGNrSjZ2U0pLVEs5MUZ2UlpjaE5MdU8yZ0xNRjdDcTBLV0cyR1ZVZUszNXpia2xoU0JXVlJUVUgtbGNqcGJ4VGJn?oc=5",
-      "relevance": "média",
-      "credibility": 0.82,
-      "impact": "neutro",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
