@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T23:36:14.064769+00:00",
+  "generated_at": "2026-10-08T01:15:47.352147+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -1.0,
   "market_move": {
@@ -18,7 +18,7 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 5.88,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -34,8 +34,8 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 4.7,
-        "evidence_count": 7,
+        "score": 3.84,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -47,7 +47,7 @@
         "examples": [
           "Gold climbs as dollar, Treasury yields slip",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Dollar gains as oil climbs and investors focus on the Fed"
+          "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll"
         ],
         "horizon": "10d"
       },
@@ -88,7 +88,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.5,
+        "score": -2.1,
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
@@ -149,14 +149,12 @@
         "factor": "Brasil — fiscal",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 2,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "CNN Brasil",
-          "InfoMoney"
+          "CNN Brasil"
         ],
         "examples": [
-          "Ibovespa tem segunda queda seguida, com Vale e bancos; dólar volta aos R$ 5",
           "Mercado se anima com Flávio, mas sustentabilidade da alta depende de fiscal"
         ],
         "horizon": "90d"
@@ -181,7 +179,7 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 5.88,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -197,8 +195,8 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 4.7,
-        "evidence_count": 7,
+        "score": 3.84,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -210,7 +208,7 @@
         "examples": [
           "Gold climbs as dollar, Treasury yields slip",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Dollar gains as oil climbs and investors focus on the Fed"
+          "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll"
         ],
         "horizon": "10d"
       },
@@ -251,7 +249,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.5,
+        "score": -2.1,
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
@@ -300,7 +298,7 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 5.88,
-        "evidence_count": 6,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -316,8 +314,8 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
-        "score": 4.7,
-        "evidence_count": 7,
+        "score": 3.84,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -329,7 +327,7 @@
         "examples": [
           "Gold climbs as dollar, Treasury yields slip",
           "Gold steady as stronger dollar and high yields offset waning Fed hike expectations",
-          "Dollar gains as oil climbs and investors focus on the Fed"
+          "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll"
         ],
         "horizon": "10d"
       },
@@ -370,7 +368,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.5,
+        "score": -2.1,
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
@@ -499,24 +497,24 @@
   "source_analysis": [
     {
       "source": "Reuters",
-      "count": 5,
+      "count": 6,
       "score": 5.88,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "InfoMoney",
-      "count": 5,
-      "score": 0.0,
-      "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "UOL Economia",
       "count": 5,
+      "score": -0.59,
+      "status": "material",
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "InfoMoney",
+      "count": 4,
       "score": 0.0,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Agência Brasil",
@@ -542,9 +540,9 @@
     {
       "source": "CNN Brasil",
       "count": 2,
-      "score": 0.86,
+      "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Bloomberg Línea Brasil",
@@ -659,6 +657,21 @@
       ]
     },
     {
+      "title": "Lower US Treasury yield view persists despite biggest quarterly surge since 1994: Reuters poll",
+      "source": "Reuters",
+      "published": "07/10/2026 10:59",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaGNfYWZBTXVWQjV6WUFib3lJV2RJZlZYVVJNalI0TlpKVmFvVklyd1lrNVpLdWQ2d21ncGY4NGVjZzdGc0ZfQ1FpY1BaazFIYUVHaFREdENXVFI4U3pBVGxubXJoUzhoU2JqUlR4RTN6dklyWXF5aXEteWdWOTQ4bmJSRS1LcUVpZ19sZ3VoNGpVMDNVTzBmdXVVX29SVC1CcFZSVHBDUkhub1JPdVFKRGpnZ2ZTNXVHaDFYX0RQRXp1N1U?oc=5",
+      "relevance": "média",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Dólar a R$ 4,50 e bolsa em 250 mil pontos? As previsões de Wall Street após o 1º turno",
       "source": "Bloomberg Línea Brasil",
       "published": "07/10/2026 08:09",
@@ -718,8 +731,8 @@
     {
       "title": "Bolsa sobe, dólar cai: o que está por trás da euforia do mercado com vantagem de Flávio Bolsonaro no 1º turno",
       "source": "BBC",
-      "published": "05/10/2026 14:55",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lQUVNbm04WnJFaXQ4UGhwOUY3eUZ4RHgxa2J5WVEwTkV1a05XLXFvajJXSkxnMG4tR2phV0V5WURkM25zTDBxeHJTNDJHRmRYYW94TERVMHRBZ3Nuc1BGS29KYlQ3cWV30gFoQVVfeXFMTWVBRU1ubThackVpdDhQaHA5Rjd5RnhEeDFrYnlZUTBORXVrTlctcW9qMldKTGcwbi1HamFXRXlZRGQzbnNMMHF4clM0MkdGZFhhb3hMRFUwdEFnc25zUEZLb0piVDdxZXc?oc=5",
+      "published": "05/10/2026 14:48",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBSeWZzYWl1Q2YydHNyLU9QS09nUlladTNPVC0tSllaeWhoU0kzN254QXdHSnZnYzRZbW91cDdWSE84T0MybkNvTVhuR2pJOEdIU1YxellTWnU5Y3l0YzFjT3Z5UdIBaEFVX3lxTE1lQUVNbm04WnJFaXQ4UGhwOUY3eUZ4RHgxa2J5WVEwTkV1a05XLXFvajJXSkxnMG4tR2phV0V5WURkM25zTDBxeHJTNDJHRmRYYW94TERVMHRBZ3Nuc1BGS29KYlQ3cWV3?oc=5",
       "relevance": "alta",
       "credibility": 0.9,
       "impact": "baixa",
@@ -774,31 +787,17 @@
       ]
     },
     {
-      "title": "Ibovespa firma queda junto com exterior em dia de ata do Fed; dólar sobe",
+      "title": "Bolsa defende 200 mil pontos, com exterior negativo; dólar vai a R$ 5,01",
       "source": "CNN Brasil",
-      "published": "07/10/2026 10:26",
+      "published": "07/10/2026 20:30",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUkx3MVZPNzFOSHlybzZ1UW92RGxhaGdadzNERjBFMTh2MDlzTXZ4Mjltc2d2bnRGLUhIbl9KMzZUTGhIWjIweUdGUkZGcDJaTGI2WEhoRzlCUExQS21fODh3VWs4OEhXTWctZE9FYWVTZnhJSzA1NlNxM2x3cDg2RjlxOEtUc0xhOHF2Q041azlvMFo3WlZscUV4dThRS1ZUYXo4?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
-      "impact": "alta",
+      "impact": "neutro",
       "horizon": "10d",
       "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA"
-      ]
-    },
-    {
-      "title": "Ibovespa tem segunda queda seguida, com Vale e bancos; dólar volta aos R$ 5",
-      "source": "InfoMoney",
-      "published": "07/10/2026 17:28",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUHNBMk52aGZ2UzRYdjBrN0E3WGFPODlEbkUzT0pMR01fVFQ2UWxVZFBJVi1tMUxFZ2szUlJ0VGcwaFF1NFduUW5TaFVNcENCZV9ZQ1N6OU9wcTBYaW9SVkFYODNrUU1id2JtVHZBOV9GczNfd1FKRzRFX3RsUnlCQkR1M3NZdVA5NnJkYVIwcw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — fiscal",
-      "factors": [
-        "Brasil — fiscal"
       ]
     },
     {
