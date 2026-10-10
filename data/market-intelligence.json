@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T23:18:07.308378+00:00",
+  "generated_at": "2026-10-10T01:11:48.345195+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": -1.0,
   "market_move": {
@@ -77,7 +77,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "neutro",
-        "score": 0.32,
+        "score": -0.29,
         "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
@@ -314,7 +314,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 269,
+    "raw_news_results": 270,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -424,25 +424,18 @@
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
+      "source": "Agência Brasil",
+      "count": 4,
+      "score": -1.21,
+      "status": "material",
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
       "source": "Reuters",
       "count": 3,
       "score": 0.0,
       "status": "material",
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Agência Brasil",
-      "count": 3,
-      "score": -0.6,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 3,
-      "score": -0.82,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "CNBC",
@@ -457,6 +450,13 @@
       "score": 0.88,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "UOL Economia",
+      "count": 2,
+      "score": -0.82,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "Valor Econômico",
@@ -817,10 +817,10 @@
       "factors": []
     },
     {
-      "title": "Dólar cai a R$ 5, e bolsa sobe quase 8% após primeiro turno",
+      "title": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
       "source": "Agência Brasil",
-      "published": "05/10/2026 18:24",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeG0zZVpfaV9NVG1OM1JoQ3A5Rmk0Zm5ZVDFSUWR0bC1aM3FzaHZGWldWRkxiUlpBRFZKdF9kbFpCMVgtUkVORTNfeFc2aW9rOHNhY2Z4RHFWTEd0cEJJN2JhQm9hOERRTDBRemxmY0xfTzZxUlZ6V3d1SFl5MmlTc3BGNzBocDU5cnY3bGdYNmlPcDdVZGI0LWczc0JDWnI2d1hSS092UVJVV1JZMERmQUR3?oc=5",
+      "published": "09/10/2026 19:07",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON1Y0cmtZUFZrX21BTDl2NVI2Zjl2Q3phSnFEVWx2bU9pU18waF96OTJjaVMtdFd5V3FvYnZuemRFSjNmcnZrQ3lyWTQxX1BZOHZweE0xSXcwRWlXeHJDZXJGNlctbVJfY1hRLVVIcjFuY2V3Q0w4VmZoWGtpNkNTVnBELTdKTHZhSHoxamM3V1haOVlxazNKc2Q0V1Rld0VJcVpxTVlDNXZtdw?oc=5",
       "relevance": "média",
       "credibility": 0.84,
       "impact": "baixa",
@@ -831,13 +831,13 @@
       ]
     },
     {
-      "title": "Dólar volta a R$ 5 com ambiente externo e ajuste pós-eleitoral",
+      "title": "Dólar cai a R$ 5, e bolsa sobe quase 8% após primeiro turno",
       "source": "Agência Brasil",
-      "published": "07/10/2026 19:41",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVlBtcXhlZFBlMjhxc2tBV2xyTTFiQU9PNUUtMVpYTHRwZDY1LVRiSzJaTmo0c3RrQ2hzZ0hWRjVwTm5oeklZSGVucGNLaE8yRzdMVkM1SklhY001cTVWclNmZjhSOTZxaVhTcHhqeHBpbFFtbVIxNEFhUVBka2J6STcwdHhDOUwySWpLclozaDJBS0hWaGNsaGdtbHVKaThIbFEzekZVa2paWHRUdVEyUGFDZDNuWU1D?oc=5",
+      "published": "05/10/2026 18:24",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeG0zZVpfaV9NVG1OM1JoQ3A5Rmk0Zm5ZVDFSUWR0bC1aM3FzaHZGWldWRkxiUlpBRFZKdF9kbFpCMVgtUkVORTNfeFc2aW9rOHNhY2Z4RHFWTEd0cEJJN2JhQm9hOERRTDBRemxmY0xfTzZxUlZ6V3d1SFl5MmlTc3BGNzBocDU5cnY3bGdYNmlPcDdVZGI0LWczc0JDWnI2d1hSS092UVJVV1JZMERmQUR3?oc=5",
       "relevance": "média",
       "credibility": 0.84,
-      "impact": "neutro",
+      "impact": "baixa",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
