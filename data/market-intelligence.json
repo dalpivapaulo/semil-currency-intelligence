@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-13T19:19:36.405666+00:00",
+  "generated_at": "2026-10-13T23:44:31.742714+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 0.64,
+  "score10": 1.49,
   "market_move": {
     "material": false,
     "day_variation_pct": 0.4088831876853938,
@@ -11,27 +11,26 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 20 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo, Fed / juros dos EUA. Principais vetores de ALTA/risco: Brasil — política / eleições.",
+    "summary": "A leitura reuniu 28 evidência(s) em 17 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo. Principais vetores de ALTA/risco: Brasil — política / eleições.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.81,
-        "evidence_count": 12,
+        "score": 2.66,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
-          "Dólar sobe com Flávio à frente de Lula em pesquisa; Bolsa cai com realização de lucros",
+          "Dólar sobe em meio à volatilidade eleitoral, e Bolsa cai com realização de lucros",
           "Bolsa fecha com novo recorde intradiário e dólar fica abaixo de R$ 5 após Datafolha mostrar Flávio à frente de Lula",
-          "A mera expectativa do ajuste fiscal derrubou o juro real; se restava alguma dúvida, não há mais"
+          "Ibovespa recua mais de 1%, com eleição em foco; dólar sobe a R$ 5,02"
         ],
         "horizon": "90d"
       },
@@ -53,21 +52,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Action Forex",
           "Agência Brasil",
-          "BigGo Finance",
           "CNN Brasil",
           "Coin Edition",
           "Estadão",
           "Kitco",
-          "The Edge Malaysia",
           "TradingKey",
           "TradingView",
-          "Valor Econômico",
-          "www.tmgm.com"
+          "UOL Notícias",
+          "Valor Econômico"
         ],
         "examples": [
           "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
@@ -80,16 +77,13 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 7,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "BigGo Finance",
           "BusinessToday Malaysia",
           "FXStreet",
           "Kitco",
-          "The Edge Malaysia",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Dólar fecha cotado a R$ 5 e Bolsa sobe, com eleições e petróleo",
@@ -100,22 +94,21 @@
       },
       {
         "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 6,
+        "impact": "neutro",
+        "score": 0.28,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "BigGo Finance",
           "Coin Edition",
           "FXStreet",
+          "InfoMoney",
           "Kitco",
-          "The Edge Malaysia",
           "Valor Econômico"
         ],
         "examples": [
           "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
-          "Gold rises on weaker dollar, lower oil ahead of US inflation data",
-          "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
+          "Ibovespa recua mais de 1%, com eleição em foco; dólar sobe a R$ 5,02",
+          "Gold rises on weaker dollar, lower oil ahead of US inflation data"
         ],
         "horizon": "10d"
       },
@@ -123,23 +116,22 @@
         "factor": "Dólar global / DXY",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 9,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Action Forex",
           "BusinessToday Malaysia",
           "Coin Edition",
-          "FOREX.com",
           "FXStreet",
+          "Free Malaysia Today",
           "Livemint",
           "TradingKey",
-          "TradingView",
-          "www.tmgm.com"
+          "TradingView"
         ],
         "examples": [
           "US Treasury Yields Have Turned Lower. Will the Dollar Follow Before CPI?",
-          "Dollar Index slips from its 18-month high before US CPI",
-          "DXY: Dollar Trades Near 18-Month Top Ahead of Key Inflation Report. What to Watch."
+          "DXY: Dollar Trades Near 18-Month Top Ahead of Key Inflation Report. What to Watch.",
+          "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
         ],
         "horizon": "10d"
       },
@@ -147,23 +139,22 @@
         "factor": "Treasuries",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 9,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Action Forex",
           "BusinessToday Malaysia",
           "Coin Edition",
-          "FOREX.com",
           "FXStreet",
+          "Free Malaysia Today",
           "Livemint",
           "TradingKey",
-          "TradingView",
-          "www.tmgm.com"
+          "TradingView"
         ],
         "examples": [
           "US Treasury Yields Have Turned Lower. Will the Dollar Follow Before CPI?",
-          "Dollar Index slips from its 18-month high before US CPI",
-          "DXY: Dollar Trades Near 18-Month Top Ahead of Key Inflation Report. What to Watch."
+          "DXY: Dollar Trades Near 18-Month Top Ahead of Key Inflation Report. What to Watch.",
+          "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
         ],
         "horizon": "10d"
       },
@@ -176,26 +167,12 @@
         "sources": [
           "Agência Brasil",
           "Estadão",
-          "boca.com.br"
+          "UOL Notícias"
         ],
         "examples": [
           "Mercado projeta alta da inflação e reduz estimativa para juros e dólar em 2026",
           "Mercado eleva previsão da inflação para 5,22% em 2026",
-          "Cotação do dólar hoje: PTAX fecha em R$ 4,9892 e mercado avalia IPCA, eleições e petróleo"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão"
-        ],
-        "examples": [
-          "A mera expectativa do ajuste fiscal derrubou o juro real; se restava alguma dúvida, não há mais"
+          "Mercado reduz previsão de Selic ao final do ano para 13,25% e eleva projeção de inflação no Focus"
         ],
         "horizon": "90d"
       },
@@ -203,12 +180,14 @@
         "factor": "Geopolítica / comércio",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "Free Malaysia Today",
           "Livemint"
         ],
         "examples": [
+          "Dollar holds near 18-month high as geopolitical risks rise",
           "US Dollar holds near 18-month high amid rising geopolitical risks | What does it mean for Sensex, Nifty 50?"
         ],
         "horizon": "10d"
@@ -218,21 +197,20 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.81,
-        "evidence_count": 12,
+        "score": 2.66,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
-          "Dólar sobe com Flávio à frente de Lula em pesquisa; Bolsa cai com realização de lucros",
+          "Dólar sobe em meio à volatilidade eleitoral, e Bolsa cai com realização de lucros",
           "Bolsa fecha com novo recorde intradiário e dólar fica abaixo de R$ 5 após Datafolha mostrar Flávio à frente de Lula",
-          "A mera expectativa do ajuste fiscal derrubou o juro real; se restava alguma dúvida, não há mais"
+          "Ibovespa recua mais de 1%, com eleição em foco; dólar sobe a R$ 5,02"
         ],
         "horizon": "90d"
       },
@@ -254,21 +232,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Action Forex",
           "Agência Brasil",
-          "BigGo Finance",
           "CNN Brasil",
           "Coin Edition",
           "Estadão",
           "Kitco",
-          "The Edge Malaysia",
           "TradingKey",
           "TradingView",
-          "Valor Econômico",
-          "www.tmgm.com"
+          "UOL Notícias",
+          "Valor Econômico"
         ],
         "examples": [
           "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
@@ -281,40 +257,16 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 7,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "BigGo Finance",
           "BusinessToday Malaysia",
           "FXStreet",
           "Kitco",
-          "The Edge Malaysia",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Dólar fecha cotado a R$ 5 e Bolsa sobe, com eleições e petróleo",
-          "Gold rises on weaker dollar, lower oil ahead of US inflation data",
-          "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Coin Edition",
-          "FXStreet",
-          "Kitco",
-          "The Edge Malaysia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
           "Gold rises on weaker dollar, lower oil ahead of US inflation data",
           "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
         ],
@@ -323,9 +275,9 @@
     ]
   },
   "outlook10": {
-    "bias": "NEUTRO — FORÇAS EQUILIBRADAS",
+    "bias": "ALTA LEVE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +0.6. PTAX: último pregão +0,41%; 5 pregões +0,48%; 10 pregões -3,91%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: +1.5. PTAX: último pregão +0,41%; 5 pregões +0,48%; 10 pregões -3,91%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -336,43 +288,39 @@
       "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
+      "UOL Notícias",
       "Kitco",
       "Action Forex",
-      "www.tmgm.com",
       "TradingView",
       "FXStreet",
       "TradingKey",
       "BusinessToday Malaysia",
+      "Free Malaysia Today",
       "Livemint",
-      "Coin Edition",
-      "The Edge Malaysia",
-      "BigGo Finance",
-      "boca.com.br",
-      "FOREX.com"
+      "Coin Edition"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fluxo / apetite a risco, Dados econômicos dos EUA, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
     "drivers": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.81,
-        "evidence_count": 12,
+        "score": 2.66,
+        "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
-          "Dólar sobe com Flávio à frente de Lula em pesquisa; Bolsa cai com realização de lucros",
+          "Dólar sobe em meio à volatilidade eleitoral, e Bolsa cai com realização de lucros",
           "Bolsa fecha com novo recorde intradiário e dólar fica abaixo de R$ 5 após Datafolha mostrar Flávio à frente de Lula",
-          "A mera expectativa do ajuste fiscal derrubou o juro real; se restava alguma dúvida, não há mais"
+          "Ibovespa recua mais de 1%, com eleição em foco; dólar sobe a R$ 5,02"
         ],
         "horizon": "90d"
       },
@@ -394,21 +342,19 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Action Forex",
           "Agência Brasil",
-          "BigGo Finance",
           "CNN Brasil",
           "Coin Edition",
           "Estadão",
           "Kitco",
-          "The Edge Malaysia",
           "TradingKey",
           "TradingView",
-          "Valor Econômico",
-          "www.tmgm.com"
+          "UOL Notícias",
+          "Valor Econômico"
         ],
         "examples": [
           "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
@@ -421,40 +367,16 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 7,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "BigGo Finance",
           "BusinessToday Malaysia",
           "FXStreet",
           "Kitco",
-          "The Edge Malaysia",
-          "UOL Economia",
-          "boca.com.br"
+          "UOL Economia"
         ],
         "examples": [
           "Dólar fecha cotado a R$ 5 e Bolsa sobe, com eleições e petróleo",
-          "Gold rises on weaker dollar, lower oil ahead of US inflation data",
-          "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Coin Edition",
-          "FXStreet",
-          "Kitco",
-          "The Edge Malaysia",
-          "Valor Econômico"
-        ],
-        "examples": [
-          "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
           "Gold rises on weaker dollar, lower oil ahead of US inflation data",
           "Gold tumbles as Oil shock fuels US Dollar rally and Fed hike bets"
         ],
@@ -466,7 +388,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 12,
-    "raw_news_results": 162,
+    "raw_news_results": 164,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Valor Econômico",
@@ -476,19 +398,16 @@
       "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
+      "UOL Notícias",
       "Kitco",
       "Action Forex",
-      "www.tmgm.com",
       "TradingView",
       "FXStreet",
       "TradingKey",
       "BusinessToday Malaysia",
+      "Free Malaysia Today",
       "Livemint",
-      "Coin Edition",
-      "The Edge Malaysia",
-      "BigGo Finance",
-      "boca.com.br",
-      "FOREX.com"
+      "Coin Edition"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -523,13 +442,13 @@
       "name": "UOL Economia"
     },
     {
+      "name": "UOL Notícias"
+    },
+    {
       "name": "Kitco"
     },
     {
       "name": "Action Forex"
-    },
-    {
-      "name": "www.tmgm.com"
     },
     {
       "name": "TradingView"
@@ -544,22 +463,13 @@
       "name": "BusinessToday Malaysia"
     },
     {
+      "name": "Free Malaysia Today"
+    },
+    {
       "name": "Livemint"
     },
     {
       "name": "Coin Edition"
-    },
-    {
-      "name": "The Edge Malaysia"
-    },
-    {
-      "name": "BigGo Finance"
-    },
-    {
-      "name": "boca.com.br"
-    },
-    {
-      "name": "FOREX.com"
     }
   ],
   "sources_checked": [
@@ -591,13 +501,13 @@
       "name": "UOL Economia"
     },
     {
+      "name": "UOL Notícias"
+    },
+    {
       "name": "Kitco"
     },
     {
       "name": "Action Forex"
-    },
-    {
-      "name": "www.tmgm.com"
     },
     {
       "name": "TradingView"
@@ -612,45 +522,29 @@
       "name": "BusinessToday Malaysia"
     },
     {
+      "name": "Free Malaysia Today"
+    },
+    {
       "name": "Livemint"
     },
     {
       "name": "Coin Edition"
-    },
-    {
-      "name": "The Edge Malaysia"
-    },
-    {
-      "name": "BigGo Finance"
-    },
-    {
-      "name": "boca.com.br"
-    },
-    {
-      "name": "FOREX.com"
     }
   ],
   "source_analysis": [
+    {
+      "source": "UOL Economia",
+      "count": 6,
+      "score": 1.18,
+      "status": "material",
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
     {
       "source": "CNN Brasil",
       "count": 4,
       "score": 0.0,
       "status": "material",
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 4,
-      "score": 0.59,
-      "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Estadão",
-      "count": 2,
-      "score": 0.0,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Folha de S.Paulo",
@@ -660,6 +554,20 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
+      "source": "InfoMoney",
+      "count": 2,
+      "score": 0.86,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "Agência Brasil",
+      "count": 2,
+      "score": -0.6,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
       "source": "Valor Econômico",
       "count": 1,
       "score": 0.0,
@@ -667,25 +575,18 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "InfoMoney",
+      "source": "Estadão",
       "count": 1,
       "score": 0.0,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Agência Brasil",
+      "source": "UOL Notícias",
       "count": 1,
       "score": 0.0,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Kitco",
-      "count": 1,
-      "score": -0.58,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -711,8 +612,8 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 0.64,
-      "detail": "28 notícia(s) material(is), 20 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
+      "score": 1.49,
+      "detail": "28 notícia(s) material(is), 17 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -735,7 +636,7 @@
       "title": "Mercado projeta alta da inflação e reduz estimativa para juros e dólar em 2026",
       "source": "Estadão",
       "published": "13/10/2026 09:15",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQlpUbWtPZXRmRzloTC1jUWpyUF9JMnJ5dnVLLXp2RXFXQ3duc21fdDlGNEtkWTlFVjQwUXRFSmVGS1ZoX2JFRkw0N0x2Zy15bW1VZ25PMXI3Nnc5cFhGaXlXWkdUSkMxSWlubGk4WUpVdkdiNXhBLXREbUlxTjN3MEFBYmRYSHhnaTVmMDYzMHVwREXSAZMBQVVfeXFMUEJaVG1rT2V0Zkc5aEwtY1FqclBfSTJyeXZ1Sy16dkVxV0N3bnNtX3Q5RjRLZFk5RVY0MFF0RUplRktWaF9iRUZMNDdMdmcteW1tVWduTzFyNzZ3OXBYRml5V1pHVEpDMUlpbmxpOFlKVXZHYjV4QS10RG1JcU4zdzBBQWJkWEh4Z2k1ZjA2MzB1cERF?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVG1nSUplWFBUajhnNFpvM1I0ejFVYjFES1hULWZrR09lbmhBR3AxdkUxU0JBM3ZHZGR1UGN1TDJQX2c1Yi1fenBhWmxyaHcyUmdHNEFMU3JiUkg3SFZyeFYzaVVTQUxXUFp0RVAwMkRMd0lBY0dhcDc5Z1hLVTJkYS02c0FRQlVOWS1JMkdn0gGTAUFVX3lxTFBCWlRta09ldGZHOWhMLWNRanJQX0kycnl2dUstenZFcVdDd25zbV90OUY0S2RZOUVWNDBRdEVKZUZLVmhfYkVGTDQ3THZnLXltbVVnbk8xcjc2dzlwWEZpeVdaR1RKQzFJaW5saThZSlV2R2I1eEEtdERtSXFOM3cwQUFiZFhIeGdpNWYwNjMwdXBERQ?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
       "impact": "neutro",
@@ -747,7 +648,7 @@
       ]
     },
     {
-      "title": "Dólar sobe com Flávio à frente de Lula em pesquisa; Bolsa cai com realização de lucros",
+      "title": "Dólar sobe em meio à volatilidade eleitoral, e Bolsa cai com realização de lucros",
       "source": "Folha de S.Paulo",
       "published": "13/10/2026 09:59",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQOGJtRURURk04SFJGZE5nOFdnLVl1YmI2dUF2ZUo1UWJhVXljZG1oMEdoVUp4Q2hwSU9OQzlMR2otVlFZODlVaFlRUUtoQVJNU1NTY0FUY20xUGxqcmpPLVFCZnUzb2tUWWdTTDdlVkFlV3BtOC1RNGZGWV80cno3Q0tkSlJUbUxRdmtKbWhiQTNCdDNERUxhV3A4eFZFdTgzSS1pM09YVnRHckZ5bENqaHZsYlBVUEN4TlUydUg0SXlWbTg?oc=5",
@@ -775,17 +676,17 @@
       ]
     },
     {
-      "title": "A mera expectativa do ajuste fiscal derrubou o juro real; se restava alguma dúvida, não há mais",
-      "source": "Estadão",
-      "published": "10/10/2026 17:00",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQV9Pa1BSaXFFamZxNmNZNHVSdGotYnlXdFlsMmw4WDdDc1VYNkN5SE5ad1J5TGVHcU5oWnNjQ2UtQndzbk5NdFpSelY3YjMxU2plU3A3a3kwWVlubVVELXRIQjZRT3dGLUk1TE1LcmFtYjFrRmpMakt6V08yRUVEdUNGMGlGWGpNZ0pYZG9TbVZTUV9QcHFNZUg5V0ZDRTJMZm4wdTNnOXhaenBLQm1Lcmc4bVlzLXBHTnZtYlBoZGxLMHlydXFoSG9UNHlNZWg4emJLdGJUbFFXdjdULWdmUTh0dWo5NDTSAewBQVVfeXFMTWxrUmp2STZFNHJvT1RvUTdqOUlQcVJod1dvNExNZG1CdWNWSm9tdE5Kb2F1UENPWW1ZVXVMXzFMY0kxVVFZckRmX1RCQ2M5Yjk5N0lfeVpHZmVJTC1iS1pxZ1NfNThOdHdhNlF1emMwY1doYm4ySmxpamhDdkJfeVI2RnlfSXZ5SUZ0eWtUYnlqQTE5M094V2o5LU1OTzFoSTJaZ1QxM2dEYVdsRVk5Uml6QWd4LUF5bkljSWlOSXYtZUFIN2EtWHJDX2VfeDFzb3NsLUpSaldhTm9Hcnh1aHFnVWROSG5ORUo1eTE?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
+      "title": "Ibovespa recua mais de 1%, com eleição em foco; dólar sobe a R$ 5,02",
+      "source": "InfoMoney",
+      "published": "13/10/2026 17:30",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONDJFVG1oYWtCSTVJRW1Oelk2OXliRGhwZGRZUmc2VGFHMkJ0R25CY0pxRzNBaDhiX25zeDloSVV2SE1HOEYyZ2tmeThCRzlLRkhvdk1ncWp4ZzQycXV5aWlHYnAxSVZVU3ltd1RiUkdNNVo2ekJUaVFpMUZWLS1YVmN0TjhjenBTd2dKRXNXUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
       "factors": [
-        "Brasil — fiscal",
+        "Fed / juros dos EUA",
         "Brasil — política / eleições"
       ]
     },
@@ -793,7 +694,7 @@
       "title": "Dólar hoje sobe a R$ 5,01 com pesquisa eleitoral, na contramão do exterior",
       "source": "InfoMoney",
       "published": "13/10/2026 09:37",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdXNCaU5YSHJJcDZhVXFVUjIxS0F6UVM4Q0Fxc19MZUYyNjZieXh0MXIyZnZ4UXp0OXRZd2V1T3pnbWY4WERZY3Fxc1lXUDBXb29GOVJwLXpzRjRoX21hTFBMWHd0cUo5T0pQTTFrWVhTZkJ5aXpSbXh5M0hpVGM5Q0VDa0VsSVdTaDN0aHRlMXUwd2NFRXE3bDVPaGrSAaIBQVVfeXFMTlZYUGthX190NjBIaXVtenZ0RmMzM25tUDJCX0JzeDJ2S2lMZHRGcnNsRVBYdGhRVGdHYUpDUnBxbTJWX0VkdldTSTdobFRUQ3ktRWU2OW9wcGJQaGdzeTdpRjI2emJ0VWdrS0JENXVNNGhEcl96Nl9yRzJwVnMwd3dFTkExUE1DSE0xNHdRb2VURV85cWdDMXdtdU9qaTRGYXZB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlhQa2FfX3Q2MEhpdW16dnRGYzMzbm1QMkJfQnN4MnZLaUxkdEZyc2xFUFh0aFFUZ0dhSkNScHFtMlZfRWR2V1NJN2hsVFRDeS1FZTY5b3BwYlBoZ3N5N2lGMjZ6YnRVZ2tLQkQ1dU00aERyX3o2X3JHMnBWczB3d0VOQTFQTUNITTE0d1FvZVRFXzlxZ0Mxd211T2ppNEZhdkHSAaIBQVVfeXFMTlZYUGthX190NjBIaXVtenZ0RmMzM25tUDJCX0JzeDJ2S2lMZHRGcnNsRVBYdGhRVGdHYUpDUnBxbTJWX0VkdldTSTdobFRUQ3ktRWU2OW9wcGJQaGdzeTdpRjI2emJ0VWdrS0JENXVNNGhEcl96Nl9yRzJwVnMwd3dFTkExUE1DSE0xNHdRb2VURV85cWdDMXdtdU9qaTRGYXZB?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -804,7 +705,7 @@
       ]
     },
     {
-      "title": "Ibovespa recua com cenário eleitoral no radar; dólar sobe a R$ 5",
+      "title": "Bolsa fecha em baixa com ajuste técnico e cenário eleitoral; dólar sobe",
       "source": "CNN Brasil",
       "published": "13/10/2026 09:48",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbnlacWI3djVjSm5mM285UG9KWTc2cEtwTUlleFBQZVlfU1Vfalp1WHZzQzFGVEQ5Vmd0TE00S0JSbFlVeXp6bm9aQXlWQzV2ZkY2b05kaFlfSTNRZUJUQm9YcHo2QmNKMFk1NTBGbldzdHR6WXhsRnJHYlMxQmctVE84THF6T2M3YzJ1bkxEQmhNU3NZaDQ1WEc4WEE2Uzl1QmdsVA?oc=5",
@@ -857,6 +758,20 @@
       "theme": "Brasil — política / eleições",
       "factors": [
         "Dados econômicos dos EUA",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar cai a R$ 4,98 e acumula perda de 4,44% na semana",
+      "source": "Agência Brasil",
+      "published": "09/10/2026 19:07",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxON1Y0cmtZUFZrX21BTDl2NVI2Zjl2Q3phSnFEVWx2bU9pU18waF96OTJjaVMtdFd5V3FvYnZuemRFSjNmcnZrQ3lyWTQxX1BZOHZweE0xSXcwRWlXeHJDZXJGNlctbVJfY1hRLVVIcjFuY2V3Q0w4VmZoWGtpNkNTVnBELTdKTHZhSHoxamM3V1haOVlxazNKc2Q0V1Rld0VJcVpxTVlDNXZtdw?oc=5",
+      "relevance": "média",
+      "credibility": 0.84,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
         "Brasil — política / eleições"
       ]
     },
@@ -933,9 +848,52 @@
       ]
     },
     {
+      "title": "Dólar sobe e fecha a R$ 5,02; Bolsa cai 1,05% após recordes",
+      "source": "UOL Economia",
+      "published": "13/10/2026 19:17",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTU5hYnBCVGpPS2dDajV1bDd5elp3Tlg5WE1CZFRFZWM4cjdNWVU2UDBDcUlQMWoyaWRwMGo4ZnB0RUtCUGltM1NCS3lrMGY5ME1nWVl6LURtdEZhNUJjZm9KeU9mM1R6YjI5NE5Rb3FaV1d0Q0lPQXV1UlVHZ3M1RERZa3g1R3I4TzhkOUU3SzR0N3Mxc2c0WVRiMG40YkR5RURvdGNMLWlMUUJ0NURSNlAwR0NYQTM3OUl4RVo1cFpsMXFaazEyeS1VQQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.82,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar fecha em alta com pesquisas mostrando empate técnico entre Flávio e Lula",
+      "source": "UOL Economia",
+      "published": "13/10/2026 17:16",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPdm1QUDFUcUxYU0phLUdKQ0U1SXAxaGh0MGktYVM2ZHNrWTlPQkpZclFhYVZnVTBfd3JMVFNQNVJ0bzZxbnpEd2Uwc3psaWU3N3k4NUVQTnJ4TEZ4T1NaSDh2ZVFMMW9fTkNZbFZjLU94ZWNXZkRRWUdaZTB4UWZDYVR2VWpMNDNvQ1llcTJSUW1lNVV5VS1XT1B5bXRwWV94RXcza0RYMk45cUdLN0Z4WDFPcl9YOUdmZ0p4OXRpSEZROWRFbGxVSUZ1dGZDOUFkVmlPSA?oc=5",
+      "relevance": "média",
+      "credibility": 0.82,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Mercado reduz previsão de Selic ao final do ano para 13,25% e eleva projeção de inflação no Focus",
+      "source": "UOL Notícias",
+      "published": "13/10/2026 09:13",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVHFvdF9rbzFsTlQ1MlRuOXhPd3dIbTRDRkhEZlRsSjZ6bkNDeTUyRlNsM1ZzWTJwYnM4anRzVDliMEN1bGwxaXpMZV9OZDJDRDZTT3RiVGhNYkVqREotOUFsVEo0Nktadm5icWlHU2Zyd2Q1S3FLb1ZUUnVsbHMxRzRrdmJSTmQzZTVYZk95ZHZoVDMxYjh2bENjTE5EUU5hX18yY0p6YktUaENjTmJJQ2RxUWVWS3hFVmg0eU96N0VzSTNpSkJhT0JmVzJHcjQ1TUJBVGpnU2l5d184akgwNEVJY2p5Y2RaQW1JNGh3R25nVG5PV0E?oc=5",
+      "relevance": "média",
+      "credibility": 0.82,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "Dados econômicos dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Gold rises on weaker dollar, lower oil ahead of US inflation data",
       "source": "Kitco",
-      "published": "13/10/2026 10:49",
+      "published": "13/10/2026 07:46",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdm01ZWpsQXcxSlV4V202V1JUUE91VFBnRHY2QlVsdkxnaUZDUDcxam1ZTEp2bEd0cVFxcWhiSEVXYk9CdU45aE1FRlI0YUU1SUNyckJyLW9xV1JsekpxR1ZIaWZhUC1IN25ScldrYzhfUGpaUk1hd2U5V0ozUWZaeUNQbWNRT2RfcWlib0kxLU56anJ2VGZsZ1FLTm5kN2NHdTB4UmMweG1pWTZaMFE?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
@@ -953,22 +911,6 @@
       "source": "Action Forex",
       "published": "13/10/2026 06:14",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZldicnFfd3BXV1FWMEtaeEQzQjJXdXNoTU1TczdycmxTSmp1RkZ4cmdIU2xNNWhGUElPM2c4SW9ZOXgwSUVPaFBVRkVrUG9jZDc2aThSQktTNE5TcVVqLUF3bjdFX3BwVkpIV29iNmt3OW5penM4UU9oTzVkR05PZ1JCWWZFS3lHNjZOWkhXaEdQdXdLMDhNUk5PQXFMZTVqbUd4YTNyT2RpY0RRVEZXbzRNUVdGRkZzSl9RMGhHYTQ4clBEcHpyZ3pvV01FM0FwZU9F?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "Dollar Index slips from its 18-month high before US CPI",
-      "source": "www.tmgm.com",
-      "published": "13/10/2026 13:59",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQWExTkRoaWVWVXZKU3Z4OGdSa0ZGRVJweFdjLWhkMTd0MWhGcEdkRlJzVGgyYXRUenBSWnRndzNacnlxNW5qU3FkR3B1aXlBcFhxbTJwcWpWcW85Tkk4VE9JbHJwNXRtTG1OMk5hcmRiN2c3SDJhVXNiZ2pEV3ZIZTVBYlNsd0tzV0YxQkE5Zzhtd1Jna3lVUVBLNVctQVhBQUVQaktkcHBVQWhtalItX1ZQcFh0N1BKcGdUdEdB?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
@@ -1025,55 +967,6 @@
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
         "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "Dollar Slips As Oil Prices Ease, US Yields Stabilise",
-      "source": "BusinessToday Malaysia",
-      "published": "13/10/2026 01:03",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPc050dHptNVZOSVJySVBHM090RXFIRVQ2YjdwTnI4UnBJTFg2bmJGVmtkYzRFdHFjZUFkYUp0QzduRUZvT3RSakZ6QWhncnNoQVlmLV9mM05MSEctTWg4OXBZN0szTEN3bWlQanpuU1Ewblp3bVRQcWpSa2RlYVdVVU4xR1d5bnA2U0NTVTVMeFV6enhJaTU4Mk1LUkw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "US Dollar holds near 18-month high amid rising geopolitical risks | What does it mean for Sensex, Nifty 50?",
-      "source": "Livemint",
-      "published": "12/10/2026 23:39",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOQUVCTnFDYktXNmEyY2tFYVcxRVJrZUVqaVJpa3lSUFRIZ0drdllISzhoaGRLc2RzUWRYR3h0ZlJrNnpjUGFDdWJuQUhZNzdqQzZ5Z3VHVFZubUtlWElnM2p1VFRGcXhRMkZPR0tHam8xeHdibmZvcTdYa3hOVnliNHNrZWJRdjVrTmVhUUJJX3JBWlRtUFVfSTltOUhLeUJGbmVpU1BBZFdPM3R3blhZb0FYeWpHc1hUenJ5QkhTTmh2M3ZXYTVndWM2dXZibmgwVlNYVlQtYi1nT0FuWXUwaGhvSTBabVRBdUlwTy1FTFpLM1Q5SnY1VU1oNHlOWGp0eThv0gGIAkFVX3lxTE1rUXZRQzZQZWg1QXpQNlAtYmNJeldOdEFyR2E5SXZfbndJbExXRG9zXzA3SVJwQW9tczdnZ2dJOV82OWV2Ylltd09zalVXbUs4NzkxcmdIUldCejY1cDJ3bmdyWmxnYXJaZko1WnRvZTA2TDZMeXZQbm95cUN4RktBaGVydVlsR2daNU40aTU2aldLS2tKX0M3UVVUSzJXdmVWQ2tPaEtMekV3LTMzOUluYzdyS2hBeGwzSmx2XzV5Ml94VnBfSG9NSHNvZ28xZW5icElkTFNDV1hTOFh1NTVmM044cURONnhNWUx5eVRhcHJuV3lpU1VMSTF6V25OTVdjUlJzTS0xMw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Geopolítica / comércio"
-      ]
-    },
-    {
-      "title": "US Dollar Demand Rises as Fed’s Hammack Warns Inflation May Persist",
-      "source": "Coin Edition",
-      "published": "13/10/2026 05:22",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNYVQzTTBSb0RKYzZocVRHX2dqeUxKRVhkRG90NnpnQ2lrRURxU1EzYVhTVGlxMWVob1pDbWh6bU1nbFJMRnJ5a21RN0RvSHIyZUZIOFRIdHdKTDluWlRkeWwxUGY5VWtoZDhhT00tVDR3TEZkbmlWOGxqeE5RZUYyUWtBRFoyaEt5cHpmYk5nN2xrSWFQSHc?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
         "Treasuries",
         "Dados econômicos dos EUA"
       ]
