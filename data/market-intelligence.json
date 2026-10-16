@@ -1,27 +1,26 @@
 {
-  "generated_at": "2026-10-15T23:48:18.996070+00:00",
+  "generated_at": "2026-10-16T16:43:15.311322+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 3.0,
+  "score10": 4.0,
   "market_move": {
     "material": true,
-    "day_variation_pct": 0.15860113796315467,
-    "momentum_5_pct": 1.1735255832582503,
-    "momentum_10_pct": -2.486054546507366,
+    "day_variation_pct": 0.603709348587711,
+    "momentum_5_pct": 1.4106426704443509,
+    "momentum_10_pct": -2.4059601758866345,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de ALTA/risco: Brasil — política / eleições, Dados econômicos dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "A leitura reuniu 28 evidência(s) em 10 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Treasuries, Dólar global / DXY. Principais vetores de ALTA/risco: Brasil — política / eleições, Dados econômicos dos EUA, Brasil — fiscal, Fed / juros dos EUA.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 6.56,
-        "evidence_count": 16,
+        "score": 4.18,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Agência Brasil",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -38,7 +37,7 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "alta",
         "score": 2.59,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -47,8 +46,6 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "UOL Notícias",
-          "Valor Econômico",
           "WSJ"
         ],
         "examples": [
@@ -60,28 +57,27 @@
       },
       {
         "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.16,
-        "evidence_count": 5,
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "Reuters",
-          "UOL Economia",
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 1.88,
-        "evidence_count": 3,
+        "impact": "baixa",
+        "score": -1.06,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -89,23 +85,37 @@
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 1.53,
-        "evidence_count": 8,
+        "score": 0.86,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa tem terceira queda seguida, após 6×1 e pesquisa; dólar sobe e vai a R$ 5,08"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 0.67,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "BNN Bloomberg",
           "CNBC",
           "InfoMoney",
-          "Reuters",
-          "Valor Econômico"
+          "Reuters"
         ],
         "examples": [
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
@@ -118,13 +128,12 @@
         "factor": "BCB / Selic / Copom",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "Estadão",
-          "Folha de S.Paulo",
-          "UOL Notícias"
+          "Folha de S.Paulo"
         ],
         "examples": [
           "Mercado projeta alta da inflação e reduz estimativa para juros e dólar em 2026",
@@ -132,17 +141,30 @@
           "Mercado eleva previsão da inflação para 5,22% em 2026"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally"
+        ],
+        "horizon": "10d"
       }
     ],
     "future_drivers": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 6.56,
-        "evidence_count": 16,
+        "score": 4.18,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Agência Brasil",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -159,7 +181,7 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "alta",
         "score": 2.59,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -168,8 +190,6 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "UOL Notícias",
-          "Valor Econômico",
           "WSJ"
         ],
         "examples": [
@@ -181,28 +201,27 @@
       },
       {
         "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.16,
-        "evidence_count": 5,
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "Reuters",
-          "UOL Economia",
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 1.88,
-        "evidence_count": 3,
+        "impact": "baixa",
+        "score": -1.06,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -210,23 +229,37 @@
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 1.53,
-        "evidence_count": 8,
+        "score": 0.86,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa tem terceira queda seguida, após 6×1 e pesquisa; dólar sobe e vai a R$ 5,08"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 0.67,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "BNN Bloomberg",
           "CNBC",
           "InfoMoney",
-          "Reuters",
-          "Valor Econômico"
+          "Reuters"
         ],
         "examples": [
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
@@ -240,35 +273,33 @@
   "outlook10": {
     "bias": "ALTA MODERADA",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +3.0. PTAX: último pregão +0,16%; 5 pregões +1,17%; 10 pregões -2,49%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "Score técnico consolidado: +4.0. PTAX: último pregão +0,60%; 5 pregões +1,41%; 10 pregões -2,41%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Brasil — fiscal, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
+      "BNN Bloomberg",
       "WSJ",
-      "Valor Econômico",
       "CNBC",
       "Estadão",
       "Folha de S.Paulo",
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
-      "UOL Economia",
-      "UOL Notícias"
+      "UOL Economia"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Brasil — fiscal, Fed / juros dos EUA.",
     "drivers": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 6.56,
-        "evidence_count": 16,
+        "score": 4.18,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
-          "Agência Brasil",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -285,7 +316,7 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "alta",
         "score": 2.59,
-        "evidence_count": 12,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -294,8 +325,6 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Reuters",
-          "UOL Notícias",
-          "Valor Econômico",
           "WSJ"
         ],
         "examples": [
@@ -307,28 +336,27 @@
       },
       {
         "factor": "Treasuries",
-        "impact": "alta",
-        "score": 2.16,
-        "evidence_count": 5,
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
           "Reuters",
-          "UOL Economia",
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 1.88,
-        "evidence_count": 3,
+        "impact": "baixa",
+        "score": -1.06,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "CNBC",
@@ -336,23 +364,37 @@
           "WSJ"
         ],
         "examples": [
+          "Rupee extends winning streak as dollar, oil ease and stocks rally",
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
-          "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
-          "Dollar retreats from 18-month high despite strong inflation data"
+          "European stocks rise, dollar set for weekly loss after yields drop"
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 1.53,
-        "evidence_count": 8,
+        "score": 0.86,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
+          "InfoMoney"
+        ],
+        "examples": [
+          "Ibovespa tem terceira queda seguida, após 6×1 e pesquisa; dólar sobe e vai a R$ 5,08"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 0.67,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "BNN Bloomberg",
           "CNBC",
           "InfoMoney",
-          "Reuters",
-          "Valor Econômico"
+          "Reuters"
         ],
         "examples": [
           "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
@@ -367,20 +409,19 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 13,
-    "raw_news_results": 203,
+    "raw_news_results": 213,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
+      "BNN Bloomberg",
       "WSJ",
-      "Valor Econômico",
       "CNBC",
       "Estadão",
       "Folha de S.Paulo",
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
-      "UOL Economia",
-      "UOL Notícias"
+      "UOL Economia"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -397,10 +438,10 @@
       "name": "Reuters"
     },
     {
-      "name": "WSJ"
+      "name": "BNN Bloomberg"
     },
     {
-      "name": "Valor Econômico"
+      "name": "WSJ"
     },
     {
       "name": "CNBC"
@@ -422,9 +463,6 @@
     },
     {
       "name": "UOL Economia"
-    },
-    {
-      "name": "UOL Notícias"
     }
   ],
   "sources_checked": [
@@ -438,10 +476,10 @@
       "name": "Reuters"
     },
     {
-      "name": "WSJ"
+      "name": "BNN Bloomberg"
     },
     {
-      "name": "Valor Econômico"
+      "name": "WSJ"
     },
     {
       "name": "CNBC"
@@ -463,12 +501,16 @@
     },
     {
       "name": "UOL Economia"
-    },
-    {
-      "name": "UOL Notícias"
     }
   ],
   "source_analysis": [
+    {
+      "source": "Reuters",
+      "count": 5,
+      "score": -2.23,
+      "status": "material",
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
     {
       "source": "InfoMoney",
       "count": 5,
@@ -477,25 +519,18 @@
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "UOL Economia",
+      "source": "CNN Brasil",
       "count": 5,
-      "score": 2.36,
+      "score": 2.1,
       "status": "material",
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "CNN Brasil",
+      "source": "UOL Economia",
       "count": 4,
-      "score": 2.1,
+      "score": 0.59,
       "status": "material",
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Reuters",
-      "count": 3,
-      "score": 0.71,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Folha de S.Paulo",
@@ -512,11 +547,11 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Agência Brasil",
-      "count": 2,
-      "score": 0.6,
+      "source": "BNN Bloomberg",
+      "count": 1,
+      "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "WSJ",
@@ -539,8 +574,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 0,
-      "detail": "5 pregões +1,17%; 10 pregões -2,49%; último pregão +0,16%."
+      "score": 1,
+      "detail": "5 pregões +1,41%; 10 pregões -2,41%; último pregão +0,60%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -550,14 +585,30 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 10 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
+      "title": "Rupee extends winning streak as dollar, oil ease and stocks rally",
+      "source": "Reuters",
+      "published": "14/10/2026 23:58",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaGR1OENJajFoN1pyejk2WXpNSHBSRTFpMzl1WXFiT2NIWGloV1lPc1BkY0VCRGM0VjVrSHMzYnBNVE93WjBWSXVCcTcxVkVDRkEwMC1mUWJYeXIyUlNoMUJBV0JVWEFOaUMwV2tpOHkyVFFESTdVeDFTbnFiVTZLRHVLNVhrelFOTTdhRG5WRVJwb0RjTWF1aU9iWmRRSThRX1NzeUZQMzl5aGV1MXJjYVZrX05mb3dsRE04OGJkRUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries",
+        "Commodities / petróleo"
+      ]
+    },
+    {
       "title": "Gold drops over 1% as hot US inflation data boosts Fed hike bets",
       "source": "Reuters",
-      "published": "14/10/2026 00:12",
+      "published": "14/10/2026 12:57",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -572,9 +623,24 @@
       ]
     },
     {
+      "title": "European stocks rise, dollar set for weekly loss after yields drop",
+      "source": "Reuters",
+      "published": "15/10/2026 23:52",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMUpLRUNwWEpRNVpNVWJPOWQyQXdKRjkzdTU5RjFiOUxpUFZGU1ZBa1VaS3ctN0xlc0lSMkptbUVMRlprcFFtZ3B6Z2ZFTG5XX2FBUHBoSk4xRTdiQm1ucERORXE4ZzNFZ09ySlpvUDlzb0tGUjFQZ3c0UmotdEstMEZCUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "baixa",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Dollar hits 18-month high, then cools as investors await patient Fed",
       "source": "Reuters",
-      "published": "13/10/2026 22:18",
+      "published": "14/10/2026 18:25",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRTlXdFl1T0lRV3lDTk1HeDB5eEoyUkhIUERBWi02S1ZRU2tGX0hyQk9GdThWZUNUUFBKcUxqNEd1WkU4WFpyUHV6ZmU4VXl3MWRBSjN5UWM2WjVmbDl6RGhYYzV3SF8yTGwtTGJWTTR2OHN4LVVvVzlpTGs0RkFPX2dQWmNZTUF2MVFRMU5fWXZjbjlxd2NISDgyckdMQ3lYYTZv?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -601,6 +667,20 @@
       ]
     },
     {
+      "title": "U.S. dollar heads for weekly fall as investors gauge AI selloff impact",
+      "source": "BNN Bloomberg",
+      "published": "16/10/2026 08:51",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUy1xSENGM2lUUzNiS0k3cHNWbm8yX3V4NTVpbDhqOWhIWURkUTNmRTRhQ3AzRTZTQ1dSR3NXcGtkeVdWM24weXZDa1JGNVZxYXJkakpZS01pQXBzbGNRZE9nbml6NTE3Sjl1VzcteVFvbEtFYS16Z2E5TnlEanF5eHZiMy1Jbk9GN0dzYnVkME53N0pYYkZDZzNlNmlKMFMtNU15RW5oVjZLMFJMZWFhM0VuVXQxaHJqTk85QXZLS0VtQTJNQVE?oc=5",
+      "relevance": "alta",
+      "credibility": 0.96,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA"
+      ]
+    },
+    {
       "title": "Dollar Strengthens on Hot Inflation Data, Higher Treasury Yields",
       "source": "WSJ",
       "published": "14/10/2026 13:06",
@@ -613,21 +693,6 @@
       "factors": [
         "Dólar global / DXY",
         "Treasuries",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
-      "title": "Inflação ligada ao 'boom' de IA está 'saindo da linha', diz Goolsbee, do Fed",
-      "source": "Valor Econômico",
-      "published": "13/10/2026 10:57",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQU0FmUnpkSU5tSnU4N3p0djZkNjNPR1QwVG1VcW5HTEVtSHQyWW9OX2J2M1dDYU1zdHczVEtJZ0NCN2VFRlgtS2ZrbURmeElCeDlZZ21FeDNKdVJBXzd1aWpZOXoxd2ZveTV3X3gxVWJINVdTZXJ2WWVkemE0ZWVKai11eEVmeUxxaWVTbVZsSUhFV0pkM09IUUVMbFRSV21POTE1X0gxR2E2aE1VMWEzYmVUQmhTSFFOT1RjX0hTSHpROEcxUVptSTcwNmR5clAyMDJFVXNR0gHWAUFVX3lxTFBTQWZSemRJTm1KdTg3enR2NmQ2M09HVDBUbVVxbkdMRW1IdDJZb05fYnYzV0NhTXN0dzNUS0lnQ0I3ZUVGWC1LZmttRGZ4SUJ4OVlnbUV4M0p1UkFfN3Vpalk5ejF3Zm95NXdfeDFVYkg1V1NlcnZZZWR6YTRlZUpqLXV4RWZ5THFpZVNtVmxJSEVXSmQzT0hRRUxsVFJXbU85MTVfSDFHYTZoTVUxYTNiZVRCaFNIUU5PVGNfSFNIelE4RzFRWm1JNzA2ZHlyUDIwMkVVc1E?oc=5",
-      "relevance": "média",
-      "credibility": 0.92,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
         "Dados econômicos dos EUA"
       ]
     },
@@ -760,10 +825,10 @@
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "alta",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
+      "horizon": "90d",
+      "theme": "Brasil — fiscal",
       "factors": [
-        "Fed / juros dos EUA"
+        "Brasil — fiscal"
       ]
     },
     {
@@ -781,10 +846,10 @@
       ]
     },
     {
-      "title": "Dólar hoje sobe a R$ 5,01 com pesquisa eleitoral, na contramão do exterior",
+      "title": "Dólar hoje ronda estabilidade com nova pesquisa e exterior no foco",
       "source": "InfoMoney",
-      "published": "13/10/2026 09:37",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVlhQa2FfX3Q2MEhpdW16dnRGYzMzbm1QMkJfQnN4MnZLaUxkdEZyc2xFUFh0aFFUZ0dhSkNScHFtMlZfRWR2V1NJN2hsVFRDeS1FZTY5b3BwYlBoZ3N5N2lGMjZ6YnRVZ2tLQkQ1dU00aERyX3o2X3JHMnBWczB3d0VOQTFQTUNITTE0d1FvZVRFXzlxZ0Mxd211T2ppNEZhdkHSAaIBQVVfeXFMTlZYUGthX190NjBIaXVtenZ0RmMzM25tUDJCX0JzeDJ2S2lMZHRGcnNsRVBYdGhRVGdHYUpDUnBxbTJWX0VkdldTSTdobFRUQ3ktRWU2OW9wcGJQaGdzeTdpRjI2emJ0VWdrS0JENXVNNGhEcl96Nl9yRzJwVnMwd3dFTkExUE1DSE0xNHdRb2VURV85cWdDMXdtdU9qaTRGYXZB?oc=5",
+      "published": "16/10/2026 09:16",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWk9NX0hkY1JWV3VzcnpDZ3FCaTIyY3c0dnRpTWV6UVIzLXBNWThoang2NnR5eV9fcVVYUkRIcklneGNWV3NMZDZKdGZHejFwVDRnaWJxLU1zcGY1a3BGX25MMWxPYWVfZ3FWYmJMdUV4amtkSHBqNE4xUGZkYXlJUXZvV0hfRFFIVnI0SkJzUklWMGxGQnlpNW03Nm9kSkdIR3fSAaIBQVVfeXFMUFpPTV9IZGNSVld1c3J6Q2dxQmkyMmN3NHZ0aU1lelFSMy1wTVk4aGp4NjZ0eXlfX3FVWFJESHJJZ3hjVldzTGQ2SnRmR3oxcFQ0Z2licS1Nc3BmNWtwRl9uTDFsT2FlX2dxVmJiTHVFeGprZEhwajROMVBmZGF5SVF2b1dIX0RRSFZyNEpCc1JJVjBsRkJ5aTVtNzZvZEpHSEd3?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -823,6 +888,20 @@
       ]
     },
     {
+      "title": "Dólar abre perto da estabilidade de olho em pesquisas eleitorais",
+      "source": "CNN Brasil",
+      "published": "16/10/2026 06:33",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVkRJRjRLRS12em8zZFhUQkF2OTBDNnR4a1pvbUM2TnYtUmpMZVFkUVpnVHk5TDExd1pNR3g1QmNsaFBlTzl0NEpwakExSE5zYjlVVXVTSDg0YTFkSVo3QjdQbWR1dF9WY3NDcUpYX0tsREdJaENjTlk1dHpfd1VwR1VtcThXcWtNc2JLeU8wOFlSSS1jM003bWxOcnZDdWRwNlpxTQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Goldman Sachs vê dólar a R$ 4,70 sob expectativa para 2º turno das eleições",
       "source": "CNN Brasil",
       "published": "13/10/2026 15:43",
@@ -852,20 +931,6 @@
       ]
     },
     {
-      "title": "Dólar sobe 0,74% e volta a fechar acima de R$ 5",
-      "source": "Agência Brasil",
-      "published": "13/10/2026 18:57",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX0NoX3R5ZF9rTWxwSG50LW1saWFCOGZVZGtReWdVQ3BGaVlod1luWWJjN3FYdFFUWXg2ajhHVHhmOURQYUloV3BtV25LNUxydDd2YkM2ell1WkdVSk4xRnBRSkp5a1lVXzBoOG5FTEJHSTNiTmRVRlFVSmxpU0IxeUk1WlFQSHZ2Uzd4V0FERjJhaDdQTnE2TkJzemJDclZBMnc?oc=5",
-      "relevance": "média",
-      "credibility": 0.84,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Mercado eleva previsão da inflação para 5,22% em 2026",
       "source": "Agência Brasil",
       "published": "13/10/2026 11:28",
@@ -878,34 +943,6 @@
       "factors": [
         "Dados econômicos dos EUA",
         "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Dólar oscila perto da estabilidade com mercado à espera de nova pesquisa eleitoral",
-      "source": "UOL Economia",
-      "published": "14/10/2026 09:10",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOM0Q0NTV4Wk9mWnhBeFlvZnFjRGNOb1ZLRmVPRTFZUjVHaXdzMmRHZl9nVkUydERYci0zRmN4RERwX0VmWDY0NE9qdVpVLTd5YTVyUVJOU2tVbmRZMnphZjJrSGJ6QXFPSzU5T3V3dzZkcnphZVNRNDlVbzhtZjBUMElWUEVpTEdkMl9hX0NBZk0zZmdTWXRZYl8tYUc5cTdEU2drUnRfLXZCTHRrbUYwME1yN1YwYXduRFBienJLaW11SDR4WG5rVF9seDdOSk1zM0N2T0lUaVBtQQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar fecha em alta de 1,17%, a R$ 5,087; Bolsa cai com eleição no radar",
-      "source": "UOL Economia",
-      "published": "15/10/2026 17:14",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOFhsZVpyQTRKQWdRWEhyNEJXeEUwVHR2dmNpay1NUmNSaUVpQzF1Q25ZakNfXzQ3LTlKRGJNell4eEdNV2xyV0VaMlhvbzBDRHhBWE1zaTBZS1JfdHFDTjNLb0UwamxmWWNFbXBvanlEOHU4ajZ6cTVJcnE5Xy1oVDVBVXloMXA0VjZJMTg4Uk9TcFRpSjhWMFpxVk5qS2dwV2NKTm91ZnZlVUhydW1hSGZ3Z3lrUWtqYjI2THRLNHM3N1cyd2VQcnBvdUE3Wk5MRGdzSUdR?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     }
   ]
