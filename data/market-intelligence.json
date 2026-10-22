@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-22T17:14:50.581036+00:00",
+  "generated_at": "2026-10-22T20:37:09.450682+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": -0.62,
+  "score10": -0.6,
   "market_move": {
     "material": false,
     "day_variation_pct": 0.21083199077112091,
@@ -18,15 +18,16 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -39,15 +40,16 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -59,21 +61,20 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.8,
+        "score": -1.78,
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Pluang",
           "The Economic Times",
           "UOL Economia",
           "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 112; Vale afunda 3%"
         ],
         "horizon": "90d"
@@ -82,25 +83,23 @@
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 3,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Pluang",
-          "www.tmgm.com"
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns.",
-          "Silver advances above $57 despite Fed rate-hike bets, firmer US Dollar"
+          "Dollar dips as traders wait on Fed; Aussie gains"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.46,
-        "evidence_count": 16,
+        "score": 1.48,
+        "evidence_count": 18,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -109,12 +108,13 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
-          "Ibovespa hoje perde força e começa última semana antes da eleição em queda; dólar também cai"
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral"
         ],
         "horizon": "90d"
       },
@@ -138,17 +138,15 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 3,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
-          "Estadão",
-          "Pluang"
+          "Estadão"
         ],
         "examples": [
           "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
-          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil",
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns."
+          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil"
         ],
         "horizon": "90d"
       },
@@ -174,15 +172,16 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -195,15 +194,16 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -215,21 +215,20 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.8,
+        "score": -1.78,
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Pluang",
           "The Economic Times",
           "UOL Economia",
           "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 112; Vale afunda 3%"
         ],
         "horizon": "90d"
@@ -238,25 +237,23 @@
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 3,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Pluang",
-          "www.tmgm.com"
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns.",
-          "Silver advances above $57 despite Fed rate-hike bets, firmer US Dollar"
+          "Dollar dips as traders wait on Fed; Aussie gains"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.46,
-        "evidence_count": 16,
+        "score": 1.48,
+        "evidence_count": 18,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -265,12 +262,13 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
-          "Ibovespa hoje perde força e começa última semana antes da eleição em queda; dólar também cai"
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral"
         ],
         "horizon": "90d"
       },
@@ -302,17 +300,17 @@
       "Reuters",
       "Folha de S.Paulo",
       "Estadão",
-      "CNN Brasil",
       "InfoMoney",
+      "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "boldnewsonline.com",
       "Economies.com",
       "BlockTrends",
-      "Pluang",
-      "www.tmgm.com",
-      "The Economic Times"
+      "boca.com.br",
+      "The Economic Times",
+      "Yahoo Finance"
     ]
   },
   "future_outlook": {
@@ -323,15 +321,16 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -344,15 +343,16 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
           "Reuters",
           "The Economic Times",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "Yahoo Finance",
+          "boca.com.br",
+          "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
@@ -364,21 +364,20 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.8,
+        "score": -1.78,
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Pluang",
           "The Economic Times",
           "UOL Economia",
           "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 112; Vale afunda 3%"
         ],
         "horizon": "90d"
@@ -387,25 +386,23 @@
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
         "score": -1.74,
-        "evidence_count": 3,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Pluang",
-          "www.tmgm.com"
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns.",
-          "Silver advances above $57 despite Fed rate-hike bets, firmer US Dollar"
+          "Dollar dips as traders wait on Fed; Aussie gains"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.46,
-        "evidence_count": 16,
+        "score": 1.48,
+        "evidence_count": 18,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -414,12 +411,13 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
-          "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
-          "Ibovespa hoje perde força e começa última semana antes da eleição em queda; dólar também cai"
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral"
         ],
         "horizon": "90d"
       },
@@ -445,23 +443,23 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 168,
+    "raw_news_results": 176,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Folha de S.Paulo",
       "Estadão",
-      "CNN Brasil",
       "InfoMoney",
+      "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "boldnewsonline.com",
       "Economies.com",
       "BlockTrends",
-      "Pluang",
-      "www.tmgm.com",
-      "The Economic Times"
+      "boca.com.br",
+      "The Economic Times",
+      "Yahoo Finance"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -484,10 +482,10 @@
       "name": "Estadão"
     },
     {
-      "name": "CNN Brasil"
+      "name": "InfoMoney"
     },
     {
-      "name": "InfoMoney"
+      "name": "CNN Brasil"
     },
     {
       "name": "Agência Brasil"
@@ -508,13 +506,13 @@
       "name": "BlockTrends"
     },
     {
-      "name": "Pluang"
-    },
-    {
-      "name": "www.tmgm.com"
+      "name": "boca.com.br"
     },
     {
       "name": "The Economic Times"
+    },
+    {
+      "name": "Yahoo Finance"
     }
   ],
   "sources_checked": [
@@ -534,10 +532,10 @@
       "name": "Estadão"
     },
     {
-      "name": "CNN Brasil"
+      "name": "InfoMoney"
     },
     {
-      "name": "InfoMoney"
+      "name": "CNN Brasil"
     },
     {
       "name": "Agência Brasil"
@@ -558,22 +556,29 @@
       "name": "BlockTrends"
     },
     {
-      "name": "Pluang"
-    },
-    {
-      "name": "www.tmgm.com"
+      "name": "boca.com.br"
     },
     {
       "name": "The Economic Times"
+    },
+    {
+      "name": "Yahoo Finance"
     }
   ],
   "source_analysis": [
     {
+      "source": "UOL Economia",
+      "count": 5,
+      "score": 1.41,
+      "status": "material",
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
       "source": "Folha de S.Paulo",
       "count": 4,
-      "score": -0.25,
+      "score": 0.63,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "CNN Brasil",
@@ -583,27 +588,6 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "UOL Economia",
-      "count": 4,
-      "score": 1.41,
-      "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Estadão",
-      "count": 3,
-      "score": 0.0,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "count": 3,
-      "score": 0.0,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
       "source": "Reuters",
       "count": 2,
       "score": 0.0,
@@ -611,11 +595,25 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "InfoMoney",
-      "count": 1,
+      "source": "Estadão",
+      "count": 2,
       "score": 0.0,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "InfoMoney",
+      "count": 2,
+      "score": -0.86,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Agência Brasil",
@@ -648,7 +646,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -2.62,
+      "score": -2.6,
       "detail": "28 notícia(s) material(is), 14 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
@@ -714,32 +712,18 @@
       ]
     },
     {
-      "title": "Dólar e juros futuros sobem com cenário eleitoral e alta do petróleo; Bolsa cai mais de 1%",
+      "title": "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
       "source": "Folha de S.Paulo",
       "published": "22/10/2026 09:43",
       "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWHpxS0E1anNZYzBnb1R2TmctLWwzRURsekQ4Yk5GNXJnajBmV0RpNC1VQnZUeEVGenVxY0JIc1FSRjFWTFI3Sm5DWEhmZEpfMC05ZWNEMy1yN0JUbF9Wd05XM3pOb3lLaC1KMEFlWEd6UlBIOHRSSUV6WEhKSEtJcUFwV0pwZjVncFJmZTNQc04taWtZZXhxeUNTNDNyN2JIRmhXOU51VTNVYTZkRERqblktcktpa0QzalNQZklqdVNSZmxVcEZpZ0VnOWg0cHNZN1BsckZuUUM3R3Yy?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
-      "impact": "neutro",
+      "impact": "alta",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Ibovespa hoje perde força e começa última semana antes da eleição em queda; dólar também cai",
-      "source": "Estadão",
-      "published": "19/10/2026 17:20",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSXlWZ3AyWTc0eGw1MzZzYkh3RlJsVDZzeTU3SjhkZTVpcFJwYjNod0J2SV9DWXZLQlZiUF9aR2lubnRUYXVvVHBHUEVOWDJnWk9ITm9tWmdOR2FZUDltOFJmV2FpOC1JN2JTTklPWk1ubFNPZmliRlk2aDcyMTBSMnlidTItTW15Q1Z3RVc4MTlnSE1jQmc0Tk1RQWxLaVNaaDhDdWlNWkVIN0JNQV9SalUyOTFaUFhhWDZBYkFFbVJCeGt5d3pZd3kyR2pGa08tcXfSAdcBQVVfeXFMUGpfWEtmME5OWWxBQ0dyY3lTSVp6eHhHVnFVUGZKZFNuOWpXRHRwN3VUcldsaWhCbVRCZEptQU5LYUR0dmJSSGl4NERPRmZoRjItQlhyYTFLMlhiNk1FUkpnME0yVzMwNHZSclI3dWN2MVlKS2lVMHh1SzBnSE42Z05hMkhPQUQ0QXFIa09VUnMzdVU1V0hpYWxSWjFYOV9YNWJhRnVTS2FGOUxZN0xudDY2U0dJa1NHVGgzd1Q3bTdWNm52cWJ1aWtVZmFvZDl2MFJiSVNjOWM?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     },
     {
@@ -780,6 +764,21 @@
       "impact": "neutro",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições",
+        "Commodities / petróleo"
+      ]
+    },
+    {
+      "title": "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04",
+      "source": "InfoMoney",
+      "published": "19/10/2026 17:28",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPMHpFOENITndyb3VWTmFWbnp1SG4yVGNzODJkZ0t1cV9YSjBqVnFzWXhhYUVpWElGWlp1MV95cTFNZmlWcENPVnZLeHZpM0RMNDVQTER6ZExWOXRSWFNUcTFYX2tnbGxYVVJqSkwwUkZreVdWcVRUUnJwSE5palhSRy1nWTFlRjBScncwem1lUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
@@ -845,7 +844,7 @@
     {
       "title": "Ibovespa Hoje Ao Vivo: Bolsa cai 1% com balanços, eleições e exterior em foco",
       "source": "InfoMoney",
-      "published": "22/10/2026 11:19",
+      "published": "22/10/2026 12:51",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRjQxcnZURllNYm1odGZpUF9yQXk3MHBZN2lCSGdqdlB3bDRHQUJraDlGN0otcHZRTHBaMklOVlgzUE82QnZUdmJQZ3RRbVA2NVQzZk1fX3BNRThqTVJ2cTBiYS1iLWFBQkUtd2xOd2FOcWd6UzVoejI3RHVYRFFCU1UweUpvR1hNcnlIdWUtaw?oc=5",
       "relevance": "média",
       "credibility": 0.86,
@@ -887,6 +886,20 @@
       ]
     },
     {
+      "title": "Dólar fecha com leve alta; Bolsa cai com eleição e tensão no exterior",
+      "source": "UOL Economia",
+      "published": "22/10/2026 17:13",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUlBMcVZDckpNdGVSM2VEdUxCbFJhSlBYWjdZdTExTlBKRjVmWTNnSHRYdEVwQy1SVjlBdkJmR20wVnE0REZ6WkwtdVNxdXZLZVlmdTRhNURlNFhPVHZBS2ZTOVR5WDJRZkw4bGlYZ0xIRXV5bFlqcVpCeW1RVzRvMThwNktJTEhOQkN5eXpKTDBWN3VHZkFKM2M1aGwzYTliZ1lKMlRNbFhuanFzMjhKMV9mcncwdWM4WVNlYmkwX0k?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Dólar sobe ante real sob influência do exterior e antes de nova pesquisa eleitoral",
       "source": "UOL Economia",
       "published": "22/10/2026 09:13",
@@ -901,10 +914,10 @@
       ]
     },
     {
-      "title": "Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027",
+      "title": "Dólar ronda R$ 5,03 e Bolsa perde força, com pesquisas e balanços na agenda",
       "source": "UOL Economia",
-      "published": "21/10/2026 21:13",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU1EdnRpTDdYbzVmR0tURlo3Z3A2VU9NNXlwdENaNGxkTTdiLU90WlRJZlh5RFN5OGlkREtscmZoWm5oVzNsdWlhalFuRnhwZjRRVXBwcldyRjlNbDVZZ3JISUtSbnAyNVZOVmhzcHJkRjZoU200U3NyYlg5VldFelgzS3V4dk5IQzBmTXoyMkdoYWN0OWVIM2lnTHVRcmNGT3Z2TktDODI4TDZpazNNNFJnTQ?oc=5",
+      "published": "21/10/2026 13:08",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0dKZkJKWXVWdmhwZUlxRHllR2V4Q2RURlhMVWRQNnRwZ3k0RGdWQXR2V0FGOXE0bVIwUHNUaHFmN1VfNEN5QVlpSkF6NHBVNnNNZUp2SkFKdzgyNU84V3QtTXpMODJMeExXaHBfR29fM2Y2a1lQdk10YkZIMWlXOTlzVWZNeW56LTFGLTJFNDktZkMwaE56RGFaWFlTNEhxTUdfeldWZkREVmdIUjRmVUZtWQ?oc=5",
       "relevance": "média",
       "credibility": 0.82,
       "impact": "neutro",
@@ -915,10 +928,10 @@
       ]
     },
     {
-      "title": "Dólar ronda R$ 5,03 e Bolsa perde força, com pesquisas e balanços na agenda",
+      "title": "Ibovespa cai 0,86% com pesquisa eleitoral; dólar fecha a R$ 5,027",
       "source": "UOL Economia",
-      "published": "21/10/2026 13:08",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQ0dKZkJKWXVWdmhwZUlxRHllR2V4Q2RURlhMVWRQNnRwZ3k0RGdWQXR2V0FGOXE0bVIwUHNUaHFmN1VfNEN5QVlpSkF6NHBVNnNNZUp2SkFKdzgyNU84V3QtTXpMODJMeExXaHBfR29fM2Y2a1lQdk10YkZIMWlXOTlzVWZNeW56LTFGLTJFNDktZkMwaE56RGFaWFlTNEhxTUdfeldWZkREVmdIUjRmVUZtWQ?oc=5",
+      "published": "21/10/2026 21:13",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbU1EdnRpTDdYbzVmR0tURlo3Z3A2VU9NNXlwdENaNGxkTTdiLU90WlRJZlh5RFN5OGlkREtscmZoWm5oVzNsdWlhalFuRnhwZjRRVXBwcldyRjlNbDVZZ3JISUtSbnAyNVZOVmhzcHJkRjZoU200U3NyYlg5VldFelgzS3V4dk5IQzBmTXoyMkdoYWN0OWVIM2lnTHVRcmNGT3Z2TktDODI4TDZpazNNNFJnTQ?oc=5",
       "relevance": "média",
       "credibility": 0.82,
       "impact": "neutro",
@@ -947,18 +960,6 @@
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "published": "20/10/2026 19:11",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPLUlFbjZPZGdMM3YwMWd4cnVPTGY0S0dXTjJ0cDd3NS1RZldzWGx6dExZSXpyWUlpOElSOTk3dE9FS3ljTVFtSTZ2ZDkzMVhSRS1NOEJMdEgxMUFqM29ULWhxc21MRlB4bS1tQ3VMSlQ1dkFrMGlCZk1waFBWbXFYRmNIR2xibWJaUlYySUVKZzNzeXZ4c0hfOTJpVi1NSzlxNzc1LU1BRkRGRmdQTzZKTUJqU1Bhb3ZCY3FwMVhKcVpRdmVhUmljblVxcGg?oc=5",
-      "relevance": "média",
-      "credibility": 0.8,
-      "impact": "neutro",
-      "horizon": "hoje",
-      "theme": "Movimento do USD/BRL",
-      "factors": []
-    },
-    {
-      "title": "WDOX26 e WINZ26: Os melhores preços desta quarta-feira",
-      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "published": "20/10/2026 22:55",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV2h0eEE2WmZwVlg4MTBIZEpKVVZ1d1VQRGdiMkdKWGRLNjRlTjRMcDg1cmV2aVd0YmRHVlFwR25qcnpXR1MyRVE4YWVMcGpRQ2M2Nkk3MUZocDlVTUdCZHl3bkJfYnJUZ1dZUmdsbFV0eF81TVZORG9jM0ZBcDhJZDA5emJ4dzJGREx5a2l3TWdQaDJjY0htSXVlbFY?oc=5",
       "relevance": "média",
       "credibility": 0.8,
       "impact": "neutro",
