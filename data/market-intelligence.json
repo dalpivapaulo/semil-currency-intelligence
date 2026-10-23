@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T23:52:27.139658+00:00",
+  "generated_at": "2026-10-23T23:57:56.809664+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": -2.88,
+  "score10": -1.14,
   "market_move": {
     "material": true,
     "day_variation_pct": -0.011908778754732285,
@@ -17,12 +17,12 @@
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -39,12 +39,12 @@
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -83,13 +83,14 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.9,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
+          "Free Press Journal",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "The Economic Times",
@@ -179,12 +180,12 @@
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -201,12 +202,12 @@
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -245,13 +246,14 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.9,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
+          "Free Press Journal",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "The Economic Times",
@@ -283,7 +285,7 @@
   "outlook10": {
     "bias": "BAIXA LEVE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: -2.9. PTAX: último pregão -0,01%; 5 pregões -0,88%; 10 pregões +0,51%. USD/BRL no último pregão: -0,01%; momento em 5 pregões: -0,88%. Pressões de baixa: Dólar global / DXY, Treasuries, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: -1.1. PTAX: último pregão -0,01%; 5 pregões -0,88%; 10 pregões +0,51%. USD/BRL no último pregão: -0,01%; momento em 5 pregões: -0,88%. Pressões de baixa: Dólar global / DXY, Treasuries, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -299,8 +301,8 @@
       "Moomoo",
       "The Economic Times",
       "Yahoo Finance",
-      "boca.com.br",
-      "FXEmpire"
+      "Free Press Journal",
+      "boca.com.br"
     ]
   },
   "future_outlook": {
@@ -310,12 +312,12 @@
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -332,12 +334,12 @@
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -3.48,
+        "score": -1.74,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
-          "FXEmpire",
+          "Free Press Journal",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
@@ -376,13 +378,14 @@
         "factor": "Commodities / petróleo",
         "impact": "baixa",
         "score": -0.9,
-        "evidence_count": 8,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
+          "Free Press Journal",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
           "The Economic Times",
@@ -415,7 +418,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 15,
-    "raw_news_results": 180,
+    "raw_news_results": 178,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Estadão",
@@ -430,8 +433,8 @@
       "Moomoo",
       "The Economic Times",
       "Yahoo Finance",
-      "boca.com.br",
-      "FXEmpire"
+      "Free Press Journal",
+      "boca.com.br"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -481,10 +484,10 @@
       "name": "Yahoo Finance"
     },
     {
-      "name": "boca.com.br"
+      "name": "Free Press Journal"
     },
     {
-      "name": "FXEmpire"
+      "name": "boca.com.br"
     }
   ],
   "sources_checked": [
@@ -531,10 +534,10 @@
       "name": "Yahoo Finance"
     },
     {
-      "name": "boca.com.br"
+      "name": "Free Press Journal"
     },
     {
-      "name": "FXEmpire"
+      "name": "boca.com.br"
     }
   ],
   "source_analysis": [
@@ -618,7 +621,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -2.88,
+      "score": -1.14,
       "detail": "28 notícia(s) material(is), 14 fonte(s) aproveitada(s), 15/16 busca(s) com retorno."
     }
   ],
@@ -755,20 +758,6 @@
       ]
     },
     {
-      "title": "Ibovespa retoma 208 mil pontos com apoio estrangeiro e eleições; dólar cai",
-      "source": "CNN Brasil",
-      "published": "20/10/2026 09:39",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb2ZPN0ZqY3F5THc4LWplMUV5NV9JS2FvVjJtU2JIQ1FZdDNBaFdDYU40ejZGQkEwZWVVSElzNFd6YWl0R1NEUHlydFp4ekRwb3Y1MkFfUTBfUXBlbnNBOHhuVEcwVUxxR0lLaEd6b1hEd1lMcXJXOU9Nc1BGRW9XelNQUnV3dXVSc2VrUU41S1J1b0RYb3UtTVdQa256SjRrTDFieA?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Ibovespa fecha em queda com WEG e eleições no radar; dólar sobe",
       "source": "CNN Brasil",
       "published": "21/10/2026 10:20",
@@ -776,6 +765,20 @@
       "relevance": "média",
       "credibility": 0.86,
       "impact": "alta",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Ibovespa retoma 208 mil pontos com apoio estrangeiro e eleições; dólar cai",
+      "source": "CNN Brasil",
+      "published": "20/10/2026 09:39",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPb2ZPN0ZqY3F5THc4LWplMUV5NV9JS2FvVjJtU2JIQ1FZdDNBaFdDYU40ejZGQkEwZWVVSElzNFd6YWl0R1NEUHlydFp4ekRwb3Y1MkFfUTBfUXBlbnNBOHhuVEcwVUxxR0lLaEd6b1hEd1lMcXJXOU9Nc1BGRW9XelNQUnV3dXVSc2VrUU41S1J1b0RYb3UtTVdQa256SjRrTDFieA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "baixa",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
