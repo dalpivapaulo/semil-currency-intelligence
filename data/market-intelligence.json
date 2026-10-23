@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T00:00:07.128253+00:00",
+  "generated_at": "2026-10-23T00:07:44.985452+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 0.6,
+  "score10": 0.02,
   "market_move": {
     "material": false,
     "day_variation_pct": 0.21083199077112091,
@@ -11,28 +11,29 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 15 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Principais vetores de ALTA/risco: Brasil — política / eleições, Dados econômicos dos EUA, Fluxo / apetite a risco.",
+    "summary": "A leitura reuniu 28 evidência(s) em 15 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Principais vetores de ALTA/risco: Brasil — política / eleições, Fluxo / apetite a risco.",
     "today_summary": "USD/BRL no último pregão: +0,21%; momento em 5 pregões: -0,27%. Pressões de baixa: Dólar global / DXY, Treasuries, Fed / juros dos EUA. Pressões de alta: Fluxo / apetite a risco.",
     "factors": [
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -40,21 +41,22 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -62,7 +64,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 2.1,
-        "evidence_count": 18,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -71,7 +73,8 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -83,8 +86,8 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.2,
-        "evidence_count": 9,
+        "score": -1.78,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -93,8 +96,7 @@
           "InfoMoney",
           "The Economic Times",
           "UOL Economia",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -106,38 +108,20 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.16,
+        "score": -1.74,
         "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Moomoo",
-          "www.tmgm.com"
+          "The Star",
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?",
-          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
+          "Dollar dips as traders wait on Fed; Aussie gains",
+          "Ringgit ends easier vs US dollar, major currencies ahead of FOMC meeting"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.58,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
-          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fluxo / apetite a risco",
@@ -154,6 +138,22 @@
           "Dólar sobe a R$ 5,05 com aversão a risco global e expectativa por pesquisa eleitoral Datafolha"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "Estadão"
+        ],
+        "examples": [
+          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
+          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil"
+        ],
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
@@ -177,21 +177,22 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -199,21 +200,22 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -221,7 +223,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 2.1,
-        "evidence_count": 18,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -230,7 +232,8 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -242,8 +245,8 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.2,
-        "evidence_count": 9,
+        "score": -1.78,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -252,8 +255,7 @@
           "InfoMoney",
           "The Economic Times",
           "UOL Economia",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -265,38 +267,20 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.16,
+        "score": -1.74,
         "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Moomoo",
-          "www.tmgm.com"
+          "The Star",
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?",
-          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
+          "Dollar dips as traders wait on Fed; Aussie gains",
+          "Ringgit ends easier vs US dollar, major currencies ahead of FOMC meeting"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.58,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
-          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fluxo / apetite a risco",
@@ -319,7 +303,7 @@
   "outlook10": {
     "bias": "NEUTRO — FORÇAS EQUILIBRADAS",
     "confidence": 75,
-    "summary": "Score técnico consolidado: +0.6. PTAX: último pregão +0,21%; 5 pregões -0,27%; 10 pregões +0,90%. USD/BRL no último pregão: +0,21%; momento em 5 pregões: -0,27%. Pressões de baixa: Dólar global / DXY, Treasuries, Fed / juros dos EUA. Pressões de alta: Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Fluxo / apetite a risco.",
+    "summary": "Score técnico consolidado: +0.0. PTAX: último pregão +0,21%; 5 pregões -0,27%; 10 pregões +0,90%. USD/BRL no último pregão: +0,21%; momento em 5 pregões: -0,27%. Pressões de baixa: Dólar global / DXY, Treasuries, Fed / juros dos EUA. Pressões de alta: Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Fluxo / apetite a risco.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -330,39 +314,40 @@
       "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
-      "Investing.com Nigeria",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "boldnewsonline.com",
       "Economies.com",
       "BlockTrends",
-      "www.tmgm.com",
-      "Moomoo",
-      "The Economic Times"
+      "The Economic Times",
+      "Yahoo Finance",
+      "The Star",
+      "boca.com.br"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Dados econômicos dos EUA, Fluxo / apetite a risco.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições, Fluxo / apetite a risco.",
     "drivers": [
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -370,21 +355,22 @@
         "factor": "Treasuries",
         "impact": "baixa",
         "score": -2.32,
-        "evidence_count": 7,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
           "Economies.com",
-          "Investing.com Nigeria",
-          "Moomoo",
           "Reuters",
           "The Economic Times",
+          "The Star",
+          "Yahoo Finance",
+          "boca.com.br",
           "boldnewsonline.com"
         ],
         "examples": [
           "Dollar dips as traders weigh Iran, AI risks",
-          "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance"
+          "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
+          "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting"
         ],
         "horizon": "10d"
       },
@@ -392,7 +378,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 2.1,
-        "evidence_count": 18,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "BlockTrends",
@@ -401,7 +387,8 @@
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -413,8 +400,8 @@
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -1.2,
-        "evidence_count": 9,
+        "score": -1.78,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
@@ -423,8 +410,7 @@
           "InfoMoney",
           "The Economic Times",
           "UOL Economia",
-          "boldnewsonline.com",
-          "www.tmgm.com"
+          "boldnewsonline.com"
         ],
         "examples": [
           "Bolsa fecha em alta de mais de 1% com eleição e petróleo no radar; dólar recua",
@@ -436,38 +422,20 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -1.16,
+        "score": -1.74,
         "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Economies.com",
-          "Moomoo",
-          "www.tmgm.com"
+          "The Star",
+          "Yahoo Finance"
         ],
         "examples": [
           "US dollar slips as Treasury yields fall ahead of Federal Reserve meeting",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?",
-          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
+          "Dollar dips as traders wait on Fed; Aussie gains",
+          "Ringgit ends easier vs US dollar, major currencies ahead of FOMC meeting"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 0.58,
-        "evidence_count": 3,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
-          "Análise: Inflação alta nos EUA pode frear queda da Selic no Brasil",
-          "Why is the New Zealand Dollar steady as oil drives inflation pressures and RBNZ rate hike bets?"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Fluxo / apetite a risco",
@@ -490,8 +458,8 @@
   },
   "collection_status": {
     "web_searches_total": 16,
-    "web_searches_succeeded": 15,
-    "raw_news_results": 181,
+    "web_searches_succeeded": 14,
+    "raw_news_results": 179,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -501,14 +469,14 @@
       "CNN Brasil",
       "Agência Brasil",
       "UOL Economia",
-      "Investing.com Nigeria",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "boldnewsonline.com",
       "Economies.com",
       "BlockTrends",
-      "www.tmgm.com",
-      "Moomoo",
-      "The Economic Times"
+      "The Economic Times",
+      "Yahoo Finance",
+      "The Star",
+      "boca.com.br"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -543,9 +511,6 @@
       "name": "UOL Economia"
     },
     {
-      "name": "Investing.com Nigeria"
-    },
-    {
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
@@ -558,13 +523,16 @@
       "name": "BlockTrends"
     },
     {
-      "name": "www.tmgm.com"
-    },
-    {
-      "name": "Moomoo"
-    },
-    {
       "name": "The Economic Times"
+    },
+    {
+      "name": "Yahoo Finance"
+    },
+    {
+      "name": "The Star"
+    },
+    {
+      "name": "boca.com.br"
     }
   ],
   "sources_checked": [
@@ -596,9 +564,6 @@
       "name": "UOL Economia"
     },
     {
-      "name": "Investing.com Nigeria"
-    },
-    {
       "name": "Investing.com Brasil - Finanças, Câmbio e Investimentos"
     },
     {
@@ -611,13 +576,16 @@
       "name": "BlockTrends"
     },
     {
-      "name": "www.tmgm.com"
-    },
-    {
-      "name": "Moomoo"
-    },
-    {
       "name": "The Economic Times"
+    },
+    {
+      "name": "Yahoo Finance"
+    },
+    {
+      "name": "The Star"
+    },
+    {
+      "name": "boca.com.br"
     }
   ],
   "source_analysis": [
@@ -671,7 +639,7 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Investing.com Nigeria",
+      "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -701,8 +669,8 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -1.4,
-      "detail": "28 notícia(s) material(is), 15 fonte(s) aproveitada(s), 15/16 busca(s) com retorno."
+      "score": -1.98,
+      "detail": "28 notícia(s) material(is), 15 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -996,21 +964,6 @@
       ]
     },
     {
-      "title": "US Dollar Strength Masks Growing Disconnect With Treasury Yields",
-      "source": "Investing.com Nigeria",
-      "published": "20/10/2026 06:39",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM2R6TzNBbVhjdFE4dFF5UGZYNjU1R1Jzbi1obHJfWkNad2ljRFpzX1NYYjlaSlJXY0I5dEFkYkJWSWE2dURyeHVMVXdiOTFiWW0zRlZEOFhnbFYwSVdiNmdQU0d3N1podzNpWGhULWhROFZ4ZWRlRHJFR2I2VE1LLUkybEhvLWFfcVhnMmdTZWVQUk5TT2plb2NXT2VkVlF5SWFQckpZNmg?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
-      ]
-    },
-    {
       "title": "Ibovespa e dólar hoje: empate na eleição, revés no STF e balanços de techs",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "published": "21/10/2026 18:07",
@@ -1054,6 +1007,23 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
+      ]
+    },
+    {
+      "title": "Dólar sobe a R$ 5,05 com aversão a risco global e expectativa por pesquisa eleitoral Datafolha",
+      "source": "BlockTrends",
+      "published": "22/10/2026 09:32",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHc1BlQlplb1QzVzk5cm15T0RnYzgxMVZrbnp4Xy1FQ0s4UEp5aVFnNW84ZmM3RHJqbkg0aE9SMXEtN3VCN3ZVTWl5TG5ZT2R4YVpmbmtId2J6dXI0MHNlWTlZZkxLTjUzV3VCT05qb1N0eFNqN2RjeFFpOXg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries",
+        "Brasil — política / eleições",
+        "Fluxo / apetite a risco"
       ]
     }
   ]
