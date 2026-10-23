@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T20:30:33.169767+00:00",
+  "generated_at": "2026-10-23T23:52:27.139658+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": -1.96,
+  "score10": -2.88,
   "market_move": {
     "material": true,
     "day_variation_pct": -0.011908778754732285,
@@ -11,95 +11,94 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 15 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Principais vetores de ALTA/risco: Brasil — política / eleições.",
+    "summary": "A leitura reuniu 28 evidência(s) em 14 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Principais vetores de ALTA/risco: Brasil — política / eleições.",
     "today_summary": "USD/BRL no último pregão: -0,01%; momento em 5 pregões: -0,88%. Pressões de baixa: Dólar global / DXY, Treasuries, Fluxo / apetite a risco.",
     "factors": [
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -1.48,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Pluang",
-          "The Economic Times",
-          "UOL Economia",
-          "Vietnam.vn"
-        ],
-        "examples": [
-          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
-          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
-          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 0.96,
-        "evidence_count": 18,
+        "score": 1.2,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral",
           "Dólar e Bolsa caem com pesquisa eleitoral no radar a uma semana do segundo turno"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.9,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Bold News",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "The Economic Times",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
+          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
         ],
         "horizon": "90d"
       },
@@ -121,16 +120,13 @@
         "factor": "Fed / juros dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
           "Moomoo",
-          "Pluang",
-          "The Malaysian Reserve",
           "Yahoo Finance"
         ],
         "examples": [
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns.",
           "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations.",
           "Dollar dips as traders wait on Fed; Aussie gains"
         ],
@@ -140,15 +136,13 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 2,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "Estadão",
-          "Pluang"
+          "Estadão"
         ],
         "examples": [
-          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos",
-          "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns."
+          "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos"
         ],
         "horizon": "90d"
       },
@@ -165,95 +159,108 @@
           "Mercado mantém projeção para inflação e juros em 2026 e espera PIB e dólar mais baixos"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Folha de S.Paulo"
+        ],
+        "examples": [
+          "Lula tem legado social positivo, mas deixa desequilíbrio fiscal em rota explosiva"
+        ],
+        "horizon": "90d"
       }
     ],
     "future_drivers": [
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -1.48,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Pluang",
-          "The Economic Times",
-          "UOL Economia",
-          "Vietnam.vn"
-        ],
-        "examples": [
-          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
-          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
-          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 0.96,
-        "evidence_count": 18,
+        "score": 1.2,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral",
           "Dólar e Bolsa caem com pesquisa eleitoral no radar a uma semana do segundo turno"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.9,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Bold News",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "The Economic Times",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
+          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
         ],
         "horizon": "90d"
       },
@@ -276,7 +283,7 @@
   "outlook10": {
     "bias": "BAIXA LEVE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: -2.0. PTAX: último pregão -0,01%; 5 pregões -0,88%; 10 pregões +0,51%. USD/BRL no último pregão: -0,01%; momento em 5 pregões: -0,88%. Pressões de baixa: Dólar global / DXY, Treasuries, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: -2.9. PTAX: último pregão -0,01%; 5 pregões -0,88%; 10 pregões +0,51%. USD/BRL no último pregão: -0,01%; momento em 5 pregões: -0,88%. Pressões de baixa: Dólar global / DXY, Treasuries, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries, Commodities / petróleo, Fluxo / apetite a risco. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — política / eleições.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -289,12 +296,11 @@
       "Investing.com",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Bold News",
-      "Vietnam.vn",
-      "Pluang",
       "Moomoo",
       "The Economic Times",
       "Yahoo Finance",
-      "The Malaysian Reserve"
+      "boca.com.br",
+      "FXEmpire"
     ]
   },
   "future_outlook": {
@@ -304,89 +310,88 @@
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -2.32,
+        "score": -3.48,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Bold News",
+          "FXEmpire",
           "Investing.com",
           "Moomoo",
           "The Economic Times",
-          "The Malaysian Reserve",
-          "Vietnam.vn",
-          "Yahoo Finance"
+          "Yahoo Finance",
+          "boca.com.br"
         ],
         "examples": [
           "BofA flags further downside risk for stocks, yields and dollar",
           "Dollar Weakens as US Yields and Oil Prices Fall, Aussie Gains on Hawkish RBA Stance",
-          "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline."
+          "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations."
         ],
         "horizon": "10d"
       },
       {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -1.48,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Pluang",
-          "The Economic Times",
-          "UOL Economia",
-          "Vietnam.vn"
-        ],
-        "examples": [
-          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
-          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
-          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
-        ],
-        "horizon": "90d"
-      },
-      {
         "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 0.96,
-        "evidence_count": 18,
+        "score": 1.2,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
-          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-          "UOL Economia"
+          "UOL Economia",
+          "boca.com.br"
         ],
         "examples": [
           "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
           "Dólar sobe e Bolsa cai com investidores repercutindo nova pesquisa eleitoral",
           "Dólar e Bolsa caem com pesquisa eleitoral no radar a uma semana do segundo turno"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.9,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Bold News",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Investing.com Brasil - Finanças, Câmbio e Investimentos",
+          "The Economic Times",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Bolsa cai mais de 1% com disputa eleitoral acirrada e alta do petróleo; dólar sobe",
+          "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
+          "Ibovespa fecha com leve queda, com olhos na eleição; dólar cai a R$ 5,04"
         ],
         "horizon": "90d"
       },
@@ -410,7 +415,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 15,
-    "raw_news_results": 158,
+    "raw_news_results": 180,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Estadão",
@@ -422,12 +427,11 @@
       "Investing.com",
       "Investing.com Brasil - Finanças, Câmbio e Investimentos",
       "Bold News",
-      "Vietnam.vn",
-      "Pluang",
       "Moomoo",
       "The Economic Times",
       "Yahoo Finance",
-      "The Malaysian Reserve"
+      "boca.com.br",
+      "FXEmpire"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -468,12 +472,6 @@
       "name": "Bold News"
     },
     {
-      "name": "Vietnam.vn"
-    },
-    {
-      "name": "Pluang"
-    },
-    {
       "name": "Moomoo"
     },
     {
@@ -483,7 +481,10 @@
       "name": "Yahoo Finance"
     },
     {
-      "name": "The Malaysian Reserve"
+      "name": "boca.com.br"
+    },
+    {
+      "name": "FXEmpire"
     }
   ],
   "sources_checked": [
@@ -521,12 +522,6 @@
       "name": "Bold News"
     },
     {
-      "name": "Vietnam.vn"
-    },
-    {
-      "name": "Pluang"
-    },
-    {
       "name": "Moomoo"
     },
     {
@@ -536,14 +531,17 @@
       "name": "Yahoo Finance"
     },
     {
-      "name": "The Malaysian Reserve"
+      "name": "boca.com.br"
+    },
+    {
+      "name": "FXEmpire"
     }
   ],
   "source_analysis": [
     {
       "source": "CNN Brasil",
       "count": 6,
-      "score": -1.1,
+      "score": -0.86,
       "status": "material",
       "summary": "6 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
@@ -556,10 +554,10 @@
     },
     {
       "source": "Folha de S.Paulo",
-      "count": 3,
+      "count": 4,
       "score": 1.51,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Estadão",
@@ -620,8 +618,8 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -1.96,
-      "detail": "28 notícia(s) material(is), 15 fonte(s) aproveitada(s), 15/16 busca(s) com retorno."
+      "score": -2.88,
+      "detail": "28 notícia(s) material(is), 14 fonte(s) aproveitada(s), 15/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -684,6 +682,21 @@
       ]
     },
     {
+      "title": "Lula tem legado social positivo, mas deixa desequilíbrio fiscal em rota explosiva",
+      "source": "Folha de S.Paulo",
+      "published": "22/10/2026 23:00",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQWJUMW92QlBfSF9BNDkzclNKQy1EZ3pZT2VJSGFjSi0tdUJRemE4dTVBd3hITXRjOVpfMUY4eWQ1UFY0OFhlWFRKdGI0RWRWck1qMXNtWHl6SUJ2b3UycjdnR2U4YTM2SWVnelJjeF9UOGhCc3lMWnc1dEQ5bkZTTmZ1MnI2dlJnVmlRR1hiVnZ2QnE2dTRkcm04ajBTNGVWZkVDZ1pEN0hrVWtZN1c2bXBhQnZxX1dSQndsdEtRb3N4UG53TWNMTXZzTDA?oc=5",
+      "relevance": "média",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Ibovespa hoje cai mais de 1% com pesquisa eleitoral e petróleo a US$ 113; Vale recua 4%",
       "source": "Estadão",
       "published": "22/10/2026 10:15",
@@ -711,20 +724,6 @@
       "factors": [
         "Brasil — política / eleições",
         "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Ibovespa oscila em última sessão antes de eleição presidencial; dólar cai",
-      "source": "CNN Brasil",
-      "published": "23/10/2026 09:51",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcXhSQnNYZWhTdmFUcjhaTVlhNXB2WnBsTm5MejQ4cUcteG5ya3lXWFhTcDFBejNVWm1kanZ6QTdlQTltS1NLbWRXNWpuMm04TEpGSEphaW1obW03MENxT0JVZmZDbC1sUk1zMVlfVnpuSWlqWUQyZUFDMHI1cWJvYTBJWE5tZlh5Sjd6YjhXcno3NnhNNnVwaHQxNWwyOGNEX3FNTg?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
       ]
     },
     {
@@ -784,6 +783,20 @@
       ]
     },
     {
+      "title": "Bolsa fecha em alta na última sessão antes do 2º turno; dólar cai a R$ 4,98",
+      "source": "CNN Brasil",
+      "published": "23/10/2026 09:51",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcXhSQnNYZWhTdmFUcjhaTVlhNXB2WnBsTm5MejQ4cUcteG5ya3lXWFhTcDFBejNVWm1kanZ6QTdlQTltS1NLbWRXNWpuMm04TEpGSEphaW1obW03MENxT0JVZmZDbC1sUk1zMVlfVnpuSWlqWUQyZUFDMHI1cWJvYTBJWE5tZlh5Sjd6YjhXcno3NnhNNnVwaHQxNWwyOGNEX3FNTg?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Análise: Newcastle, petróleo e eleições precificam mercado financeiro",
       "source": "CNN Brasil",
       "published": "22/10/2026 20:32",
@@ -830,7 +843,7 @@
     {
       "title": "Bolsa, dólar e juros: o que esperar se Flávio ou Lula vencer",
       "source": "UOL Economia",
-      "published": "23/10/2026 15:35",
+      "published": "23/10/2026 16:00",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV0plTkprTUFaSHNNQS1PdXZaV3JjM1kteGU4UWk4c2ktVUtSMzg0VzMyamtnUjhnRGpaTG90R3YzZ0ZpcExjQmppLXNfdGNTNWwzZ2xzVkVtNEp3QmYwRVhRdl9WR1NzQUtXZENOS3JOc1FKWXFqdDFwcHVDVnRNa3pORTlkUzIwUjNMaHYwVmpESXlKaVRoMnN1eldVRi1hSjU4REJuSzR5czdieTBMOE5ZYmhveGUwNE9J?oc=5",
       "relevance": "alta",
       "credibility": 0.82,
@@ -900,7 +913,7 @@
     {
       "title": "BofA flags further downside risk for stocks, yields and dollar",
       "source": "Investing.com",
-      "published": "23/10/2026 07:26",
+      "published": "23/10/2026 18:17",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMGNTdl9nM2UzcHZDcEZLVFZfVEVwRVNQM0pEc1NLQ3lZV3oyTXJqX3M5VUN1c0FyNjZZa0ZPYkt4azhtYkNUS19kMWtXMUt5ZnFfYXZjQk5pdFlHcVJWMWhEZFNLc2l6TkRaVzlwaFZ2VFllN0xhOTRzTHJVVF9hQmtjcWNNelFLWEc3VWZzSk9lZTRyVDBOdHdZX24yRmJRT0ZoZGdYUUVRbEpPUVBvcHBuVDRRVmJlZUE?oc=5",
       "relevance": "alta",
       "credibility": 0.8,
@@ -913,17 +926,17 @@
       ]
     },
     {
-      "title": "Ibovespa e dólar hoje: empate na eleição, revés no STF e balanços de techs",
+      "title": "Ibovespa e dólar hoje: reta final do 2º turno, petróleo e defasagem do diesel",
       "source": "Investing.com Brasil - Finanças, Câmbio e Investimentos",
-      "published": "21/10/2026 18:07",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbXUyTVg3Njhxc3hORnFHOW5kZ1p5bmgyVHRETXd1ZFBRNWF6V1dGeV9OLXdUdGhldWRPVmxwLTRpYnBuT2xIRzNfcVotZW42Q1F6ckc4YXZXSUF1MmdCaVhsbkF3X3NSU0RTY0tPSEQ2UXRVZTFqTkU1ZHlIb1Vpa251SUVMa3hyTmV1TGp1c1U4aGhHbTE2UEpSVXRySVNpMkFGMkFRMGFpQlh2V1hKNUh5MGpkbVV2cU1sbk1CbVMzNHdWODZr?oc=5",
+      "published": "23/10/2026 18:31",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQjJVSUhGN0t5NnRnMjQxSWdKOWpVMExycFkzeFJfdnRhaWhqSjFJdDFyWGpfZ0RaVlhSLXQyV3d2VGFvM0RiVmxsQTYxZFRaVkt4YWRFbHBBZXlhYWxDVlJWZ1VjYkhDczlHTWUtRm05MWJ5SlZGQUpkSWtvd2NTU25zNVZpNXNRZHUtcGs5MVdGZGRIZlVvWjFZS2J0TzY1TU9vcExlSGE5a0Q0emluUnp2VE4welhudWJxOUVGZS1tRTh6eUFvWFpzMA?oc=5",
       "relevance": "alta",
       "credibility": 0.8,
       "impact": "neutro",
       "horizon": "hoje",
       "theme": "Movimento do USD/BRL",
       "factors": [
-        "Brasil — política / eleições"
+        "Commodities / petróleo"
       ]
     },
     {
@@ -943,35 +956,19 @@
       ]
     },
     {
-      "title": "Today's USD exchange rate (October 21): The US dollar falls as oil prices decline.",
-      "source": "Vietnam.vn",
-      "published": "20/10/2026 20:19",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNXhfR041UGVFb3QwYjFyN1AwT3FDTENEODZWU2ZwSmd3YnZHRWd3Ym5VbTFWZkVMdmhzWlNEa0FOb2FxSy1zSGhPZ25fRERKaVExaUZqLUdTU0Q1cVZlZTkxb0Z4b2lMRmRsSTlDaXBIbkpYMDhDUTZ0ZXE5d3k1Y0t5MnhLTkdXdWtleHh3?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Gold and silver prices rise amid softer dollar and easing oil, despite inflation and Fed tightening concerns.",
-      "source": "Pluang",
-      "published": "21/10/2026 19:20",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcTJtUHR3b29RdlRMb3FnZ2tVeFNndGQ2V1UxOF9VNG9aejFUemJuSWFKVkRieVBJMTBQOEFSY3JvM2VXejdCZW5ja2FxLVRzem9naXJ1azdSeEpRSUZvelVRRmlLeS05TEg2TDlOdVJFNXBFajZxY195Yk1zVDlMeXR1WW15TVk5OUlwemxybHRYZ1JCcGc4MklnUUZjcnk1VjA4?oc=5",
+      "title": "The decline in U.S. Treasury yields and expectations that the Federal Reserve will hold rates steady have exerted downward pressure, leaving the U.S. Dollar Index without clear directional guidance and confined to narrow fluctuations.",
+      "source": "Moomoo",
+      "published": "22/10/2026 04:45",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTzdEVFR0RFBmRUxYV2ZmWnpSU1dmcEFDNWVlRURteVloWHI1bHg1SjF1OFNZeGhnNzljWEswUmNaY21XRXJyNmhhSFNDc0xVdGplYlEwVTZLaW9CcGZZbkdlazhrY05FSF9JZzJLWXdUM0lYZjBsUl9KeVNubnJQLVlPYzVTRml0MTdZcEMybXVPNlM2cWtMSTkzdnU3OUE2NnE5c2FB?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
       "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
+      "theme": "Dólar global / DXY / Treasuries",
       "factors": [
+        "Dólar global / DXY",
         "Fed / juros dos EUA",
-        "Dados econômicos dos EUA",
-        "Commodities / petróleo"
+        "Treasuries"
       ]
     }
   ]
