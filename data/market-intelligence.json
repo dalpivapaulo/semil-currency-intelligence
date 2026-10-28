@@ -1,57 +1,38 @@
 {
-  "generated_at": "2026-10-28T00:42:13.703318+00:00",
+  "generated_at": "2026-10-28T18:22:02.214407+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 0.51,
+  "score10": 1.53,
   "market_move": {
     "material": true,
-    "day_variation_pct": -3.019615685276422,
-    "momentum_5_pct": 6.394096529716786,
-    "momentum_10_pct": 6.487543915681893,
+    "day_variation_pct": 0.1387170546994998,
+    "momentum_5_pct": 6.251367424468435,
+    "momentum_10_pct": 5.905909874903337,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, BCB / Selic / Copom, Fed / juros dos EUA.",
-    "today_summary": "USD/BRL no último pregão: -3,02%; momento em 5 pregões: +6,39%. Pressões de baixa: Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom.",
+    "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.49,
-        "evidence_count": 17,
+        "score": -2.47,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "Bloomberg Línea Brasil",
           "CNN Brasil",
+          "Estadão",
           "InfoMoney",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS",
-          "Após 'ressaca eleitoral', dólar recua a R$ 5,35 e Bolsa fecha em leve baixa",
-          "Real despenca frente ao dólar após reeleição de Lula"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.86,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano",
-          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026",
-          "Do ajuste fiscal à desaceleração da atividade, Lula enfrentará desafios na economia"
+          "Dólar: como a vitória de Flávio ou Lula pode impactar o câmbio, segundo analistas",
+          "Mercado despenca e amplia temor sobre contas públicas após vitória inesperada de Lula"
         ],
         "horizon": "90d"
       },
@@ -59,13 +40,15 @@
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
         "score": -1.86,
-        "evidence_count": 6,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNN Brasil",
+          "Estadão",
           "InfoMoney",
-          "Reuters"
+          "Reuters",
+          "UOL Economia"
         ],
         "examples": [
           "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
@@ -75,22 +58,39 @@
         "horizon": "10d"
       },
       {
-        "factor": "Brasil — fiscal",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 5,
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.86,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "BBC",
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
+          "Estadão",
           "Folha de S.Paulo",
-          "UOL Economia"
+          "InfoMoney"
+        ],
+        "examples": [
+          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano",
+          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNN Brasil"
         ],
         "examples": [
           "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
-          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
-          "Do ajuste fiscal à desaceleração da atividade, Lula enfrentará desafios na economia"
+          "Mercado despenca e amplia temor sobre contas públicas após vitória inesperada de Lula",
+          "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal"
         ],
         "horizon": "90d"
       },
@@ -116,16 +116,14 @@
         "factor": "Commodities / petróleo",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 3,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "Agência Brasil",
           "Reuters"
         ],
         "examples": [
           "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana"
+          "Gold gains on softer oil prices ahead of Fed meeting"
         ],
         "horizon": "10d"
       },
@@ -162,23 +160,45 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.49,
-        "evidence_count": 17,
+        "score": -2.47,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "Bloomberg Línea Brasil",
           "CNN Brasil",
+          "Estadão",
           "InfoMoney",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS",
-          "Após 'ressaca eleitoral', dólar recua a R$ 5,35 e Bolsa fecha em leve baixa",
-          "Real despenca frente ao dólar após reeleição de Lula"
+          "Dólar: como a vitória de Flávio ou Lula pode impactar o câmbio, segundo analistas",
+          "Mercado despenca e amplia temor sobre contas públicas após vitória inesperada de Lula"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "baixa",
+        "score": -1.86,
+        "evidence_count": 10,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "BCB / Selic / Copom",
@@ -187,44 +207,25 @@
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
+          "BBC",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
+          "InfoMoney"
         ],
         "examples": [
+          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
           "Economistas reduzem previsão de inflação, PIB e dólar neste ano",
-          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026",
-          "Do ajuste fiscal à desaceleração da atividade, Lula enfrentará desafios na economia"
+          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -1.86,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "InfoMoney",
-          "Reuters"
-        ],
-        "examples": [
-          "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS"
-        ],
-        "horizon": "10d"
       }
     ]
   },
   "outlook10": {
-    "bias": "NEUTRO — FORÇAS EQUILIBRADAS",
+    "bias": "ALTA LEVE",
     "confidence": 75,
-    "summary": "Score técnico consolidado: +0.5. PTAX: último pregão -3,02%; 5 pregões +6,39%; 10 pregões +6,49%. USD/BRL no último pregão: -3,02%; momento em 5 pregões: +6,39%. Pressões de baixa: Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, BCB / Selic / Copom, Fed / juros dos EUA.",
+    "summary": "Score técnico consolidado: +1.5. PTAX: último pregão +0,14%; 5 pregões +6,25%; 10 pregões +5,91%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -235,36 +236,58 @@
       "Folha de S.Paulo",
       "Estadão",
       "O GLOBO",
-      "CNN Brasil",
       "InfoMoney",
+      "CNN Brasil",
       "Agência Brasil",
       "UOL Economia"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, BCB / Selic / Copom, Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições, Fed / juros dos EUA, BCB / Selic / Copom.",
     "drivers": [
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -2.49,
-        "evidence_count": 17,
+        "score": -2.47,
+        "evidence_count": 19,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "Bloomberg Línea Brasil",
           "CNN Brasil",
+          "Estadão",
           "InfoMoney",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS",
-          "Após 'ressaca eleitoral', dólar recua a R$ 5,35 e Bolsa fecha em leve baixa",
-          "Real despenca frente ao dólar após reeleição de Lula"
+          "Dólar: como a vitória de Flávio ou Lula pode impactar o câmbio, segundo analistas",
+          "Mercado despenca e amplia temor sobre contas públicas após vitória inesperada de Lula"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "baixa",
+        "score": -1.86,
+        "evidence_count": 10,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "BCB / Selic / Copom",
@@ -273,37 +296,18 @@
         "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
+          "BBC",
           "CNN Brasil",
           "Estadão",
           "Folha de S.Paulo",
-          "InfoMoney",
-          "UOL Economia"
+          "InfoMoney"
         ],
         "examples": [
+          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
           "Economistas reduzem previsão de inflação, PIB e dólar neste ano",
-          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026",
-          "Do ajuste fiscal à desaceleração da atividade, Lula enfrentará desafios na economia"
+          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -1.86,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "InfoMoney",
-          "Reuters"
-        ],
-        "examples": [
-          "Gold rises as lower oil prices ease inflation fears ahead of Fed meeting",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "O que é preciso para o dólar e a bolsa voltarem ao patamar pré-eleição, segundo o UBS"
-        ],
-        "horizon": "10d"
       }
     ],
     "confidence": 75
@@ -311,7 +315,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 13,
-    "raw_news_results": 186,
+    "raw_news_results": 222,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -321,8 +325,8 @@
       "Folha de S.Paulo",
       "Estadão",
       "O GLOBO",
-      "CNN Brasil",
       "InfoMoney",
+      "CNN Brasil",
       "Agência Brasil",
       "UOL Economia"
     ],
@@ -359,10 +363,10 @@
       "name": "O GLOBO"
     },
     {
-      "name": "CNN Brasil"
+      "name": "InfoMoney"
     },
     {
-      "name": "InfoMoney"
+      "name": "CNN Brasil"
     },
     {
       "name": "Agência Brasil"
@@ -400,10 +404,10 @@
       "name": "O GLOBO"
     },
     {
-      "name": "CNN Brasil"
+      "name": "InfoMoney"
     },
     {
-      "name": "InfoMoney"
+      "name": "CNN Brasil"
     },
     {
       "name": "Agência Brasil"
@@ -414,13 +418,6 @@
   ],
   "source_analysis": [
     {
-      "source": "UOL Economia",
-      "count": 8,
-      "score": -0.23,
-      "status": "material",
-      "summary": "8 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
       "source": "CNN Brasil",
       "count": 5,
       "score": -1.86,
@@ -428,35 +425,42 @@
       "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Agência Brasil",
-      "count": 3,
-      "score": 0.24,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Reuters",
-      "count": 2,
-      "score": 0.0,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
       "source": "Bloomberg Línea Brasil",
-      "count": 2,
+      "count": 4,
       "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Folha de S.Paulo",
-      "count": 2,
-      "score": 0.0,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "InfoMoney",
+      "count": 4,
+      "score": 0.0,
+      "status": "material",
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "Estadão",
+      "count": 3,
+      "score": 0.0,
+      "status": "material",
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "O GLOBO",
+      "count": 3,
+      "score": -0.63,
+      "status": "material",
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "UOL Economia",
+      "count": 3,
+      "score": -0.82,
+      "status": "material",
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "Reuters",
       "count": 2,
       "score": 0.0,
       "status": "material",
@@ -483,8 +487,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 3,
-      "detail": "5 pregões +6,39%; 10 pregões +6,49%; último pregão -3,02%."
+      "score": 4,
+      "detail": "5 pregões +6,25%; 10 pregões +5,91%; último pregão +0,14%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -493,7 +497,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -2.49,
+      "score": -2.47,
       "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
     }
   ],
@@ -559,6 +563,35 @@
       ]
     },
     {
+      "title": "Dólar: como a vitória de Flávio ou Lula pode impactar o câmbio, segundo analistas",
+      "source": "Bloomberg Línea Brasil",
+      "published": "23/10/2026 20:21",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNODJRcEZqSXpyaDQ3YzdfdFZKSWEydHB2WFZ0MDdQQXFjZ2dwSUE4LXNrMTBKTThqNXFLSm1jLWlpLWRIMi1USW1PM3cybm5xMk9jTG5zT1ctY052bEhKaDhoNzl4VS1KVEZ1N01Ia283ZDBybzYwd1N4MlU4WnFWUk0tMjFkWVhQOTlJNEdLZVRidjFHcl91R1FFVTFXNTMwejRSN2JpSDAxbkNmb1hWOGJPNnl1VGN4Wnl3akZqclrSAdQBQVVfeXFMTUFCZ1pWN1R1RVJqRVJSWEhpemd1WjVLVk9KaEE5SDRrOVZtdGpsRWY3bk94aWhrM0dLSUU4MVlLRFNZQzBZUGNfdTEwUGxMZWdmZWZvZjQxMDNkcl9RaHc5aDQ1NFRKYXlKSC1jd1hrOWt1QVJsNHF6eUp2a09lN3BQT1FnYUxScGFvODcwZWF2XzVtaldBb0ItWC15Z3NpYVNGaHdoZXR4WHNyUk9vSzJ2bVF4NlZsdG9LM0hBQWdqN05TQzd0SUpkYWxxMVYwd2R1SFc?oc=5",
+      "relevance": "média",
+      "credibility": 0.96,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Mercado despenca e amplia temor sobre contas públicas após vitória inesperada de Lula",
+      "source": "Bloomberg Línea Brasil",
+      "published": "26/10/2026 10:34",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMENyZm1rUWwyN2tQTGVnRGFNSmNyOFowbEtDcXV6ODVNSzI5eDVMSGg3MF9OS3lIZzBrQXI1YlFBZUlUVnVaQW9yOFZGdG5qUTFSakdMaVJmUWRsOVNOM3lHYll3eEhCN2M3QVprUjFhX0NVVkxKckF4ZWN3cHlKZnNNdWZEcS1WVXk4SUxaQmY2VnJ3UFpTVmJHVHYwcDlTQld0Q0lNSElFdVlXRTV3T0h2ajZJVVg1WGNxU3lqcDVvVW9FYXU5bHg0U2_SAeABQVVfeXFMTmxOVjdVMWxMMkRxdGxsOFBHMkIxWGhzUlVJV2c1eVdidWx2Ql93b0JPRjFITUFETXVQeURCWnVQYVNZX2JSaFU1SjhUMkFVZ3lJSEJ2blNVVFNwVkJMUy1aQ000Nl9iUW8yQmVmeFhSLWcwQThQYURvRnZCMmkyTzhIR2FEUWRDVmhleE5PdUQtODVBSnV5VE4teXNMUS01eDFoaE9hNjlTc3J1cTdWTjB2bm53UFkxeXlQNF90b1VDY3hyck4wTWI3V1l3LUlzdU5kYXlULU5Gb2NxYzZnWG0?oc=5",
+      "relevance": "média",
+      "credibility": 0.96,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Currency markets subdued ahead of pivotal central bank week",
       "source": "CNBC",
       "published": "26/10/2026 01:10",
@@ -582,9 +615,9 @@
       "credibility": 0.9,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "Brasil — fiscal",
+      "theme": "BCB / Selic / Copom",
       "factors": [
-        "Brasil — fiscal"
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -618,6 +651,48 @@
       ]
     },
     {
+      "title": "Dólar fecha a R$ 5,40, Bolsa despenca 13,8%; BC e Tesouro atuam no mercado",
+      "source": "O GLOBO",
+      "published": "26/10/2026 09:00",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV0w0Q2hNYjZ0dDM2bEY1Ujd2VGhFX2tmUGNOT2prdmxyNEY3NExubTZGdUo5YVhiX3pPNGxxWGMtZ2hEbnBCaDhmQmZxUFUyUHZXNEczMVBKYl93emlXNHNOWDJiWUUxUm1EcnJxOFhiVVZmd0s1dS11Y0hwT1o3UG5CeUxjMlJnQWhQSENxS0F1dkc0ZEt0bHZUaFFjNjFlaW9LVDJGQklIMmpKWU1fblc2aVpQdlhPc18zTU4wZzh0dmxSSGhJ0gHWAUFVX3lxTE00cXZqcmtUTk1jSDFUT2JlcHJmZ24wMVB4UEhCRURmQUdWekk3TzRDUDRJVWptcFhmTE9BU3QzNmRMWnlTSlRDTHp6aEFMY3ZMVjhxVkFDbkxCWUdRQlJMUVJOcEc3bk9EMzQ3OWRENWJJQ25wYjdZSzFzZUdOUDQwcXlCQmg2OWNWRWZERWJxSEFfRENSLTQ0LVBzQVlEQ0k3X1NjbWRmX1JGWHJQR2hUVmoySTRHMHV5X0VKUHRKRWRkZWtkUjNjcC1TeExLTURFbGl4c1E?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar e Bolsa hoje: eleições devem guiar mercados",
+      "source": "O GLOBO",
+      "published": "27/10/2026 08:40",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdHhNNjVZVk9YaXl2dnhQLUJQWENhTUllMmN1bGZvMVVIU29qbmZYZG5PTFJwNUpiWmF2dEV6Z0FPSUxtOXRPTEk5TFJsekJHNXVBVlVVZHE4UnFERzJMd1pmNUh3SHg4V0NEblJoZk14aVFvS04tNkhVMU9fTGM1NXlzWWIyS2FwcDBPeFRJX19TMDcyN2NnOURLSzZLd0lRRWZHUXA3eElpaTDSAboBQVVfeXFMTUZuazBTMUQwRWFmUi1sOU82SXlVaGtiMENHRGZLdVloaUJ1cGhUbDJ6bmNoM2Fic1JONUtVcXZla1REMDJwb0Rvby1lWFdVOGtWcHRxcmxBWU96V2FRWDB2NXFCZzVUWnhOc2VZMFVSM3pzTlA4ZE5JZXNEMWRhTHJrdlNESDFMWGZNM056ZnZwbXoyN1ZQelpzbWo1elNQakZjcWpobXoyem9XcEZNY2lOb0F4X1ZhRHBB?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Reeleição de Lula: Ibovespa derrete quase 14% e dólar tem maior oscilação desde janeiro de 1999",
+      "source": "Estadão",
+      "published": "26/10/2026 18:46",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNm1GTjRzX3dVNVNnSUozbjV3ZHJKRWkwNXQydEp6dEE4eHAwV21NbW5xS201NWRLSnY0ZTAzdmFDdTI5YXVzWHVoRzNBTXZUdkRfdlNSSnFEUUlyeWxQUnl1Q0ZhU2FYRFY1ZXpiNXNGajhZYjFfdG9PZVdxSlVhbEJiSlpQbzZ4YXFZN3ZBUWdFSDNKd2k5U0V2d0FDeHhEZldHQnJOM291Mnl1YnY4ZmhpMEY3TGFEZXhFZnhOZmo4YUxMY0dPLU9JektmTzNyaDl30gHYAUFVX3lxTE90NWZqTG42dVhCWE5MVkg3d1lNeHdjckdRQ3llTnFLa3FfU3Z0Y2ZiS2VhNmJRbUNHWXBMdmN2ZmhhcndnUWllekxnb1FjcVVuVHBIYXNueWxiVWdJeVF4cjV6ZEtOX29PSlNyQXFFYUhkY0YzeGdvSmduY0hMWG1iZFJnei1jWlh5T0ZSVUUyWTdXWFlSb1U2bngxUjd6STFTV0pCeVlqR3lqNG9kWEJLSGhpN0ZmQS1HOUVPcEx1UllBUUNIUzBFTFd2VnNzZ1V2UU8xaUFidA?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Após 'ressaca eleitoral', dólar recua a R$ 5,35 e Bolsa fecha em leve baixa",
       "source": "O GLOBO",
       "published": "27/10/2026 18:24",
@@ -632,31 +707,33 @@
       ]
     },
     {
-      "title": "Do ajuste fiscal à desaceleração da atividade, Lula enfrentará desafios na economia",
-      "source": "Folha de S.Paulo",
-      "published": "26/10/2026 06:00",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUEhxb01DMTdKVnlBb1psZW5pMWQyVHp1VXlvdERfNjZZNGVkRFppREQ5bHdqbElVeGl3Vm1mcjJFWUpIQlVFcmtEaDdoRUUzMXZtZnB2M29pM1BNRThIUDVVbEdwWGJJMmJvZUZKNlB1bk13X3Brd3hBckFNRFRJeTNaNlpMbnJOMU5WMVg1dWFVU0pZX21UbHVRcTJtN2xVb2Q3eGljQlpQZXJndEc4UDJzM2ZwaWdySzVGREYxbGp6UEhZSEF5N3dkbG1Ibjg?oc=5",
+      "title": "Economistas e mercado esperam manutenção dos juros pelo Fed a 6 dias de eleições nos EUA",
+      "source": "Estadão",
+      "published": "28/10/2026 08:24",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTXhWNUp2NEVaczBVZVlKcG1yRXFhQXhQOFZ3Um5oTVBOR0dPWEtlM2FNQkhpbTB2TFFHUDdjRmJvRkp2MGVweWZ2b3Q0Z3JBVEpRU0M1UHZKSHc2ZFhlR05KLWFHemliaFc0V3BPbm9GdHFKOE5mWlo2X3otRGwwbkEzSWxjQ0Mx0gGOAUFVX3lxTE5KY1RNVGpIQi1JUk1XMUlxS0ZOSEFEN2ozS19fa1l0dFF1WGxXTjE1TjFoWTN0Z3pSdm5FRzYwTmJUYkszcVl0QWVFRGF1eHdCbWQwSmlJZEY4Tm1wLTEtajZ3T05oZGtVRVM0Zzd4UW1GdWRfTkV4bk1laVpjY1NKcnM5QWdYUXVKc1JjZ1E?oc=5",
       "relevance": "média",
       "credibility": 0.88,
       "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "horizon": "10d",
+      "theme": "Dados econômicos dos EUA",
       "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — fiscal"
+        "Fed / juros dos EUA",
+        "Brasil — política / eleições"
       ]
     },
     {
-      "title": "Real despenca frente ao dólar após reeleição de Lula",
-      "source": "CNN Brasil",
-      "published": "25/10/2026 21:59",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNEdtRjcwUkVxZWVkU2VuRmpkSGFzbUhPclRjSVlqdnZBMXNjcUJISTlRbHJqMWVOamtjTTEzZlhoTG9UeXlGQVFxazZyWWdUc2VHRzlMQkQ1MmFJRl9adDRzMFE0UXBETDd2SWpoLW9BcGprQkJ6QTNVODhDajByc05zSHdHemhpZjRDcUFPUmtRS0NqRUdBeWUtcFg1V1ZmUWJfRFFud2M?oc=5",
+      "title": "Alta do dólar após eleição pode levar Copom a adotar mais cautela nos cortes de juros",
+      "source": "InfoMoney",
+      "published": "28/10/2026 08:27",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFRXWTlDc1R1bzR0TS1XUUZyVVV5M3NmQXluUXRDQUFxem9GMWtZS0w1UEtjQjhobFNtalNrRjRNZXl5ZGxGak4wOU9rdUVDdXh3TGFQLV9XV2FVdFZJbVFUTmsycEJFaVVsblE0MlI1YzdhSVVWaXdWMFpoTWo5ZzJ1Q3VIdkFyR203SHB5TjBNMUtmUXI4ZWpOb0o5RHdqRmU3M3BHcXJqN3N3MWdxNkRSd2xYQmR1elMtNzI2ekl0d9IBxwFBVV95cUxPYWp0NWlOalI0VF92VFg4MzBkYXM1NEJYYlExSG9leW9DZC1WMnVwYXdkT0JLVWJfcGUwdDBObXB4TWwtS2x0eFQ5OFJJN3BlWTNzbmpjNmVRN0RBc0QxRWg0UXBsZjZRS2pnN3B1MGltZFptcE9ESTVSZ1l2QXB6U3JKcDMzaEpwczZNd1RMamRQRkVHWjdjX3lzNTJTZTExNFNKSTlmZF9rOGxqU3BJd3JqS2tRbVNxV0VBYTJxckhvSEE5SXdv?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
-      "horizon": "hoje",
-      "theme": "Movimento do USD/BRL",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
       "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom",
         "Brasil — política / eleições"
       ]
     },
@@ -691,6 +768,21 @@
       ]
     },
     {
+      "title": "Fed deve manter juros e pausa pode ser temporária. O que isso significa para a Selic?",
+      "source": "InfoMoney",
+      "published": "28/10/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ09tRnlsYUMxZU1FS2E5dVZWWkxhZXh6Y2R6NE1GemJJQXl6em1qZGtieGdvUFVzNGhMMjM1T3JVR0NjdHA2a0xIQ3lUNUNtWHNUMFhqajdoRC1HcVBPM1otSDRFaG05QkRWc2xKRE1ZTmFCMk9FWXl3aUszLTkycVBfY2VkU3c1TVlVa1d30gGTAUFVX3lxTE4xT2NlNEdlclAyT2lNRm90dVpXMXo0RE9wa2hFSzhLVTRZVmNVX3BzTE5NR1RfZG5GRUFwSTJaMTNSSDZad21mWGNCMjVoTjBSSTdVQkdNZVNSTUVZVVBoOWpRaW1EMWVlTlhmT1lEN21JSUFnbXduMld4RHdmbWZyRUllbTN4dURyMnFYSlZlak8wQQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Mercados argentinos despencam após reeleição de Lula no Brasil",
       "source": "CNN Brasil",
       "published": "26/10/2026 12:15",
@@ -702,36 +794,6 @@
       "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
-      "source": "CNN Brasil",
-      "published": "27/10/2026 03:45",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXZQZEpNYkVtRnhEYnNNYmRqZTc0Z0hUYWFwY0Q3eDZEUTA4cDBkR0p1b01LUzM0UzFoTHlwS1V0TzRrVHV4N01MaDk3RUdNay1ETkhLWlVFYWlTNzhBWkp0QUFqbkktRVZ2cWNGdXltcW1wUm1abWpfSG9KWS1XOGhhb1FMUGRvbnk4bEhDeUYwTWd2ZXI5LTUyVmwtMTRUdGVwdzBsOWpKeGJQNUlHSnNlSU9Mdk4xdXYwQklQb3g?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — fiscal",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Real, ações e renda fixa derretem após reeleição de Lula: o que fazer agora?",
-      "source": "InfoMoney",
-      "published": "27/10/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORzhQb1RNeHBzUkRrbXVHWnduT0h4bGM1WFRDQnZfTEtJX3l3eVlOS1J1YlBCdHZIVGRsMWM4cVFBbnhFbVV2cU1fNDBjTDFtc2xQS1pHQTlFUk0yVG45bXdpQ25idDdzajRxRzdnR2N4d1hjZFNWQUxvT2N4Vl9MSHQtVjVwV0tmMUNNNXYxNlJubEltbURCQjl2YmhJUFpfNzdheTExVVlVWEZIUkhOZzFUTlk5OHBK?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom",
         "Brasil — política / eleições"
       ]
     },
@@ -751,100 +813,47 @@
       ]
     },
     {
-      "title": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
-      "source": "Agência Brasil",
-      "published": "26/10/2026 19:07",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWhZRWg3WlFaYzVqZUM0eHJTdzk0dTAyaFU5VE1sTy01eHRmX2szd045VkY1VEZGRTFfZThfemluTlF5ZjI1ZDQwMjBqcVJ6NmVzcU5kT0Fud21VWFdOT0I1Z0xJdm5sUkRTVGNtVXRNT3ExNW50d1Biemo2bzFxWkt1S2JMVjZQOWxCcVB2ODZQRWxPcXI0VmZyRXdBZE03N18zRlk4LVk1dGJqTGdLZC13?oc=5",
-      "relevance": "alta",
-      "credibility": 0.84,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar cai quase 1%, e Ibovespa recua após tombo eleitoral",
-      "source": "Agência Brasil",
-      "published": "27/10/2026 18:51",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcW81N09vSURHdzdyclV3eWxGakV2M0ZZNmtoeFVIYUhfWjZPXzhqRE1hajRTX05wX3A3TEZ5X0lIYXU2QzFBS2JaOXJybngzR2dVaTRMblk4Qm5Ja0dJVWNfTkFJV01PVUtOYVI4MUd2RE04ZFlQNklPR242cU50OFJ4Qm9nTlNjWnR3QWRVUndQNHhTSWNQbTBib1hHYVJ2czdKWHg1TW1YcDk3VXdsOWgxMA?oc=5",
+      "title": "Real, ações e renda fixa derretem após reeleição de Lula: o que fazer agora?",
+      "source": "InfoMoney",
+      "published": "26/10/2026 18:14",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORzhQb1RNeHBzUkRrbXVHWnduT0h4bGM1WFRDQnZfTEtJX3l3eVlOS1J1YlBCdHZIVGRsMWM4cVFBbnhFbVV2cU1fNDBjTDFtc2xQS1pHQTlFUk0yVG45bXdpQ25idDdzajRxRzdnR2N4d1hjZFNWQUxvT2N4Vl9MSHQtVjVwV0tmMUNNNXYxNlJubEltbURCQjl2YmhJUFpfNzdheTExVVlVWEZIUkhOZzFUTlk5OHBK0gG-AUFVX3lxTE92M2c2Ml9hSnZtSGhseFR2Ql9ncm9GYWF2Y1l1QWJDM3BKUTVFWWhZZlRwSDhEeTRSRUMzQlg1STcyYWdUN3l5N3NQZldkekNmWXF2dUozbndDX0dScWtWMF9DdVhTSjJQbllwQlpKS2J3WjduV1U4LWV2dkhOOGMwNkcyV2JVY2U4a1RxZHk2bjRBUlNLa3p0dWNXaTh6Z3ZGcmpsQmFEOExIX1ZMTnlUM3dDTVVBRHBWYmZuM1E?oc=5",
       "relevance": "média",
-      "credibility": 0.84,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar fecha abaixo de R$ 5 e recua 1,58% na semana",
-      "source": "Agência Brasil",
-      "published": "23/10/2026 19:02",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSXNwX3J1R2VEeHFkMkxOMGh3cy12RzNQUDFFWS1zSDhadVB2SjRoUHJ2VEZtY1FPUWJLU1VtWUJhZXJLMkEwVXlhMUZsd01BUjVTSmp5ZE9kSC0wRTR2UF82TGd2YkRidkcxQ2p6cF93LVplNmRuRFVZUVg0WmtTZS1xdUJpUDlHdGxLa195eHYxWXNZNFFmQXB3OWlVeEZPYzYyM2dFa3c?oc=5",
-      "relevance": "média",
-      "credibility": 0.84,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Commodities / China / petróleo",
-      "factors": [
-        "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "Dólar cai a R$ 5,35 e Bolsa patina em meio a ajustes do mercado pós-eleição",
-      "source": "UOL Economia",
-      "published": "27/10/2026 13:07",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR2FOeWdUcWNsZ0pTWXlGZTZxb2oybV9tdFRDUDZmdk4zTk1mTjlwVC10b3FuLTNHaVpBc1hKVDVnMWJpZXNnaEpNTG1qQ0I5MmJ4RU1MQmRFLUNvNW8xSGg0aVU3RFJndnl3QWVRYkZWNU42Q3ZYVWtwTEk4cjEzTk9JSDBwYkZObXpZQXB1eUFmSFFudTNLZlJyQnhYZVRleVVKOGRjdWZkRGt1VjFqT1VxSQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Bolsa e dólar dão sinais de acomodação após forte queda pós-eleição",
-      "source": "UOL Economia",
-      "published": "27/10/2026 07:50",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb0RmdTlIUFRWM0pVOW5JbVlXWmRON05pWFhudktPd3dTTUJqUnZVaWRMbmtlMFpXaFE2ajNRcFRGOURDdmFtNmk2aWdXWlB5aHdCQnpZSER5RG12LW5WZ2hybnAtLWlLVWRYRWVKUFVTNmxibmtoUUFvQzdiNlVGa1JkSmprcnJYVXIybTdIXzlYQUphNGZuTkdQREx6MThFWVloR0xyOHFFSllPZHE3Y3NfVUljMTBEbF94cHhnQQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Bolsa, dólar e juros: o que esperar se Flávio ou Lula vencer",
-      "source": "UOL Economia",
-      "published": "23/10/2026 16:00",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQV0plTkprTUFaSHNNQS1PdXZaV3JjM1kteGU4UWk4c2ktVUtSMzg0VzMyamtnUjhnRGpaTG90R3YzZ0ZpcExjQmppLXNfdGNTNWwzZ2xzVkVtNEp3QmYwRVhRdl9WR1NzQUtXZENOS3JOc1FKWXFqdDFwcHVDVnRNa3pORTlkUzIwUjNMaHYwVmpESXlKaVRoMnN1eldVRi1hSjU4REJuSzR5czdieTBMOE5ZYmhveGUwNE9J?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
+      "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
       "theme": "BCB / Selic / Copom",
       "factors": [
-        "BCB / Selic / Copom"
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
       ]
     },
     {
-      "title": "Dólar sobe até 12,2% e testa R$ 5,60, maior cotação desde junho de 2025",
-      "source": "UOL Economia",
-      "published": "26/10/2026 17:06",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc3lJYkdGRzRfUzBWSHF3VWNTUTdjVmN2S25Ib3ExZlVpT09sUUtwTDhwWlZ5TzZMRDlpVEVQak90c2JVanlrSVVCSUl3d21rUk91Q1JMT3BBd2JsbjBWaVBPQkpJd0gzOFUtYmJrM2dUZTRVa2wtaF9xS0w4QlFCN01tR1ZvQk1VUEw2V056MjZ6aTJlaElDS0Z6ZEdXX25YMGpZa3dQQzJKdDBSZlZpWFU4YUk0eC1RRHI0V0l6ZVZLRE5UTDFuS0F3?oc=5",
+      "title": "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal",
+      "source": "CNN Brasil",
+      "published": "27/10/2026 03:40",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXZQZEpNYkVtRnhEYnNNYmRqZTc0Z0hUYWFwY0Q3eDZEUTA4cDBkR0p1b01LUzM0UzFoTHlwS1V0TzRrVHV4N01MaDk3RUdNay1ETkhLWlVFYWlTNzhBWkp0QUFqbkktRVZ2cWNGdXltcW1wUm1abWpfSG9KWS1XOGhhb1FMUGRvbnk4bEhDeUYwTWd2ZXI5LTUyVmwtMTRUdGVwdzBsOWpKeGJQNUlHSnNlSU9Mdk4xdXYwQklQb3g?oc=5",
       "relevance": "média",
-      "credibility": 0.82,
-      "impact": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Mercado espera sinal fiscal de Lula para conter turbulência após eleição",
+      "source": "CNN Brasil",
+      "published": "26/10/2026 13:30",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQazMzdFJzMTE5THg5eUpXaUI3OWt6TGVsTUZyamRCbzZZOEQ4U05VWS1xdGx5dXhKdDFQZ1JWMVN1V1J4cUxrcTBiUXI1N2tGYW4tNFpwOTB6d0gyeXQtcEgwNnk2eFF4bkZITFdka1dWQjJGT0EwOE1TX3p1LTNWV3c2cEZjanJ4THo5dm1BR0syYnBSd2hzeVhDemFMeGg5QnJoS1FmallyV0pnUGExYkxlbzBoUDkyaVY0NUxrWk5lZS1mNXFCU092TTRwRWVPUEYyc2ZtRkNaUE04WkJlZ0duZWNsZWhZ?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "Brasil — fiscal",
         "Brasil — política / eleições"
       ]
     }
