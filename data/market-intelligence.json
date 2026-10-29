@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T23:15:12.943705+00:00",
+  "generated_at": "2026-10-29T01:11:33.355225+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 1.0,
   "market_move": {
@@ -17,11 +17,10 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -2.88,
-        "evidence_count": 13,
+        "score": -3.7,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
@@ -39,11 +38,12 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.86,
-        "evidence_count": 7,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "BBC",
           "CNN Brasil",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "O GLOBO"
@@ -59,7 +59,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.67,
-        "evidence_count": 19,
+        "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -112,13 +112,12 @@
         "factor": "Brasil — fiscal",
         "impact": "baixa",
         "score": -0.86,
-        "evidence_count": 5,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "InfoMoney",
-          "UOL Economia"
+          "InfoMoney"
         ],
         "examples": [
           "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
@@ -129,17 +128,17 @@
       },
       {
         "factor": "Commodities / petróleo",
-        "impact": "neutro",
-        "score": 0.0,
+        "impact": "baixa",
+        "score": -0.86,
         "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
-          "InfoMoney"
+          "InfoMoney",
+          "Reuters"
         ],
         "examples": [
           "Gold gains on softer oil prices ahead of Fed meeting",
-          "Ibovespa Hoje Ao Vivo: Bolsa cai 3%, com eleição e decisão do Fed no radar"
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
         ],
         "horizon": "10d"
       },
@@ -147,13 +146,15 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 1,
+        "evidence_count": 2,
         "quantitative_count": 0,
         "sources": [
+          "Estadão",
           "Folha de S.Paulo"
         ],
         "examples": [
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano",
+          "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026"
         ],
         "horizon": "90d"
       }
@@ -162,11 +163,10 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -2.88,
-        "evidence_count": 13,
+        "score": -3.7,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
@@ -184,11 +184,12 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.86,
-        "evidence_count": 7,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "BBC",
           "CNN Brasil",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "O GLOBO"
@@ -204,7 +205,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.67,
-        "evidence_count": 19,
+        "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -257,13 +258,12 @@
         "factor": "Brasil — fiscal",
         "impact": "baixa",
         "score": -0.86,
-        "evidence_count": 5,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "InfoMoney",
-          "UOL Economia"
+          "InfoMoney"
         ],
         "examples": [
           "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
@@ -271,6 +271,22 @@
           "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "Reuters"
+        ],
+        "examples": [
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "10d"
       }
     ]
   },
@@ -301,11 +317,10 @@
       {
         "factor": "Fed / juros dos EUA",
         "impact": "baixa",
-        "score": -2.88,
-        "evidence_count": 13,
+        "score": -3.7,
+        "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
@@ -323,11 +338,12 @@
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.86,
-        "evidence_count": 7,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "BBC",
           "CNN Brasil",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "O GLOBO"
@@ -343,7 +359,7 @@
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -1.67,
-        "evidence_count": 19,
+        "evidence_count": 17,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -396,13 +412,12 @@
         "factor": "Brasil — fiscal",
         "impact": "baixa",
         "score": -0.86,
-        "evidence_count": 5,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
           "CNN Brasil",
-          "InfoMoney",
-          "UOL Economia"
+          "InfoMoney"
         ],
         "examples": [
           "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
@@ -410,6 +425,22 @@
           "Choque eleitoral deve se acomodar, mas mercado cobra compromisso fiscal"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "Reuters"
+        ],
+        "examples": [
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "10d"
       }
     ],
     "confidence": 75
@@ -417,7 +448,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 13,
-    "raw_news_results": 212,
+    "raw_news_results": 206,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -521,17 +552,17 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 6,
+      "count": 5,
       "score": -0.86,
       "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "UOL Economia",
       "count": 5,
-      "score": 0.59,
+      "score": -0.23,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "CNN Brasil",
@@ -548,18 +579,18 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "CNBC",
-      "count": 2,
+      "source": "Estadão",
+      "count": 3,
       "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Estadão",
+      "source": "Reuters",
       "count": 2,
-      "score": 0.0,
+      "score": -0.98,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "Agência Brasil",
@@ -569,11 +600,11 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
+      "source": "Bloomberg Línea Brasil",
       "count": 1,
-      "score": -0.98,
+      "score": 0.0,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -621,6 +652,21 @@
       ]
     },
     {
+      "title": "Gold gains on softer oil prices ahead of Fed meeting",
+      "source": "Reuters",
+      "published": "27/10/2026 02:46",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQWIyeWVhRnVBaHZfV05HanpZVFJzZDZiaC1MTEFVX0JEbWc5RVhRV3htMnJFMDNCVjBPWTJISkhha3ZWc3otaXBCTGloREJidmlqOWtXMTQ4Zks2aTA5czBzNC1OdGNuVXlqLVZ4TTk3M1VUSEZvdVdCLXV3bHJsZXBHSktGcXR0dk1wS2VYdWYxTm9ueGc?oc=5",
+      "relevance": "média",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Commodities / petróleo"
+      ]
+    },
+    {
       "title": "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
       "source": "Bloomberg Línea Brasil",
       "published": "26/10/2026 14:37",
@@ -664,21 +710,6 @@
       ]
     },
     {
-      "title": "Gold gains on softer oil prices ahead of Fed meeting",
-      "source": "CNBC",
-      "published": "27/10/2026 01:06",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNm1fRjlQSURXa2x6X3o5R1JlalFLRFI4WWpiNXlkQVBhU3dkX0FiM21CR3g3Mlp1SE1xcS1fbUtRd0wzOHlFUDR2eGd2ZDJwYWJoZnB6Skd4bWJOUjc1Q3o1NVJKWWowd2UwVG5faGFpeUotRjRCdjNmR19wVGxWU2tLVVViTlV4YlZZOUlaONIBlAFBVV95cUxPcWJKTWI0NmRPMTZhSUJFZ2xrRU0tZVJyMlY5by1LTTlCNW5TVE1TdkUyZ3Z2QXUxUEwwaEF1SmJKaDFnWFllbi11X2FXelFvUktMLTdUeUtaM1UyQzI5MTkxRk03RzN4MW5vTVk3dHAzQW5lczdSMDZYREE2eTNMUkpNSTducEF1SnRtSGNvXzFaWGZi?oc=5",
-      "relevance": "média",
-      "credibility": 0.9,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Commodities / petróleo"
-      ]
-    },
-    {
       "title": "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
       "source": "O GLOBO",
       "published": "28/10/2026 00:00",
@@ -698,6 +729,21 @@
       "source": "Folha de S.Paulo",
       "published": "26/10/2026 09:27",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWVNqdUtHYUFsWG41OEF6Rk1ha1NfWDhYdTNUYjZlZ2JTUFJvTWY5SGx5Ql9kM3N5cU1FamU5Zl9pdHRTQWY4V05SbGk4b29sZjRwem9FdzRzTFlFZGhrUzdEVXBfSnlUWms5T1ZGN28yYzBkSlZkcGFOcE05eHlpRUVFQ21vYjVycVRaSFlza1RPM3lHazJ1N2FXekpzQkpLZVVWOUFsaFROUjdxeThLUDlNTDY?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "Dados econômicos dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Mercado prevê Selic e dólar menores, mas inflação segue acima da meta em 2026",
+      "source": "Estadão",
+      "published": "26/10/2026 09:19",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdjdNVENteENCd19aVjg4LTB2WHdtSXgzejdsOFVHalViYTNubEtDbjlqTnpkN0h5a3F5OFZhWC1LaThFTXpNX210ZXFnS3d0WkhYTFpycUtyTjlDRFhySjc5WWRQR0dYMzF2ZGpzRFBJcXNJU0wxRXc5MjFmaUZHU2w0S3FKUk1jUy1CNmJXUGxQYmo4dWJtdGtjcEFXeENWb0tsM3A3NmxDdjNYVm5VUWpqeFFjWHlXa3d0dmRJNWt0MV82ZUw2b29TTm5lWjBoa2JWREZUTkZmTEpjTmZFbldhWdIB6AFBVV95cUxOU1ZQYjE4RFlQeHJQaDc3OFl2RWx2WFhUWTJpUUJXMEJVb0hwcTFCZGkxaE5QanRvLTFVNFJ2NVBkeVlWdzFOcGxiUUdKNFhVaHJlYzRkOU5SR0VlSF9fcDIxaEVnQ3VlT2djbW5lMldxYnJ6NGU3c2V5WklzWFY0am9IWTlxM3FSdlZ2ZENfWTV3Tmdzc01NZ1JxLWJST0MwZTM5UFhvYi1WWXVhODQ1aTRjWDhqMkpfakVQVXh1eTlhbmM4YXl2cURUYkluWHYxZHhvcGwtb0FsWXNlRl8wVGV6dV9IZktI?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
       "impact": "neutro",
@@ -767,6 +813,22 @@
       ]
     },
     {
+      "title": "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34",
+      "source": "InfoMoney",
+      "published": "28/10/2026 17:28",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX3RTaWItY2VVUVNFYXhlS29MLU5aTHZMLVJkZ2dpSEw2YmF1WkxGalVuZVQ4T25hQlNHNldkRnpvQS11Y2NUMU9uYm9qTmVsSWFaYlYyb2M3ajJtcW9ReWs2OFVfNXJmczltSDRORWxfNUdyRHNVYVd6YTQ3eVJuSmJzcy1jN1hPMWJYRFZOWQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Brasil — fiscal",
+        "Commodities / petróleo"
+      ]
+    },
+    {
       "title": "Alta do dólar após eleição pode levar Copom a adotar mais cautela nos cortes de juros",
       "source": "InfoMoney",
       "published": "28/10/2026 08:27",
@@ -780,21 +842,6 @@
         "Fed / juros dos EUA",
         "BCB / Selic / Copom",
         "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34",
-      "source": "InfoMoney",
-      "published": "28/10/2026 17:28",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX3RTaWItY2VVUVNFYXhlS29MLU5aTHZMLVJkZ2dpSEw2YmF1WkxGalVuZVQ4T25hQlNHNldkRnpvQS11Y2NUMU9uYm9qTmVsSWFaYlYyb2M3ajJtcW9ReWs2OFVfNXJmczltSDRORWxfNUdyRHNVYVd6YTQ3eVJuSmJzcy1jN1hPMWJYRFZOWQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Brasil — fiscal"
       ]
     },
     {
@@ -828,22 +875,6 @@
       ]
     },
     {
-      "title": "Ibovespa Hoje Ao Vivo: Bolsa cai 3%, com eleição e decisão do Fed no radar",
-      "source": "InfoMoney",
-      "published": "28/10/2026 15:00",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOX3RTaWItY2VVUVNFYXhlS29MLU5aTHZMLVJkZ2dpSEw2YmF1WkxGalVuZVQ4T25hQlNHNldkRnpvQS11Y2NUMU9uYm9qTmVsSWFaYlYyb2M3ajJtcW9ReWs2OFVfNXJmczltSDRORWxfNUdyRHNVYVd6YTQ3eVJuSmJzcy1jN1hPMWJYRFZOWQ?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Commodities / China / petróleo",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Brasil — política / eleições",
-        "Commodities / petróleo"
-      ]
-    },
-    {
       "title": "Fed deve manter juros e pausa pode ser temporária. O que isso significa para a Selic?",
       "source": "InfoMoney",
       "published": "28/10/2026 05:00",
@@ -874,6 +905,21 @@
       ]
     },
     {
+      "title": "Juros futuros fecham em alta após reeleição de Lula",
+      "source": "CNN Brasil",
+      "published": "26/10/2026 17:15",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdlFQZ2NpaHowM3Z1NzlON1RCMl9fT3NjUEQ1NzhPVjhpcnktUHFMWjZjTk5UYmoyTjZGVHNfQm9EWG1yQ1ctdFNXYUd0YUZoc1ptY3pBRmxZd0t6d0FXNWo4Z0J2MGZ3QjhCQWZLc0VadURRQ3lhRXdubGtVbWlwSFh3dndPWkFIUEhZWDBJY1NldGRsTkZ6SWRnZWVfdTltV2lqOVZOMA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Real, ações e renda fixa derretem após reeleição de Lula: o que fazer agora?",
       "source": "InfoMoney",
       "published": "26/10/2026 18:14",
@@ -893,21 +939,6 @@
       "source": "CNN Brasil",
       "published": "27/10/2026 03:40",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYXZQZEpNYkVtRnhEYnNNYmRqZTc0Z0hUYWFwY0Q3eDZEUTA4cDBkR0p1b01LUzM0UzFoTHlwS1V0TzRrVHV4N01MaDk3RUdNay1ETkhLWlVFYWlTNzhBWkp0QUFqbkktRVZ2cWNGdXltcW1wUm1abWpfSG9KWS1XOGhhb1FMUGRvbnk4bEhDeUYwTWd2ZXI5LTUyVmwtMTRUdGVwdzBsOWpKeGJQNUlHSnNlSU9Mdk4xdXYwQklQb3g?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — fiscal",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Mercado espera sinal fiscal de Lula para conter turbulência após eleição",
-      "source": "CNN Brasil",
-      "published": "26/10/2026 13:30",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQazMzdFJzMTE5THg5eUpXaUI3OWt6TGVsTUZyamRCbzZZOEQ4U05VWS1xdGx5dXhKdDFQZ1JWMVN1V1J4cUxrcTBiUXI1N2tGYW4tNFpwOTB6d0gyeXQtcEgwNnk2eFF4bkZITFdka1dWQjJGT0EwOE1TX3p1LTNWV3c2cEZjanJ4THo5dm1BR0syYnBSd2hzeVhDemFMeGg5QnJoS1FmallyV0pnUGExYkxlbzBoUDkyaVY0NUxrWk5lZS1mNXFCU092TTRwRWVPUEYyc2ZtRkNaUE04WkJlZ0duZWNsZWhZ?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
