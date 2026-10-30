@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T23:19:18.853795+00:00",
+  "generated_at": "2026-10-30T01:19:10.905866+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 4.78,
+  "score10": 5.89,
   "market_move": {
     "material": true,
     "day_variation_pct": 0.6065144140771306,
@@ -11,29 +11,25 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Dólar global / DXY. Principais vetores de ALTA/risco: Brasil — fiscal, Dados econômicos dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries. Principais vetores de ALTA/risco: Dados econômicos dos EUA, Brasil — fiscal.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -2.84,
-        "evidence_count": 12,
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 3.52,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
-          "CNBC",
-          "CNN Brasil",
           "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "UOL Economia"
+          "Folha de S.Paulo"
         ],
         "examples": [
-          "Dollar falls after Fed holds rates steady",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "Após reeleição de Lula, banco francês recua em aposta na valorização do real"
+          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Brasil — fiscal",
@@ -49,38 +45,45 @@
           "InfoMoney"
         ],
         "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
+          "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
           "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
           "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 2.64,
-        "evidence_count": 2,
+        "factor": "Fed / juros dos EUA",
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
+          "CNBC",
+          "CNN Brasil",
           "Estadão",
-          "Folha de S.Paulo"
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia"
         ],
         "examples": [
-          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
+          "Dollar falls after Fed holds rates steady",
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia"
         ],
-        "horizon": "90d"
+        "horizon": "10d"
       },
       {
         "factor": "BCB / Selic / Copom",
         "impact": "baixa",
         "score": -1.86,
-        "evidence_count": 8,
+        "evidence_count": 10,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
           "BBC",
           "CNN Brasil",
+          "Estadão",
           "Folha de S.Paulo",
           "InfoMoney",
           "O GLOBO"
@@ -93,14 +96,57 @@
         "horizon": "90d"
       },
       {
+        "factor": "Dólar global / DXY",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "10d"
+      },
+      {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.06,
-        "evidence_count": 17,
+        "score": -0.83,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
-          "Bloomberg Línea Brasil",
           "CNN Brasil",
           "Estadão",
           "InfoMoney",
@@ -108,9 +154,243 @@
           "UOL Economia"
         ],
         "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
           "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
-          "Dólar fecha a R$ 5,40, Bolsa despenca 13,8%; BC e Tesouro atuam no mercado"
+          "Dólar fecha a R$ 5,40, Bolsa despenca 13,8%; BC e Tesouro atuam no mercado",
+          "Dólar e Bolsa hoje: eleições devem guiar mercados"
+        ],
+        "horizon": "90d"
+      }
+    ],
+    "future_drivers": [
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 3.52,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo"
+        ],
+        "examples": [
+          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 2.64,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "Bloomberg Línea Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
+          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady",
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.86,
+        "evidence_count": 10,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "BBC",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "O GLOBO"
+        ],
+        "examples": [
+          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
+          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.86,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "10d"
+      }
+    ]
+  },
+  "outlook10": {
+    "bias": "ALTA MODERADA",
+    "confidence": 82,
+    "summary": "Score técnico consolidado: +5.9. PTAX: último pregão +0,61%; 5 pregões +6,67%; 10 pregões +6,38%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries. Fatores que podem pressionar o USD/BRL para CIMA: Dados econômicos dos EUA, Brasil — fiscal.",
+    "sources": [
+      "Banco Central do Brasil — PTAX",
+      "Federal Reserve",
+      "Reuters",
+      "Bloomberg Línea Brasil",
+      "BBC",
+      "CNBC",
+      "Estadão",
+      "Folha de S.Paulo",
+      "O GLOBO",
+      "InfoMoney",
+      "CNN Brasil",
+      "Agência Brasil",
+      "UOL Economia"
+    ]
+  },
+  "future_outlook": {
+    "horizon": "10 a 90 dias",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Dólar global / DXY, Treasuries. Fatores que podem pressionar o USD/BRL para CIMA: Dados econômicos dos EUA, Brasil — fiscal.",
+    "drivers": [
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 3.52,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Folha de S.Paulo"
+        ],
+        "examples": [
+          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 2.64,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "Bloomberg Línea Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
+          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
+          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "baixa",
+        "score": -1.96,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNBC",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "Reuters",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dollar falls after Fed holds rates steady",
+          "Gold gains on softer oil prices ahead of Fed meeting",
+          "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.86,
+        "evidence_count": 10,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "BBC",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "O GLOBO"
+        ],
+        "examples": [
+          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
+          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
+          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
         ],
         "horizon": "90d"
       },
@@ -159,296 +439,12 @@
         "horizon": "10d"
       }
     ],
-    "future_drivers": [
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -2.84,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "Após reeleição de Lula, banco francês recua em aposta na valorização do real"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 2.64,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
-          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
-          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 2.64,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo"
-        ],
-        "examples": [
-          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.86,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BBC",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "O GLOBO"
-        ],
-        "examples": [
-          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
-          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -1.06,
-        "evidence_count": 17,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "O GLOBO",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
-          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
-          "Dólar fecha a R$ 5,40, Bolsa despenca 13,8%; BC e Tesouro atuam no mercado"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "baixa",
-        "score": -0.98,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "baixa",
-        "score": -0.98,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady"
-        ],
-        "horizon": "10d"
-      }
-    ]
-  },
-  "outlook10": {
-    "bias": "ALTA MODERADA",
-    "confidence": 75,
-    "summary": "Score técnico consolidado: +4.8. PTAX: último pregão +0,61%; 5 pregões +6,67%; 10 pregões +6,38%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Dados econômicos dos EUA.",
-    "sources": [
-      "Banco Central do Brasil — PTAX",
-      "Federal Reserve",
-      "Reuters",
-      "Bloomberg Línea Brasil",
-      "BBC",
-      "CNBC",
-      "Estadão",
-      "O GLOBO",
-      "Folha de S.Paulo",
-      "InfoMoney",
-      "CNN Brasil",
-      "Agência Brasil",
-      "UOL Economia"
-    ]
-  },
-  "future_outlook": {
-    "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Dados econômicos dos EUA.",
-    "drivers": [
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -2.84,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "CNBC",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "Reuters",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady",
-          "Gold gains on softer oil prices ahead of Fed meeting",
-          "Após reeleição de Lula, banco francês recua em aposta na valorização do real"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 2.64,
-        "evidence_count": 7,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
-          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
-          "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "alta",
-        "score": 2.64,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Folha de S.Paulo"
-        ],
-        "examples": [
-          "Ibovespa hoje cai aos 169 mil pontos com risco fiscal e inflação dos EUA; dólar sobe a R$ 5,38",
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -1.86,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BBC",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "O GLOBO"
-        ],
-        "examples": [
-          "O que vai acontecer com dólar e juros após derrocada dos mercados financeiros com vitória de Lula",
-          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
-          "Economistas reduzem previsão de inflação, PIB e dólar neste ano"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -1.06,
-        "evidence_count": 17,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "InfoMoney",
-          "O GLOBO",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
-          "Alta do dólar após eleições pode levar Copom a adotar mais cautela nos cortes de juros",
-          "Dólar fecha a R$ 5,40, Bolsa despenca 13,8%; BC e Tesouro atuam no mercado"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "baixa",
-        "score": -0.98,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "baixa",
-        "score": -0.98,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls after Fed holds rates steady"
-        ],
-        "horizon": "10d"
-      }
-    ],
-    "confidence": 75
+    "confidence": 82
   },
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 213,
+    "raw_news_results": 214,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -456,8 +452,8 @@
       "BBC",
       "CNBC",
       "Estadão",
-      "O GLOBO",
       "Folha de S.Paulo",
+      "O GLOBO",
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
@@ -490,10 +486,10 @@
       "name": "Estadão"
     },
     {
-      "name": "O GLOBO"
+      "name": "Folha de S.Paulo"
     },
     {
-      "name": "Folha de S.Paulo"
+      "name": "O GLOBO"
     },
     {
       "name": "InfoMoney"
@@ -531,10 +527,10 @@
       "name": "Estadão"
     },
     {
-      "name": "O GLOBO"
+      "name": "Folha de S.Paulo"
     },
     {
-      "name": "Folha de S.Paulo"
+      "name": "O GLOBO"
     },
     {
       "name": "InfoMoney"
@@ -558,11 +554,11 @@
       "summary": "6 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "UOL Economia",
-      "count": 5,
-      "score": -0.23,
+      "source": "Estadão",
+      "count": 4,
+      "score": 2.64,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "O GLOBO",
@@ -572,18 +568,18 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Estadão",
-      "count": 3,
-      "score": 2.64,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
       "source": "CNN Brasil",
-      "count": 3,
+      "count": 4,
       "score": -1.86,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
+      "source": "Folha de S.Paulo",
+      "count": 2,
+      "score": 0.88,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Agência Brasil",
@@ -593,18 +589,18 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
+      "source": "UOL Economia",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
       "source": "Reuters",
       "count": 1,
       "score": -0.98,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
-      "source": "Bloomberg Línea Brasil",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -630,7 +626,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -0.22,
+      "score": 0.89,
       "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
@@ -652,18 +648,17 @@
       ]
     },
     {
-      "title": "Mercados da América Latina resistem à queda da bolsa brasileira após reeleição de Lula",
+      "title": "Dólar pode ir a R$ 5,70 e juro a 15,5% até plano fiscal convencer, diz Morgan Stanley",
       "source": "Bloomberg Línea Brasil",
-      "published": "29/10/2026 05:00",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdHFVZnlDbXlMUmJTc3hMc2VDc1dpc0tqWEpSWmpRQW5fczlNT194NnJ5OWxQdE9qWnc4dVNaSXdaSWdERzY4TEgtODZ5ZFphRWpyM0JmNTVuek5pX2NJYkxxWnlzOWFtOFRfVG55LTQzbEhUa3JQR01jUnMtanN4NTJQNzU4U2Q3cFFHTjV4bDdwVS03NV9WTEd1clUwcVFFUTEwd3RReEVCWmNwSnM0Xy00ZzctZ190cEFLYmZ2TzlYTlAtcE5PRkNIbG03ekdVX2N2OEJycXZ6QlVvT1HSAd4BQVVfeXFMUHRxVWZ5Q215TFJiU3N4THNlQ3NXaXNLalhKUlpqUUFuX3M5TU9feDZyeTlsUHRPalp3OHVTWkl3WklnREc2OExILTg2eWRaYUVqcjNCZjU1bnpOaV9jSWJMcVp5czlhbThUX1RueS00M2xIVGtyUEdNY1JzLWpzeDUyUDc1OFNkN3BRR041eGw3cFUtNzVfVkxHdXJVMHFRRVExMHd0UXhFQlpjcEpzNF8tNGc3LWdfdHBBS2Jmdk85WE5QLXBOT0ZDSGxtN3pHVV9jdjhCcnF2ekJVb09R?oc=5",
-      "relevance": "média",
+      "published": "26/10/2026 14:37",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcG5jdDUwY21HeWd0TUpqWHlxd1pYQ2t1Uko0UFdmMUVicllnSjJsNUFRanM4ZEp0N0hiU3VLNDlvdVRKUHJmMlVUdzFWbVczeTYtbFptN2RhZFl0cnc4UHY5VGNQLU05OVVYVk9BTmpYcTM1RFlyRGFaZVNlVTFsVm1ySmhCM2NLSGstTy1YT3lFbTN1TVhGQ1lVTkRzeEtKaUlXVWhGczlLQjBEUWJqbXMtMjJGNU03MTVkaEVmV2gwQdIB1gFBVV95cUxOOE1Tc1J3aWtlRzZZdVpJeC1fWXFwcUFwa0RaZjFFMHlRS1VKTzN6RDNjb01DMlVxbl9FNGxoUmpzaUdZYk1XZWc5aUY1VnlBamxrMTk2WWg1d0k2RlVweVV4aHdMSjBWUFhlZUJJbEdvbE53ek1SNUNFMHZwNXpDOXoxdUZPQjRqN0tKNG1kdmpsM2xiYlNPZXVTZVlHY0dkOUNjeWo1TThpbzIzc3pOQUJ3TFVpZUxYWXZPT2ZQdnpaV2xIMGlaMGZTZW5XZ25rOE40OUln?oc=5",
+      "relevance": "alta",
       "credibility": 0.96,
       "impact": "neutro",
       "horizon": "90d",
       "theme": "Brasil — fiscal",
       "factors": [
-        "Brasil — fiscal",
-        "Brasil — política / eleições"
+        "Brasil — fiscal"
       ]
     },
     {
@@ -708,6 +703,21 @@
       "factors": [
         "Dados econômicos dos EUA",
         "Brasil — fiscal"
+      ]
+    },
+    {
+      "title": "Dólar sobe a R$ 5,39 com cenário político e dados dos EUA no radar; Bolsa cai pelo quarto dia",
+      "source": "Folha de S.Paulo",
+      "published": "29/10/2026 09:43",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQXzEwYWdZSHVadWpOcDBNa0p6SkZfTXFSR2x0UEo3UGhIX1hxajN6RFRxZ09JejhSRngxVEloWkx2TDJIYUtyRXp5UVlscXYwaG1wSzNNR1Z3cnpiOExPYnFBYldCN0V1NkdESHBmNUJDdFZLZ1IzQ0tRZ1p6NE5FbDM2ZDhoNDlLWVlxRFVPTjM0dloyUDNlNEZmX0NadWRIUE5jSmVwUVFzMGFMU0VpR3p3aVAxUDEzVHRZNXFUSmVWYjQ4eUE?oc=5",
+      "relevance": "alta",
+      "credibility": 0.88,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "Dados econômicos dos EUA"
       ]
     },
     {
@@ -813,6 +823,21 @@
       ]
     },
     {
+      "title": "Reeleição de Lula: Tesouro Direto aciona circuit breaker e suspende negociação de prefixados e IPCA+",
+      "source": "Estadão",
+      "published": "26/10/2026 10:51",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMkk0ZW5MNDJLOW9pWUEzdE8zenlOMWlGNGZkUUtCLVdmLTQxaGlXb1d2RHJBaHc4Wm9VX2ZzMXlkSFA0ZVI3Z1BsWjVtajlhYWlNTHdxWUhGekdMTjlwZkw5YjR0bjZsWmdROXhlLVVJaGcyV2VqV1BSVWFMbEVBTk9BTjRxMTdKMUllNjVTWG9Mdk1PYVlqdVRIWHZTeGtXVEI0MHprTGNESXZnRTRKcnYtZGJOMkdndUNwbm1KV3dWaTNJZ1hjSlF2anJhd1VrYVl5ODdFM3B2eVJlX1NoS2JXbS3SAeoBQVVfeXFMTlR5elU1M0VZQW5GZE9CU1B3bHpfdmlNV3FWX3pBdjNMRHhpT2t0dWdpR2lTZFg4dDlMOVVtVWk3QjF0U2diaERqUnJIeFdwdUt0YzNMczhqN2Z1QnMxZ1VkT0xOaTRfa1pwbmpGX004UDBJaW45d2E4QU16TDVzS0I1eXFET3hfVDYtdDFza0JCbU5LeU9EYjJVbHBlUUd3am0xY2E1bmpzeXFzejJScHV2S2hSMEZFQWVILVg1MEVoNENvT0hBWi1WMGFKZS1RNGhNZDlnX2paR0VYNFFDckJBMUNjbGIyZkZn?oc=5",
+      "relevance": "média",
+      "credibility": 0.88,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Ibovespa tem baixa forte, com fiscal no radar e decisão do Fed; dólar cai a R$ 5,34",
       "source": "InfoMoney",
       "published": "28/10/2026 17:28",
@@ -905,6 +930,21 @@
       ]
     },
     {
+      "title": "Juros futuros fecham em alta após reeleição de Lula",
+      "source": "CNN Brasil",
+      "published": "26/10/2026 17:15",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdlFQZ2NpaHowM3Z1NzlON1RCMl9fT3NjUEQ1NzhPVjhpcnktUHFMWjZjTk5UYmoyTjZGVHNfQm9EWG1yQ1ctdFNXYUd0YUZoc1ptY3pBRmxZd0t6d0FXNWo4Z0J2MGZ3QjhCQWZLc0VadURRQ3lhRXdubGtVbWlwSFh3dndPWkFIUEhZWDBJY1NldGRsTkZ6SWRnZWVfdTltV2lqOVZOMA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
       "title": "Real, ações e renda fixa derretem após reeleição de Lula: o que fazer agora?",
       "source": "InfoMoney",
       "published": "26/10/2026 18:14",
@@ -946,50 +986,6 @@
       "theme": "Brasil — política / eleições",
       "factors": [
         "Brasil — fiscal",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dólar sobe 8,21%, e bolsa cai 13,88% após reeleição de Lula",
-      "source": "Agência Brasil",
-      "published": "26/10/2026 19:07",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaWhZRWg3WlFaYzVqZUM0eHJTdzk0dTAyaFU5VE1sTy01eHRmX2szd045VkY1VEZGRTFfZThfemluTlF5ZjI1ZDQwMjBqcVJ6NmVzcU5kT0Fud21VWFdOT0I1Z0xJdm5sUkRTVGNtVXRNT3ExNW50d1Biemo2bzFxWkt1S2JMVjZQOWxCcVB2ODZQRWxPcXI0VmZyRXdBZE03N18zRlk4LVk1dGJqTGdLZC13?oc=5",
-      "relevance": "alta",
-      "credibility": 0.84,
-      "impact": "alta",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Dívida Pública sobe 0,97% em setembro e encosta em R$ 9,4 trilhões",
-      "source": "Agência Brasil",
-      "published": "29/10/2026 18:00",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNNTZudVppOWxFbG5NZkZqZWIycDVsaTEwNEV1SnhMQ2xXTmswTHdBc2ZId0YwSDlMeHM2Q0NZaVRyUHlBOVo5cmRnbEstcTNDZzJoV08xV19QSldLazgtSlpodFF0dzZhSnpkT1h5aDNJWHV1bU1QOWtETktidmY3RkxoN2NiU2l2Z0FmOEJhUFdXWDJxVzZaeG5scUozTlIzclFqcEVjTUVIdWVaRzQ4MWNmVWpvSXdhVGxoMg?oc=5",
-      "relevance": "média",
-      "credibility": 0.84,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — fiscal"
-      ]
-    },
-    {
-      "title": "Dólar sobe a R$ 5,38 e Bolsa cai quase 3%, com eleições, Fed e balanços",
-      "source": "UOL Economia",
-      "published": "28/10/2026 09:22",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaUFPdHV0b1RGWEJTS19ITkpELXFWUzk4MDZPVUVWZGJjX01nSHljNlRoUkpzaG5icWdULTdxMGgyRm5xZFQzMXA5elA3YWd4QlBXQ3UtTmRkUVJfTF9KX01Ec0YwUmIzRW1Fa2x4M1BZbGNaV1NEOG5WU0JOYlhWY2ZZdG1QaWJNLVpYVXpSZ1pienp5dHN0OTZFVmthTlY5WjgzTnNWaw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.82,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
         "Brasil — política / eleições"
       ]
     }
