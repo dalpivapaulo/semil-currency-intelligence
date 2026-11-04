@@ -1,116 +1,28 @@
 {
-  "generated_at": "2026-11-04T01:37:25.035581+00:00",
+  "generated_at": "2026-11-04T19:49:10.250654+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 0.0,
+  "score10": 4.31,
   "market_move": {
     "material": true,
-    "day_variation_pct": 1.3336530657419132,
-    "momentum_5_pct": -0.13089243187230926,
-    "momentum_10_pct": 8.644490151095653,
+    "day_variation_pct": -0.2857922999908946,
+    "momentum_5_pct": 2.6843624639148134,
+    "momentum_10_pct": 9.250099720781812,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 15 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dados econômicos dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Commodities / petróleo. Principais vetores de ALTA/risco: Brasil — fiscal, Fed / juros dos EUA.",
+    "summary": "A leitura reuniu 28 evidência(s) em 14 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Treasuries, Dólar global / DXY, BCB / Selic / Copom, Commodities / petróleo. Principais vetores de ALTA/risco: Brasil — fiscal, Brasil — política / eleições, Fed / juros dos EUA, Dados econômicos dos EUA.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -5.76,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "富途牛牛"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Após eleições, mercado eleva projeção para Selic, inflação e câmbio"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -4.92,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
-          "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -3.99,
-        "evidence_count": 13,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Dólar vai a R$ 5,44, maior cotação do ano; Bolsa cai com dados do mercado de trabalho e cenário político"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -3.3,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls ahead of US midterms as oil plummets",
-          "FOREX-Dollar falls ahead of US midterms as oil plummets",
-          "Dollar Weakens as Oil Prices Fall, Markets Await Australia’s Rate Decision"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 2.61,
-        "evidence_count": 5,
+        "score": 3.77,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
+          "BM&C",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -119,171 +31,158 @@
         "examples": [
           "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo",
           "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
-          "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48"
+          "O que está em jogo na primeira decisão do Copom após a reeleição de Lula"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.77,
-        "evidence_count": 3,
+        "score": 2.95,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Reuters",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
           "UOL Economia"
         ],
         "examples": [
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-          "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
-          "Risco fiscal após reeleição de Lula ameaça ciclo de corte da taxa de juros"
+          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
+          "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
+          "Ibovespa encerra semana pós-eleição com perda de 18%; dólar vai a R$ 5,44"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -0.42,
-        "evidence_count": 9,
+        "score": -2.36,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters",
-          "富途牛牛"
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
         ],
         "examples": [
           "Dollar falls ahead of US midterms as oil plummets",
-          "What the US midterms could mean for markets, AI and the debt ceiling",
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus"
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "What the US midterms could mean for markets, AI and the debt ceiling"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Dólar global / DXY",
         "impact": "baixa",
-        "score": -0.42,
-        "evidence_count": 8,
+        "score": -2.36,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters",
-          "富途牛牛"
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
         ],
         "examples": [
           "Dollar falls ahead of US midterms as oil plummets",
           "What the US midterms could mean for markets, AI and the debt ceiling",
-          "Dollar Rises Most in a Month on Higher US Yields, Strong Data"
+          "Stocks wobble as investors watch US midterm elections"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 2.35,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "UOL Economia",
+          "VT Markets"
+        ],
+        "examples": [
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.68,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
+          "Times Brasil | CNBC",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC",
+          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls ahead of US midterms as oil plummets"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 0.58,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "BM&C",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "Moomoo",
+          "Times Brasil | CNBC",
+          "VT Markets"
+        ],
+        "examples": [
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
+          "U.S. Treasury Yields Approach 5%: Robust Employment Data Ignites Intense Tug-of-War Between the U.S. Dollar and Gold"
         ],
         "horizon": "10d"
       }
     ],
     "future_drivers": [
       {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -5.76,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "富途牛牛"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Após eleições, mercado eleva projeção para Selic, inflação e câmbio"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -4.92,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
-          "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -3.99,
-        "evidence_count": 13,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Dólar vai a R$ 5,44, maior cotação do ano; Bolsa cai com dados do mercado de trabalho e cenário político"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -3.3,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls ahead of US midterms as oil plummets",
-          "FOREX-Dollar falls ahead of US midterms as oil plummets",
-          "Dollar Weakens as Oil Prices Fall, Markets Await Australia’s Rate Decision"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 2.61,
-        "evidence_count": 5,
+        "score": 3.77,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
+          "BM&C",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -292,177 +191,164 @@
         "examples": [
           "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo",
           "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
-          "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48"
+          "O que está em jogo na primeira decisão do Copom após a reeleição de Lula"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.77,
-        "evidence_count": 3,
+        "score": 2.95,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Reuters",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
           "UOL Economia"
         ],
         "examples": [
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-          "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
-          "Risco fiscal após reeleição de Lula ameaça ciclo de corte da taxa de juros"
+          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
+          "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
+          "Ibovespa encerra semana pós-eleição com perda de 18%; dólar vai a R$ 5,44"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -0.42,
-        "evidence_count": 9,
+        "score": -2.36,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters",
-          "富途牛牛"
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls ahead of US midterms as oil plummets",
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "What the US midterms could mean for markets, AI and the debt ceiling"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "baixa",
+        "score": -2.36,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
         ],
         "examples": [
           "Dollar falls ahead of US midterms as oil plummets",
           "What the US midterms could mean for markets, AI and the debt ceiling",
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus"
+          "Stocks wobble as investors watch US midterm elections"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 2.35,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "UOL Economia",
+          "VT Markets"
+        ],
+        "examples": [
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.68,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
+          "Times Brasil | CNBC",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC",
+          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls ahead of US midterms as oil plummets"
         ],
         "horizon": "10d"
       }
     ]
   },
   "outlook10": {
-    "bias": "NEUTRO — FORÇAS EQUILIBRADAS",
-    "confidence": 75,
-    "summary": "Score técnico consolidado: +0.0. PTAX: último pregão +1,33%; 5 pregões -0,13%; 10 pregões +8,64%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA.",
+    "bias": "ALTA MODERADA",
+    "confidence": 82,
+    "summary": "Score técnico consolidado: +4.3. PTAX: último pregão -0,29%; 5 pregões +2,68%; 10 pregões +9,25%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Dólar global / DXY, BCB / Selic / Copom, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Brasil — política / eleições, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
-      "Bloomberg.com",
-      "Estadão",
+      "Times Brasil | CNBC",
       "Folha de S.Paulo",
+      "Estadão",
       "CNN Brasil",
       "InfoMoney",
       "Agência Brasil",
       "UOL Economia",
-      "BPMoney",
-      "Movimento Econômico",
-      "Devdiscourse",
-      "Bold News",
-      "Economies.com",
-      "BusinessToday Malaysia",
-      "富途牛牛"
+      "Investing.com India",
+      "Moomoo",
+      "Forbes Brasil",
+      "BM&C",
+      "VT Markets",
+      "Anadolu Ajansı"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dados econômicos dos EUA, BCB / Selic / Copom, Brasil — política / eleições, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Dólar global / DXY, BCB / Selic / Copom, Commodities / petróleo. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Brasil — política / eleições, Fed / juros dos EUA.",
     "drivers": [
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "baixa",
-        "score": -5.76,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "富途牛牛"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Após eleições, mercado eleva projeção para Selic, inflação e câmbio"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "baixa",
-        "score": -4.92,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
-          "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Brasil — política / eleições",
-        "impact": "baixa",
-        "score": -3.99,
-        "evidence_count": 13,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "BPMoney",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "Movimento Econômico",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
-          "Dólar vai a R$ 5,44, maior cotação do ano; Bolsa cai com dados do mercado de trabalho e cenário político"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -3.3,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar falls ahead of US midterms as oil plummets",
-          "FOREX-Dollar falls ahead of US midterms as oil plummets",
-          "Dollar Weakens as Oil Prices Fall, Markets Await Australia’s Rate Decision"
-        ],
-        "horizon": "10d"
-      },
       {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 2.61,
-        "evidence_count": 5,
+        "score": 3.77,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
+          "BM&C",
           "CNN Brasil",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -471,74 +357,149 @@
         "examples": [
           "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo",
           "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
-          "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48"
+          "O que está em jogo na primeira decisão do Copom após a reeleição de Lula"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Fed / juros dos EUA",
+        "factor": "Brasil — política / eleições",
         "impact": "alta",
-        "score": 1.77,
-        "evidence_count": 3,
+        "score": 2.95,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
+          "Agência Brasil",
           "CNN Brasil",
-          "Reuters",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
           "UOL Economia"
         ],
         "examples": [
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
-          "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
-          "Risco fiscal após reeleição de Lula ameaça ciclo de corte da taxa de juros"
+          "Dólar alto após eleições se soma a El Niño e ameaça inflação",
+          "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
+          "Ibovespa encerra semana pós-eleição com perda de 18%; dólar vai a R$ 5,44"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Treasuries",
         "impact": "baixa",
-        "score": -0.42,
-        "evidence_count": 9,
+        "score": -2.36,
+        "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg.com",
-          "Bold News",
-          "BusinessToday Malaysia",
-          "Devdiscourse",
-          "Economies.com",
-          "Reuters",
-          "富途牛牛"
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls ahead of US midterms as oil plummets",
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "What the US midterms could mean for markets, AI and the debt ceiling"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "baixa",
+        "score": -2.36,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Anadolu Ajansı",
+          "Investing.com India",
+          "Moomoo",
+          "Reuters"
         ],
         "examples": [
           "Dollar falls ahead of US midterms as oil plummets",
           "What the US midterms could mean for markets, AI and the debt ceiling",
-          "Gold edges lower again as dollar, yields strengthen; US midterms in focus"
+          "Stocks wobble as investors watch US midterm elections"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 2.35,
+        "evidence_count": 7,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "InfoMoney",
+          "Reuters",
+          "Times Brasil | CNBC",
+          "UOL Economia",
+          "VT Markets"
+        ],
+        "examples": [
+          "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "baixa",
+        "score": -1.68,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "Forbes Brasil",
+          "InfoMoney",
+          "Times Brasil | CNBC",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+          "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC",
+          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Commodities / petróleo",
+        "impact": "baixa",
+        "score": -0.98,
+        "evidence_count": 1,
+        "quantitative_count": 0,
+        "sources": [
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar falls ahead of US midterms as oil plummets"
         ],
         "horizon": "10d"
       }
     ],
-    "confidence": 75
+    "confidence": 82
   },
   "collection_status": {
     "web_searches_total": 16,
-    "web_searches_succeeded": 13,
-    "raw_news_results": 209,
+    "web_searches_succeeded": 12,
+    "raw_news_results": 149,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
-      "Bloomberg.com",
-      "Estadão",
+      "Times Brasil | CNBC",
       "Folha de S.Paulo",
+      "Estadão",
       "CNN Brasil",
       "InfoMoney",
       "Agência Brasil",
       "UOL Economia",
-      "BPMoney",
-      "Movimento Econômico",
-      "Devdiscourse",
-      "Bold News",
-      "Economies.com",
-      "BusinessToday Malaysia",
-      "富途牛牛"
+      "Investing.com India",
+      "Moomoo",
+      "Forbes Brasil",
+      "BM&C",
+      "VT Markets",
+      "Anadolu Ajansı"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -555,13 +516,13 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg.com"
-    },
-    {
-      "name": "Estadão"
+      "name": "Times Brasil | CNBC"
     },
     {
       "name": "Folha de S.Paulo"
+    },
+    {
+      "name": "Estadão"
     },
     {
       "name": "CNN Brasil"
@@ -576,25 +537,22 @@
       "name": "UOL Economia"
     },
     {
-      "name": "BPMoney"
+      "name": "Investing.com India"
     },
     {
-      "name": "Movimento Econômico"
+      "name": "Moomoo"
     },
     {
-      "name": "Devdiscourse"
+      "name": "Forbes Brasil"
     },
     {
-      "name": "Bold News"
+      "name": "BM&C"
     },
     {
-      "name": "Economies.com"
+      "name": "VT Markets"
     },
     {
-      "name": "BusinessToday Malaysia"
-    },
-    {
-      "name": "富途牛牛"
+      "name": "Anadolu Ajansı"
     }
   ],
   "sources_checked": [
@@ -608,13 +566,13 @@
       "name": "Reuters"
     },
     {
-      "name": "Bloomberg.com"
-    },
-    {
-      "name": "Estadão"
+      "name": "Times Brasil | CNBC"
     },
     {
       "name": "Folha de S.Paulo"
+    },
+    {
+      "name": "Estadão"
     },
     {
       "name": "CNN Brasil"
@@ -629,83 +587,80 @@
       "name": "UOL Economia"
     },
     {
-      "name": "BPMoney"
+      "name": "Investing.com India"
     },
     {
-      "name": "Movimento Econômico"
+      "name": "Moomoo"
     },
     {
-      "name": "Devdiscourse"
+      "name": "Forbes Brasil"
     },
     {
-      "name": "Bold News"
+      "name": "BM&C"
     },
     {
-      "name": "Economies.com"
+      "name": "VT Markets"
     },
     {
-      "name": "BusinessToday Malaysia"
-    },
-    {
-      "name": "富途牛牛"
+      "name": "Anadolu Ajansı"
     }
   ],
   "source_analysis": [
     {
-      "source": "Folha de S.Paulo",
-      "count": 4,
+      "source": "InfoMoney",
+      "count": 5,
       "score": 0.0,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "5 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "CNN Brasil",
+      "source": "Reuters",
       "count": 4,
-      "score": -1.72,
+      "score": -0.98,
       "status": "material",
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Reuters",
+      "source": "CNN Brasil",
       "count": 3,
-      "score": -0.98,
+      "score": -0.86,
       "status": "material",
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
-      "source": "Agência Brasil",
+      "source": "UOL Economia",
       "count": 3,
-      "score": 0.84,
+      "score": 0.95,
       "status": "material",
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Estadão",
+      "source": "Folha de S.Paulo",
       "count": 2,
       "score": 0.0,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "InfoMoney",
+      "source": "Agência Brasil",
       "count": 2,
-      "score": -1.72,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 2,
-      "score": 1.77,
+      "score": 0.84,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Bloomberg.com",
-      "count": 1,
-      "score": 2.88,
+      "source": "Forbes Brasil",
+      "count": 2,
+      "score": 0.0,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "Times Brasil | CNBC",
+      "count": 1,
+      "score": 0.0,
+      "status": "material",
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     }
   ],
   "sources_monitored_not_ingested": [
@@ -721,8 +676,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 3,
-      "detail": "5 pregões -0,13%; 10 pregões +8,64%; último pregão +1,33%."
+      "score": 4,
+      "detail": "5 pregões +2,68%; 10 pregões +9,25%; último pregão -0,29%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -731,8 +686,8 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": -3.0,
-      "detail": "28 notícia(s) material(is), 15 fonte(s) aproveitada(s), 13/16 busca(s) com retorno."
+      "score": 0.31,
+      "detail": "28 notícia(s) material(is), 14 fonte(s) aproveitada(s), 12/16 busca(s) com retorno."
     }
   ],
   "news": [
@@ -753,21 +708,6 @@
       ]
     },
     {
-      "title": "What the US midterms could mean for markets, AI and the debt ceiling",
-      "source": "Reuters",
-      "published": "02/11/2026 07:03",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSndxQlZKTnRLd3BYVTNReUZRU1Z5dDlrdGpidzBlWVhITzgzTkJrXzJlNlhHZHZvQS1JV0E3YUZmT3gzNy1KbWVGVGs4NjR0bVFDanJ4RjYybjU2Rm9DS2tNR0w3SVNpb0puX2NwUjctM1U2cm1EYmZRUWRXd08tY1dfT1BGYmF0TG5UREVHTUVfM0s5MGhHZE1EVVhVUlRCbk5tZmExZU8zUi05bm9B?oc=5",
-      "relevance": "alta",
-      "credibility": 0.98,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
-      ]
-    },
-    {
       "title": "Gold edges lower again as dollar, yields strengthen; US midterms in focus",
       "source": "Reuters",
       "published": "03/11/2026 01:16",
@@ -783,13 +723,13 @@
       ]
     },
     {
-      "title": "Dollar Rises Most in a Month on Higher US Yields, Strong Data",
-      "source": "Bloomberg.com",
-      "published": "03/11/2026 18:54",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMFQ3WWNUdmpsME9pTGJxOEVCZGZoNkZ0RDV2dFZMcDVRUTAycFRwNUFRNWdwbHBmTHV6SlRhOW96SkFIVlc0cDRpdXRUM3R5MVphNmJDZlpKdGgxV1BHVzRDU0FRRnNFVmMtU1VKM1dXN1I0V19HdHAwcTFPU3JDUHZkRGNQUV9yaHNvTldzVmM5Qi1ZNUhTU0ppb0VINnF1Vm9wTC05WjZlMTU1MnY1czEyRmI?oc=5",
+      "title": "What the US midterms could mean for markets, AI and the debt ceiling",
+      "source": "Reuters",
+      "published": "02/11/2026 21:21",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSndxQlZKTnRLd3BYVTNReUZRU1Z5dDlrdGpidzBlWVhITzgzTkJrXzJlNlhHZHZvQS1JV0E3YUZmT3gzNy1KbWVGVGs4NjR0bVFDanJ4RjYybjU2Rm9DS2tNR0w3SVNpb0puX2NwUjctM1U2cm1EYmZRUWRXd08tY1dfT1BGYmF0TG5UREVHTUVfM0s5MGhHZE1EVVhVUlRCbk5tZmExZU8zUi05bm9B?oc=5",
       "relevance": "alta",
-      "credibility": 0.96,
-      "impact": "alta",
+      "credibility": 0.98,
+      "impact": "neutro",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
@@ -798,19 +738,34 @@
       ]
     },
     {
-      "title": "Mercado eleva projeção para juros, inflação e dólar e reduz previsão para o PIB após reeleição",
-      "source": "Estadão",
-      "published": "03/11/2026 09:27",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSHVWQ2ZzeUl0bS1PYTFrTzVNbWw0M1lnV2dfQW5ZUVVvdnc2dTRUMnVVbmRoc0E4UTlZMTJOVXhiTkxVeFVOcWdZZzhscGxPWDNVZFZfNXF3S1o2SnRqem9PcDdXODhJQXpVLTJCdi1VSFhmbTluSXBHakhDLVhHc2doenJ2NFBzSTlBaDdaWlVZX0xBRXRjUTMtdUk3M0dyOG9ETUFMNTHSAa4BQVVfeXFMTVdIYWhMVFJyY1ZobXRJZ2diMWNnSW1HbnZpMHJzRVpwYjdHcmxNamVhbWNzSjVJbGxzQUR6T3Y4b3lQSTNnbEJ4UU5QRkIxM3BJT2NnaXZhak5rNE1rTUIzM1hkRjJxQmo3M1ZzamtmTUJEbWdHZFlLNmY3d25leHZRNURvQjMwazVGUGhmTzhEV3ktVmRYS0pqQjkzS2xEWFkxNldHRzMyRkc1bDlB?oc=5",
+      "title": "Stocks wobble as investors watch US midterm elections",
+      "source": "Reuters",
+      "published": "02/11/2026 23:24",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAxcWNjUUxuZ2lvM29QWUdBcWpkZGdCaUpLSkJRT3pXbzNUcTh6ajFTN0d1NmpHTlN6d2p0TlNfRElGZV9ZTnR2SHdabGNxQ3FqUkMtN2N1LXppRmlxNGRlTHozQ0YxY3BqNnNNRGtaYUppX1ZyMjJVdkhiYw?oc=5",
       "relevance": "alta",
-      "credibility": 0.88,
+      "credibility": 0.98,
       "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
       "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
+      "title": "Copom pode cortar Selic e payroll testa apostas sobre Fed; veja a agenda da semana",
+      "source": "Times Brasil | CNBC",
+      "published": "01/11/2026 20:13",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ05iZFpud1MxaVBpdWxIWlJ1emJDaERWbHFiSlNMSWRzMWxIVzlrdGNrWDlQbzgtZmI5ODVuUVkyRWlPRnN6V09FWkxva2J0bnc3LXJDWm9nUEZ0alBiVm5BWXEtaDM2UzJfRW9NQTdET2duVXRzWFM1d1UyMV80V1prcU5oRW54UURGMlc1VmZjUHZzNzNCNlJRdDZWSmZxcmxCUHhKOV9zdTZORnFKUzBXcXgzQW8?oc=5",
+      "relevance": "média",
+      "credibility": 0.9,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dados econômicos dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
         "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -829,46 +784,18 @@
       ]
     },
     {
-      "title": "Ibovespa cai mais de 1,4% antes do Copom; dólar fecha no maior patamar do ano, a R$ 5,48",
+      "title": "Selic: mercado muda projeções e vê decisão do Copom como teste de credibilidade do BC",
       "source": "Estadão",
-      "published": "03/11/2026 18:45",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPXzZUV2tWVUVpdGdsSFI2R0NCd0VibFVmZzg4cDIycUZLZ0Mwb0lnamdJYmxsTUk4c285R242cTVTbjU2UnAxckdmNXgzSThMQTVVMF91T0MxTTBuekdzMXFqWno3aHMtdDJSa002dTNWR0FjNDQtZXpHM2lrOUd4SWdFRGFYMXN5UE9qM2dWcTBlRkItMUFVMVM1akJWQUMwa1p6RFVFTDliYTdaN0Z6RVJyM2FPV18zSFVqMFdEeGsxdlAtc19zU210b29zRFRqUFRqdVZXQy1yV0lidFV6NTFjR2NVQ3ppcHJhX2ZB0gHzAUFVX3lxTE1lNmszMUZvMnJ0Z29tUEh5dmFRRWRaSklGUTJ6ZjdhcXhXNWctYmlITzBWOWhBWVRndlpWcVJ2ekphNzZGcUtQUlVqVEsxb2R5b1c1S2ZsVGxKQlB2cVh4NS1BcnJrRDdaNUNLT21oamowRGVTNUlTV1FXZ3hSRHpnTUpWbWs4MmQ2SV9YRmk4dHdjT3BkZ2JoTUIyY3ZCUkZNQkZfOVZuSUhybnRNWV9JdGZxdTdDaGR0SmloVUdGaHJTLUg3bWFsM0VQdnhpckVEYnd2RHh6OExPVnBiYVZhOUlJZGRSUF8tbktUNE80TUQ3bw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "BCB / Selic / Copom"
-      ]
-    },
-    {
-      "title": "Dólar vai a R$ 5,44, maior cotação do ano; Bolsa cai com dados do mercado de trabalho e cenário político",
-      "source": "Folha de S.Paulo",
-      "published": "30/10/2026 09:57",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQN1pGcTZTdkFWVV9tZDd3eUwycGdIZVpiOG9MMGgwVUI3TU1ZNlVwaHBFb1cyS01WbTlidmwwZnhDTkI1R2hiOHlleTlwd1Bmblo5OWl0WEFIbEZOV0MxeWZNakIzTk9nMGg1MUhKTHRvZWhuS3pKY1AwUXFOcXF4Q2d2cXlzNEw1Y29LdGppazRwYTFiMUtjeWk1ZGJXcXZBOVlWTEJMYlp4ZjdWeVpjeDFpa0FicmxxeWYxVURrYmZQamNPN2RRYUdxTDU1S1J0VU9ybEJVYVlmOThx?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Piora na percepção de risco pós-eleição pressiona BC a interromper ciclo de cortes de juros",
-      "source": "Folha de S.Paulo",
-      "published": "02/11/2026 23:00",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOT3RiZkJRU3ducHI3QXV4UGJBUjdHR3FKSlprdzk3X05RYzRVQnBSNmdMRFp2alpscllaM1d4eUlxVDB1WFAwbi1mQ3JaZmJ5SEtER0U2emh3VnZvUHR5amZ0bGRERzl1X1Q3TGJvLW9jWTdxMlFuWFMtYnR0enJ2SlQ1Qk80RWVVTEsyQVV5QUtzUDF5cXV2clphUkdUMzV0T3h4alVNSlpiLUNVYi15WWxLc0ZRMWtlNldBVDlVVDFBVEU3WWxXMFpvWHFrWFlXQ2RmWUFXYjN2TFE?oc=5",
+      "published": "04/11/2026 05:30",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQU9yeTZCVUs1Wjd2S3ZaZXZUN3RoVmZOMm1Jd0FnVFhLUVBkNHplM0RpblRsWWMyS0I1VTVTX09BT0JoOFVUY3dqWG5pVm1mYXoyMU8wVzZYbTd1MG1jUzdrX1VSMThTQjR5TFJ5amdIU0ttUlNFRWQ3dkdmZVJuZnlkZlRnZ1R4aDJDeW1IaDVHS2xWTlFhdE9Oam1jaGMxb1c4ZVFmbjJBTnNBRWpiQm5kamRfOHpvU3FmeG9lcVpEQVF5VXZkMkx4eW54N081SVFSZXo1aG84b3fSAeABQVVfeXFMTzNuVlVHV2drMTdSQWpEelV5bVJtb2t5S3VSNHNwTzdyT05LYUFwelhlQlZWaEtZeHJ4bWp5MWVTeHZac0dXeFRRanhlMWtYSFZDUndKdzdTbVI1b2FHc0VPRTJ0aFR1VklpX3NnXzlQTEpnd0ViSm1FR3gzTExaS0NwNjR2dExvXzVXcmVTSFFlcGF4MFN2bnV0QXpJUnc5ZDg0LWM4eGZyLTR3dzRubTZFUFNReWZfZW52eUJtZFF1TGJhZEtJcVFsUVRIaGJROFAxdnBrbHJZcmVQYjl4VEI?oc=5",
       "relevance": "média",
       "credibility": 0.88,
       "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
       "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -887,38 +814,6 @@
       ]
     },
     {
-      "title": "Após eleições, mercado eleva projeção para Selic, inflação e câmbio",
-      "source": "CNN Brasil",
-      "published": "03/11/2026 08:30",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX1VXRGx4RHBzVW5pZlhEUldtZGEwelJ1NVZnaUlUdWZ5OGpUMTR6YVhIQzZ4SXRfbkdHM0VLQWtfSkJKSWZwdW9DMlNMQTYyZE9ORTNvZkgwOFNSNDFZWUdPLXF1aEVCWVhSSFBRdlJQcE96dlBwTy1mMDdFYWFDY1FFLXVKVTlZZjdUOTY5YnA3YXktRGlmM1ZoTlBfcWdPNWNJcHlBT0Y5TjR1TUJpVmkycFBlSVlG?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Boletim Focus: mercado eleva projeções para Selic, dólar e inflação",
-      "source": "InfoMoney",
-      "published": "03/11/2026 08:37",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9SalNzN0tieDB4d3B3SHM1UFVUZUN0NUlkcDQzV1ZUOTRvZG0yRVdjQVliMG1tcm5yVjFsVHRRal9pV0U5VXlWUGlRWFcyYUhYcC16NGVyeDJ3NVEzUUFGWXRXVllXaW5zc1BjRmN2bXRnMDEzUmdldWhNb9IBgAFBVV95cUxQMlhabjRYckhITm94ZXRVUzVTZnhmT1NXQlQ3VkFHU0hsZEFqSGFiTUJhdjhoMG0wcWJmN1F4TlhsZGxROWliWHVYVVdOWVItZU5Uc2pNZnROaGhfTVU0ejNVd2FxcTRnMlMxajc5ZnI2dU1VS1lMZEJjS2kyT1R0eQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.86,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
       "title": "Vitória democrata em eleições nos EUA pode reduzir preço do dólar? Entenda",
       "source": "CNN Brasil",
       "published": "02/11/2026 17:41",
@@ -934,18 +829,31 @@
       ]
     },
     {
-      "title": "Ibovespa chega à 6ª baixa seguida, com novo temor sobre fiscal; dólar vai a R$ 5,48",
+      "title": "Ibovespa sobe 1% e dólar cai após vitória democrata e à espera da Selic",
+      "source": "CNN Brasil",
+      "published": "04/11/2026 09:38",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcU5YNjNCck41Y2ZzTW9UM19BeERLWUc4TEhtcDJwLTI5RF85OVV4U0U0cnVnYVRUa2FuOTI4bXB6MTI3ek0zN0NCeUFFM2VpYWt2QVEzU2dzUXV1ZEtRSGpOcmtpSzhhdDdMaTlYQ2xYLUlzaXcwVE5LdGJSVmFhRXlLSmUtR2l4QVNTMXFOUUpMR1dVNW8wemgxM2NBSng0S0p0cg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Gestores quase zeram otimismo, fogem do ‘Kit Brasil’ e apostam no dólar, aponta XP",
       "source": "InfoMoney",
-      "published": "03/11/2026 18:31",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRWZFQnhPdC1TNmFwQUowOHo3Y19ueVdEdk1Eem9nZ1NlQ25VNjRTR2VCRG5sWl9raG03MGdreUhjT3c3eUlCelRaT3E2OTBFRERNRG4yUTNWWGJVRXZKeHZNa01vOWxRaTVBUWV3emhodUdDMWpmWTVUYjRqc3dWODQ3VFRFZ3dINlVURnhyaw?oc=5",
+      "published": "04/11/2026 10:49",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3BkYUdfVG5DS25aU1pKM3MybVZGclpaYVQ3dHoxeFllQVprNTVKOUtMZ1BRV0lramlvTGhRdVJHM241dHExZ2I2Wkg5SldIMHZNd2pYVHZpNzY1cFRVVHlPTGJ1QXBzYjVQZWdwYks3Q3Z0eEl4QjN2UHVjVWk4N2haMWNYVjYw0gGOAUFVX3lxTE8xTXJiVmFJOEZiRk93QU13ME9lTm9IODAzSHNnbXBCQkdHNFlITndDWWdaWFZXYU1lV0VmSnlSTGF1M0tyQy12SFRBMzU1QnJJOGdFX1ZZX3VRMWJyU1BsZVNpQUtOUDRJeDVrZEtMcDhDcEl1YUduMURROGQ2bFlPVWVHaUVpaDYyeUVwcmc?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "Brasil — política / eleições",
+      "theme": "BCB / Selic / Copom",
       "factors": [
-        "Brasil — fiscal",
-        "Brasil — política / eleições"
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -963,18 +871,64 @@
       ]
     },
     {
-      "title": "Mercado chega à semana do Copom com expectativa por fim do corte de juros",
-      "source": "CNN Brasil",
-      "published": "02/11/2026 04:10",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYVJsajR2QVc3dUVYTTE4MnU0Y3F0d1pOdEVRSmdESmEzZ2pseU14YVZHbkFTZXhzWVpkRkgzTXJhUUJpdHBsTE5DWWtDM1JYUE9nQW12dUZGa25HVm1yNDlfMkI5RU1jb0phVTdXOXE3N2plbTdSMW9IVHVwcldqTW11NFl2WlBuUE54WTBVRG56RzJqNUJ6SkFSWHNpbWpjU2tDcHFTcnh5UVpCZE9YUmhrR3pBRGNaTFJMQ0dHTnZjMWV1N3BtREgxUmQ?oc=5",
+      "title": "O que está em jogo na primeira decisão do Copom após a reeleição de Lula",
+      "source": "InfoMoney",
+      "published": "03/11/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc3ZSWmo3RHVQdGdYbmRicUl3UHNwZEc2UDJOaW5ITTFpbHk0LWJQVGY0Z2xsdUN4OU5IM2NhWDZ3Wk95cW04YnBNVXNNVlVTc2NmOXNaZkxrT2haMTV2SF9XVGwyYUNuWXBFSEFpQnR6SE5iY0hESTdJUnNrODQ3Y2JORUhxOTlQSXp6X28tY1VLWGgyakhOZFRVOTNUeDVSVDJFdzFkQnhvVFotaWtjR9IBtgFBVV95cUxPWTA4N2JqWnlTZl9uSC1Xc0RZbVRtX0lzUjg3ek02RjdGWmhqZ1VyemRxNG1nS2dMcEdvejVFTmhxbHlyMzdvcXB1NTZmU3dvZDFVWTBKREF0WXNNYUVfQ0c5bzZSbmlxdnhEYWpKMzB0UkV2WkRlRTJwNEZyTzB3dVp3cWF6U3JjMHpvWDY5Z0RJbjNzV2xfSXA0OXZJb0JKdFFDTjhZTlA5Z2FDVEZ2ZmMwLVQyQQ?oc=5",
       "relevance": "média",
       "credibility": 0.86,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "theme": "Brasil — fiscal",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Taxas do Tesouro Direto recuam seguindo exterior após “midterms” e antes do Copom",
+      "source": "InfoMoney",
+      "published": "04/11/2026 09:52",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQmJnMXBlNWJCX3czX3B1eFlzQ2xMbjB6YU1CT1VKTjRRMDltLWxlVFhWSGFxRG4yeWRHcFpJRzRmcXJhd3B2RmIzWW5od185enVoU0kzWVk1YVZESE9mckR4RS1sUmpHSmtmU3lRcTFONGkyNTV5S2dUSEh6RVdpNF96NFNvbVNMN3Q5UGJlbFHSAZYBQVVfeXFMUHZ1azgwQzZfYTdQOFo0T2hNVGZhR0Z1b0hmT3FBMElyWFNTcUcxM3pzVnZYWmdDQzdBRWo5M1pDYzBkTzNVUnN5NWJmZW1mM2JoaFdiWVNuXy1JN09CWUpRbWZpVUtCaDFkTTVOaFEtSWx5LWNuV3JSLW1OQ21hMWFuaW1rZU9KY3BObGk1NzRFdEJ3UmtR?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
       "factors": [
         "Fed / juros dos EUA",
         "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Copom decide taxa de juros sob pressão inflacionária e desconfiança do mercado",
+      "source": "InfoMoney",
+      "published": "04/11/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPWlp1Z2xscnVCaDI1ZC1yS2tlTm8tQXBPUWFiTmJiRmp5c0xMWk1jUS1pcTFneEF6bVN3VTlGdlFDQlpVWnE4dWhhbEZ4SGZCUnlfT0RTWW1KdmQ2a2NSSTZOTnNMaFJXWkZWVW44VVFtNGd4R0JOUFh2Ynl4RzBiR3lSY3VVdnNtTmlFSHMzV19FdnfSAZgBQVVfeXFMTTJZSTlYazRRbFVCM19zaFU3MlZSb0NZeWRUU19LU2lJSXVzMngxdE1PVDF2VjJ1Z1hqUEtMemVTUl8tWGxCZ2F3SUgzczhpRFdQTURpMTNBcUVXdG13X19lazZsS1VSWDlUdS01SFRCdlp4bHhpeGxFU2FiWmg3Q0hzZlpxQVNVQ3lXSmlGVTBXSmZpZ2N3enQ?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA",
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
+      "title": "Impacto de juros na dívida deveria entrar em análises do Copom, diz economista da FGV",
+      "source": "InfoMoney",
+      "published": "04/11/2026 14:01",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM2ZtTnVKVWF0bm40R3Q0Nko3Ql9OYjBnbUl4eFI0cTJnWlJMY2JFWnJ6NHRpT09UR3ZfM201VVRybjBBU3JzaUROdEd0ejN6blA1QXNBMEVyQ2pkV1JQTkJtQ1dFYTFkUUh4M2FwU1VIYWhzQW41VXMxMktaZ0pWbGgzQjk3SllVUm1FXzUzdk9WeVhhY0FBdzE1UTNXU0JCdllLWDIyQ01oQ3UxWS1fb9IBtgFBVV95cUxPRzZpeGJiLVUyc0R3ZWNGU05ETHUyZ21lX25qMHRIdlJKekZSbUJNZWlJTnpNSVFwcEJvZzJ1QmUtMzZDLTlVNFJka2N3aHJhU1NBazR3UV83MEF1TXFKbGhkMkhvNWQxNjRTT0oxM21GUkkzaDhYQ2F1b0Y5WGtXUVZTM0hRV3hUNHRWWWlpYkNEa08xZ0N0WENZTmVTRHBDZzJlWkhkOTctYVhuQnc5eWVJekowdw?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — fiscal",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — fiscal"
       ]
     },
     {
@@ -986,25 +940,10 @@
       "credibility": 0.84,
       "impact": "alta",
       "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
+      "theme": "Brasil — política / eleições",
       "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — fiscal"
-      ]
-    },
-    {
-      "title": "Mercado eleva projeção para inflação, juros e dólar em 2026",
-      "source": "Agência Brasil",
-      "published": "03/11/2026 10:43",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTG9BTnRFOTh0Vmx2eEtEOGRYUGNOZFlncHBwUXJ3NXhqbGNpN1JpVk81UG5ENUdaNjYtbDByU1JtaTNpc0plWVJONV95SGVyLTN2dVBOX2QxWDhuT2FWQjRmVDJCcTdxaTVUUW5OeFFaVVlaVlM4WUczWWxsQzVHYVFxSUsxMWtkZ3hBZm1aS09WMUtzNzJvaUhsSkdmbXpuc1hKQWVhTVZpbHhPUTUxeVRMMGRxaWM?oc=5",
-      "relevance": "alta",
-      "credibility": 0.84,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "BCB / Selic / Copom",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom"
+        "Brasil — fiscal",
+        "Brasil — política / eleições"
       ]
     },
     {
@@ -1018,6 +957,21 @@
       "horizon": "90d",
       "theme": "Brasil — política / eleições",
       "factors": [
+        "Brasil — política / eleições"
+      ]
+    },
+    {
+      "title": "Dólar recua com atenções voltadas para definição da Selic e eleição nos EUA",
+      "source": "UOL Economia",
+      "published": "04/11/2026 09:05",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMEJmR01XTk5vNzFRdDZMWFRCZ0ZzYjZ4SldGTEQybkxjWUpwOVRCTExGOF91Nl93Y3B3X1NaLW1UaVVuWi1YZEUzQmh0RF9SYlpLdVVEWjE3X1FyYml6OWhxclh0ejQzTTk4SWU3emk2TEtfQ0hpUFdyLXZUSjA3RVR2OExoVUhXSmtxWGtpMmtKbF9Zb05hemxuTmpUTnpqRDhKYXJvcHM?oc=5",
+      "relevance": "alta",
+      "credibility": 0.82,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "Brasil — política / eleições",
+      "factors": [
+        "BCB / Selic / Copom",
         "Brasil — política / eleições"
       ]
     },
@@ -1052,51 +1006,49 @@
       ]
     },
     {
-      "title": "Focus eleva projeções para inflação, dólar e Selic após eleições",
-      "source": "BPMoney",
-      "published": "03/11/2026 16:56",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQkxoTmpOY2FtT2V3Vk5tZ0JNWWdtaXh0QktjbEloUWo5NklPRVBIQjIzaXRYR2lib19NNFdNdmRnUWtPWmxxZVpvU3BjRHlCYjU5aDVLcWJ2UVlUTmdWdjFEMFUxLWFrQlVZb3lId2FlQ1VZVGg5SlZkeEFiVmpYSmg5SHQ3ei1EQlRrZVIwUWV1VWhOcVZiTUlrOXc?oc=5",
+      "title": "Dollar falls to one-month low as U.S. midterms trigger flight to safe-havens By Investing.com",
+      "source": "Investing.com India",
+      "published": "04/11/2026 08:41",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcEx3S1A2TlpHQjBPVVhjZmhYYWc2LVpfZXVGMl95X3Z3UXJ3UUI1RHpFUWdJMUNjS2J0R0tuVmZoSEpWUFN2blNaY29ManpqdzJXd1A4WXlNc014MEZyaTFvcjd5VkZxcGdES3h3RXRqSUZkcERLNGk2Y0xyZzc0Z0ppS3JEU3ltbDE5azA0dkNIRkZIckhtU3lIZlNEUEV3blRHel8wMUNZaFdFUC1kdjZmZktDUmU0NEtEbUg4WVhtcVB4R1E?oc=5",
       "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "Primeiro Focus pós-eleição eleva projeções de inflação, Selic e dólar para 2026",
-      "source": "Movimento Econômico",
-      "published": "03/11/2026 12:53",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNT1lveU5iQWxFX1d1blRSNkg3UTVsWFBJTFBLczR3ZXhmVjZMV3I2WlR1ZWY1dGhEQ09hQ2pWYWhYbkFKVVA1UGhjai1fZG9BOWZnUVlVS2hiaFFGc3Q2OXV3dENBVlJlcFRhcFZnMVY0ck9ONUIwdkhZd3dxYmJvRmdSeFNuY2lYRHpkamJPcXBhRkwxOHVJT1k5YWJCUXFmTkhWNEFHYl9MejVrNC1wWTNGNlVYREZmVUxiTmdKdmdkN09VTDBxbERCcGNCdw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "baixa",
-      "horizon": "90d",
-      "theme": "Brasil — política / eleições",
-      "factors": [
-        "Dados econômicos dos EUA",
-        "BCB / Selic / Copom",
-        "Brasil — política / eleições"
-      ]
-    },
-    {
-      "title": "FOREX-Dollar falls ahead of US midterms as oil plummets",
-      "source": "Devdiscourse",
-      "published": "02/11/2026 17:15",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUkE1SGhKZWZNOGhiRDRsMTl3eHVuVDFqdTNIOWs1bDU5V0R2Z2lJd0dsOEhNSHh1UXNoTUMxWUxuM0dsNndIUlRVQ2lPa2FYeXE3OUVRalBHLU5LTWVfb2FabHVQNDZuUHU3ZHJWWGhmMTB5S2ZTdURuQm44MTdCcVpRMjN0bHhHWlZQVEtSRGZRbkNnZmQydEpiZHFDZEsySWJVbmtqUjZJd09NUDRiam1NUDZ0NHdNcEHSAboBQVVfeXFMT1JBNUhoSmVmTThoYkQ0bDE5d3h1blQxanUzSDlrNWw1OVdEdmdpSXdHbDhITUh4dVFzaE1DMVlMbjNHbDZ3SFJUVUNpT2thWHlxNzlFUWpQRy1OS01lX29hWmx1UDQ2blB1N2RyVlhoZjEweUtmU3VEbkJuODE3QnFaUTIzdGx4R1pWUFRLUkRmUW5DZ2ZkMnRKYmRxQ2RLMkliVW5ralI2SXdPTVA0YmptTVA2dDR3TXBB?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
+      "credibility": 0.8,
       "impact": "baixa",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
         "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
+      "title": "U.S. Treasury Yields Approach 5%: Robust Employment Data Ignites Intense Tug-of-War Between the U.S. Dollar and Gold",
+      "source": "Moomoo",
+      "published": "03/11/2026 21:18",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYWV6Y1F4NHBFTVlabWZXU2k1U2ZXbk5tTDQxRHQ5c3cyckFkc0MtWkk5eF9xUjhZSzUtTFlFTGRmVlFoRkhwYXAxTHBjWk83REd5VFY3QWJkNTFhU3NQNno4amZmX1pZUkNCY0xUejYtbEJ0THhtUnRaMlIweEVTVVhDa0U3LXBvVldGcDVIdlo4OUtBZFo1VmlqWTJubGVCMFZ2b3ZsWm9mZ2RzVlVhRHVB?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
         "Treasuries",
-        "Commodities / petróleo"
+        "Dados econômicos dos EUA"
+      ]
+    },
+    {
+      "title": "Copom Deve Pausar Cortes da Selic após Reeleição de Lula e Pressão sobre o Dólar",
+      "source": "Forbes Brasil",
+      "published": "03/11/2026 05:00",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeDE1SmZ3S3VYNy1BckM4cndDTXVZeFl3SnB5LWhmcXd3Ukxwd0lrSEhsOUN3eU1RSXFramV1OV9XSmdBX29nNHdZSjQwN0lsLUw4akwtVE9uQm5HWXhZZV9Pc29ZdUE3Zk9JemVaY2p4VUdMaFBoSWU3WEJCSERUU0VEOFFiTmVMVVloVGpfc19iUFZyUEN1U1pzOU1va3haSjh1SDlkc3dOcE5hQjhVb0xvYkdkclZ6MkRnZ1dDbHJWUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
       ]
     }
   ]
