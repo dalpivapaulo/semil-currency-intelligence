@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-06T19:27:50.828232+00:00",
+  "generated_at": "2026-11-07T00:08:07.613118+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 7.1,
+  "score10": 8.0,
   "market_move": {
     "material": true,
     "day_variation_pct": 0.7176726899910113,
@@ -11,14 +11,33 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 10 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Fed / juros dos EUA, Brasil — fiscal, Treasuries, Dólar global / DXY.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 3.42,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "CNN Brasil",
+          "Folha de S.Paulo",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
+          "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
+        ],
+        "horizon": "90d"
+      },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.53,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -30,28 +49,9 @@
         "examples": [
           "Dollar little changed as oil prices bounce, payrolls eyed",
           "Fed's Hammack favors gradual rate-hike path to lower inflation",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal"
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal",
-          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -78,16 +78,17 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Linea Brasil",
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
@@ -97,15 +98,16 @@
         "factor": "Dólar global / DXY",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 4,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
@@ -113,8 +115,8 @@
       },
       {
         "factor": "BCB / Selic / Copom",
-        "impact": "neutro",
-        "score": 0.05,
+        "impact": "alta",
+        "score": 0.91,
         "evidence_count": 14,
         "quantitative_count": 0,
         "sources": [
@@ -137,14 +139,13 @@
         "factor": "Dados econômicos dos EUA",
         "impact": "neutro",
         "score": 0.0,
-        "evidence_count": 4,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "Dollar little changed as oil prices bounce, payrolls eyed",
           "Fed's Hammack favors gradual rate-hike path to lower inflation"
         ],
@@ -183,10 +184,29 @@
     ],
     "future_drivers": [
       {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 3.42,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "CNN Brasil",
+          "Folha de S.Paulo",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
+          "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
+        ],
+        "horizon": "90d"
+      },
+      {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.53,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -198,28 +218,9 @@
         "examples": [
           "Dollar little changed as oil prices bounce, payrolls eyed",
           "Fed's Hammack favors gradual rate-hike path to lower inflation",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal"
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal",
-          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -246,16 +247,17 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Linea Brasil",
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
@@ -265,32 +267,56 @@
         "factor": "Dólar global / DXY",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 4,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "alta",
+        "score": 0.91,
+        "evidence_count": 14,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "O GLOBO",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral",
+          "Selic fica em 13,75%: entenda em 8 pontos a decisão do BC de interromper os cortes de juros no Brasil"
+        ],
+        "horizon": "90d"
       }
     ]
   },
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +7.1. PTAX: último pregão +0,72%; 5 pregões +2,36%; 10 pregões +9,19%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Brasil — fiscal, Treasuries, Dólar global / DXY.",
+    "summary": "Score técnico consolidado: +8.0. PTAX: último pregão +0,72%; 5 pregões +2,36%; 10 pregões +9,19%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
       "Reuters",
       "Bloomberg.com",
       "Bloomberg Linea Brasil",
+      "CNBC",
       "Folha de S.Paulo",
       "O GLOBO",
       "Estadão",
@@ -302,13 +328,32 @@
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Fed / juros dos EUA, Brasil — fiscal, Treasuries, Dólar global / DXY.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
     "drivers": [
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "alta",
+        "score": 3.42,
+        "evidence_count": 6,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "CNN Brasil",
+          "Folha de S.Paulo",
+          "InfoMoney"
+        ],
+        "examples": [
+          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
+          "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
+        ],
+        "horizon": "90d"
+      },
       {
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 2.53,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
@@ -320,28 +365,9 @@
         "examples": [
           "Dollar little changed as oil prices bounce, payrolls eyed",
           "Fed's Hammack favors gradual rate-hike path to lower inflation",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal"
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Brasil — fiscal",
-        "impact": "alta",
-        "score": 1.7,
-        "evidence_count": 8,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "CNN Brasil",
-          "Folha de S.Paulo",
-          "InfoMoney"
-        ],
-        "examples": [
-          "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
-          "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal",
-          "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo"
-        ],
-        "horizon": "90d"
       },
       {
         "factor": "Brasil — política / eleições",
@@ -368,16 +394,17 @@
         "factor": "Treasuries",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 5,
+        "evidence_count": 6,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Linea Brasil",
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
@@ -387,19 +414,42 @@
         "factor": "Dólar global / DXY",
         "impact": "alta",
         "score": 0.98,
-        "evidence_count": 4,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg.com",
+          "CNBC",
           "Folha de S.Paulo",
           "Reuters"
         ],
         "examples": [
-          "Dollar index jumps after US payrolls beat forecasts",
+          "Dollar jumps after strong US payrolls report",
           "World shares advance as Democrats' victory eases political uncertainty",
           "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "alta",
+        "score": 0.91,
+        "evidence_count": 14,
+        "quantitative_count": 0,
+        "sources": [
+          "Agência Brasil",
+          "CNN Brasil",
+          "Estadão",
+          "Folha de S.Paulo",
+          "InfoMoney",
+          "O GLOBO",
+          "UOL Economia"
+        ],
+        "examples": [
+          "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral",
+          "Selic fica em 13,75%: entenda em 8 pontos a decisão do BC de interromper os cortes de juros no Brasil"
+        ],
+        "horizon": "90d"
       }
     ],
     "confidence": 82
@@ -407,12 +457,13 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 197,
+    "raw_news_results": 201,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg.com",
       "Bloomberg Linea Brasil",
+      "CNBC",
       "Folha de S.Paulo",
       "O GLOBO",
       "Estadão",
@@ -440,6 +491,9 @@
     },
     {
       "name": "Bloomberg Linea Brasil"
+    },
+    {
+      "name": "CNBC"
     },
     {
       "name": "Folha de S.Paulo"
@@ -480,6 +534,9 @@
       "name": "Bloomberg Linea Brasil"
     },
     {
+      "name": "CNBC"
+    },
+    {
       "name": "Folha de S.Paulo"
     },
     {
@@ -505,16 +562,9 @@
     {
       "source": "InfoMoney",
       "count": 7,
-      "score": 0.86,
+      "score": 3.2,
       "status": "material",
       "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
-      "source": "Folha de S.Paulo",
-      "count": 6,
-      "score": 0.63,
-      "status": "material",
-      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Reuters",
@@ -524,11 +574,18 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "CNN Brasil",
-      "count": 3,
-      "score": 0.0,
+      "source": "Folha de S.Paulo",
+      "count": 4,
+      "score": 0.63,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "CNN Brasil",
+      "count": 4,
+      "score": -0.86,
+      "status": "material",
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "Agência Brasil",
@@ -582,13 +639,13 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 2.1,
-      "detail": "28 notícia(s) material(is), 10 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "score": 3.0,
+      "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
-      "title": "Dollar index jumps after US payrolls beat forecasts",
+      "title": "Dollar jumps after strong US payrolls report",
       "source": "Reuters",
       "published": "05/11/2026 22:24",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcTZYNGtkV0pONThjTHhjTkdYS0JYX1YtSlJISko4bVRPZDlUSzZaTmhRU0ZtQmtnZWFRQUkxRDhUWHR2akFsSkhSZmQxdVE4dURkRlJ4ekEtc1lFSTlTT3VaU1VRa0VKRjZFZkdZUWVpR3NNT1hfR1JhLVkxWHlLUDVZT04wMnJYTFMyX0haakxHcWdIdWg2SFVpNGF4eWFwNXV0eGZ3Q2ZDeTYzbGtyZXpGM05XNDVBb0U2dUtScEM?oc=5",
@@ -680,6 +737,21 @@
       ]
     },
     {
+      "title": "Dollar climbs on safe haven demand as AI rout saps Asian markets",
+      "source": "CNBC",
+      "published": "06/11/2026 02:03",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOX1h3cU1JT0lRTVBxRk1uaUF3YUNUa2ZNalEzNF9YYnU1blY4TVI1cGtEX2RUWmVNbnptalJoUU5veWNxcGdYUFpsTXFFT0tyQkNyMDJlN0liOEdVSHpXMm1XRW5WN2tCZG1MU1VSM3lmb0pxdHdSb2RDZU00SUVyZ1RiZHo1ZjZEei1TbkFuek01Nlp1WnVreXZ6VG1xUlRWY3ZHanoxRVNaanVPdVhiSdIBtgFBVV95cUxQZHFNaGItV1VwY2NqV1g4LTVFRmV5X2RiNXo5YWJoOThqamdINTNSamNZU1FQbU1CeGp4aTA1OThTeG5RM0p2cTljUi1Qb2VyX0pZV1VIb3ZFRnVMVnh0OGNWSGtYZVRBWHVYRjg3TmFITTgxeVhSdGxLcWd1Ym9NY2hTYXp4NFlySmROZTNfd0hMYVdrUE42R1FucDIyNzJrRmFZT2dwdURtTlF2OU1aTHQ4S1EtZw?oc=5",
+      "relevance": "alta",
+      "credibility": 0.9,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Vitória democrata nos EUA pode favorecer mercados emergentes, mas efeito depende de cenário fiscal",
       "source": "Folha de S.Paulo",
       "published": "04/11/2026 18:37",
@@ -694,21 +766,6 @@
         "Treasuries",
         "Brasil — fiscal",
         "Fluxo / apetite a risco"
-      ]
-    },
-    {
-      "title": "Dólar e Bolsa avançam após dados de emprego dos EUA e em meio a dúvidas sobre política fiscal",
-      "source": "Folha de S.Paulo",
-      "published": "06/11/2026 09:56",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTURkMWNYdDQyYkVMS2kxQVBxczZPYzV3N2RjZWVhTzNIMWRIYzU1QXpud1JoX1lmLVYwNVd4Z0VsTld1eFZHdGZfcXc0b3ZaRXEzSFBoM3J2aWZkMHcwaTF4aHZNdlZKdlRtalZnQmItcWJWejlWWW5jdUIwaTBiRURPaFJwbTlxb20xN09yR2RFNTdhYTg4eHl5ZnNfZW0xejRZRnRqcU9FMFBsSG0yZGdLOA?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Brasil — fiscal"
       ]
     },
     {
@@ -786,13 +843,13 @@
       ]
     },
     {
-      "title": "Proposta de Lara Resende para limitar Selic assusta mercado; Durigan nega discussão no governo",
-      "source": "Folha de S.Paulo",
-      "published": "01/11/2026 17:35",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbXQ2MGdQak9EVjdGVVNSZGpoX3h3SXJudi0xUzBZNUV0NXJDdVZQU1ZVMGgyY0Z0N0djbjFzWDFMWWZPNjJlbTltbGxoYTlZTjR0bHJsUVdrTm9qMUhTXzkxenZNclAwXzcwQWJTOHNyaTFiSkJILVJ0dTh6QVRQRHVpSzlKbTh6VXlGZE1iZXNLRkI3LWExakFUUW0zNmcxZ2VzZzRaZzhtOTZsWjFXYVNETkVPanhhRzd1QTF3ZTVmaDJ2b1BGcjdVOTR1a2M4R2c?oc=5",
-      "relevance": "média",
-      "credibility": 0.88,
-      "impact": "neutro",
+      "title": "XP reduz projeção do PIB a 0,3% em 2027; dólar vai a R$ 5,50 e Selic fica em 13,75%",
+      "source": "InfoMoney",
+      "published": "06/11/2026 14:00",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQd1pVRldkVC1XQjZ0cWZnOS1lMjhIR3h3eVY1LUVDZy1nYkdoMXA4UW9UeEhRNUQ5UnJrX3FPdmQzd29DM3UxTzZHMlVIc09XalRJa3JCZ0xNUmdMRldNdmxfc0FSOVVlbk1CVVBmLUZGWG5TeUN1cjNGLUltOVYzYtIBgAFBVV95cUxQd1pVRldkVC1XQjZ0cWZnOS1lMjhIR3h3eVY1LUVDZy1nYkdoMXA4UW9UeEhRNUQ5UnJrX3FPdmQzd29DM3UxTzZHMlVIc09XalRJa3JCZ0xNUmdMRldNdmxfc0FSOVVlbk1CVVBmLUZGWG5TeUN1cjNGLUltOVYzYg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "alta",
       "horizon": "90d",
       "theme": "Brasil — fiscal",
       "factors": [
@@ -846,6 +903,20 @@
       ]
     },
     {
+      "title": "Dólar recua a R$ 5,45 com Midterms e espera por Copom; Ibovespa sobe",
+      "source": "CNN Brasil",
+      "published": "04/11/2026 09:38",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcU5YNjNCck41Y2ZzTW9UM19BeERLWUc4TEhtcDJwLTI5RF85OVV4U0U0cnVnYVRUa2FuOTI4bXB6MTI3ek0zN0NCeUFFM2VpYWt2QVEzU2dzUXV1ZEtRSGpOcmtpSzhhdDdMaTlYQ2xYLUlzaXcwVE5LdGJSVmFhRXlLSmUtR2l4QVNTMXFOUUpMR1dVNW8wemgxM2NBSng0S0p0cg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom"
+      ]
+    },
+    {
       "title": "Ibovespa encerra semana pós-eleição com perda de 18%; dólar vai a R$ 5,44",
       "source": "CNN Brasil",
       "published": "02/11/2026 05:00",
@@ -891,21 +962,6 @@
       ]
     },
     {
-      "title": "Ibovespa Hoje Ao Vivo: Bolsa sobe em meio a balanços e dados dos EUA",
-      "source": "InfoMoney",
-      "published": "06/11/2026 13:22",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1FIcEw4RTIxbDZ3VUU0eUFTMmpPOUhyakhDZXNvcFlKYWdhYmxpZnVySm9nMU1BYm53d3h0cGRVdFdwWVdiU3Z0TC1qZ09SZjFRdUg1OWZzdWE4ZktnTTJ0ZUNFMlFIRWthRUN2S1hmcXctS0FEOU8xLV9ZVm5jeXJFN1dRb290clVOSk4yVQ?oc=5",
-      "relevance": "média",
-      "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Dados econômicos dos EUA"
-      ]
-    },
-    {
       "title": "Copom decide taxa de juros sob pressão inflacionária e desconfiança do mercado",
       "source": "InfoMoney",
       "published": "04/11/2026 05:00",
@@ -936,19 +992,16 @@
       ]
     },
     {
-      "title": "Impacto de juros na dívida deveria entrar em análises do Copom, diz economista da FGV",
+      "title": "Ibovespa fecha com ganhos e tem primeira semana positiva depois de três; dólar sobe",
       "source": "InfoMoney",
-      "published": "04/11/2026 14:01",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM2ZtTnVKVWF0bm40R3Q0Nko3Ql9OYjBnbUl4eFI0cTJnWlJMY2JFWnJ6NHRpT09UR3ZfM201VVRybjBBU3JzaUROdEd0ejN6blA1QXNBMEVyQ2pkV1JQTkJtQ1dFYTFkUUh4M2FwU1VIYWhzQW41VXMxMktaZ0pWbGgzQjk3SllVUm1FXzUzdk9WeVhhY0FBdzE1UTNXU0JCdllLWDIyQ01oQ3UxWS1fb9IBtgFBVV95cUxPRzZpeGJiLVUyc0R3ZWNGU05ETHUyZ21lX25qMHRIdlJKekZSbUJNZWlJTnpNSVFwcEJvZzJ1QmUtMzZDLTlVNFJka2N3aHJhU1NBazR3UV83MEF1TXFKbGhkMkhvNWQxNjRTT0oxM21GUkkzaDhYQ2F1b0Y5WGtXUVZTM0hRV3hUNHRWWWlpYkNEa08xZ0N0WENZTmVTRHBDZzJlWkhkOTctYVhuQnc5eWVJekowdw?oc=5",
+      "published": "06/11/2026 18:24",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOd1FIcEw4RTIxbDZ3VUU0eUFTMmpPOUhyakhDZXNvcFlKYWdhYmxpZnVySm9nMU1BYm53d3h0cGRVdFdwWVdiU3Z0TC1qZ09SZjFRdUg1OWZzdWE4ZktnTTJ0ZUNFMlFIRWthRUN2S1hmcXctS0FEOU8xLV9ZVm5jeXJFN1dRb290clVOSk4yVQ?oc=5",
       "relevance": "média",
       "credibility": 0.86,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — fiscal",
-      "factors": [
-        "BCB / Selic / Copom",
-        "Brasil — fiscal"
-      ]
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dados econômicos dos EUA",
+      "factors": []
     }
   ]
 }
