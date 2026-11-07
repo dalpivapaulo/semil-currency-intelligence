@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-07T00:08:07.613118+00:00",
+  "generated_at": "2026-11-07T01:08:35.484602+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 8.0,
+  "score10": 7.35,
   "market_move": {
     "material": true,
     "day_variation_pct": 0.7176726899910113,
@@ -11,7 +11,7 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "A leitura reuniu 28 evidência(s) em 11 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — política / eleições. Principais vetores de ALTA/risco: Brasil — fiscal, Fed / juros dos EUA.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
@@ -56,7 +56,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.41,
+        "score": -0.78,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
@@ -70,54 +70,15 @@
         "examples": [
           "Mercados reagem à vitória democrata nos EUA com dólar em queda e Treasuries em alta",
           "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Bolsa sobe após seis pregões de queda e dólar recua a R$ 5,45 com vitória democrata nos EUA"
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
         ],
         "horizon": "90d"
       },
       {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg Linea Brasil",
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
         "factor": "BCB / Selic / Copom",
-        "impact": "alta",
-        "score": 0.91,
-        "evidence_count": 14,
+        "impact": "neutro",
+        "score": 0.03,
+        "evidence_count": 15,
         "quantitative_count": 0,
         "sources": [
           "Agência Brasil",
@@ -130,10 +91,49 @@
         ],
         "examples": [
           "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral",
-          "Selic fica em 13,75%: entenda em 8 pontos a decisão do BC de interromper os cortes de juros no Brasil"
+          "Bolsa sobe após seis pregões de queda e dólar recua a R$ 5,45 com vitória democrata nos EUA",
+          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral"
         ],
         "horizon": "90d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 5,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Linea Brasil",
+          "Bloomberg.com",
+          "CNBC",
+          "Folha de S.Paulo",
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar jumps after strong US payrolls report",
+          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+          "Mercados reagem à vitória democrata nos EUA com dólar em queda e Treasuries em alta"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg.com",
+          "CNBC",
+          "Folha de S.Paulo",
+          "Reuters"
+        ],
+        "examples": [
+          "Dollar jumps after strong US payrolls report",
+          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+          "Dollar climbs on safe haven demand as AI rout saps Asian markets"
+        ],
+        "horizon": "10d"
       },
       {
         "factor": "Dados econômicos dos EUA",
@@ -225,7 +225,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.41,
+        "score": -0.78,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
@@ -239,68 +239,7 @@
         "examples": [
           "Mercados reagem à vitória democrata nos EUA com dólar em queda e Treasuries em alta",
           "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Bolsa sobe após seis pregões de queda e dólar recua a R$ 5,45 com vitória democrata nos EUA"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg Linea Brasil",
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "alta",
-        "score": 0.91,
-        "evidence_count": 14,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "O GLOBO",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral",
-          "Selic fica em 13,75%: entenda em 8 pontos a decisão do BC de interromper os cortes de juros no Brasil"
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
         ],
         "horizon": "90d"
       }
@@ -309,7 +248,7 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +8.0. PTAX: último pregão +0,72%; 5 pregões +2,36%; 10 pregões +9,19%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "Score técnico consolidado: +7.4. PTAX: último pregão +0,72%; 5 pregões +2,36%; 10 pregões +9,19%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -328,7 +267,7 @@
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA, Treasuries, Dólar global / DXY.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — política / eleições. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Fed / juros dos EUA.",
     "drivers": [
       {
         "factor": "Brasil — fiscal",
@@ -372,7 +311,7 @@
       {
         "factor": "Brasil — política / eleições",
         "impact": "baixa",
-        "score": -1.41,
+        "score": -0.78,
         "evidence_count": 11,
         "quantitative_count": 0,
         "sources": [
@@ -386,68 +325,7 @@
         "examples": [
           "Mercados reagem à vitória democrata nos EUA com dólar em queda e Treasuries em alta",
           "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Bolsa sobe após seis pregões de queda e dólar recua a R$ 5,45 com vitória democrata nos EUA"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg Linea Brasil",
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 0.98,
-        "evidence_count": 5,
-        "quantitative_count": 0,
-        "sources": [
-          "Bloomberg.com",
-          "CNBC",
-          "Folha de S.Paulo",
-          "Reuters"
-        ],
-        "examples": [
-          "Dollar jumps after strong US payrolls report",
-          "World shares advance as Democrats' victory eases political uncertainty",
-          "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "BCB / Selic / Copom",
-        "impact": "alta",
-        "score": 0.91,
-        "evidence_count": 14,
-        "quantitative_count": 0,
-        "sources": [
-          "Agência Brasil",
-          "CNN Brasil",
-          "Estadão",
-          "Folha de S.Paulo",
-          "InfoMoney",
-          "O GLOBO",
-          "UOL Economia"
-        ],
-        "examples": [
-          "Dólar fecha a R$ 5,49, maior valor do ano, com temor de regulação da IA após eleições nos EUA; Bolsa cai",
-          "Banco Central mantém Selic em 13,75% ao ano e interrompe ciclo de cortes de juros após choque eleitoral",
-          "Selic fica em 13,75%: entenda em 8 pontos a decisão do BC de interromper os cortes de juros no Brasil"
+          "Ibovespa fecha em baixa, com fiscal e queda do exterior; dólar sobe a R$ 5,48"
         ],
         "horizon": "90d"
       }
@@ -457,7 +335,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 201,
+    "raw_news_results": 199,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -567,16 +445,9 @@
       "summary": "7 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
-      "count": 4,
-      "score": 0.98,
-      "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
-    },
-    {
       "source": "Folha de S.Paulo",
       "count": 4,
-      "score": 0.63,
+      "score": 0.39,
       "status": "material",
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
@@ -588,18 +459,25 @@
       "summary": "4 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
+      "source": "Reuters",
+      "count": 3,
+      "score": 0.0,
+      "status": "material",
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
+      "source": "UOL Economia",
+      "count": 3,
+      "score": -1.64,
+      "status": "material",
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+    },
+    {
       "source": "Agência Brasil",
       "count": 2,
       "score": 0.0,
       "status": "material",
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "UOL Economia",
-      "count": 2,
-      "score": -1.64,
-      "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
       "source": "Bloomberg.com",
@@ -639,7 +517,7 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 3.0,
+      "score": 2.35,
       "detail": "28 notícia(s) material(is), 11 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
@@ -674,21 +552,6 @@
         "Fed / juros dos EUA",
         "Dados econômicos dos EUA",
         "Commodities / petróleo"
-      ]
-    },
-    {
-      "title": "World shares advance as Democrats' victory eases political uncertainty",
-      "source": "Reuters",
-      "published": "03/11/2026 22:06",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBWZWFDY2tZeDZfbXdVWnE2QWZwVlNpX3NqVm1OdmR0bDBGTlJjU3dJWG5yWEFpSG4tSHVhY2NEeVBsNnllVFQyb0tWRU1naXZQLWN3Tlk4VE1PV3o2cU1tVHFYX1hDT1ZtRkVWUWtYR3JwWFRyTXZIRldDWQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.98,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries"
       ]
     },
     {
@@ -788,13 +651,13 @@
       "source": "Folha de S.Paulo",
       "published": "04/11/2026 09:56",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTjVUUDNMUjB5WVlLMDFsVFFGNGp0Z0dEc0RlbVBSSk9aUVp2TWVxZzJURnNuQmpfei1ERGJLQm10WURnb0VXakdzWGstT0tjZVJmNlF5X2ZHUzVuM0FnakcwVUl2R0VsLXNTSTNLNGpZMmF2M2pCaXFCT2w4MTI1Zy0zRjJIdi05X1ZSY3drSlNxRk1JUmxsTE45OEdoUG9UVWM4N2VmYlNwWldXQmxjQS00blU0cFpOWWRuMHdkdFk5UVl4OTRCRXg0aHQzYWRTQWY5dTRiaU9FR0tHQkdhTw?oc=5",
-      "relevance": "média",
+      "relevance": "alta",
       "credibility": 0.88,
       "impact": "baixa",
       "horizon": "90d",
-      "theme": "Brasil — política / eleições",
+      "theme": "BCB / Selic / Copom",
       "factors": [
-        "Brasil — política / eleições"
+        "BCB / Selic / Copom"
       ]
     },
     {
@@ -1002,6 +865,21 @@
       "horizon": "10d",
       "theme": "Dados econômicos dos EUA",
       "factors": []
+    },
+    {
+      "title": "Dólar cai a R$ 5,45 após eleições nos EUA e antes do Copom",
+      "source": "Agência Brasil",
+      "published": "04/11/2026 20:17",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb3ZRRVVSaEUzeG93NXN5QzNlUXhfR0libHZReUNmeFpkcTc3OFN6SUwxRml3aFNWMnoxVzZmVGQwMTNqdkZUSW5HQXR1M2Z0X2t6dElzaF9RLS1XOGVoM3MwRjVyN05GOWQ2ekxXR09SY3g1T0ZwdC1OSTB0M1otVmd2U3dXX2twZERKbV9hRVVlQmpOaUl1ZXp4SEdDd3FQTGs4RGczclJJNUVEMEpGU1RR?oc=5",
+      "relevance": "alta",
+      "credibility": 0.84,
+      "impact": "baixa",
+      "horizon": "90d",
+      "theme": "BCB / Selic / Copom",
+      "factors": [
+        "BCB / Selic / Copom",
+        "Brasil — política / eleições"
+      ]
     }
   ]
 }
