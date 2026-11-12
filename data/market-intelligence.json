@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T01:55:29.080145+00:00",
+  "generated_at": "2026-11-12T02:29:01.881559+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
@@ -40,7 +40,7 @@
         "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
@@ -64,7 +64,7 @@
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -127,7 +127,7 @@
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "InfoMoney",
           "O GLOBO",
           "Times Brasil | CNBC"
@@ -202,7 +202,7 @@
         "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
@@ -226,7 +226,7 @@
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -289,7 +289,7 @@
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "InfoMoney",
           "O GLOBO",
           "Times Brasil | CNBC"
@@ -326,7 +326,7 @@
       "Federal Reserve",
       "Reuters",
       "Bloomberg Linea Brasil",
-      "Bloomberg",
+      "Bloomberg.com",
       "Valor Econômico",
       "Times Brasil | CNBC",
       "Folha de S.Paulo",
@@ -370,7 +370,7 @@
         "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Folha de S.Paulo",
           "InfoMoney",
           "Investing.com",
@@ -394,7 +394,7 @@
         "evidence_count": 12,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "Exame",
           "Folha de S.Paulo",
           "InfoMoney",
@@ -457,7 +457,7 @@
         "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
-          "Bloomberg",
+          "Bloomberg.com",
           "InfoMoney",
           "O GLOBO",
           "Times Brasil | CNBC"
@@ -489,12 +489,12 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 12,
-    "raw_news_results": 163,
+    "raw_news_results": 164,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg Linea Brasil",
-      "Bloomberg",
+      "Bloomberg.com",
       "Valor Econômico",
       "Times Brasil | CNBC",
       "Folha de S.Paulo",
@@ -525,7 +525,7 @@
       "name": "Bloomberg Linea Brasil"
     },
     {
-      "name": "Bloomberg"
+      "name": "Bloomberg.com"
     },
     {
       "name": "Valor Econômico"
@@ -575,7 +575,7 @@
       "name": "Bloomberg Linea Brasil"
     },
     {
-      "name": "Bloomberg"
+      "name": "Bloomberg.com"
     },
     {
       "name": "Valor Econômico"
@@ -655,7 +655,7 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -777,7 +777,7 @@
     },
     {
       "title": "Gold Holds Gain Above $4,100 as Lower Oil Eases Inflation Woes",
-      "source": "Bloomberg",
+      "source": "Bloomberg.com",
       "published": "10/11/2026 17:17",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMWZxX1NKb3NlaFNCOHJlcE1kN2NRZjh0OEVaM3hQS1dQX0t4VkFadURVZzJhVE45Mlk0a2RWajItRjdDdWxBSU1mcWZBYng4cnBFUTNSSWE3VnQyOUE0WnRVWGtpcFNZejlNWlJLelgwNk9hWjRsZ3ZyYU1ERnQ1cS1VRWk5dG1PcUJoU01SeURPQUZoN3RnVEFTM1FkVzRORU9PWUpHN20wYXZpOU9jNGd3?oc=5",
       "relevance": "média",
