@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-13T02:05:25.411420+00:00",
+  "generated_at": "2026-11-13T19:47:01.992011+00:00",
   "source": "Banco Central do Brasil",
   "ptax": {
-    "date": "12/11/2026",
-    "buy": 5.6137,
-    "sell": 5.6143,
-    "average": 5.614,
-    "previous_sell": 5.5606,
-    "variation_pct": 0.9657231234039498
+    "date": "13/11/2026",
+    "buy": 5.6512,
+    "sell": 5.6518,
+    "average": 5.6515,
+    "previous_sell": 5.6143,
+    "variation_pct": 0.6679372317118792
   },
   "history": [
     {
@@ -261,6 +261,12 @@
       "buy": 5.6137,
       "sell": 5.6143,
       "iso": "2026-11-12"
+    },
+    {
+      "date": "13/11/2026",
+      "buy": 5.6512,
+      "sell": 5.6518,
+      "iso": "2026-11-13"
     }
   ],
   "focus": null
