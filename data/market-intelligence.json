@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T20:59:21.634378+00:00",
+  "generated_at": "2026-11-18T02:55:50.883457+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 8.0,
   "market_move": {
@@ -11,73 +11,28 @@
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 28 evidência(s) em 19 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Treasuries, Fed / juros dos EUA, Dólar global / DXY. Principais vetores de ALTA/risco: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
+    "summary": "A leitura reuniu 28 evidência(s) em 16 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Dólar global / DXY, Treasuries. Principais vetores de ALTA/risco: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
     "today_summary": "Evidência insuficiente para explicar o movimento de hoje.",
     "factors": [
       {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 4.02,
+        "score": 4.88,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
+          "Exame",
           "Gazeta Mercantil",
           "InfoMoney",
-          "InvestNews",
-          "O GLOBO"
+          "InvestNews"
         ],
         "examples": [
-          "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?"
+          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?",
+          "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
+          "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "baixa",
-        "score": -2.18,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Acionista.com.br",
-          "BigGo Finance",
-          "Cointribune",
-          "Financial Times",
-          "Investing.com India",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
-          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -1.02,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Cointribune",
-          "InvestNews",
-          "Investing.com India",
-          "Reuters",
-          "TradingView",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Dollar steadies after five-day rally, NZ dollar at lowest since 2020",
-          "ING prevê queda de 5% no dólar em 2027, mas alerta para riscos de crise nas ações de IA",
-          "Ouro atinge menor nível em um ano com dólar e Fed no radar"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
@@ -99,14 +54,16 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 0.59,
-        "evidence_count": 2,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
+          "Folha de S.Paulo",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
+          "Até onde o dólar pode subir? Por que o real é a moeda que mais perdeu valor desde a reeleição de Lula",
           "Dólar sobe a R$ 5,78, maior valor desde abril de 2025; Bolsa cai 2,1%"
         ],
         "horizon": "90d"
@@ -115,21 +72,58 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -0.44,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
-          "Cointribune",
           "Financial Times",
           "Investing.com India",
-          "O GLOBO",
-          "TradingView",
           "www.tmgm.com"
         ],
         "examples": [
           "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory"
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "baixa",
+        "score": -0.44,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Acionista.com.br",
+          "Financial Times",
+          "Investing.com India",
+          "www.tmgm.com"
+        ],
+        "examples": [
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "neutro",
+        "score": 0.14,
+        "evidence_count": 10,
+        "quantitative_count": 0,
+        "sources": [
+          "Bloomberg Línea Brasil",
+          "CNN Brasil",
+          "InvestNews",
+          "Investing.com India",
+          "Reuters",
+          "www.tmgm.com"
+        ],
+        "examples": [
+          "Dollar lower after mixed US data, stays near April 2025 high",
+          "ING prevê queda de 5% no dólar em 2027, mas alerta para riscos de crise nas ações de IA",
+          "Ouro atinge menor nível em um ano com dólar e Fed no radar"
         ],
         "horizon": "10d"
       },
@@ -186,87 +180,28 @@
           "Dólar em alta: 7 fatores que podem mudar a trajetória da moeda"
         ],
         "horizon": "10d"
-      },
-      {
-        "factor": "Geopolítica / comércio",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 1,
-        "quantitative_count": 0,
-        "sources": [
-          "Cointribune"
-        ],
-        "examples": [
-          "The Fed changes the game: The dollar finally wipes out Trump's tariff shock"
-        ],
-        "horizon": "10d"
       }
     ],
     "future_drivers": [
       {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 4.02,
+        "score": 4.88,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
+          "Exame",
           "Gazeta Mercantil",
           "InfoMoney",
-          "InvestNews",
-          "O GLOBO"
+          "InvestNews"
         ],
         "examples": [
-          "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?"
+          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?",
+          "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
+          "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "baixa",
-        "score": -2.18,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Acionista.com.br",
-          "BigGo Finance",
-          "Cointribune",
-          "Financial Times",
-          "Investing.com India",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
-          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -1.02,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Cointribune",
-          "InvestNews",
-          "Investing.com India",
-          "Reuters",
-          "TradingView",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Dollar steadies after five-day rally, NZ dollar at lowest since 2020",
-          "ING prevê queda de 5% no dólar em 2027, mas alerta para riscos de crise nas ações de IA",
-          "Ouro atinge menor nível em um ano com dólar e Fed no radar"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
@@ -288,14 +223,16 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 0.59,
-        "evidence_count": 2,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
+          "Folha de S.Paulo",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
+          "Até onde o dólar pode subir? Por que o real é a moeda que mais perdeu valor desde a reeleição de Lula",
           "Dólar sobe a R$ 5,78, maior valor desde abril de 2025; Bolsa cai 2,1%"
         ],
         "horizon": "90d"
@@ -304,21 +241,37 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -0.44,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
-          "Cointribune",
           "Financial Times",
           "Investing.com India",
-          "O GLOBO",
-          "TradingView",
           "www.tmgm.com"
         ],
         "examples": [
           "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory"
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "baixa",
+        "score": -0.44,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Acionista.com.br",
+          "Financial Times",
+          "Investing.com India",
+          "www.tmgm.com"
+        ],
+        "examples": [
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
         ],
         "horizon": "10d"
       }
@@ -327,7 +280,7 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +8.0. PTAX: último pregão +0,92%; 5 pregões +3,60%; 10 pregões +5,31%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Fed / juros dos EUA, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
+    "summary": "Score técnico consolidado: +8.0. PTAX: último pregão +0,92%; 5 pregões +3,60%; 10 pregões +5,31%. Evidência insuficiente para explicar o movimento de hoje. Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -335,8 +288,8 @@
       "Bloomberg Línea Brasil",
       "Financial Times",
       "O GLOBO",
-      "Estadão",
       "Folha de S.Paulo",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
@@ -344,82 +297,34 @@
       "Investing.com India",
       "Exame",
       "www.tmgm.com",
-      "Cointribune",
       "Acionista.com.br",
       "Gazeta Mercantil",
-      "BigGo Finance",
-      "TradingView",
       "InvestNews"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Treasuries, Fed / juros dos EUA, Dólar global / DXY. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Dólar global / DXY, Treasuries. Fatores que podem pressionar o USD/BRL para CIMA: Brasil — fiscal, Commodities / petróleo, Brasil — política / eleições.",
     "drivers": [
       {
         "factor": "Brasil — fiscal",
         "impact": "alta",
-        "score": 4.02,
+        "score": 4.88,
         "evidence_count": 7,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
+          "Exame",
           "Gazeta Mercantil",
           "InfoMoney",
-          "InvestNews",
-          "O GLOBO"
+          "InvestNews"
         ],
         "examples": [
-          "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?"
+          "Risco fiscal: como as contas públicas podem influenciar dólar, juros e Bolsa?",
+          "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
+          "Ibovespa retoma o caminho da vitória e tem segunda semana positiva; dólar sobe"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Treasuries",
-        "impact": "baixa",
-        "score": -2.18,
-        "evidence_count": 9,
-        "quantitative_count": 0,
-        "sources": [
-          "Acionista.com.br",
-          "BigGo Finance",
-          "Cointribune",
-          "Financial Times",
-          "Investing.com India",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
-          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -1.02,
-        "evidence_count": 12,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Bloomberg Línea Brasil",
-          "CNN Brasil",
-          "Cointribune",
-          "InvestNews",
-          "Investing.com India",
-          "Reuters",
-          "TradingView",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Dollar steadies after five-day rally, NZ dollar at lowest since 2020",
-          "ING prevê queda de 5% no dólar em 2027, mas alerta para riscos de crise nas ações de IA",
-          "Ouro atinge menor nível em um ano com dólar e Fed no radar"
-        ],
-        "horizon": "10d"
       },
       {
         "factor": "Commodities / petróleo",
@@ -441,14 +346,16 @@
         "factor": "Brasil — política / eleições",
         "impact": "alta",
         "score": 0.59,
-        "evidence_count": 2,
+        "evidence_count": 3,
         "quantitative_count": 0,
         "sources": [
+          "Folha de S.Paulo",
           "O GLOBO",
           "UOL Economia"
         ],
         "examples": [
           "Dólar já subiu mais de 15% desde a reeleição de Lula: o que está pesando contra o real no Brasil e lá fora?",
+          "Até onde o dólar pode subir? Por que o real é a moeda que mais perdeu valor desde a reeleição de Lula",
           "Dólar sobe a R$ 5,78, maior valor desde abril de 2025; Bolsa cai 2,1%"
         ],
         "horizon": "90d"
@@ -457,21 +364,37 @@
         "factor": "Dólar global / DXY",
         "impact": "baixa",
         "score": -0.44,
-        "evidence_count": 10,
+        "evidence_count": 8,
         "quantitative_count": 0,
         "sources": [
           "Acionista.com.br",
-          "Cointribune",
           "Financial Times",
           "Investing.com India",
-          "O GLOBO",
-          "TradingView",
           "www.tmgm.com"
         ],
         "examples": [
           "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory"
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "baixa",
+        "score": -0.44,
+        "evidence_count": 8,
+        "quantitative_count": 0,
+        "sources": [
+          "Acionista.com.br",
+          "Financial Times",
+          "Investing.com India",
+          "www.tmgm.com"
+        ],
+        "examples": [
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
+          "Silver Falls As A Stronger Dollar And Rising Treasury Yields Fuel Fed Hike Bets By Kedia Advisory",
+          "Silver Drops As Hawkish Fed Bets, Rising Yields And Stronger Dollar Spur Selling By Kedia Advisory"
         ],
         "horizon": "10d"
       }
@@ -481,15 +404,15 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 14,
-    "raw_news_results": 149,
+    "raw_news_results": 147,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
       "Bloomberg Línea Brasil",
       "Financial Times",
       "O GLOBO",
-      "Estadão",
       "Folha de S.Paulo",
+      "Estadão",
       "InfoMoney",
       "CNN Brasil",
       "Agência Brasil",
@@ -497,11 +420,8 @@
       "Investing.com India",
       "Exame",
       "www.tmgm.com",
-      "Cointribune",
       "Acionista.com.br",
       "Gazeta Mercantil",
-      "BigGo Finance",
-      "TradingView",
       "InvestNews"
     ],
     "fallback_used": false,
@@ -528,10 +448,10 @@
       "name": "O GLOBO"
     },
     {
-      "name": "Estadão"
+      "name": "Folha de S.Paulo"
     },
     {
-      "name": "Folha de S.Paulo"
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -555,19 +475,10 @@
       "name": "www.tmgm.com"
     },
     {
-      "name": "Cointribune"
-    },
-    {
       "name": "Acionista.com.br"
     },
     {
       "name": "Gazeta Mercantil"
-    },
-    {
-      "name": "BigGo Finance"
-    },
-    {
-      "name": "TradingView"
     },
     {
       "name": "InvestNews"
@@ -593,10 +504,10 @@
       "name": "O GLOBO"
     },
     {
-      "name": "Estadão"
+      "name": "Folha de S.Paulo"
     },
     {
-      "name": "Folha de S.Paulo"
+      "name": "Estadão"
     },
     {
       "name": "InfoMoney"
@@ -620,19 +531,10 @@
       "name": "www.tmgm.com"
     },
     {
-      "name": "Cointribune"
-    },
-    {
       "name": "Acionista.com.br"
     },
     {
       "name": "Gazeta Mercantil"
-    },
-    {
-      "name": "BigGo Finance"
-    },
-    {
-      "name": "TradingView"
     },
     {
       "name": "InvestNews"
@@ -641,20 +543,20 @@
   "source_analysis": [
     {
       "source": "InfoMoney",
-      "count": 5,
-      "score": 4.06,
+      "count": 6,
+      "score": 4.92,
       "status": "material",
-      "summary": "5 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "www.tmgm.com",
-      "count": 3,
-      "score": 0.58,
+      "count": 4,
+      "score": 1.16,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "4 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "O GLOBO",
+      "source": "Folha de S.Paulo",
       "count": 2,
       "score": 0.0,
       "status": "material",
@@ -675,6 +577,13 @@
       "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
     },
     {
+      "source": "Exame",
+      "count": 2,
+      "score": 0.0,
+      "status": "material",
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
+    },
+    {
       "source": "Reuters",
       "count": 1,
       "score": 0.0,
@@ -683,13 +592,6 @@
     },
     {
       "source": "Bloomberg Línea Brasil",
-      "count": 1,
-      "score": 0.0,
-      "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
-      "source": "Financial Times",
       "count": 1,
       "score": 0.0,
       "status": "material",
@@ -720,12 +622,12 @@
     {
       "name": "Noticiário dinâmico",
       "score": 3.0,
-      "detail": "28 notícia(s) material(is), 19 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "detail": "28 notícia(s) material(is), 16 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
-      "title": "Dollar steadies after five-day rally, NZ dollar at lowest since 2020",
+      "title": "Dollar lower after mixed US data, stays near April 2025 high",
       "source": "Reuters",
       "published": "16/11/2026 22:42",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0Z6TDRSbVp3QXhMLUlLR3Vaam5aam1wVW9LV2tGSmJPZVFaU2dCNnhzVjJSY25lNWR3N1lmOFVPeno3UWpkamE2SDVxOVVfcUxUY0RxYTd5cm8wYzg0M1FVZTdrVXU2RXJzbXFmNElPb0ZqVVJ2WUxhS1B5WXVhRFFobUJPb2FaNzdsdlFkNmludUtnSXY3eUJoZ0J5UXFJdTlQUVhR?oc=5",
@@ -776,25 +678,23 @@
       "credibility": 0.88,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "Brasil — fiscal",
+      "theme": "Brasil — política / eleições",
       "factors": [
-        "Brasil — fiscal",
         "Brasil — política / eleições"
       ]
     },
     {
-      "title": "Alckmin diz que não há razão para alta do dólar; moeda americana foi a R$ 5,77 com incerteza sobre ajuste fiscal",
-      "source": "O GLOBO",
-      "published": "16/11/2026 18:43",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQUlhURnBpYVFKNWxQYlo2UWNwZDJDQTlSQ2FtOXdqcHNSb1ZLOW9KM3VRWGRLUXlRajAtSXU5RDlwR3kxLWItTUFESVZsZHdwVUJDYnY2b3gyVDdsdWt2VFFERFRSMTRqMHowNDNaRktuRk1VejRrRWxSVXZxeHRVYVpuM0djUjZVRWhtMU1BY2V6bkhVN1A4WGpMWmVBZUtFWHRScFVDeVZnMWFHeTlYeXlNSE9iMllEZjBVZjJXbkxpSnZDMnpRQXZOd190WTNPYzF2LVhkUmVnYWMyU0NEZjhXZy1SOGZEMTFtN3Zmc3Zubk9xbjgySU1ocDVNSGxpZzZiWkNWZVrSAZcCQVVfeXFMT1FJeGQzTEdYcnFQcGcxZ0E0aXV4NFJzU0ljZmljOVBBUU9wZFBYY2hyZ3RDWlpLc1Yzb1NMSGFoV1BvTkFXSnFGTkdyVnlmMFBIck9aU1Zpbk9CTjlBaGVCZ0RFWEpsNDM0U0ppaVVrTWJmZ1ZIQVlSVTFOTGl0RmE2YlFYUGtEeHF5X1VQRjlZcmlQb2psWnlxMjluOG9DY1VNLXlpWDV5X0VQd1EwMkc0LWh2N25xNktCUkpYVnhWQmFVWGVFNGk5WFdWdEZzSnhaOG5zTExxY0Y1YUFNbjByeVM3RXMzR1ZpNWpOOGZpZVpLZF9WSkZDSk5hbFB2N1dFUzktX0ZyNFZoOTkxa2dBd0R5RF9F?oc=5",
+      "title": "Até onde o dólar pode subir? Por que o real é a moeda que mais perdeu valor desde a reeleição de Lula",
+      "source": "Folha de S.Paulo",
+      "published": "17/11/2026 17:14",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxORy1fS3ZseFJxVlBpQXBuSEE5SjRsUUNBUkFSYnRVUEVxYmVSX3oxQlpBNnJjNktDQmZjeXh5SGZBTGctS092NWlZeDQtY042ZkhVWTVqOUhZaVFTTFA1M0hGb3RSb2VXVWxPQUhQSURVbDE1aVdwc01DdzNTTFlvZThFUFVEeXJ1RTFYLTF5Mll1cU5wd1hCUXdZd1p5Sk83OWR4SDBSdHVyWmZJaWpvN0piZktjU1JKdG8yZ1ZIVEtIVFMzdFMyd09WQ0RkSXBheVF4MjdJQ0c1eV9OeUpfMHV6NlZMNFE?oc=5",
       "relevance": "alta",
       "credibility": 0.88,
       "impact": "neutro",
       "horizon": "90d",
-      "theme": "Brasil — fiscal",
+      "theme": "Brasil — política / eleições",
       "factors": [
-        "Dólar global / DXY",
-        "Brasil — fiscal"
+        "Brasil — política / eleições"
       ]
     },
     {
@@ -846,6 +746,20 @@
       "source": "InfoMoney",
       "published": "13/11/2026 13:30",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWWktbTd4NEdtU3c3ZFUtMHRPYU5uc1laQWxZWlFnQnRZM0NfYWQ4U0ZxVjV1LW5OV0pIWWJMSGhTaWZmZFJWQUNmZ3o4aXhIYmdKUWplSzZ5Z1IwMWhqeVNQcWZxa29ZbE9NekxPWWh5U2xKd3BPVFVJZ203bWZVbUxDX1ZpOG0wU1pUcGlGbGE4VklESW5CbkJzbjRXSlRmLTdWaWRhZ3pCeGEwcWRsetIBtgFBVV95cUxQRXJhM2VRV3hvM2hxUXliWXhONUQzMW1uTE1RQUQxZ25zN0g5bG03bjkwbWVqODU4WTljdUFqamtsNk51TlJ0UFZBaFJVTTdzQ1Utc19iNGpMRzNmTVhMWFFmOERQNFRDSnRSOW5DRzFhR0hERjBHWGpVM01yLTE5MjVxTVpwUUpYTUtnbVM3Y3d2b0w2M0U4MDFSU21pQW94SUdHVE1iZEpZdFlSclE2b1QyV1hKQQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Brasil — fiscal",
+      "factors": [
+        "Brasil — fiscal"
+      ]
+    },
+    {
+      "title": "Ibovespa desidrata durante o dia mas fecha positivo; dólar sobe de novo",
+      "source": "InfoMoney",
+      "published": "17/11/2026 18:25",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONldBemI5aVFPLW5nRE50TzJoMVZQYlU3Tmh5Sm9ZV05Iajh0UWI0MXgxWUdBNWU3TlFjSDNtMW1lM2lNc2xNX3NSaXJCeVFaV2toQ3lpVEJxT3VTRjlielo5bkdUclFEZ3VKSHR4OEhISjhVdkV3RW16ZnJGdWZFVHdadkVEaTY5YU5POEtYMA?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "alta",
@@ -1001,6 +915,20 @@
       ]
     },
     {
+      "title": "Como planejar uma viagem ao exterior com o dólar a R$ 5,70?",
+      "source": "Exame",
+      "published": "17/11/2026 05:03",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOU3VsdGl5cVNjclNRSnpxLXhRTGl2c3dSeG1mcjl3cFpfVm15WEdXSVVlMldGY3dnQjJVTVVPbDZDVkFMLThjN2U4X3AyclpaWVNoRDRLTEx6Y2hoa2hBS2lITmVqT3doRGxRbWpqZURTel9lQVZzNV9LNGNBeVREMjRrck84M1dHNUlnSERNU2ZfZXVBclVUUjJuMU1pTjg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.78,
+      "impact": "neutro",
+      "horizon": "90d",
+      "theme": "Brasil — fiscal",
+      "factors": [
+        "Brasil — fiscal"
+      ]
+    },
+    {
       "title": "Dollar Strength, Rising Treasury Yields and Rate Hike Expectations Push Gold to a One-Year Low as Markets Await Fed Minutes",
       "source": "www.tmgm.com",
       "published": "17/11/2026 01:47",
@@ -1017,46 +945,13 @@
       ]
     },
     {
-      "title": "The Fed changes the game: The dollar finally wipes out Trump's tariff shock",
-      "source": "Cointribune",
-      "published": "17/11/2026 17:05",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTmdnN2RhTEViY3pYenpacVVEY210YXA5OW1ucnoyZTN2cGlFc3ZpbHRhSkFEQUhNOFp0b2l3MzVUOFctODlIeG94MDVnQ2JhTktnNldFY01hVjJyaUtVSnBOc2pTSkJXbmd4d1c1MzJrdVFXcm9HbHRVNDJIYWFudVlFZGRJQ2RY?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries",
-        "Geopolítica / comércio"
-      ]
-    },
-    {
-      "title": "US Dollar Index advances further as traders anticipate a longer Fed rate-hiking cycle",
+      "title": "One-Year Low for Gold: Dollar Strength, Rising Treasury Yields and Rate Hike Expectations Weigh Ahead of Fed Minutes",
       "source": "www.tmgm.com",
-      "published": "16/11/2026 13:01",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPdTBFRzVWTWs0Z0g1Z3ZuZDludUJLYWxHMkNwYjB1c1JNVjRIaUlUOW0xQVRBQlFMaXdBa2VJV0w2VUJiQVRuTmhMcFo3VF9ibHJUT3djcDczOWM0Mmt5SEVCZTNEaEVWU1o3NDFER1hMaG96SUdTaTA0OEdjTWUwMmtpLUE3OUQ2WUtvejR1SXNHNXBMLWp4RWVUcGZXNjhjblUteU95NWRJMU43Tk5aZVRVRHN3VUVPUWZfM2FLM0pnT1dObmJDWGZudlIyS1liVkZfeUctQkY5UQ?oc=5",
+      "published": "17/11/2026 01:11",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV01rWFh1aTJGUFNzTkREZ244RHpOZmRTX2ZCbEEwN2RsR2hpVTBJWlpuVVg3SHRyMGJHVUtQWHdxemYxMHhhQVFsN0xqQUZNTGlMRElrby1FQ3g4YTFzV3dqMmNlYVBFZTFDUmVySERaeVJkOTVzaUJMVWdDUmI0X1RTQQ?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Can the US Dollar Index Extend Its Rally as Traders Price In a Longer Fed Rate-Hike Cycle?",
-      "source": "www.tmgm.com",
-      "published": "16/11/2026 09:38",
-      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSW10NWpxY2E5SV9LRXFiY3dOZEVrTl9jUFZFdk0zUkZwRjdDMTJ1YTN6QkM5MllXTVRLa2p1bjExNEk0T3AtRFlzb0N0ZjZyVy10TjV0SmJqcTdOb3RSOVNsbC0zaW9GNTA0eEktejdKMVJQVVpfQzJWSC10WUxOSnphMzN0YzkzcVBmWEloZGtaVUZQSnN6dXlyWHFiNWlZYnR2TzBqRkFncGVIeTBZdlA5dEQyRThJdmFzY3NYcks1UnZjZEhXR24yRWExUU9MTHg3VFVyaXNZUQ?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
+      "impact": "alta",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
