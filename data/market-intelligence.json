@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T02:36:39.505358+00:00",
+  "generated_at": "2026-11-19T02:45:48.998220+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 7.0,
   "market_move": {
@@ -18,7 +18,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 5.48,
-        "evidence_count": 14,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -55,8 +55,8 @@
         ],
         "examples": [
           "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes"
+          "Stocks slip with Nvidia, dollar ticks higher",
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise"
         ],
         "horizon": "10d"
       },
@@ -123,13 +123,14 @@
           "Financial Times",
           "Investing.com Nigeria",
           "Markets.com",
+          "Reuters",
           "TradingView",
           "www.tmgm.com"
         ],
         "examples": [
+          "Stocks slip with Nvidia, dollar ticks higher",
           "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes",
-          "Gold Falls to a One-Year Low as Dollar Strength, Higher Treasury Yields and Rate Hike Expectations Weigh Ahead of Fed Minutes"
+          "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes"
         ],
         "horizon": "10d"
       },
@@ -189,7 +190,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 5.48,
-        "evidence_count": 14,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -226,8 +227,8 @@
         ],
         "examples": [
           "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes"
+          "Stocks slip with Nvidia, dollar ticks higher",
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise"
         ],
         "horizon": "10d"
       },
@@ -318,7 +319,7 @@
         "factor": "Fed / juros dos EUA",
         "impact": "alta",
         "score": 5.48,
-        "evidence_count": 14,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "Bloomberg Línea Brasil",
@@ -355,8 +356,8 @@
         ],
         "examples": [
           "Gold drops to 14-month low as dollar, yields rise on hawkish Fed rhetoric",
-          "US dollar rally erases ‘liberation day’ losses as rate expectations rise",
-          "U.S. Treasury yields retreat to near one-week lows ahead of Fed minutes"
+          "Stocks slip with Nvidia, dollar ticks higher",
+          "US dollar rally erases ‘liberation day’ losses as rate expectations rise"
         ],
         "horizon": "10d"
       },
@@ -419,7 +420,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 15,
-    "raw_news_results": 174,
+    "raw_news_results": 170,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -557,11 +558,11 @@
       "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "www.tmgm.com",
-      "count": 4,
-      "score": 0.0,
+      "source": "Reuters",
+      "count": 3,
+      "score": 2.94,
       "status": "material",
-      "summary": "4 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
       "source": "Estadão",
@@ -578,11 +579,11 @@
       "summary": "3 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "Reuters",
-      "count": 2,
-      "score": 2.94,
+      "source": "www.tmgm.com",
+      "count": 3,
+      "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Bloomberg Línea Brasil",
@@ -650,9 +651,24 @@
       ]
     },
     {
+      "title": "Stocks slip with Nvidia, dollar ticks higher",
+      "source": "Reuters",
+      "published": "17/11/2026 22:46",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6allzaTc1SU8zUmVIeXRZRkU2dE9reVo1MXBLSllnX0lsb1FmemdwR2RnNzZvQ0tqSzR6cTgzVHI2bGlYWWxxLTJWY3V4OXBrczR5OXF5ZkdNQnBfak1tYUs1NlVOQVVSLTdacXdnaEt0Y2VHVmM4NEN2WQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.98,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries"
+      ]
+    },
+    {
       "title": "Dollar lower after mixed US data, stays near April 2025 high",
       "source": "Reuters",
-      "published": "17/11/2026 15:45",
+      "published": "17/11/2026 16:23",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb0Z6TDRSbVp3QXhMLUlLR3Vaam5aam1wVW9LV2tGSmJPZVFaU2dCNnhzVjJSY25lNWR3N1lmOFVPeno3UWpkamE2SDVxOVVfcUxUY0RxYTd5cm8wYzg0M1FVZTdrVXU2RXJzbXFmNElPb0ZqVVJ2WUxhS1B5WXVhRFFobUJPb2FaNzdsdlFkNmludUtnSXY3eUJoZ0J5UXFJdTlQUVhR?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -958,22 +974,6 @@
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Dollar Strength, Rising Treasury Yields and Rate Hike Expectations Push Gold to a One-Year Low as Markets Await Fed Minutes",
-      "source": "www.tmgm.com",
-      "published": "17/11/2026 01:47",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMENreFJIOS1FVHd3QkNsOFU0bW5rbHkyR1NUbXlUd3JMUHpMUHNLSDg5aVRoUFlBQlBOY2F2S2ZSelkwemNaTUlJRWtnSkd2RVoySDlBaXY4cHpGamJRNGp3VXQzLUlqXzVxQ2plQTBoeF9kSWNIWUVPUXY0ZWF4YXV3?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "alta",
       "horizon": "10d",
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
