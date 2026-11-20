@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T02:21:37.455893+00:00",
+  "generated_at": "2026-11-20T02:32:52.604402+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
   "score10": 9.0,
   "market_move": {
@@ -499,7 +499,7 @@
   "collection_status": {
     "web_searches_total": 16,
     "web_searches_succeeded": 15,
-    "raw_news_results": 186,
+    "raw_news_results": 174,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
