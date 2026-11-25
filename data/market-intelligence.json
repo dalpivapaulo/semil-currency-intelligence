@@ -1,302 +1,161 @@
 {
-  "generated_at": "2026-11-25T04:32:06.300817+00:00",
+  "generated_at": "2026-11-25T21:45:16.106469+00:00",
   "method": "Motor determinístico SEMIL V6 — descoberta dinâmica na web + fontes oficiais + análise causal quantitativa + custo zero",
-  "score10": 6.14,
+  "score10": 8.0,
   "market_move": {
     "material": true,
-    "day_variation_pct": -1.9009177999597893,
-    "momentum_5_pct": 2.1788430674761106,
-    "momentum_10_pct": 6.2144126500562225,
+    "day_variation_pct": 0.43023235961960893,
+    "momentum_5_pct": 1.6836355464901365,
+    "momentum_10_pct": 5.345630372492849,
     "explanation_status": "material"
   },
   "market_explanation": {
     "status": "material",
-    "summary": "A leitura reuniu 29 evidência(s) em 24 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Fed / juros dos EUA, Fluxo / apetite a risco, Commodities / petróleo, Geopolítica / comércio. Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
-    "today_summary": "USD/BRL no último pregão: -1,90%; momento em 5 pregões: +2,18%. Pressões de baixa: Fed / juros dos EUA, Fluxo / apetite a risco. Pressões de alta: Dólar global / DXY, Treasuries.",
+    "summary": "A leitura reuniu 29 evidência(s) em 23 fonte(s) independente(s). Principais vetores de BAIXA do USD/BRL: Brasil — fiscal, Brasil — política / eleições, Commodities / petróleo. Principais vetores de ALTA/risco: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Dados econômicos dos EUA.",
+    "today_summary": "USD/BRL no último pregão: +0,43%; momento em 5 pregões: +1,68%. Pressões de alta: Dólar global / DXY, Treasuries, Fed / juros dos EUA.",
     "factors": [
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
+        "score": 4.68,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "BigGo Finance",
           "Dhaka Tribune",
           "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
           "Reuters",
+          "Serrari Group",
           "SpaceMoney",
           "The Dark Side Of The Boom",
-          "TradingKey",
           "TradingView",
-          "VT Markets",
           "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
           "Área VIP"
         ],
         "examples": [
           "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
+        "score": 4.68,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "BigGo Finance",
           "Dhaka Tribune",
           "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
           "Reuters",
+          "Serrari Group",
           "SpaceMoney",
           "The Dark Side Of The Boom",
-          "TradingKey",
           "TradingView",
-          "VT Markets",
           "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
           "Área VIP"
         ],
         "examples": [
           "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.6,
+        "impact": "alta",
+        "score": 1.3,
         "evidence_count": 13,
         "quantitative_count": 1,
         "sources": [
           "BigGo Finance",
           "Bloomberg.com",
-          "FXEmpire",
-          "FXStreet",
           "Federal Reserve",
           "InfoMoney",
-          "Investing.com India",
+          "Serrari Group",
           "The Dark Side Of The Boom",
-          "VT Markets",
+          "TradingView",
           "Yahoo Finance",
           "tmgm.com",
           "www.tmgm.com"
         ],
         "examples": [
           "NGN/USD: Nigeria Poised to Hold Rates in Close Call Ahead of Elections",
-          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte",
-          "Ibovespa tem terceira queda seguida; dólar fecha em leve baixa após bater R$ 6"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua",
+          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte"
         ],
         "horizon": "10d"
       },
       {
-        "factor": "BCB / Selic / Copom",
+        "factor": "Dados econômicos dos EUA",
         "impact": "alta",
-        "score": 0.58,
-        "evidence_count": 3,
+        "score": 1.16,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
           "Estadão",
           "Estadão Blue Studio",
-          "bra1.com.br"
+          "bra1.com.br",
+          "kalkine.com"
         ],
         "examples": [
           "Mercado eleva projeção para inflação e dólar e prevê PIB menor em 2026",
           "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
-          "Focus: Selic vai a 13% em 2027, dólar sobe e inflação pressiona o bolso"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Fluxo / apetite a risco",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Estrangeiros reforçam compras de dólar futuro e pressão sobre o real continua",
-          "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Dhaka Tribune",
-          "Tribuna do Paraná"
-        ],
-        "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Oil and the dollar: How energy shocks can reinforce USD dominance"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Geopolítica / comércio",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Tribuna do Paraná",
-          "tmgm.com"
-        ],
-        "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Gold struggles near weekly low as Fed bets and geopolitics support USD ahead of US PCE"
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand"
         ],
         "horizon": "90d"
       },
       {
         "factor": "Brasil — fiscal",
-        "impact": "neutro",
-        "score": 0.22,
-        "evidence_count": 7,
+        "impact": "baixa",
+        "score": -1.08,
+        "evidence_count": 9,
         "quantitative_count": 0,
         "sources": [
           "BigGo Finance",
           "Estadão",
-          "Investing.com",
+          "Folha PE",
+          "Impactto News",
+          "InfoMoney",
+          "Lavras24Horas",
           "SpaceMoney",
           "Tribuna do Paraná",
           "Área VIP"
         ],
         "examples": [
           "O dólar de Lula",
-          "Opinião | Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia?",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Dados econômicos dos EUA",
-        "impact": "neutro",
-        "score": 0.0,
-        "evidence_count": 6,
-        "quantitative_count": 0,
-        "sources": [
-          "Estadão",
-          "Estadão Blue Studio",
-          "TradingKey",
-          "bra1.com.br",
-          "tmgm.com",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Mercado eleva projeção para inflação e dólar e prevê PIB menor em 2026",
-          "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
-          "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
         ],
         "horizon": "90d"
-      }
-    ],
-    "future_drivers": [
-      {
-        "factor": "Dólar global / DXY",
-        "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
-        "quantitative_count": 0,
-        "sources": [
-          "BigGo Finance",
-          "Dhaka Tribune",
-          "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
-          "Reuters",
-          "SpaceMoney",
-          "The Dark Side Of The Boom",
-          "TradingKey",
-          "TradingView",
-          "VT Markets",
-          "Yahoo Finance",
-          "Área VIP"
-        ],
-        "examples": [
-          "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
-        ],
-        "horizon": "10d"
       },
       {
-        "factor": "Treasuries",
+        "factor": "Geopolítica / comércio",
         "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
+        "score": 0.66,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
-          "BigGo Finance",
-          "Dhaka Tribune",
-          "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
-          "Reuters",
-          "SpaceMoney",
-          "The Dark Side Of The Boom",
-          "TradingKey",
-          "TradingView",
-          "VT Markets",
-          "Yahoo Finance",
-          "Área VIP"
-        ],
-        "examples": [
-          "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.6,
-        "evidence_count": 13,
-        "quantitative_count": 1,
-        "sources": [
-          "BigGo Finance",
-          "Bloomberg.com",
-          "FXEmpire",
-          "FXStreet",
-          "Federal Reserve",
+          "Impactto News",
           "InfoMoney",
-          "Investing.com India",
-          "The Dark Side Of The Boom",
-          "VT Markets",
-          "Yahoo Finance",
-          "tmgm.com",
-          "www.tmgm.com"
+          "Tribuna do Paraná",
+          "kalkine.com"
         ],
         "examples": [
-          "NGN/USD: Nigeria Poised to Hold Rates in Close Call Ahead of Elections",
-          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte",
-          "Ibovespa tem terceira queda seguida; dólar fecha em leve baixa após bater R$ 6"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
@@ -317,50 +176,215 @@
         "horizon": "90d"
       },
       {
-        "factor": "Fluxo / apetite a risco",
+        "factor": "Brasil — política / eleições",
         "impact": "baixa",
         "score": -0.58,
-        "evidence_count": 2,
+        "evidence_count": 1,
         "quantitative_count": 0,
         "sources": [
-          "InfoMoney",
-          "www.tmgm.com"
+          "Lavras24Horas"
         ],
         "examples": [
-          "Estrangeiros reforçam compras de dólar futuro e pressão sobre o real continua",
-          "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data"
+          "Dólar cai pelo segundo pregão seguido após ajuste fiscal, mas segue acima do período eleitoral"
         ],
-        "horizon": "10d"
+        "horizon": "90d"
       },
       {
         "factor": "Commodities / petróleo",
         "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
+        "score": -0.5,
+        "evidence_count": 5,
         "quantitative_count": 0,
         "sources": [
           "Dhaka Tribune",
+          "Folha PE",
+          "Impactto News",
+          "InfoMoney",
           "Tribuna do Paraná"
         ],
         "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Oil and the dollar: How energy shocks can reinforce USD dominance"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras",
+          "Dólar recua para R$ 5,91 após sanção do pacote fiscal"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Fluxo / apetite a risco",
+        "impact": "neutro",
+        "score": 0.0,
+        "evidence_count": 2,
+        "quantitative_count": 0,
+        "sources": [
+          "InfoMoney",
+          "tmgm.com"
+        ],
+        "examples": [
+          "Estrangeiros reforçam compras de dólar futuro e pressão sobre o real continua",
+          "Australian Dollar rebounds despite hawkish Fed outlook and weak risk appetite"
+        ],
+        "horizon": "10d"
+      }
+    ],
+    "future_drivers": [
+      {
+        "factor": "Dólar global / DXY",
+        "impact": "alta",
+        "score": 4.68,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "BigGo Finance",
+          "Dhaka Tribune",
+          "Exame",
+          "Reuters",
+          "Serrari Group",
+          "SpaceMoney",
+          "The Dark Side Of The Boom",
+          "TradingView",
+          "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
+          "Área VIP"
+        ],
+        "examples": [
+          "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Treasuries",
+        "impact": "alta",
+        "score": 4.68,
+        "evidence_count": 13,
+        "quantitative_count": 0,
+        "sources": [
+          "BigGo Finance",
+          "Dhaka Tribune",
+          "Exame",
+          "Reuters",
+          "Serrari Group",
+          "SpaceMoney",
+          "The Dark Side Of The Boom",
+          "TradingView",
+          "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
+          "Área VIP"
+        ],
+        "examples": [
+          "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Fed / juros dos EUA",
+        "impact": "alta",
+        "score": 1.3,
+        "evidence_count": 13,
+        "quantitative_count": 1,
+        "sources": [
+          "BigGo Finance",
+          "Bloomberg.com",
+          "Federal Reserve",
+          "InfoMoney",
+          "Serrari Group",
+          "The Dark Side Of The Boom",
+          "TradingView",
+          "Yahoo Finance",
+          "tmgm.com",
+          "www.tmgm.com"
+        ],
+        "examples": [
+          "NGN/USD: Nigeria Poised to Hold Rates in Close Call Ahead of Elections",
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua",
+          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte"
+        ],
+        "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 1.16,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Estadão Blue Studio",
+          "bra1.com.br",
+          "kalkine.com"
+        ],
+        "examples": [
+          "Mercado eleva projeção para inflação e dólar e prevê PIB menor em 2026",
+          "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "baixa",
+        "score": -1.08,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "BigGo Finance",
+          "Estadão",
+          "Folha PE",
+          "Impactto News",
+          "InfoMoney",
+          "Lavras24Horas",
+          "SpaceMoney",
+          "Tribuna do Paraná",
+          "Área VIP"
+        ],
+        "examples": [
+          "O dólar de Lula",
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
         ],
         "horizon": "90d"
       },
       {
         "factor": "Geopolítica / comércio",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
+        "impact": "alta",
+        "score": 0.66,
+        "evidence_count": 4,
         "quantitative_count": 0,
         "sources": [
+          "Impactto News",
+          "InfoMoney",
           "Tribuna do Paraná",
-          "tmgm.com"
+          "kalkine.com"
         ],
         "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Gold struggles near weekly low as Fed bets and geopolitics support USD ahead of US PCE"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "BCB / Selic / Copom",
+        "impact": "alta",
+        "score": 0.58,
+        "evidence_count": 3,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Estadão Blue Studio",
+          "bra1.com.br"
+        ],
+        "examples": [
+          "Mercado eleva projeção para inflação e dólar e prevê PIB menor em 2026",
+          "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
+          "Focus: Selic vai a 13% em 2027, dólar sobe e inflação pressiona o bolso"
         ],
         "horizon": "90d"
       }
@@ -369,7 +393,7 @@
   "outlook10": {
     "bias": "ALTA FORTE",
     "confidence": 82,
-    "summary": "Score técnico consolidado: +6.1. PTAX: último pregão -1,90%; 5 pregões +2,18%; 10 pregões +6,21%. USD/BRL no último pregão: -1,90%; momento em 5 pregões: +2,18%. Pressões de baixa: Fed / juros dos EUA, Fluxo / apetite a risco. Pressões de alta: Dólar global / DXY, Treasuries. Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, Fluxo / apetite a risco, Commodities / petróleo, Geopolítica / comércio. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
+    "summary": "Score técnico consolidado: +8.0. PTAX: último pregão +0,43%; 5 pregões +1,68%; 10 pregões +5,35%. USD/BRL no último pregão: +0,43%; momento em 5 pregões: +1,68%. Pressões de alta: Dólar global / DXY, Treasuries, Fed / juros dos EUA. Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Dados econômicos dos EUA.",
     "sources": [
       "Banco Central do Brasil — PTAX",
       "Federal Reserve",
@@ -378,116 +402,171 @@
       "Estadão",
       "Estadão Blue Studio",
       "InfoMoney",
-      "Investing.com India",
-      "Investing.com",
       "Exame",
       "Yahoo Finance",
       "www.tmgm.com",
+      "kalkine.com",
+      "Impactto News",
       "Tribuna do Paraná",
+      "tmgm.com",
       "The Dark Side Of The Boom",
-      "TradingKey",
+      "TradingView",
       "Dhaka Tribune",
       "BigGo Finance",
-      "FXStreet",
-      "FXEmpire",
-      "VT Markets",
-      "tmgm.com",
+      "Serrari Group",
       "SpaceMoney",
       "Área VIP",
-      "TradingView",
-      "bra1.com.br"
+      "Folha PE",
+      "bra1.com.br",
+      "Lavras24Horas"
     ]
   },
   "future_outlook": {
     "horizon": "10 a 90 dias",
-    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Fed / juros dos EUA, Fluxo / apetite a risco, Commodities / petróleo, Geopolítica / comércio. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, BCB / Selic / Copom.",
+    "summary": "Fatores que podem pressionar o USD/BRL para BAIXO: Brasil — fiscal. Fatores que podem pressionar o USD/BRL para CIMA: Dólar global / DXY, Treasuries, Fed / juros dos EUA, Dados econômicos dos EUA.",
     "drivers": [
       {
         "factor": "Dólar global / DXY",
         "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
+        "score": 4.68,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "BigGo Finance",
           "Dhaka Tribune",
           "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
           "Reuters",
+          "Serrari Group",
           "SpaceMoney",
           "The Dark Side Of The Boom",
-          "TradingKey",
           "TradingView",
-          "VT Markets",
           "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
           "Área VIP"
         ],
         "examples": [
           "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Treasuries",
         "impact": "alta",
-        "score": 2.72,
-        "evidence_count": 16,
+        "score": 4.68,
+        "evidence_count": 13,
         "quantitative_count": 0,
         "sources": [
           "BigGo Finance",
           "Dhaka Tribune",
           "Exame",
-          "FXEmpire",
-          "FXStreet",
-          "Investing.com",
-          "Investing.com India",
           "Reuters",
+          "Serrari Group",
           "SpaceMoney",
           "The Dark Side Of The Boom",
-          "TradingKey",
           "TradingView",
-          "VT Markets",
           "Yahoo Finance",
+          "kalkine.com",
+          "tmgm.com",
+          "www.tmgm.com",
           "Área VIP"
         ],
         "examples": [
           "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
-          "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-          "Brazilian real stays weak despite global risk rebound, fiscal worries weigh"
+          "Por que juro alto já não basta para atrair o dinheiro global, segundo o JP Morgan",
+          "Dollar jumps on hawkish Fed bets, AI rally"
         ],
         "horizon": "10d"
       },
       {
         "factor": "Fed / juros dos EUA",
-        "impact": "baixa",
-        "score": -0.6,
+        "impact": "alta",
+        "score": 1.3,
         "evidence_count": 13,
         "quantitative_count": 1,
         "sources": [
           "BigGo Finance",
           "Bloomberg.com",
-          "FXEmpire",
-          "FXStreet",
           "Federal Reserve",
           "InfoMoney",
-          "Investing.com India",
+          "Serrari Group",
           "The Dark Side Of The Boom",
-          "VT Markets",
+          "TradingView",
           "Yahoo Finance",
           "tmgm.com",
           "www.tmgm.com"
         ],
         "examples": [
           "NGN/USD: Nigeria Poised to Hold Rates in Close Call Ahead of Elections",
-          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte",
-          "Ibovespa tem terceira queda seguida; dólar fecha em leve baixa após bater R$ 6"
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua",
+          "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte"
         ],
         "horizon": "10d"
+      },
+      {
+        "factor": "Dados econômicos dos EUA",
+        "impact": "alta",
+        "score": 1.16,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Estadão",
+          "Estadão Blue Studio",
+          "bra1.com.br",
+          "kalkine.com"
+        ],
+        "examples": [
+          "Mercado eleva projeção para inflação e dólar e prevê PIB menor em 2026",
+          "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Brasil — fiscal",
+        "impact": "baixa",
+        "score": -1.08,
+        "evidence_count": 9,
+        "quantitative_count": 0,
+        "sources": [
+          "BigGo Finance",
+          "Estadão",
+          "Folha PE",
+          "Impactto News",
+          "InfoMoney",
+          "Lavras24Horas",
+          "SpaceMoney",
+          "Tribuna do Paraná",
+          "Área VIP"
+        ],
+        "examples": [
+          "O dólar de Lula",
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
+        ],
+        "horizon": "90d"
+      },
+      {
+        "factor": "Geopolítica / comércio",
+        "impact": "alta",
+        "score": 0.66,
+        "evidence_count": 4,
+        "quantitative_count": 0,
+        "sources": [
+          "Impactto News",
+          "InfoMoney",
+          "Tribuna do Paraná",
+          "kalkine.com"
+        ],
+        "examples": [
+          "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+          "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand",
+          "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras"
+        ],
+        "horizon": "90d"
       },
       {
         "factor": "BCB / Selic / Copom",
@@ -506,62 +585,14 @@
           "Focus: Selic vai a 13% em 2027, dólar sobe e inflação pressiona o bolso"
         ],
         "horizon": "90d"
-      },
-      {
-        "factor": "Fluxo / apetite a risco",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "InfoMoney",
-          "www.tmgm.com"
-        ],
-        "examples": [
-          "Estrangeiros reforçam compras de dólar futuro e pressão sobre o real continua",
-          "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data"
-        ],
-        "horizon": "10d"
-      },
-      {
-        "factor": "Commodities / petróleo",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Dhaka Tribune",
-          "Tribuna do Paraná"
-        ],
-        "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Oil and the dollar: How energy shocks can reinforce USD dominance"
-        ],
-        "horizon": "90d"
-      },
-      {
-        "factor": "Geopolítica / comércio",
-        "impact": "baixa",
-        "score": -0.58,
-        "evidence_count": 2,
-        "quantitative_count": 0,
-        "sources": [
-          "Tribuna do Paraná",
-          "tmgm.com"
-        ],
-        "examples": [
-          "Dólar recua para R$ 5,91 após sanção do pacote fiscal",
-          "Gold struggles near weekly low as Fed bets and geopolitics support USD ahead of US PCE"
-        ],
-        "horizon": "90d"
       }
     ],
     "confidence": 82
   },
   "collection_status": {
     "web_searches_total": 16,
-    "web_searches_succeeded": 14,
-    "raw_news_results": 190,
+    "web_searches_succeeded": 15,
+    "raw_news_results": 193,
     "material_news_results": 28,
     "dynamic_sources_used": [
       "Reuters",
@@ -569,24 +600,23 @@
       "Estadão",
       "Estadão Blue Studio",
       "InfoMoney",
-      "Investing.com India",
-      "Investing.com",
       "Exame",
       "Yahoo Finance",
       "www.tmgm.com",
+      "kalkine.com",
+      "Impactto News",
       "Tribuna do Paraná",
+      "tmgm.com",
       "The Dark Side Of The Boom",
-      "TradingKey",
+      "TradingView",
       "Dhaka Tribune",
       "BigGo Finance",
-      "FXStreet",
-      "FXEmpire",
-      "VT Markets",
-      "tmgm.com",
+      "Serrari Group",
       "SpaceMoney",
       "Área VIP",
-      "TradingView",
-      "bra1.com.br"
+      "Folha PE",
+      "bra1.com.br",
+      "Lavras24Horas"
     ],
     "fallback_used": false,
     "quantitative_coverage": 1,
@@ -615,12 +645,6 @@
       "name": "InfoMoney"
     },
     {
-      "name": "Investing.com India"
-    },
-    {
-      "name": "Investing.com"
-    },
-    {
       "name": "Exame"
     },
     {
@@ -630,13 +654,22 @@
       "name": "www.tmgm.com"
     },
     {
+      "name": "kalkine.com"
+    },
+    {
+      "name": "Impactto News"
+    },
+    {
       "name": "Tribuna do Paraná"
+    },
+    {
+      "name": "tmgm.com"
     },
     {
       "name": "The Dark Side Of The Boom"
     },
     {
-      "name": "TradingKey"
+      "name": "TradingView"
     },
     {
       "name": "Dhaka Tribune"
@@ -645,16 +678,7 @@
       "name": "BigGo Finance"
     },
     {
-      "name": "FXStreet"
-    },
-    {
-      "name": "FXEmpire"
-    },
-    {
-      "name": "VT Markets"
-    },
-    {
-      "name": "tmgm.com"
+      "name": "Serrari Group"
     },
     {
       "name": "SpaceMoney"
@@ -663,10 +687,13 @@
       "name": "Área VIP"
     },
     {
-      "name": "TradingView"
+      "name": "Folha PE"
     },
     {
       "name": "bra1.com.br"
+    },
+    {
+      "name": "Lavras24Horas"
     }
   ],
   "sources_checked": [
@@ -692,12 +719,6 @@
       "name": "InfoMoney"
     },
     {
-      "name": "Investing.com India"
-    },
-    {
-      "name": "Investing.com"
-    },
-    {
       "name": "Exame"
     },
     {
@@ -707,13 +728,22 @@
       "name": "www.tmgm.com"
     },
     {
+      "name": "kalkine.com"
+    },
+    {
+      "name": "Impactto News"
+    },
+    {
       "name": "Tribuna do Paraná"
+    },
+    {
+      "name": "tmgm.com"
     },
     {
       "name": "The Dark Side Of The Boom"
     },
     {
-      "name": "TradingKey"
+      "name": "TradingView"
     },
     {
       "name": "Dhaka Tribune"
@@ -722,16 +752,7 @@
       "name": "BigGo Finance"
     },
     {
-      "name": "FXStreet"
-    },
-    {
-      "name": "FXEmpire"
-    },
-    {
-      "name": "VT Markets"
-    },
-    {
-      "name": "tmgm.com"
+      "name": "Serrari Group"
     },
     {
       "name": "SpaceMoney"
@@ -740,33 +761,29 @@
       "name": "Área VIP"
     },
     {
-      "name": "TradingView"
+      "name": "Folha PE"
     },
     {
       "name": "bra1.com.br"
+    },
+    {
+      "name": "Lavras24Horas"
     }
   ],
   "source_analysis": [
     {
-      "source": "Estadão",
-      "count": 3,
-      "score": 0.0,
-      "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
-    },
-    {
       "source": "InfoMoney",
-      "count": 3,
-      "score": 0.0,
+      "count": 6,
+      "score": 0.38,
       "status": "material",
-      "summary": "3 evidência(s) aproveitada(s); impacto predominante: misto."
+      "summary": "6 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     },
     {
-      "source": "VT Markets",
+      "source": "Estadão",
       "count": 2,
-      "score": -1.74,
+      "score": 0.0,
       "status": "material",
-      "summary": "2 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "2 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
       "source": "Reuters",
@@ -790,16 +807,23 @@
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Investing.com India",
+      "source": "Exame",
       "count": 1,
-      "score": -1.6,
+      "score": 0.0,
       "status": "material",
-      "summary": "1 evidência(s) aproveitada(s); impacto predominante: baixa do USD/BRL."
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: misto."
     },
     {
-      "source": "Investing.com",
+      "source": "Yahoo Finance",
       "count": 1,
-      "score": 0.8,
+      "score": 0.58,
+      "status": "material",
+      "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
+    },
+    {
+      "source": "www.tmgm.com",
+      "count": 1,
+      "score": 0.58,
       "status": "material",
       "summary": "1 evidência(s) aproveitada(s); impacto predominante: alta do USD/BRL."
     }
@@ -817,8 +841,8 @@
   "signals": [
     {
       "name": "Momento da PTAX",
-      "score": 3,
-      "detail": "5 pregões +2,18%; 10 pregões +6,21%; último pregão -1,90%."
+      "score": 4,
+      "detail": "5 pregões +1,68%; 10 pregões +5,35%; último pregão +0,43%."
     },
     {
       "name": "Sinalização do Federal Reserve",
@@ -827,15 +851,15 @@
     },
     {
       "name": "Noticiário dinâmico",
-      "score": 2.14,
-      "detail": "28 notícia(s) material(is), 23 fonte(s) aproveitada(s), 14/16 busca(s) com retorno."
+      "score": 3.0,
+      "detail": "28 notícia(s) material(is), 22 fonte(s) aproveitada(s), 15/16 busca(s) com retorno."
     }
   ],
   "news": [
     {
       "title": "Wall Street soars on Huang's return to Nvidia, Treasury yields rise",
       "source": "Reuters",
-      "published": "22/11/2026 20:44",
+      "published": "23/11/2026 19:05",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2c4ZVNmcHBzVFctOTBkRUd2d0VHTklseUhCcEtZT2VHbU1WbWprMUk2aDZSQ2tkZHNYVE9EWUgyaEkxeWtyN0M2V2NzR2ZCTHFmMEhvbHFDeExTNUdTeDF3WkxJZ2RSdmZ2cHBxWlFjTXdoa1hXdlZQRWtyTFFKVlJjMA?oc=5",
       "relevance": "alta",
       "credibility": 0.98,
@@ -891,20 +915,6 @@
       ]
     },
     {
-      "title": "Opinião | Nem US$ 1 bilhão do BC conteve a alta do dólar; o que isso revela sobre a economia?",
-      "source": "Estadão",
-      "published": "20/11/2026 17:52",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPVUp6aVRIck9WM0t5VjZERk0wNnVQZVU2UzFBZXVWSFBZdVVNY1JQQ3FzbXEwVk8wcXZsUXFSQUV5bGczX2Y0N2hsdmg1TnVFWjZvejN3RW81N2R0NlFSczJMZVpjSTBEUmY5Skd6c1BwU2VzS3ZkMWx5X216bHpTcFpVVnBkVWRrZjRwOUdJeENmY0duR20yazNnUmpSTjJQTGJ1ZjVtMXJVVzZEWFUxaVlGeEx6UEpxdWdYM0QyVXNYZ1hLUGFz?oc=5",
-      "relevance": "alta",
-      "credibility": 0.88,
-      "impact": "neutro",
-      "horizon": "90d",
-      "theme": "Brasil — fiscal",
-      "factors": [
-        "Brasil — fiscal"
-      ]
-    },
-    {
       "title": "Agência de Comunicação - Juros e inflação: como eles afetam as decisões de quem aplica",
       "source": "Estadão Blue Studio",
       "published": "22/11/2026 10:10",
@@ -920,10 +930,38 @@
       ]
     },
     {
+      "title": "Ibovespa Hoje Ao Vivo: Bolsa sobe mais de 1% e retoma os 166 mil; dólar recua",
+      "source": "InfoMoney",
+      "published": "25/11/2026 15:35",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ1RjWkZvaVEzX2VESmpsSHN4bFBBUEU3RFNWYzhIcGRXcU42YkFXbGRKYUM1MVVBeTVwdVJwNGRZb2V0Yl9VdXYzbVNCZ3JuelVVcThUSkpia3ItRFpnbHotV0JBNlR0TVBxRHZJTkFNcm9qazZ0SHpESFZNNHBkRnAyWlJMSDlJR1lmQnBYOA?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "baixa",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA"
+      ]
+    },
+    {
       "title": "Morgan Stanley vê dólar a R$ 5,25 em 2027 e aposta em real mais forte",
       "source": "InfoMoney",
       "published": "24/11/2026 14:21",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcGhBNUk4Y2lqMUoxWDR5WUVnR0FLUHY0NDJpMkpjSGRfSEx5dEdyWVpKSmxDdTE4Ui1obnBkeHNfSFh0dEM2MmxKS2RRT1ppaS1NbHlVV2owUnFzbWt3c0R0d3pVc0tGRG5HcnRfOUJ6a3FVcDhrZlo3Q0J0eTdhQU1zNnU4LTlsVFVOalRuTXAtNVVQdjczLXVsOUtlWG9sLV9CWkt5SE82d9IBrwFBVV95cUxOM094d3V6dGxiQlFXWnEwY1RnQVJqUnFhX2p6Zm5rZlJiYVNpc2FpWHVWcXcwa1MzemUxejdGbllSREtqbHRXMnM0ZmZWT0tlVzlVZjJXQ2pQdHFZOVJpRVJiREJkWlk2d1JiVGdHN1RfTVF3UmdmdEN1d1VEOWVjelF1Q0NsZVppa3FRLThubXpIZTExV09OeDlJQl8zR1dWN3Q2S19HaUtaOHBvTmlz?oc=5",
+      "relevance": "alta",
+      "credibility": 0.86,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Fed / juros dos EUA",
+      "factors": [
+        "Fed / juros dos EUA"
+      ]
+    },
+    {
+      "title": "BC tem US$ 363 bilhões em reservas: por que isso não basta para segurar o dólar?",
+      "source": "InfoMoney",
+      "published": "24/11/2026 07:00",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbk1raWk3dzNUWV96MmI4UzFRX18yUVZBSWktR0FFUGExb1hsSG9oeEEwcGgxZ1hlY1BubU9NVWV6bGZLa1hkeFdTeHAyUDdmdmpwaTVYbWxsMDVfOHhsTzJIWDFHN3lPV2ttNnhKZEZJUmNQZzhRTjhtZ1JiMzlqY2VXZ1lQZ9IBiwFBVV95cUxQeGhoakxfakJXQzRfZVR3NGpydmtTVDF3TFR1Y1cxaER6UktYQVpZMHIzYS1ZQ2dsOGxTa1loVW1nZDBZUUlEVDdOV2pIVm1ENTFWb1ZVZWpTdk9XQll5dHhxSEJXQUVySkhTODlLRW8tdUZwNHJHSW1OMUVaYVJqN1NnT0Vwb3h2ZFhj?oc=5",
       "relevance": "alta",
       "credibility": 0.86,
       "impact": "neutro",
@@ -948,6 +986,22 @@
       ]
     },
     {
+      "title": "Ibovespa Hoje Ao Vivo: Bolsa sobe com fiscal no radar; tarifas pressionam EMBJ3",
+      "source": "InfoMoney",
+      "published": "25/11/2026 12:16",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQ1RjWkZvaVEzX2VESmpsSHN4bFBBUEU3RFNWYzhIcGRXcU42YkFXbGRKYUM1MVVBeTVwdVJwNGRZb2V0Yl9VdXYzbVNCZ3JuelVVcThUSkpia3ItRFpnbHotV0JBNlR0TVBxRHZJTkFNcm9qazZ0SHpESFZNNHBkRnAyWlJMSDlJR1lmQnBYOA?oc=5",
+      "relevance": "média",
+      "credibility": 0.86,
+      "impact": "alta",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
+      "factors": [
+        "Brasil — fiscal",
+        "Commodities / petróleo",
+        "Geopolítica / comércio"
+      ]
+    },
+    {
       "title": "Estrangeiros reforçam compras de dólar futuro e pressão sobre o real continua",
       "source": "InfoMoney",
       "published": "23/11/2026 05:15",
@@ -959,38 +1013,6 @@
       "theme": "Fluxo / apetite a risco",
       "factors": [
         "Fluxo / apetite a risco"
-      ]
-    },
-    {
-      "title": "Gold Falls as Hawkish Fed Expectations Lift the Dollar and U.S. Treasury Yields By Kedia Advisory",
-      "source": "Investing.com India",
-      "published": "23/11/2026 01:49",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOU1wRTNsRDRsX3NBMDlxWkhuZXp1UWdsNmQtb3ZNYWNicUZJcW1nbVZhNnJZN1ZnRmk3Y00zVGpfLU1NbXJ4TmdZNVBXV1AyMFdKU185ZWsyaDlld052OERTS3FsZDNFSGFEeng0Z1pMaUQ1YzZVd01ON25acVVTcHY3am1ZRVplemZFYUFaWjhqY3IycUJIZ0FnbnhMRFAtcmliOW1lZTZsd2JYczBEcng1eHQ1X2FmMlNDN3FiRzhsNkFaUDdvcUJray0?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Brazilian real stays weak despite global risk rebound, fiscal worries weigh",
-      "source": "Investing.com",
-      "published": "23/11/2026 14:37",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN0RUOENoZ0VrYktrRE0yVHYzQ1pYLVk5TFFXR1FsNUxRaF9jX09yMEY4THhfWUF5NE00WERvNEw5TjdKaElzdjJnUUJUM2xlaWxWaTVxbVNuaVRQRXpTU0dYVG1kQWlSclpXUGVoZ2tGcU0xYlNUemJWS1Y1YjliOHlicDhocGZQdEd6VEZ3SGhhRUhkejAzLS1GcHAxNUxvT1BaLVlRY251a1FYUmJDXzRTVUJldmdyZUhfUTVVS0I4ZWl6MDZZYw?oc=5",
-      "relevance": "alta",
-      "credibility": 0.8,
-      "impact": "alta",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Treasuries",
-        "Brasil — fiscal"
       ]
     },
     {
@@ -1025,19 +1047,52 @@
       ]
     },
     {
-      "title": "Australian Dollar gathers strength above 0.6600 on risk-on mood, traders brace for US PCE data",
+      "title": "Gold falls as Fed rate hike bets outweigh weaker US Dollar",
       "source": "www.tmgm.com",
-      "published": "24/11/2026 04:58",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxObHMwRmlMR1g5VUF0Nm83Z29zRzhKTUdXS2JYcVhDVUFlbDdBYkM1eW10a0lOeGhmQ3dYT01WMmNGT1lCcU9Ca09Ybjh5NkZMZkFKUWFuclpRNEtjMml1S2lCd0NHQ2RSWVRFZEVHc2FLdjJVZFY2YU1pdEpSWGhkWWloVk90YjhGQXB5c3JzdTVITFFJdF8tdVVjMDlqeHlDc0dJejJLWS1LMjJmcVlEVm5wUTI3cWMtWHczbUVaSVZLUEVfamhpRnJTMmhoWFBseHo0MEg2QkVaV2lzZ2o4NGpEcDNiZ1hvcExUQ21OVDR1WUE?oc=5",
+      "published": "24/11/2026 15:27",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTW5QRTZsY2luMGpCN0xtWVMwd0p6b2xqeFN3cDVfVVBhTV82QlZweEZaLXk1d212WEp6Q1ZROTZRcFlVVHRuY2cwd2tGZkRTdG1wTEZHdFN2WVhmdlpYZzRUd1VMWjBQYzZDREVLTG0xLUhVV2RXalRfRU9YTDNsSjB3emkxVVVRWUkzQ0l4ZXFXTGhmVWN6bjhpVXVGdWcycmFCRGlGd0d6VU51WG9KbllJY1otOG92akxIVm5sc0o0bFpmaXpmMFVSUQ?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries"
+      ]
+    },
+    {
+      "title": "US Dollar Index Strengthens Toward 104 as Equity Selloff, New Tariffs and Hot Inflation Lift Safe-Haven Demand",
+      "source": "kalkine.com",
+      "published": "25/11/2026 11:51",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNTmJrdi14eExrNWJxbklRZGMxa2wxeDE5S2twcjVneENkT1JrZk02aDVGcVFXOUdqOXdfVlVOdVFjbzYwMG9FLUttcExkTF91MDRRV2o5bU16NTRYTk9zZy1tSWNVakJyeHhoUGZvVU8tS05FdUZpbnYtTlA3U1N4RmU3UUJDSzRRbUhNRWV4bHJySm5fdTFwOVY2c3JiMEtZeTdjXzFWOUsxc3lvRXZoSkZLWlZ1dWNlMTI2c1JsR1Y0Z204RjF1bFdnbkhOS2lQajIxZUxZWUl0SXd0WnRqRw?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "alta",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Treasuries",
+        "Dados econômicos dos EUA",
+        "Geopolítica / comércio"
+      ]
+    },
+    {
+      "title": "Dólar recua 0,26% e fecha a R$ 5,91 após sanção do ajuste fiscal; Ibovespa cai 0,43%, puxado por Vale e Petrobras",
+      "source": "Impactto News",
+      "published": "25/11/2026 09:42",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPdzI1V3Fjajg3a0I3NjFsYzZIOTZVazdjbEM0enM0ZDk0cEg3alRIcHhIZGxKTE9iaW1ldUtxRUIwenZzMXFIWFRJVTFqSlQxbEhrYWt2NHZla3Y0ZUlYT25oYXpWRks0ek9MeVdZTkwzMGlUMmo2SGlLNC1xYXJlUENxSE05blVfcy1lM0JSRGRGb3FpSklOdmtQMHJSU25HWVRCWk5uVEVWUEE2alhSQkRrWVNBM0dYZXQ2X0hhSzhBYjQyNUg0NWhpaG12RnpvY1NkdDllS1JOUmEzSWtCZlpoOTIyaGs?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "baixa",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
+      "horizon": "90d",
+      "theme": "Commodities / China / petróleo",
       "factors": [
-        "Fed / juros dos EUA",
-        "Dados econômicos dos EUA",
-        "Fluxo / apetite a risco"
+        "Brasil — fiscal",
+        "Commodities / petróleo",
+        "Geopolítica / comércio"
       ]
     },
     {
@@ -1057,6 +1112,23 @@
       ]
     },
     {
+      "title": "Australian Dollar rebounds despite hawkish Fed outlook and weak risk appetite",
+      "source": "tmgm.com",
+      "published": "25/11/2026 15:53",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN2J5TDJWRUttVllFdm9RRXVCSDRIeEhLdE0zV3FWU1BjR19SYmdCLXhRajAwbFc4Yy0tM1ZSLWFYUzlMeWRuVlRRd1FUekRkWDFGNkJKLW9SX1BnaDE4SzRUcmx1QkRkNnlLU01qbjFKeG5malgwQlIxdHp6Ym14RFd2bzBPd0NVNU5qWmIyYmZkcGVjMzhneGcyVkJWZGFzZFlnamtQOUxEMzhaTWhraFVYSDQ0eHRjV0NlVEdpVlJQSWVVeE9wOW96NEJaZW9sUjJqdnI2Mms0Ujg?oc=5",
+      "relevance": "alta",
+      "credibility": 0.58,
+      "impact": "neutro",
+      "horizon": "10d",
+      "theme": "Dólar global / DXY / Treasuries",
+      "factors": [
+        "Dólar global / DXY",
+        "Fed / juros dos EUA",
+        "Treasuries",
+        "Fluxo / apetite a risco"
+      ]
+    },
+    {
       "title": "FX Daily: The Dollar Holds the High Ground as Markets Play Chicken With the Fed",
       "source": "The Dark Side Of The Boom",
       "published": "23/11/2026 08:03",
@@ -1073,10 +1145,10 @@
       ]
     },
     {
-      "title": "US October CPI Preview: Inflation Growth May Slow, How Will US Stocks, Dollar and Gold React?",
-      "source": "TradingKey",
-      "published": "24/11/2026 19:23",
-      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOTnBnTU9ZdVZuNFpZLXZONDUxNFpVZFVKU2Z4OEU2d2lYaXlBcTdCTFpjTWo5UUhRSmdRU0dpekdLd3c4NzE3QkRCWnBGaXFpUnNpWnAyQXJjbE56THJFN3piX0dOc1dMNTE0UFlvUTYxdXE3YnAzYjJVYmxNYUw4OGZmSDh3Y3RwZXBpTTFYaU40VTg0TENxRTY0a1VFeFR1Tk1zcHNocVJENkdneDMtVVp6aEVhOXc5Q29uV2RlZmZJMjUzckhYTTVld2JoMEpEWWZPRVhvR0d0bWJWV1ZnMnVibw?oc=5",
+      "title": "What Is the NFCI? Why Bitcoin Can Rally Even When Interest Rates for BINANCE:BTCUSDT by forexcitypro_leemeenal",
+      "source": "TradingView",
+      "published": "24/11/2026 09:49",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVldGTXpadzEzMFEySUdpcXJjTmJLY1J6M1MxSWF3MFJxVW1CbmNUV1YxYXVVY19kUWdEOVFST1Z1dmVOd01USTZqX0luZk1ocHJMcm9SSEYyRktycGFWR1ktbFJZN1drR1BqM1YwUkhHcS1JbUw4STd6b3gzMnhGVzlMc2xuWHNjR1A4STA3YTYyRjhyMEFRZ1RsQ2RJUTJzdldaU2o5YWUzd2dyX2JBQnZjVG54UQ?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
@@ -1084,15 +1156,15 @@
       "theme": "Dólar global / DXY / Treasuries",
       "factors": [
         "Dólar global / DXY",
-        "Treasuries",
-        "Dados econômicos dos EUA"
+        "Fed / juros dos EUA",
+        "Treasuries"
       ]
     },
     {
       "title": "Oil and the dollar: How energy shocks can reinforce USD dominance",
       "source": "Dhaka Tribune",
       "published": "24/11/2026 06:27",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRUVnMzlDUThDZzdiQTdRQ0NTM1hsa00yN0h2WVpWc3N2blB0cUxGOFJYNmVUMkd3NmFWd2Y1d3NxMndGWXlETU44QzItNnhULWp1V2hmNFd1eTBDbklxeHJVeHBFWHMtMmItRXRFYmloUkJOd2w3dXBjQ1h5T2lkLVNpNXJUVUVpbndrMlJiRHFQd1E4cG1hV09B0gGfAUFVX3lxTE55TWNyMWFLQVdMd3BMRllldDFNeWVRU3NfQlV2Njg5TWxGWFlFZ1BpUi1fN1RrT1Y3R3pRMmE5bkJvR0syTHh4ZU5wdWpHZ3Jnd0FRRzNVWkVuaUk3SlpJeng5cDJQTDlGNDN3ZTZHLTcybFdBTkJLN3ZuNmdwYnFnRm5uS1VhYnZ1ckMzdDlnenNxY0ZvVmEyZUJhZVlXWQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOeU1jcjFhS0FXTHdwTEZZZXQxTXllUVNzX0JVdjY4OU1sRlhZRWdQaVItXzdUa09WN0d6UTJhOW5Cb0dLMkx4eGVOcHVqR2dyZ3dBUUczVVpFbmlJN0paSXp4OXAyUEw5RjQzd2U2Ry03MmxXQU5CSzd2bjZncGJxZ0ZubktVYWJ2dXJDM3Q5Z3pzcWNGb1ZhMmVCYWVZV1nSAZ8BQVVfeXFMTnlNY3IxYUtBV0x3cExGWWV0MU15ZVFTc19CVXY2ODlNbEZYWUVnUGlSLV83VGtPVjdHelEyYTluQm9HSzJMeHhlTnB1akdncmd3QVFHM1VaRW5pSTdKWkl6eDlwMlBMOUY0M3dlNkctNzJsV0FOQks3dm42Z3BicWdGbm5LVWFidnVyQzN0OWd6c3FjRm9WYTJlQmFlWVdZ?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
@@ -1122,10 +1194,10 @@
       ]
     },
     {
-      "title": "Gold slides despite weaker US Dollar as Fed hike bets dominate",
-      "source": "FXStreet",
-      "published": "24/11/2026 14:48",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRTJBZ2IxMXZjaVpPUXZjS2lSVDh6Rk16OS03VUh5czRBU0FxSml6VC1LVVVCalFyOXVMV2Q3clhLWjdmT3FtQzdiSWR2WkpmVS1qZ1ppU0tyWFBEQVk2UHowcG11eU1TblE2Z1hodjFxUVFaV1NidS02N3pxQkJ5cFRjYmtJdzVVdFJReHJ1UmtJdE1wS2pyeGNaVHdiSGZVaHM3RGhUQlE?oc=5",
+      "title": "Dollar Retreats From 19-Month High as Fed Bets Shift",
+      "source": "Serrari Group",
+      "published": "23/11/2026 04:31",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTXNOdjdZTENWT1A5UUt5Nk5mUGx0OGxBNGtXYUE5dVBsdkY2UGdUV1NqTTRDejFpZHF4amptYmg5RjRCd2ZqSFFuQnVyN0VqcHhZMnFDS05GXzB2aXVwMlc0aGJjZnFJZm9veFRqekYxWWRrLUFWdFBaSHR0cVVQMFVNeWU?oc=5",
       "relevance": "alta",
       "credibility": 0.58,
       "impact": "neutro",
@@ -1135,54 +1207,6 @@
         "Dólar global / DXY",
         "Fed / juros dos EUA",
         "Treasuries"
-      ]
-    },
-    {
-      "title": "Interest Rate Forecast: December Fed Hike Bets Support US Dollar",
-      "source": "FXEmpire",
-      "published": "23/11/2026 02:05",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMXQ0allURzByRktqOG9jVVR3Mlc4elhCeVMyWTQ3eHQ1YUdlOXhIa29ZWU5kY2JmRTlyVW5QeEpSN1lROWxMdWM0bDdjbGtpZUJwc0F1RTRJbm1CVjhxdndULVJiZzF1X0h0aUh0eDMwM0ZyZy1XY0xscFQ0SUVHNEhDSWxvZ1BoRkZnUUprcVEtWm5DVG9mUHFnSHBvY1Rza3RqdUdlM3RMYVJJazU3eWlpQjA?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "NZD/USD Eyes 0.5434 Break as AI-Led Dollar Rally and Fed Hike Bets Drive Yields Higher",
-      "source": "VT Markets",
-      "published": "24/11/2026 22:11",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMU11UGxTT2J6WEFZZ2RuX1lPRVhfNFJVdWxoaElvWXZXVThpaUFqLW84R2ppdjA4b0M4OE1Jd09jMDdsUERWMVY5WEg3TDlhT3hPZEI3RkYwQ09fUW14azhicDZrOWRHMXNobHo5bjVqY0ZqYnhXWm1MRWt3YXltZUtNV2k1ODVKd0xqaVZBMmlObGwwek1hUXVXT2Y0UlBsREdURFpIcHBaUDhxc0FEX0FLVDhCWlFmZFd5SlBkYXc3QnNDRVQ1X3I1blI?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Dólar global / DXY / Treasuries",
-      "factors": [
-        "Dólar global / DXY",
-        "Fed / juros dos EUA",
-        "Treasuries"
-      ]
-    },
-    {
-      "title": "Gold struggles near weekly low as Fed bets and geopolitics support USD ahead of US PCE",
-      "source": "tmgm.com",
-      "published": "25/11/2026 01:22",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYjl3aThEM0tDMFFObWJxYW5RaHNHcFFtYlNFbnlqMVczaVk4X1gzUzBuV0x6NkdtaE5zRDg4ckNlTjVOWlM2ZDZBcHlPeXIzWVgwNVNXZXphMWF2ZVJRN0l5bXNhSVRDV1FSYW4xYlBRQ0RhVVBqZFZpSFFqRHZSekxfSFE1cVV0THM2TXlLYURwWExxQ2NSRDJZNXF3OTlNMndOMTE3RW8ydnpyQ0d6dV9GaFlBQ1czU1lPY3czRm00dUptNU5BbWpTcGkwLU93YzFCMXF1djEwcFB3OHhZX3dJTV9vckU?oc=5",
-      "relevance": "alta",
-      "credibility": 0.58,
-      "impact": "neutro",
-      "horizon": "10d",
-      "theme": "Fed / juros dos EUA",
-      "factors": [
-        "Fed / juros dos EUA",
-        "Dados econômicos dos EUA",
-        "Geopolítica / comércio"
       ]
     },
     {
